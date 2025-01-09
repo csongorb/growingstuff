@@ -41,3 +41,9 @@ Anyway it would be my institive preference, but it's subject to a couple of conc
 - What if it's really frustrating for you and us to work on exhibiting something that's perpetually in some kind of flux in realtime?
 
 What do you reckon? I finished *Let's Snake: Ancient Greek Punishment* recently, which is quite well documented, self-contained, fairly amusing...?
+
+## 2025-01-09 Csongor
+
+What a start, thanks for the faaaaaast answer!  
+But also: noooooooo! I need to run to a conference, more time please.  
+I have so many things I would like to say!
