@@ -83,3 +83,8 @@ And we can also just postpone the final decision to a few weeks later... but in 
 ## 2024-01-10 Pippin
 
 No rush no rush! Did a tiny bit of prototyping on the phone game yesterday so it's creeping along. Have started puzzling about it having many different forms and specializations, a whole app ecosystem of different apps for pretending you're doing different things. Rilla (my wife) asked when I was going to make *It is as if you were being a person* which... well in a way the phone game it that, but it did get me thinking about a podcast/album of tracks that offer you in-ear instructions on how to be a person in different contexts. Could make one for A MAZE.
+
+## 2024-01-10 Csongor: Parallel thinking
+
+This all sounds like a potential awesome match. I feel more and more *It is as if...* it is.  
+It is as if we would exhibit/ examine an ongoing process.
