@@ -47,3 +47,7 @@ What do you reckon? I finished *Let's Snake: Ancient Greek Punishment* recently,
 What a start, thanks for the faaaaaast answer!  
 But also: noooooooo! I need to run to a conference, more time please.  
 I have so many things I would like to say!
+
+## 2024-01-10 Pippin
+
+No rush no rush! Did a tiny bit of prototyping on the phone game yesterday so it's creeping along. Have started puzzling about it having many different forms and specializations, a whole app ecosystem of different apps for pretending you're doing different things. Rilla (my wife) asked when I was going to make *It is as if you were being a person* which... well in a way the phone game it that, but it did get me thinking about a podcast/album of tracks that offer you in-ear instructions on how to be a person in different contexts. Could make one for A MAZE.
