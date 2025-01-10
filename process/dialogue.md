@@ -16,7 +16,7 @@ Sorry to start so early with some organisational questions, but we only have 4 m
 
 Should we focus on the exhibition/ exploration of one of your already finished (whatever that means) games? Which one (well known, last, well preserved/ documented?)?  
 Do you maybe have something that is not already on [GitHub](https://github.com/pippinbarr?tab=repositories)?  
-Or do we want to showcase one of your ongoing research/development processes? Are you currently working on something that could be included here? Will you still be working on it during [A MAZE. / Berlin 2025](https://2025.amaze-berlin.de/)? Show how you work, think, search directly in the exhibition, live.  
+Or do we want to showcase one of your ongoing research/ development processes? Are you currently working on something that could be included here? Will you still be working on it during [A MAZE. / Berlin 2025](https://2025.amaze-berlin.de/)? Show how you work, think, search directly in the exhibition, live.  
 Or any other ideas?
 
 Looking forward to all this!
@@ -46,7 +46,7 @@ What do you reckon? I finished *Let's Snake: Ancient Greek Punishment* recently,
 
 What a start, thanks for the faaaaaast answer!  
 But also: noooooooo! I need to run to a conference, more time please.  
-I have so many things I would like to say!
+I have so many things I would like to say.
 
 ## 2025-01-10 Csongor: Sorting thoughts
 
