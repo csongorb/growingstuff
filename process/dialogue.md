@@ -79,3 +79,7 @@ And we can also just postpone the final decision to a few weeks later... but in 
 > For the player... well I continue to like the idea that the game itself (and this series and many of my things) are a kind of vehicle for research by the player at a more controlled level. You play this game and you are, yourself, investigating the nature of shadows in Unity, encouraged to think about and focus on them.
 
 [https://github.com/pippinbarr/v-r-5/blob/main/process/journal.md#closing-time----thursday-21-march-2024](Process Journal v r 5, 21 March 2024)
+
+## 2024-01-10 Pippin
+
+No rush no rush! Did a tiny bit of prototyping on the phone game yesterday so it's creeping along. Have started puzzling about it having many different forms and specializations, a whole app ecosystem of different apps for pretending you're doing different things. Rilla (my wife) asked when I was going to make *It is as if you were being a person* which... well in a way the phone game it that, but it did get me thinking about a podcast/album of tracks that offer you in-ear instructions on how to be a person in different contexts. Could make one for A MAZE.
