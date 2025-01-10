@@ -59,9 +59,9 @@ Or is it already? I have some starting *uncertainty principle/ observer effect* 
 
 What if we exhibit/ explore an ongoing process?
 
-What if we focus not on the development of *It is as if you were on your phone* alone, but on the *It is as if...* series as a whole? This would take some of the pressure off you, and we could already start some initial preparations on our end (more in-depth research, initial ideas to structur the process)... and maybe that would ease your stress about having to *deliver*.
+What if we focus not on the development of *It is as if you were on your phone* alone, but on the *It is as if...* series as a whole? This would take some of the pressure off you, ease your stress about having to *deliver*... and we could already start some initial preparations on our end (more in-depth research, initial ideas to structur the process).
 
-I have tried to get a first overview of *It's as if...* as if it were one thing, and have already seen a lot of interesting things happening (improvements/variations in the journaling, more and less living branches, development of the *Games as Research* ideas in parallel, shifting focus):
+I have tried to get a first overview of *It's as if...* as if it were one thing, and have already seen a lot of interesting things happening (improvements/ variations in the journaling, more and less living branches, development of the *Games as Research* ideas in parallel, shifting focus):
 
 - [*It is as if you were playing chess*](https://github.com/pippinbarr/it-is-as-if-you-were-playing-chess) (2016)
 - [*It is as if you were doing work*](https://github.com/pippinbarr/itisasifyouweredoingwork) (2017)
@@ -78,7 +78,7 @@ And we can also just postpone the final decision to a few weeks later... but in 
 
 > For the player... well I continue to like the idea that the game itself (and this series and many of my things) are a kind of vehicle for research by the player at a more controlled level. You play this game and you are, yourself, investigating the nature of shadows in Unity, encouraged to think about and focus on them.
 
-[https://github.com/pippinbarr/v-r-5/blob/main/process/journal.md#closing-time----thursday-21-march-2024](Process Journal v r 5, 21 March 2024)
+[Process Journal v r 5, 21 March 2024](https://github.com/pippinbarr/v-r-5/blob/main/process/journal.md)
 
 ## 2024-01-10 Pippin
 
