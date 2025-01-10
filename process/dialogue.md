@@ -47,3 +47,35 @@ What do you reckon? I finished *Let's Snake: Ancient Greek Punishment* recently,
 What a start, thanks for the faaaaaast answer!  
 But also: noooooooo! I need to run to a conference, more time please.  
 I have so many things I would like to say!
+
+## 2025-01-10 Csongor: Sorting thoughts
+
+Trying to incorporate answering into my routine, it is not really working...
+
+I have always felt that for Devolution, working with *finished* (and already proven *successful*) processes is cheating. Are games ever finished? Are open processes always successful? I would love to see the "flux in realtime"! I want to see the dying branches! 
+
+But I also don't want to pressure you. Do whatever you want, Devolution should not affect the development of your game (at least not in this sense).  
+Or is it already? I have some starting *uncertainty principle/ observer effect* vibes.
+
+What if we exhibit/ explore an ongoing process?
+
+What if we focus not on the development of *It is as if you were on your phone* alone, but on the *It is as if...* series as a whole? This would take some of the pressure off you, and we could already start some initial preparations on our end (more in-depth research, initial ideas to structur the process)... and maybe that would ease your stress about having to *deliver*.
+
+I have tried to get a first overview of *It's as if...* as if it were one thing, and have already seen a lot of interesting things happening (improvements/variations in the journaling, more and less living branches, development of the *Games as Research* ideas in parallel, shifting focus):
+
+- [*It is as if you were playing chess*](https://github.com/pippinbarr/it-is-as-if-you-were-playing-chess) (2016)
+- [*It is as if you were doing work*](https://github.com/pippinbarr/itisasifyouweredoingwork) (2017)
+- [*It is as if you were making love*](https://github.com/pippinbarr/itisasifyouweremakinglove) (2018)
+- [*It is as if you were doing paperwork*](https://github.com/pippinbarr/it-is-as-if-you-were-doing-paperwork) (2022)
+- [*It is as if you were playing a text adventure*](https://github.com/pippinbarr/it-is-as-if-you-were-playing-a-text-adventure) (2024-)
+- [*It is as if you were on your phone*](https://github.com/pippinbarr/it-is-as-if-you-were-on-your-phone) (the plan)
+- *It is as if you were on your computer* (the distant plan)
+
+Do you see this all as being one?  
+Is it too much for a small exhibition?
+
+And we can also just postpone the final decision to a few weeks later... but in that case we need a backup plan. [*Let's Snake: Ancient Greek Punishment*](https://github.com/pippinbarr/lets-snake-ancient-greek-punishment) sounds great. I feel [*v r 5*](https://github.com/pippinbarr/v-r-5) or [*v r $4.99*](https://github.com/pippinbarr/v-r-4-99) could also work well, especially in an exhibition. That would add another meta layer, but less allow for the idea of live work.
+
+> For the player... well I continue to like the idea that the game itself (and this series and many of my things) are a kind of vehicle for research by the player at a more controlled level. You play this game and you are, yourself, investigating the nature of shadows in Unity, encouraged to think about and focus on them.
+
+[https://github.com/pippinbarr/v-r-5/blob/main/process/journal.md#closing-time----thursday-21-march-2024](Process Journal v r 5, 21 March 2024)
