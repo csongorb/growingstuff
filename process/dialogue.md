@@ -80,11 +80,19 @@ And we can also just postpone the final decision to a few weeks later... but in 
 
 [Process Journal v r 5, 21 March 2024](https://github.com/pippinbarr/v-r-5/blob/main/process/journal.md)
 
-## 2024-01-10 Pippin
+## 2025-01-10 Pippin
 
 No rush no rush! Did a tiny bit of prototyping on the phone game yesterday so it's creeping along. Have started puzzling about it having many different forms and specializations, a whole app ecosystem of different apps for pretending you're doing different things. Rilla (my wife) asked when I was going to make *It is as if you were being a person* which... well in a way the phone game it that, but it did get me thinking about a podcast/album of tracks that offer you in-ear instructions on how to be a person in different contexts. Could make one for A MAZE.
 
-## 2024-01-10 Csongor: Parallel thinking
+## 2025-01-10 Csongor: Parallel thinking
 
 This all sounds like a potential awesome match. I feel more and more *It is as if...* it is.  
 It is as if we would exhibit/ examine an ongoing process.
+
+## 2025-01-13 Pippin: Great minds
+
+Huh, yes I think the idea of a kind of more general *Is is as if* thing could work really well? Gives us plenty of material to work from with the earlier games (including paperwork! ha!). And then also does happen to be the thing I'm devoting my cycles to right now in terms of *It is as if you were on your phone* (did more today), but branching out both into the idea of an "app ecosystem" suite of *It is as if*s for social camouflage (or meditation?? A point of tension for me right now; maybe that should be a "mode"?); and into the idea of *It is as if you were being a person* as a funny "end game" of all this.
+
+So yeah this has legs? "Worst" case we can bomb out into previous work like *Work* and *Love* and *Chess* which have plenty of documentation already alongside the "failed" version of the one I'm doing know. And I can sit in the exhibition space sobbing about my failed project!
+
+Best case it'll be even more complicated!?
