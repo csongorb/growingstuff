@@ -96,3 +96,24 @@ Huh, yes I think the idea of a kind of more general *Is is as if* thing could wo
 So yeah this has legs? "Worst" case we can bomb out into previous work like *Work* and *Love* and *Chess* which have plenty of documentation already alongside the "failed" version of the one I'm doing know. And I can sit in the exhibition space sobbing about my failed project!
 
 Best case it'll be even more complicated!?
+
+## 2025-01-20 Csongor: Serial
+
+(I have to stop talking about this all the time, but) how does time pass so fast, hasn't 2025 just started a few days ago? Anyway, we finished [devolution.online/lmd](https://devolution.online/lmd/), really proud of it. Can / should we aim for online elements in your games? I would love to, although it would again be a first, as your processes are already living online, how can we add to them?
+
+It is inspiring to see you [working](https://github.com/pippinbarr/it-is-as-if-you-were-on-your-phone/commits/main/) and [reflecting](https://github.com/pippinbarr/it-is-as-if-you-were-on-your-phone/blob/main/process/journal.md) next to us... don't feel watched! What does this do to us? I for sure feel strange observing you from a distance.
+
+Give us some time to get an overview of *It is as if...* before we move on to some follow-up questions and possible ideas for working with the processes in the exhibition. How much do you want to be involved in all this? Not only in the development of the game, but also in the exhibition/exploration of the process? Oh, but you already do that... I mean the additional layers? This meta-ness is causing me some troubles. I realise that this time our task is to make things, decisions, reflections *more* visible.
+
+I also have an easier question:  
+Do you have by any chance ANY other material about any of the *It is as if...* games that you don't have in your repositories (or in your book?)? I can imagine the answer, but I have to ask...
+
+Do you consider the *It is as if...* games to be a series at all, all coming from the same core? On your website you use the tag **Speculative Play** only for *Work* and *Love* and now *Phone*, but not for the others. Not even for *Chess*, which was a first. Are they for you outside? And what happened to *Adventure*?
+
+Or are they more twins, coming in twos? *Work* & *Love*. *Phone* & *Computer*.
+
+Oh, I have just found this in *The Stuff Games Are Made Of* (p. 61), when you write about *Work*:
+
+> I had decided to call the game *It is as if you were doing work* to bring it under the umbrella of a series of games I was making in which players *pretended* to be doing something on their computer or cellphone rather than “really” doing it. By then, I’d already released *It is as if you were playing chess*, in which you make the gestures and facial expres- sions of a chess player according to instructions on the screen.
+
+So it's a series! So has *Phone* and *Desktop* always lured behind *Work*? And what should *Love* think about that?
