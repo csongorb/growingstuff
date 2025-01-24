@@ -117,3 +117,24 @@ Oh, I have just found this in *The Stuff Games Are Made Of* (p. 61), when you wr
 > I had decided to call the game *It is as if you were doing work* to bring it under the umbrella of a series of games I was making in which players *pretended* to be doing something on their computer or cellphone rather than “really” doing it. By then, I’d already released *It is as if you were playing chess*, in which you make the gestures and facial expres- sions of a chess player according to instructions on the screen.
 
 So it's a series! So has *Phone* and *Desktop* always lured behind *Work*? And what should *Love* think about that?
+
+## 2025-01-24 Csongor: Devolutionizer
+
+I once wanted to design a chat interface that also visualised the duration of writing. When did it start, how many keystrokes were made, how much was deleted? These overlaps in chats are so interesting, but the interfaces are not able to work with them in a meaningful way.
+
+Anyway, here I am, writing to you, perhaps in parallel.  
+I'm thinking about all this because I'm still asking myself how much you want to be involved in our exhibition considerations. Surprising the developers has always been a big part of the beauty of Devolution exhibitions for me, we are taking that away with this. Let me know if this feels like too much, too much detail... and if so, ignore the rest of this message.
+
+And we can move to a more abstract level and talk about research and growth and metaphors.
+
+We don't have sooooooo much space, only for about 4 - 6 screens, with tablets/ phones maybe a bit more. We need to evaluate this further, but that is the tendency. Thinking in *As if* dimensions, that's generally one screen per work.
+
+But how to keep the idea of the timeline more? How to keep the parallelism of versions, as a space to explore, to compare?
+
+I had an idea. Or was it a dream?  
+Your *As if* games are the first games we deal with that do not need to be built, but can be played directly from the *raw* data of the repository. This means that we can just easily build something that will check out all (a few selected?) versions of the game, visualise them in some kind of sidebar/ header, so that they can be easily played from there.  
+The more I think about it, the more I like it. I know of all the repository analysers and visualisers, but not something like this.  
+Ok, yes, you can do it with any git client and an open browser, I know. But I mean a more curated version.  
+Will have to let that sink in.
+
+Talking like this feels like *using* your games. I hope you are really ok with all this...
