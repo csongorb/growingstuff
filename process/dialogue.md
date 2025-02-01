@@ -61,7 +61,7 @@ What if we exhibit/ explore an ongoing process?
 
 What if we focus not on the development of *It is as if you were on your phone* alone, but on the *It is as if...* series as a whole? This would take some of the pressure off you, ease your stress about having to *deliver*... and we could already start some initial preparations on our end (more in-depth research, initial ideas to structur the process).
 
-I have tried to get a first overview of *It's as if...* as if it were one thing, and have already seen a lot of interesting things happening (improvements/ variations in the journaling, more and less living branches, development of the *Games as Research* ideas in parallel, shifting focus):
+I have tried to get a first overview of *It is as if...* as if it were one thing, and have already seen a lot of interesting things happening (improvements/ variations in the journaling, more and less living branches, development of the *Games as Research* ideas in parallel, shifting focus):
 
 - [*It is as if you were playing chess*](https://github.com/pippinbarr/it-is-as-if-you-were-playing-chess) (2016)
 - [*It is as if you were doing work*](https://github.com/pippinbarr/itisasifyouweredoingwork) (2017)
@@ -138,3 +138,24 @@ Ok, yes, you can do it with any git client and an open browser, I know. But I me
 Will have to let that sink in.
 
 Talking like this feels like *using* your games. I hope you are really ok with all this...
+
+## 2025-01-31 Csongor: Games made of OOP
+
+Oooh, I can't not jump on this:  
+[I OOPed in the code pool; I wanna be an FSM (2025-01-28)](https://github.com/pippinbarr/it-is-as-if-you-were-on-your-phone/blob/main/process/journal.md#i-ooped-in-the-code-pool-i-wanna-be-an-fsm-2025-01-28)
+
+I have always felt that the stuff that games are made of is OOP (ok, and as such also data-driven-ness). That it is the structure of the objects that leads the way (how games grow). Objects finding their right place over time, connecting with others, with their environment, eating/ encapsulating each other, morphing. I always wanted to follow up on this, almost in a [Platform Studies](http://platformstudies.com/) kind of way. Or in a *The Stuff Games Are Made Of* kind of way? Is OOP some kind of a natural habitat for (digital) games? Can you go against it?
+
+Did you know that if you search for OOP in your book, all you find are loops?
+
+## 2025-02-01 Csongor: Letterpress
+
+Things are sinking in. I like this phase of understanding more and more, of getting a feeling for the material (what do we have, what are the possibilities), things more and more connecting to each other, slowly building a whole, slowly taking shape. It's almost too fast, need to slow down.
+
+Can we turn your process documentations into booklets?  
+Not sure about the extent, we are still reading ourselves into your processes, but some kind of a nicely layouted and designed accompanying material to the versions of the games. Journals, manifestos, the changing todos, maybe extracts from other sources, your texts, other texts. With the booklet for *It is as if you were on your phone* half finished, with blank pages at the end that we can fill as you work on it...
+
+The commit message booklets were always something visitors have enjoyed a lot. This would be a great next step. Opens up nice possibilities for exploration, reading next to checking the versions, comparing, discovering.
+
+And also things like: a limited edition (to sell?).
+We have a really nice printing lab at the university, letterpress, offset, flexo, etc. We could do some nice looking covers for all of them, a bundle.
