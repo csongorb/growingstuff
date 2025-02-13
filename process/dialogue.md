@@ -159,3 +159,47 @@ The commit message booklets were always something visitors have enjoyed a lot. T
 
 And also things like: a limited edition (to sell?).
 We have a really nice printing lab at the university, letterpress, offset, flexo, etc. We could do some nice looking covers for all of them, a bundle.
+
+## 2025-02-13 Pippin: 😬
+
+Oh no! We've run into a classic technical hiccup where I wasn't receiving notifications from GitHub telling me this project was being updated with commits. I was just floating around in sweet oblivion like usual.
+
+Although in that time, as you saw, I was putting some pretty decent work into *It is as if you were on your phone* (and have done more stuff this week too). Last week I was in Albuquerque giving a talk at the [ARTSLab](https://film.unm.edu/facilities/artslab/) at the University of New Mexico which included some reflections on the *It is as if* series and ended up with a little bit about *Phone* and even *Person*. So at the very least there's, like, progress happening.
+
+There's a ton of stuff to follow up on here so let me at least try to get to some of it and we keep chatting...
+
+> Can / should we aim for online elements in your games? I would love to, although it would again be a first, as your processes are already living online, how can we add to them?
+
+It was really exciting to return to the latest Devolution project. Funny that they start at the top of the mountain and head down - obviously because of the way the game works, but it's such a fun inversion of the idea of the hardship of climbing the mountain and reaching the pinnacle. Pretty provocative idea that game dev is like kind of coasting downhill... though of course you can go too fast and crash and... well, it's a generative metaphor.
+
+I don't see why we couldn't do some stuff, though yeah not 100% what that might look like. Maybe it's two separate projects?
+
+> How much do you want to be involved in all this?
+
+Haha. I *feel* very involved and am happy to be! Things are pretty intense at work at the moment (being department chair is something I'm more and more used to, but it doesn't quite shift the amount of work it is). I mostly assume I would heavily defer to you on anything exhibition related though - I don't think it's my area, I mostly have it in mind to be as helpful as possible?
+
+> Do you have by any chance ANY other material
+
+Hmmm, I *think* the answer is probably no, but I could be wrong! I mostly tried hard to get all my notebook materials and so on while working on games. I could try to track down my notebooks from around that time, but I've increasingly moved to all digital for design stuff - maybe for the worse? 
+
+> So it's a series! So has *Phone* and *Desktop* always lured behind *Work*? And what should *Love* think about that?
+
+100% a series yes! There are some bits in there where I feel like they end up being a bit about distinct things. I think of *Love* and *Work* as both existing in specific fictional universes where they're "needed" as a kind of therapeutic intervention into a problem. *Chess* didn't really come from that place, was more of a "wouldn't it be funny if...". And then *Phone* is unclear to me right now... I think probably giving it some Speculative Play scaffolding does make a bit of sense, but it feels reactive to exactly *now* rather than the future? So I'm not even sure it works out as speculative at all...
+
+> I had an idea. Or was it a dream?
+
+I think this thinking around being able to (somehow, technical stuff la la) view/slide between different prototypes/versions makes a lot of sense. I suspect they should be curated rather than letting people encounter absolutely any commit, but that seems pretty doable to me... I can imagine at worst a series of cherry-picked commits displayed and you click them and end up playing the game at that state. Conceivably even have the commits visible at the same time if the monitor is big enough etc.
+
+> Is OOP some kind of a natural habitat for (digital) games? Can you go against it?
+
+Yeah this is such an area of interest for me! I have a dream of writing a book/something where it's all about making connections between fundamental elements of programming (loops, variables, OOP, and more) and the ways that videogames work (and don't work?). Kind of like obsessively documenting the "grain" of programming in the context of game design or something? I think it's clear there's something there.
+
+> Can we turn your process documentations into booklets? 
+
+I kind of love this personally. I've been more and more into making little zines just lately so little books are super appealing to me, and there's that funny way they leverage a kind of "seriousness" that something glowing on a screen doesn't have. Would love to explore.
+
+I one was in discussions with a gallerist about trying to produce a limited edition of *The Artist Is Present* as a set of books one listing source code, one with all the assets, etc. Kind of over-the-top "luxury" or something, and also *sort of useless* compared to a repository, but funny to imagine reconsituting a game from books (harks back to the "typing in BASIC programs from a magazine" days - not that I lived through those days).
+
+So yes let's explore? Feels like a nice direction to me. My work is ultimately so driven by *writing* that "books" makes a lot of sense to me.
+
+And merch. I'm so into the idea of "merch" these says. I wear this sweatshirt from Lilith Zone's online store, it's got a texture of *Crypt Underworld* on it. I aspire to have such a great thing emerge from one of my games (my wife Rilla's been designing a t-shirt based on *It is as if you were doing Paperwork*). I connect merch strongly with bands and how much I wish being a game dev was more like being in a band?
