@@ -203,3 +203,7 @@ I one was in discussions with a gallerist about trying to produce a limited edit
 So yes let's explore? Feels like a nice direction to me. My work is ultimately so driven by *writing* that "books" makes a lot of sense to me.
 
 And merch. I'm so into the idea of "merch" these says. I wear this sweatshirt from Lilith Zone's online store, it's got a texture of *Crypt Underworld* on it. I aspire to have such a great thing emerge from one of my games (my wife Rilla's been designing a t-shirt based on *It is as if you were doing Paperwork*). I connect merch strongly with bands and how much I wish being a game dev was more like being in a band?
+
+## 2025-02-18 Pippin: 💪
+
+Dropping by to say... well I'm making a bunch of progress in the Phone game which has felt good. Feel more and more like I understand its identity and it will clearly be ready before AMAZE which means I'll hopefully be working on one of the next iterations like Computer or the Suite? There's no shortage of games to plug away at between now and then so I'm confident there will be some cause for me to be The Designer Is Present-ing.
