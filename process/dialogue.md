@@ -207,3 +207,69 @@ And merch. I'm so into the idea of "merch" these says. I wear this sweatshirt fr
 ## 2025-02-18 Pippin: 💪
 
 Dropping by to say... well I'm making a bunch of progress in the Phone game which has felt good. Feel more and more like I understand its identity and it will clearly be ready before AMAZE which means I'll hopefully be working on one of the next iterations like Computer or the Suite? There's no shortage of games to plug away at between now and then so I'm confident there will be some cause for me to be The Designer Is Present-ing.
+
+## 2025-02-24 - 03-03 Csongor: Open World
+
+I need to get better at finishing messages. Started answering a while ago, but switched computers without committing. A classic, I suppose.
+ 
+So many threads! Not sure how many we can keep going at the same time, lets see. We may need another structure soon...
+ 
+> it's such a fun inversion of the idea of the hardship of climbing the mountain and reaching the pinnacle. Pretty provocative idea that game dev is like kind of coasting downhill... though of course you can go too fast and crash and...
+ 
+I swear - and I almost don't believe it myself - we never thought about this aspect of the metaphor! We use it in some visual jokes (the Kickstarter campaign, someone leaving the team) in this sense, but we have never consciously thought "going fast and crash". I still/ constantly wonder how metaphors work. I mean, I know the theory, but reality is surprising.
+ 
+Talking about metaphors:  
+What do you think of *growth* & *gardening*? Does it make sense to you in general as a metaphor for the game development process, for observing, listening to what the game wants, for the game doing things on its own? Does it make sense for *your* own games? For the whole *It is as if* series... or for each individual game?
+
+Is *Phone* growing?  
+Based on its OOP and data-driven core... or are other forces stronger?
+
+I'm using this metaphor for so long, I don't really see it anymore. I generally still love the core of it, it works so well on so many levels to explain and explore the creative process of games. But there are a couple of aspects that have been bothering me more and more:  
+On the one hand: a simple oversaturion. Not for me (or is it?), but *out there*. An oversaturation of nature and nature-related *everything*, in art and science, in books, bookstores, museums, politics, everywhere. Of course, all of this is inspired by what is happening around us, and rightly so. But it has influenced how people see the metaphor. Is there a hype cycle for metaphors (as an underlying structure for metaphorology)? I feel like people don't want to hear about it anymore. In the beginning *Game Design as Gardening* was an aaah-it's-interesting, now it's a nooo-not-again. Or is it just me?  
+On the other hand: does it really cover everything/ enough of what is so interesting in the development process? Certainly not. But what percentage? For a long time it was helpful, especially as a claim. But I also feel more and more that it is too limiting, it does not allow to inclue certain aspects.  
+For some time I have been trying to include *research* in *gardening*, and to some extent it works. But what does it mean (for me? for my ego?) if they are simply parallel?
+
+Anyway, I'm still endlessly fascinated by the fact that Alan Kay studied biology and was inspired by ideas from there in the early stages of OOP...
+ 
+> "books" makes a lot of sense to me.
+
+> a set of books one listing source code, one with all the assets, etc.
+
+Yesss, let's just do the booklets!  
+My initial feeling was to mainly include your journals, but... yeah, I think it's a good idea to include more, source code, assets, visualisations, etc. I think I need to think again.  
+I am strongly leaning towards a collage (rather than writing a lot of additional text), structured along the timeline. Not sure if it can work though...  
+We'll try to make a suggestion about the number of booklets and the content and layout... maybe here in the repository? Yes, I think so. We also need to find a good format, give us a few days.
+
+> My work is ultimately so driven by *writing*
+
+Am I right in saying that you have never used so much visuals as in *Phone*? How did that happen? 
+
+One thing I always asked myself about MDM was: why so much text? Or perhaps: why this tendency towards text? I get it, the repository structure tends towards it... but don't games tend towards [visualisations] (https://www.stonetronix.com/gdc-2010/)? Or are these two ends of the iteration loop: visuals for design, text for reflection?
+
+I taught a course called *Drawing Ideas* a few years ago with a friend, colleague and comic artist [Sebastian Stamm] (http://www.the-stamm.com/wordpress/), basically as a documentation course for game designers. It was a great learning experience for both of us... I'll have to check my notes!
+
+> well I'm making a bunch of progress in the Phone game which has felt good. Feel more and more like I understand its identity and it will clearly be ready before AMAZE which means I'll hopefully be working on one of the next iterations like Computer or the Suite?
+
+Congratulations! Sounds amazing... I'm really impressed by your efficiency (how do you do it?)!  
+We will adjust our plans accordingly. I think what would be good to know is the form of the new project. Will it be a repository with a journal again? Or if it is *Person*, what will the format be?  
+But don't get stressed here, we still have some time to define...
+
+This message is already long, and I still have other topics on my mind. Will make a list of them to not forget:
+
+- logo / title / subtitle
+	- some kind of a mix, a crossover?
+	- should we go with the band? or letterpress style?
+	- *Pippin Barr x Devolution*
+	- *The stuff games are made of x How to grow a game*
+	- *How to grow stuff*
+	- *It is as if we would grow stuff?*
+	- *It is as if we would exhibit/ explore the stuff games are made of*
+	- *The Designer Is Present* is great for the live part!
+	- I think we'll come up with a few suggestions soon...
+- presentation / talk
+	- Devolution has appr. 1 hour of stage time
+	- how can/ should we use it? presentation & intervewing each other?
+	- any chance you see your talk you have mentioned above?
+- what do we need to prepare for *The Designer Is Present*?
+
+What an end. See you!
