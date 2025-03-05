@@ -273,3 +273,14 @@ This message is already long, and I still have other topics on my mind. Will mak
 - what do we need to prepare for *The Designer Is Present*?
 
 What an end. See you!
+
+## 2025-03-05 Csongor: 🧵
+
+Ok, I feel we need to spread out more, this one linear chat is not enough anymore.  
+So in parallel with this message I'm also expanding the whole repository into a working one for the whole project, I hope that's ok with you. Adding a lot of folders and files (structure?) for the future...
+
+With so many markdown files I'm already confused about what is process and what is work, but that's what we wanted (?) I suppose. Maybe we can keep this folder for more focused conversations and reflections (are these reflections?)... and the work happens in all the other folders?
+
+I'm going to ask other team members to join... let me know if it gets too much and confusing.
+
+See you in the other files! 🌱
