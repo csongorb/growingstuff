@@ -284,3 +284,57 @@ With so many markdown files I'm already confused about what is process and what 
 I'm going to ask other team members to join... let me know if it gets too much and confusing.
 
 See you in the other files! 🌱
+
+## 2025-03-06 Pippin: 🤡
+
+Oh my! Alright yes now we have a pretty significant file structure to work with. Which is good!
+
+Other files for real work, this one for the ongoing conversational stuff. Works for me. I mean it's technically what Discord is for I suppose (we could dump logs from there at some point though it's less pure of heart in terms of commiting over time).
+
+Trying to look over the questions in that last one to extract them and be accountable... ummmm...
+
+> What do you think of *growth* & *gardening*?
+
+It's a funny one for me because I'm not really a gardener in any sense but my wife Rilla is a very serious and talented gardener. So our house is full of thriving and beautiful plants, and our back garden is gorgeous, and the alley (ruelle) behind our house has also received her attention... but I on the other hand know little more than a bit of weeding-craft (which is probably relevant, but not very weighty).
+
+So I like the metaphor but it doesn't necessarily land with me emotionally? And in terms of the breadth of "metaphorical entailments" I think I have a pretty stunted (get it?) understanding of what it could mean/develop/reveal.
+
+So I'm not sure if I think the games are growing, being attended to, cared for... it's not the way I naturally think. I think it's a reasonable metaphor but I don't even know necessarily that someone else would see what I do and think of it in that way -- do you? That's an interesting question in general perhaps... is it one metaphor fits all or are there different metaphors that are more appropriate for different designers?
+
+> Am I right in saying that you have never used so much visuals as in *Phone*? How did that happen? 
+
+Huh! I wouldn't have thought that even - do you mean in the sense of the visual prototyping stuff I've been including this time? It's true I don't normally do that but it seemed helpful for this project... I used to do a ton of sketching in notebooks back in the day, mostly around UI/screen layouts and how that can feed back into design decisions. The visual prototypes were kind of the same... this game was so incredibly simple that it's really possible to understand almost all of it through a series of keynote-created images of pink circles and text hehe.
+
+> why so much text?
+
+I think that's a really relevant question, a big one. Answering for myself it's not even really the repository thing - though it's very true that text is what repos are tuned toward (especially if you think about diffs). I'm just an intensely words-oriented person, kind of always have been since I was small. And at some point (when? I don't even know... hmmm...) I really started leaning into writing as a way to externalize and think through design processes; that kind of stream of consciousness that makes me ideally understand what it is I'm doing and allows me to question it.
+
+I think that may be very specific to me and cruelly unnatural to some others who maybe spend more time creating images for example. On the other hand, it's hard to get away from the written word being incredibly important if we're going to talk about "research" at all... at some point we're on the hook to *explain* what we're doing and why we're doing it and I struggle with arguments that those explanations can take non-textual forms... or at least that non-textual explanations are especially legible? It's a big thing...
+
+I love drawing, too, though, so I'm curious about your course - what happened in it? What does that output look like? Like I say, I often like to draw what a layout will look like to better understand spatial relationships especially, but I don't naturally use drawings as a way to explain things... and really I suppose that in MDM it's not really game design documentation in the design of a "design document" anyway, but more about exploring and explaining process (to yourself) which... maybe admits "less" of other visual approaches? But I feel like I'd be pretty happy to be wrong about that...
+
+Maybe I need to make a game with no language and with no language in its process documentation either... just drawings...
+
+> I think what would be good to know is the form of the new project. Will it be a repository with a journal again? 
+
+Oh for sure. Anything I start up next wlil always be using MDM so it'll always have the same shape. Even if it's Person I'd work on it in a repo writing the scripts and prototyping audio and so on. I'm thinking too in the direction of making one of the Suite apps as well, and leaning into the meditation angle that I cut from the Phone game in the end.
+
+> Titles
+
+Oh titles are so fun, I like basically all the ones you popped in there. Pippin Barr Devolved. I like the band style x thing. 
+
+> Stage time
+
+Whoa, stage time! Nice. Hmmm, I mean I think you and I in conversation about design process and making it visible is low hanging fruit... I worry we might bore people? It's hard to talk about process documentation and get people excited??? Who knew???
+
+I always want to have talking about work be funny... what do you find funny about this stuff?
+
+That talk I gave recently is here:
+[https://www.youtube.com/watch?v=r1DTRdzrHXY&ab_channel=ARTSLabatUNM](https://www.youtube.com/watch?v=r1DTRdzrHXY&ab_channel=ARTSLabatUNM)
+
+> Designer is present
+
+Hmmm, well the simplest version is just we have somewhere for me to sit and I sit there with my laptop (a powerpoint would be useful I guess). I thought the idea of an "ON AIR" sign would be pretty funny, but that's just trimming. Could possibly project/show my screen somewhere, but I think it's also fine if people just kind of looked over my shoulder.
+
+I could wear a special hat. haha.
+
