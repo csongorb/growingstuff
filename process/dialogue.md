@@ -338,3 +338,56 @@ Hmmm, well the simplest version is just we have somewhere for me to sit and I si
 
 I could wear a special hat. haha.
 
+## 2025-03-09 - 16 Csongor: ☀️
+
+Noooooo, I have been sick for a week. Sorry for the gap, I'm back again.  
+Our next semester starts in a week, so there are a lot of things to do.
+
+![Discord message by Pippin about the release of Phone](images/Bildschirmfoto 2025-03-10 um 12.07.02.png)
+
+Congratulations!📱  
+"Doing rounds" sounds good, it is amazing to see the reactions out there, I hope you can enjoy them all!
+
+I was already wondering why the zen element has disappeared...  
+Sounds like a gooood plan for A MAZE. Should we nail it down? Can we do it at all? 
+
+> it's hard to get away from the written word being incredibly important if we're going to talk about "research" at all... at some point we're on the hook to *explain* what we're doing and why we're doing it and I struggle with arguments that those explanations can take non-textual forms... or at least that non-textual explanations are especially legible? It's a big thing...
+
+In any discussion about artistic a/o design research, the question arises if it is legitimate without an accompanying text/reflection. Can the work itself be / contain the reflection? I have always found these discussions interesting / inspiring, but also a never-ending loop. I often feel that it *should* be possible. But it is hard to argue, I *know* text is better. 
+
+Isn't this just like teaching? How much do I have to *explain*? How does *insight* work? How much do I have to let someone *experience*? Find something on their own. How can I be sure they *got it*? Is there knowledge without knowing? Is this the opposite of *knowing that I don't know*?
+
+Oh, I just realised there is another parallel:  
+Isn't that also *how games communicate*? How much do they need to *tell* something as opposed to *trusting* in all the other dimensions. 
+
+Speaking of *trust*:  
+Isn't this also just insecurity? A kind of lack of trust in the work itself, that we have to explain in addition?
+
+Devolution has always been, at its core, a *design research* project, with the idea of letting people explore the beauty / characteristics of the design process for themselves, to make their own connections. But of course: if that is the case, why am I writing texts about it?
+
+In this sense, are your [v r](https://pippinbarr.com/ideas/v-r/) series also works like this, or are they not (see my quote from one of your journals [above](../booklets/#2025-01-10-csongor-sorting-thoughts))? Do they need less explanation, less accompanying text? 
+
+But I feel I got distracted...
+
+Maybe we need to sort more between *design* and *reflections* and *explanations*.  
+For me it somehow helps to see it as two sides, design is more visual, reflection are more textual, and explanations are somehow on top. Does this make sense? If I consider design and reflections as an endless loop of iterations: its a mixture of both, seamlessly intervowen, small-scale alternating / complementing each other.
+
+If we accept that games have a systemic / spacial core, it seems naturally to say, that one can better understand them with visual tools. The course *Drawing Ideas* was about this aspect, it has highlighted more the design side, the pre-thinking of a next step, less the analysis.
+
+I have to admit that although we use and refer to MDM & Games as Research a lot in our game design department, we do it with one (big?) difference: we try to leave the form as open as possible (this also means that it does not *have to* happen in a repository). Even to the extent that we say: find your own (visual?) language, your own rhythm, your own style. In general, anything goes, but we specifically mention/allow Miro boards and [analogue notebooks](https://www.modulor.de/en/seawhite-sketching-pad-white-paper-140g-m2-210-x-148-mm-din-a5-tall-20-shts-40-pgs-st.html).  
+It is great to see how students develop their own style, using visual and textual elements... but also influencing each other, or using external inspiration.  
+Yes, I need to do more with this...
+
+How did you make the first sketches for *Phone*? Tablet?
+
+Looking more closely at your visualisations, I noticed that they are mostly pre-visualisations/variations of screens, never something that *thinks* about the inner workings. Do you never have the urge to visualise how something *works*?
+
+I don't think it's about design documentation. Do you know the idea of the [One](https://www.stonetronix.com/gdc-2010/) [Page](https://gdcvault.com/play/1012356/One-Page) Designs by Stone Librande? I like a lot that at its core (it's not so visible in the *original* presentation, but the idea has evolved a lot since its origin, see how Tracy Fullerton writes about it in - later issues of - Game Design Workshop) it's about accompanying the process, thinking about the next steps, not describing the whole.
+
+> is it one metaphor fits all or are there different metaphors that are more appropriate for different designers?
+
+Yes, I tend to forget how subjective metaphors are, so / also emotional.  
+I think I still need to sort that out. Somehow I feel that there is another dimension hidden here, in the sense of: how did the metaphor inspire early computation and as such is interwoven into the materiality of games / digital structures. But whatever, feel free to ignore.
+
+Ok, this message got longer.  
+Because of my sickness, we also have a lot of other things to talk about, but I'll leave that for later.
