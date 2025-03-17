@@ -1,0 +1,21 @@
+project:
+  type: book
+
+book:
+  title: "It is as if you were on your phone"
+  author: "Pippin Barr & Devolution"
+  date: "3/17/2025"
+  chapters:
+    - index.qmd
+    - commits.qmd
+    - journal.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
