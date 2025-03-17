@@ -3,3 +3,309 @@
 ## Overview
 
 ## Messages
+
+**Tue, 7 Jan 2025 15:02:48 -0500**  
+Initial commit 
+
+**Tue, 7 Jan 2025 15:04:13 -0500**  
+Journal: Starting point 
+
+**Tue, 7 Jan 2025 15:08:50 -0500**  
+Some quality of life tweaks like CSS, an info page 
+
+**Tue, 7 Jan 2025 20:31:31 -0500**  
+Journal: Getting it together 
+
+**Wed, 8 Jan 2025 14:28:15 -0500**  
+Journal: Early sketching 
+
+**Wed, 8 Jan 2025 14:31:13 -0500**  
+Trouble with the connection between iOS Notes and getting a workable image for a very long hand-drawn note 
+
+**Thu, 9 Jan 2025 15:48:52 -0500**  
+The most basic tap simulator 
+
+**Fri, 10 Jan 2025 13:29:41 -0500**  
+Journal: First prototype; Feedback; Suite talking; and beyond 
+
+**Fri, 10 Jan 2025 14:06:53 -0500**  
+Prototyped simple gong sound on tap 
+
+**Fri, 10 Jan 2025 14:29:45 -0500**  
+Added a simple tween on size and alpha for taps 
+
+**Mon, 13 Jan 2025 13:55:12 -0500**  
+Various ineffectual attempts at touch lag solution 
+
+**Mon, 13 Jan 2025 14:41:12 -0500**  
+Updated prototype to ignore mousedown 
+
+**Mon, 13 Jan 2025 14:41:34 -0500**  
+Journal: To p5 or not to p5? Thumb radius? The real thing? Zen? 
+
+**Tue, 14 Jan 2025 14:49:17 -0500**  
+Prototype of random up or down swipes 
+
+**Wed, 15 Jan 2025 16:20:24 -0500**  
+Broken while developing swipe icons/indicators 
+
+**Thu, 16 Jan 2025 13:55:36 -0500**  
+Prototype of swipe visualization 
+
+**Thu, 16 Jan 2025 14:39:59 -0500**  
+Journal: Swipe prototyping; visual prototyping; the main thing 
+
+**Wed, 22 Jan 2025 14:22:55 -0500**  
+Added basic concept of "acts" 
+
+**Wed, 22 Jan 2025 15:02:15 -0500**  
+Added a basic keyboard mode 
+
+**Thu, 23 Jan 2025 13:23:28 -0500**  
+Journal: Nexts 
+
+**Thu, 23 Jan 2025 13:40:27 -0500**  
+Some refactoring 
+
+**Thu, 23 Jan 2025 14:13:17 -0500**  
+Journal: Refactor? Visuals 
+
+**Mon, 27 Jan 2025 14:47:24 -0500**  
+"Upgraded" to OOP 
+
+**Tue, 28 Jan 2025 14:24:44 -0500**  
+OOP Browsing 
+
+**Tue, 28 Jan 2025 14:44:47 -0500**  
+"Fixed" responsive sizing of tap icon 
+
+**Tue, 28 Jan 2025 15:04:24 -0500**  
+Journal: I OOPed in the code pool; I wanna be an FSM 
+
+**Wed, 29 Jan 2025 16:16:45 -0500**  
+Made scrolling more sophisticated 
+
+**Thu, 30 Jan 2025 14:34:26 -0500**  
+Simplifying matters 
+
+**Thu, 30 Jan 2025 14:58:33 -0500**  
+Added an ultrasimple delay between interactions 
+
+**Thu, 30 Jan 2025 15:43:12 -0500**  
+Journal: Reimplementing the wheel?; Structures; A pause explodes my brain 
+
+**Mon, 10 Feb 2025 13:33:54 -0500**  
+Implemented basic dating 
+
+**Mon, 10 Feb 2025 13:50:46 -0500**  
+Introducing basic acting back in (serial) 
+
+**Mon, 10 Feb 2025 14:31:02 -0500**  
+Journal: Dating; acting; testing 
+
+**Tue, 11 Feb 2025 13:49:30 -0500**  
+Reintegrating acts/interactions and reducing OOP hierarchy 
+
+**Tue, 11 Feb 2025 14:37:07 -0500**  
+Added in a basic typing activity 
+
+**Tue, 11 Feb 2025 15:21:52 -0500**  
+Added activity switching 
+
+**Wed, 12 Feb 2025 14:08:23 -0500**  
+Added "Photos" (Instagram) 
+
+**Fri, 14 Feb 2025 14:10:39 -0500**  
+Journal: What would it take for this game to be done? 
+
+**Fri, 14 Feb 2025 15:47:42 -0500**  
+Journal: More visual design 
+
+**Fri, 14 Feb 2025 18:06:59 -0500**  
+Made a more random activity of "Phoning" 
+
+**Mon, 17 Feb 2025 13:30:03 -0500**  
+Basic "Phoning" interaction in place 
+
+**Mon, 17 Feb 2025 13:50:44 -0500**  
+Added Look Here and Watch Box interactions 
+
+**Mon, 17 Feb 2025 13:55:58 -0500**  
+Added the splash of colour 
+
+**Mon, 17 Feb 2025 14:16:42 -0500**  
+Animated swipes 
+
+**Tue, 18 Feb 2025 15:13:07 -0500**  
+Working on dragging gesture 
+
+**Tue, 18 Feb 2025 15:48:53 -0500**  
+Dragging seems to be up and running 
+
+**Tue, 18 Feb 2025 16:28:40 -0500**  
+Some basic space and size management 
+
+**Wed, 19 Feb 2025 14:01:21 -0500**  
+Added instructions and rationalized some stuff 
+
+**Wed, 19 Feb 2025 14:20:09 -0500**  
+Bugfixes 
+
+**Wed, 19 Feb 2025 14:56:22 -0500**  
+Conversion to ratio-based positioning 
+
+**Wed, 19 Feb 2025 16:47:51 -0500**  
+Ratio positioning fixes 
+
+**Thu, 20 Feb 2025 13:26:55 -0500**  
+Tutorial disappears after you've seen each one 
+
+**Thu, 20 Feb 2025 13:59:25 -0500**  
+Resinstated Acts 
+
+**Thu, 20 Feb 2025 14:23:21 -0500**  
+Journal: Progress; Zen 
+
+**Thu, 20 Feb 2025 14:51:03 -0500**  
+Why: A first cut at whying 
+
+**Fri, 21 Feb 2025 15:14:34 -0500**  
+Re-added basic sounds 
+
+**Fri, 21 Feb 2025 16:01:34 -0500**  
+Added fades to instructions 
+
+**Mon, 24 Feb 2025 15:04:52 -0500**  
+Basic menu with standard and zen modes 
+
+**Tue, 25 Feb 2025 14:39:19 -0500**  
+Menu improvements 
+
+**Tue, 25 Feb 2025 14:49:24 -0500**  
+Removed sound for Standard 
+
+**Tue, 25 Feb 2025 15:07:23 -0500**  
+Put in a very placeholder Info screen 
+
+**Tue, 25 Feb 2025 15:39:57 -0500**  
+Added a bunch of new texts 
+
+**Wed, 26 Feb 2025 14:43:17 -0500**  
+Moved the acting instructions for Watching into the box (care of Matt) 
+
+**Wed, 26 Feb 2025 15:01:38 -0500**  
+Journal: High praise; explainers; bye zen 
+
+**Wed, 26 Feb 2025 15:14:59 -0500**  
+Cut zen, wrote info 
+
+**Thu, 27 Feb 2025 13:28:34 -0500**  
+Tweaks to the info statement 
+
+**Thu, 27 Feb 2025 13:46:47 -0500**  
+Journal: Back problems 
+
+**Thu, 27 Feb 2025 14:14:19 -0500**  
+Circuitous route to getting double-taps to position right on edge 
+
+**Thu, 27 Feb 2025 14:32:23 -0500**  
+Switched to JSON for language 
+
+**Thu, 27 Feb 2025 14:34:31 -0500**  
+Removed sounds entirely 
+
+**Fri, 28 Feb 2025 13:41:35 -0500**  
+Journal: Acting math; dead face 
+
+**Fri, 28 Feb 2025 14:25:29 -0500**  
+Worked on acting 
+
+**Fri, 28 Feb 2025 14:33:12 -0500**  
+Tweaking UI, notably moving acting for Watch back to top 
+
+**Fri, 28 Feb 2025 15:01:13 -0500**  
+The all important put your phone away 
+
+**Mon, 3 Mar 2025 13:25:04 -0500**  
+Added a spinner to the watch box 
+
+**Mon, 3 Mar 2025 13:33:46 -0500**  
+Mild act edits 
+
+**Mon, 3 Mar 2025 13:44:45 -0500**  
+Prevented getting the same interaction twice in a row 
+
+**Mon, 3 Mar 2025 13:56:02 -0500**  
+Kind of done? 
+
+**Mon, 3 Mar 2025 14:29:47 -0500**  
+Created info and press pages 
+
+**Mon, 3 Mar 2025 14:33:49 -0500**  
+Updated base level readme to at least point the right ways 
+
+**Mon, 3 Mar 2025 14:41:57 -0500**  
+Added a not-very-good request for portrait mode 
+
+**Tue, 4 Mar 2025 09:29:12 -0500**  
+Added messaging about phones in portrait mode 
+
+**Wed, 5 Mar 2025 09:33:02 -0500**  
+Linked to info page for people who are not on their phones 
+
+**Wed, 5 Mar 2025 10:43:11 -0500**  
+PHones only in the press kit 
+
+**Wed, 5 Mar 2025 10:43:27 -0500**  
+Link in the press kit 
+
+**Thu, 6 Mar 2025 15:37:17 -0500**  
+Added Pocket Gamer article 
+
+**Fri, 7 Mar 2025 10:37:53 -0500**  
+Added article PDF 
+
+**Sat, 8 Mar 2025 11:17:45 -0500**  
+Added a link to the kottke post 
+
+**Sat, 8 Mar 2025 17:57:48 -0500**  
+Added mysterious line to try to fix this for Android+Chrome 
+
+**Sat, 8 Mar 2025 17:58:11 -0500**  
+Fixed a typo... how was it even running?? 
+
+**Sat, 8 Mar 2025 19:22:10 -0500**  
+Got what seems to be a working version without hammer? 
+
+**Sun, 9 Mar 2025 13:59:57 -0400**  
+Setting pixelDensity(1) to see if it helps lag on Chrome+Android? 
+
+**Sun, 9 Mar 2025 15:01:34 -0400**  
+Journal: The feeling of release; community; success 
+
+**Sun, 9 Mar 2025 15:08:09 -0400**  
+Removed p5 sound given that it isn't used 
+
+**Sun, 9 Mar 2025 16:09:06 -0400**  
+Constrained drags 
+
+**Mon, 10 Mar 2025 08:42:40 -0400**  
+Oops. Built it without half the stuff. 
+
+**Mon, 10 Mar 2025 16:15:04 -0400**  
+Adding PDFs of "coverage" of one kind or another 
+
+**Tue, 11 Mar 2025 09:38:50 -0400**  
+Added DanQ post 
+
+**Wed, 12 Mar 2025 09:14:41 -0400**  
+Added Polygon article to press 
+
+**Wed, 12 Mar 2025 10:19:47 -0400**  
+Added Polygon PDF 
+
+**Wed, 12 Mar 2025 14:39:25 -0400**  
+J'ai ajout├⌐ l'article de RTBF Actus (en fran├ºais!) 
+
+**Sun, 16 Mar 2025 16:50:07 -0400**  
+Added Web Curios 
