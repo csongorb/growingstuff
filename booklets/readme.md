@@ -4,7 +4,18 @@
 
 tbd
 
-### Quarto
+### Quarto - Tutorial
+
+#### General Setup
+
+[Get Started](https://quarto.org/docs/get-started/hello/vscode.html) on the Quarto website is a really good place to start. VS Code seems to work really well.
+
+#### Writing / Editing
+
+For writing / editing:  
+Work with *Preview* to show the results as an HTML page.
+
+But we can also use it to easily generate any format we might need for layout / printing.
 
 ### Design / Layout
 
