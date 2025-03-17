@@ -2,7 +2,14 @@
 
 ### Shared Content
 
-tbd
+#### Commit Export
+
+For **Booklet**:  
+`git log --pretty=fuller > gitbooklet.log`  
+You can also try `pretty=full`
+
+For **Gource**:  
+`git log --pretty=format:user:%aN%n%ct --reverse --raw --encoding=UTF-8 --no-renames --no-show-signature > gitgource.log`
 
 ### Quarto - Tutorial
 
