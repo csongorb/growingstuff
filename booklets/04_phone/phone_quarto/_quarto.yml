@@ -8,7 +8,6 @@ book:
   chapters:
     - index.qmd
     - commits.qmd
-    - commit_log.qmd
     - journal.qmd
 
 bibliography: references.bib
