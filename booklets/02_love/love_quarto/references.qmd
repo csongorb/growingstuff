@@ -1,0 +1,8 @@
+# References {.unnumbered}
+
+See @barr_stuff_2023 for...
+
+This is an example book created from markdown and executable code.
+
+::: {#refs}
+:::
