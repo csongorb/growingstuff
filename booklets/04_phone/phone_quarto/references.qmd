@@ -1,8 +1,8 @@
 # References {.unnumbered}
 
-::: {#refs}
-:::
+See @barr_stuff_2023 for...
 
 This is an example book created from markdown and executable code.
 
-See @knuth84 for additional discussion of literate programming.
+::: {#refs}
+:::

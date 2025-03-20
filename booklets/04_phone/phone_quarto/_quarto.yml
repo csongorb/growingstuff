@@ -9,6 +9,7 @@ book:
     - index.qmd
     - commits.qmd
     - journal.qmd
+    - references.qmd
 
 bibliography: references.bib
 
