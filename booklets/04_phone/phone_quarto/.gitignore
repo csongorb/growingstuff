@@ -1,2 +1,18 @@
+.Rproj.user
+.Rhistoryt
+.Rhistory
 /.quarto/
+/_*.local
+/.venv/
+/.condaenv/
+*_cache/
+/env/
+/_site/
+/.venv/
+*_files/
+
+/.luarc.json
+
+# not sure about this...
+# contains the builds / rendered book files
 /_book/
