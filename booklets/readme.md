@@ -1,8 +1,8 @@
-## Booklets
+# Booklets
 
-### Shared Content
+## Shared Content
 
-#### Commit Export
+### Commit Export
 
 For **Booklet**:  
 `git log --pretty=fuller > gitbooklet.log`  
@@ -11,22 +11,31 @@ You can also try `pretty=full`
 For **Gource**:  
 `git log --pretty=format:user:%aN%n%ct --reverse --raw --encoding=UTF-8 --no-renames --no-show-signature > gitgource.log`
 
-### Quarto - Tutorial
+## Questions / Todos:
 
-#### General Setup
+### General
+- what to do with the links in the booklets? footnotes?
+- the timeline of Todo.md is interesting, almost up to the commit messages, maybe even more... how to show them better?
+
+### Only Phone
+- merging Why.md into Journal?
+
+## Quarto - Tutorial
+
+### General Setup
 
 [Get Started](https://quarto.org/docs/get-started/hello/vscode.html) on the Quarto website is a really good place to start. VS Code seems to work really well.
 
-#### Writing / Editing
+### Writing / Editing
 
 For writing / editing:  
 Work with *Preview* to show the results as an HTML page.
 
 But we can also use it to easily generate any format we might need for layout / printing.
 
-### Design / Layout
+## Design / Layout
 
-#### Message to Jesse 2025-03-10
+### Message to Jesse 2025-03-10
 
 Dear Jesse,
 

@@ -1,6 +1,8 @@
 project:
   type: book
 
+number-depth: 1
+
 book:
   title: "It is as if you were on your phone"
   author: "Pippin Barr & Devolution"
@@ -8,8 +10,14 @@ book:
   chapters:
     - index.qmd
     - commits.qmd
+    - why.qmd
     - journal.qmd
-    - references.qmd
+    - todo_20250110.qmd
+    - todo_20250127.qmd
+    - todo_20250130.qmd
+    - todo_20250221.qmd
+    - todo_20250227.qmd
+    - todo_20250316.qmd
 
 bibliography: references.bib
 
