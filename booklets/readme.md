@@ -5,8 +5,11 @@
 #### Commit Export
 
 For **Booklet**:  
-`git log --pretty=fuller > gitbooklet.log`  
-You can also try `pretty=full`
+'git log --reverse --no-merges --format="**%cd**  %n%s%n%n%b%n" --date=format:'%a, %d %b %Y %H:%M:%S' > commit_log.qmd'
+
+Example of Commit message extracted with this line:
+**Tue, 7 Jan 2025 15:04:13**  
+Journal: Starting point 
 
 For **Gource**:  
 `git log --pretty=format:user:%aN%n%ct --reverse --raw --encoding=UTF-8 --no-renames --no-show-signature > gitgource.log`
