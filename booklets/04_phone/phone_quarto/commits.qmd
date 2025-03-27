@@ -2,6 +2,8 @@
 
 ## Overview
 
+![Commits over time](./images/commits/Commits over time.png)
+
 ## Messages
 
 **Tue, 7 Jan 2025 15:02:48**  
