@@ -12,6 +12,7 @@ book:
     - manifesto.qmd
     - commits.qmd
     - journal.qmd
+    - to-do.qmd
     - related-work.qmd
 
 bibliography: references.bib
