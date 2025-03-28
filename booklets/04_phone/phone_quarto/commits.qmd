@@ -2,6 +2,8 @@
 
 ## Overview
 
+![](Commits over time phone.png)
+
 ## Messages
 
 **Tue, 07 Jan 2025 15:02:48**  

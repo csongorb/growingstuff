@@ -1,3 +1,6 @@
-## Booklet: As if you were on your phone
+# Booklet: As if you were on your phone
 
-tbd
+## Differences Booklet vs. Original Repo
+
+- Presskit
+    - deleted GIFs

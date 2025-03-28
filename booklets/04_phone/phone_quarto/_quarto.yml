@@ -11,14 +11,9 @@ book:
     - index.qmd
     - ./press_20250303/readme.qmd
     - why.qmd
-    - journal.qmd
     - commits.qmd
-    - todo_20250110.qmd
-    - todo_20250127.qmd
-    - todo_20250130.qmd
-    - todo_20250221.qmd
-    - todo_20250227.qmd
-    - todo_20250316.qmd
+    - journal.qmd
+    - todos.qmd
 
 bibliography: references.bib
 
@@ -29,4 +24,7 @@ format:
       - brand
   pdf:
     documentclass: scrreprt
-    
+  docx:
+    toc: true
+    number-sections: true
+    highlight-style: github

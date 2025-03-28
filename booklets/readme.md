@@ -19,6 +19,9 @@ For **Gource**:
 ### General
 - what to do with the links in the booklets? footnotes?
 - the timeline of Todo.md is interesting, almost up to the commit messages, maybe even more... how to show them better?
+- make better looking graphs for the commit overview
+- make a better looking timeline for *It is as if...*
+- displaying "done" todos in a more readable way?
 
 ### Only Phone
 - merging Why.md into Journal?
