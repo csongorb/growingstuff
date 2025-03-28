@@ -391,3 +391,25 @@ I think I still need to sort that out. Somehow I feel that there is another dime
 
 Ok, this message got longer.  
 Because of my sickness, we also have a lot of other things to talk about, but I'll leave that for later.
+
+## 2025-03-28 Pippin: Limping along
+
+Hey Csongor, geez... well that was a delay. I went to Rotterdam for a week in there, and then the return week at work has been a real doozy. In the meantime though I guess I've ended up delivering that artist talk/retrospective talk a couple more times which has been interesting. I don't think it's the right material for something on stage, but it's been helpful for stirring up some thinking about what it is a bunch of my games/design is pointed at.
+
+> Can the work stand on its own?
+
+Yeah this came up quite a lot in Rotterdam in fact. Conversations about artistic research and what constitutes research output. Whether "just art" can be thought of as a scholarly contribution etc. I think I'm a bit of a boring adherent to what's maybe an old fashioned view that some sort of additional language is pretty much needed to understand what on earth is going on in most artworks. Though maybe videogames are different in terms both of their use of language internally and the ways in which they almost *have to* be quite legible and not oblique just in the nature of being designed experiences (though there are always exceptions).
+
+> If we accept that games have a systemic / spacial core, it seems naturally to say, that one can better understand them with visual tools.
+
+This is a good an important one for design process stuff for sure. I think I might be a bit of an outlier in not relying heavily on visual stuff for my games. Quite often there are literally no sketches or mockups or anything... I think just because my ideas are so *small* (and often so primitive?) that they're kind of easy to visualize entirely in my head, or if not that then directly in code.
+
+But that's not remotely true of other processes, where sketching etc. is vital to coming to grips with how things fit together. For the *Phone* game, I did end up doing various bits of "sketching" in Keynote, just in terms of thinking through different plausible layouts and ways of indicating the desired actions... symbols versus words, positioning, colour palettes, text styles, etc. And I do think that was helpful... I *could* have prototyped those in code, but doing it in Keynote was certainly faster for zeroing in on the main idea.
+
+Visualizing how things *work* is really intriguing though. I mean, the answer is "no" on my end (I think?)... probably for similar reasons to the above... I'm rarely doing something so complex that it's not more straightforward to just directly prototype in code/engine and find out how it works that way. Or it's simply so incredibly simple that you can understand the system and design it without extensive diagramming etc. I'm struggling to think of a project that led me to do extensive pre-thinking about how things might work. Last night I gave (again) that artist's talk about my work and one of the questions at the end was whether I had any insight into more systems-oriented/open ended forms of design. I kind of racked my brains and came up empty... I simply don't practice that kind of design much... I feel like I'm trying to largely work on kind of deterministic work that's more about it being open/interpretive at the thinking level possibly?
+
+> Brass tacks?
+
+Not quoting you, just a header.
+
+What do we really need to nail? I guess I'll go into some other documents to see what I can uncover and ideally help out with?

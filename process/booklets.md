@@ -11,3 +11,7 @@ But you can already see some ideas in the folder structure.
 I'm not 100% sure this is the right direction, but I feel we need to come up with a good pipeline for designing & printing the booklets... we've already done a lot of research, which was good, but the structure is a mess. Ultimately we'll need PDFs / InDesign for the layout, but to get the content together we need something that works in a repository (and maybe with markdown files as they are our source material).
 
 I have been testing a few things over the last few days / weeks... lets go with [Quatro](https://quarto.org/). Yes, I could have chosen another one, but this seems to be a good compromise between a lot of things. 
+
+## 2025-03-28
+
+Took a look at some of this stuff! This is possibly more your area of expertise than mind. Quatro seems pretty reasonable to me?
