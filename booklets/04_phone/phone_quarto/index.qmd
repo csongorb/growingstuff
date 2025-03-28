@@ -1,3 +1,18 @@
 # Preface {.unnumbered}
 
 This is...
+
+Ideas / Questions:
+
+- is it important to assume that somebody checks this without any context?
+- intro into Devolution
+- intro into *Pippin Barr x Devolution*
+- clarifying what type of documents this are (?)
+- (visual) overview on *It is as if...*
+- link to the repository (QR-Code?)
+- copyright / year / imprint?
+
+
+![](timeline_itisasif.png)
+
+> 100% a series yes! There are some bits in there where I feel like they end up being a bit about distinct things. I think of *Love* and *Work* as both existing in specific fictional universes where they're "needed" as a kind of therapeutic intervention into a problem. *Chess* didn't really come from that place, was more of a "wouldn't it be funny if...". And then *Phone* is unclear to me right now... I think probably giving it some Speculative Play scaffolding does make a bit of sense, but it feels reactive to exactly *now* rather than the future? So I'm not even sure it works out as speculative at all...^[GrowingStuff...]

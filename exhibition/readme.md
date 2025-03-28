@@ -5,9 +5,9 @@
 Covering more than only the core elements of the exhibition, but I think it's needed for the overview.
 
 Generally:  
-Check https://devolution.online/lmd_2023_recap/ for inspiration.
+Check https://devolution.online/lmd_2023_recap/ for inspiration and the overall mood for the room. We we'll get the same room this time...
 
-- Booklets
+- Booklets (all booklets)
 	- Inlay
 	- Cover
 	- some visualisations
@@ -15,8 +15,8 @@ Check https://devolution.online/lmd_2023_recap/ for inspiration.
 		- Overview *It is as if...*
 - Exhibition 
 	- Stations
-		- Top (Commit Overview?)
-		- Body / Corpus
+		- Top-Info-Area (Commit Overview?)
+		- Body / Corpus (visuals on on the side of the stations)
 	- Overview *It is as if...* (like above, but bigger)
 	- some additional info elements?
         - social media hint

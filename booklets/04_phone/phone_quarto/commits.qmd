@@ -2,310 +2,737 @@
 
 ## Overview
 
+![](Commits over time phone.png)
+
 ## Messages
 
-**Tue, 7 Jan 2025 15:02:48**  
-Initial commit 
+**Tue, 07 Jan 2025 15:02:48**  
+Initial commit
 
-**Tue, 7 Jan 2025 15:04:13**  
-Journal: Starting point 
 
-**Tue, 7 Jan 2025 15:08:50**  
-Some quality of life tweaks like CSS, an info page 
 
-**Tue, 7 Jan 2025 20:31:31**  
-Journal: Getting it together 
+**Tue, 07 Jan 2025 15:04:13**  
+Journal: Starting point
 
-**Wed, 8 Jan 2025 14:28:15**  
-Journal: Early sketching 
 
-**Wed, 8 Jan 2025 14:31:13**  
-Trouble with the connection between iOS Notes and getting a workable image for a very long hand-drawn note 
 
-**Thu, 9 Jan 2025 15:48:52**  
-The most basic tap simulator 
+**Tue, 07 Jan 2025 15:08:50**  
+Some quality of life tweaks like CSS, an info page
+
+
+
+**Tue, 07 Jan 2025 20:31:31**  
+Journal: Getting it together
+
+
+
+**Wed, 08 Jan 2025 14:28:15**  
+Journal: Early sketching
+
+
+
+**Wed, 08 Jan 2025 14:31:13**  
+Trouble with the connection between iOS Notes and getting a workable image for a very long hand-drawn note
+
+
+
+**Thu, 09 Jan 2025 15:48:52**  
+The most basic tap simulator
+
+- Has a randomly positioned circle (tap icon)
+- If you tap it, it disappears and a new one will appear in a random amount of time
+- Created to test what it feels like to sit and just play this on my phone (may need a better local testing setup for this down the line to avoid having to build and push every time I want to see on true mobile?)
+- Consideration: the amount of time between taps
+- Consideration: The size of the icon, the size of the hitbox(circle)
+- Consideration: OOP versus functional programming as this scales up?
+- Consideration: Juice (or lack therein) around the act of tapping (sound, animation, something else?)
+
 
 **Fri, 10 Jan 2025 13:29:41**  
-Journal: First prototype; Feedback; Suite talking; and beyond 
+Journal: First prototype; Feedback; Suite talking; and beyond
+
+
 
 **Fri, 10 Jan 2025 14:06:53**  
-Prototyped simple gong sound on tap 
+Prototyped simple gong sound on tap
+
+- It is frankly better than I'd hoped? Those gongs are super chill by their nature and the random schedule means you get some together, some with a silence, and it's actually very relaxing.
+- This is a specific direction to go in though so I don't know if I should just go all in, but there's something very appealing about transforming these kind of mindless/dead actions of tapping/using the phone into something about awareness and appreciation of the moment... it really ...
+- Well actuall in this reflection I see a problem in relation to the face/pose instructions, because with Zen vibes it may seem kind of weird to then be composing your face as if you're still doing the deadface thing? Or does the zen version obviate the need to do that?
+- Or am I suddenly working on a different project about zen replacements for phone apps? Which is similar to but not the same as the It is as if path? Or... what? Fuck. Have to have a think about it.
+- All this from a gong. Get it on. Bang a gong.
+
 
 **Fri, 10 Jan 2025 14:29:45**  
-Added a simple tween on size and alpha for taps 
+Added a simple tween on size and alpha for taps
+
+- Now they come and go with just a little bit of life. Doubles down on making sure the user knows they did something.
+- In playing with the values and getting this going it's apparent you can of course get a ton of moods based on the curves and numbers used for the tweening... more energetic, more chill...
+- Taken to an extreme I'm imagining a versino where it all leads a building trace like smudges on the screen, but that would probably get unmanageable and is probably off message
+- I think there's a general tension here (the Zen thing is part of it) around how the aesthetics can potentially pull this thing off the path...?
+- Anyway it's another useful prototyping stage
+- This step did make me wonder about upgrading to something like Phaser just to get simple tweening, events, object hierarchies, etc... hmmm
+
 
 **Mon, 13 Jan 2025 13:55:12**  
-Various ineffectual attempts at touch lag solution 
+Various ineffectual attempts at touch lag solution
+
+- Nothing really makes it into this code, but this session was about trying to figure out why there's a lag on mobile; specifically seems to be that *two* events are fire and it's the second (delayed) one that ends up calling the audio, which makes it lag? Why? Dunno.
+- Has me seriously wondering whether to switch to a different library, at least to *check* if this is something about how p5 is implemented. Should I try something like ummm canvas.js? PixiJS? Would just want to mock something up. This sounds like a case for branching? Fuuuuck...
+
 
 **Mon, 13 Jan 2025 14:41:12**  
-Updated prototype to ignore mousedown 
+Updated prototype to ignore mousedown
+
+- This seems to fix the immediate lag problem on touch events, but have to evaluate via a physical phone before I can trust it
+
 
 **Mon, 13 Jan 2025 14:41:34**  
-Journal: To p5 or not to p5? Thumb radius? The real thing? Zen? 
+Journal: To p5 or not to p5? Thumb radius? The real thing? Zen?
+
+
 
 **Tue, 14 Jan 2025 14:49:17**  
-Prototype of random up or down swipes 
+Prototype of random up or down swipes
+
+- Using hammer.js for now as it's something I've done before even though it stopped development in 2016!!
+- Janky behaviour in chrome and perversely does NOT work when using the mobile viewer; so have to test on phone
+- Occurs to me to think of scrolling as low-threshold velocity swipes to may avoid continuous pan recognition? But may not work as we may want some kind of progress indicator for a pan down as a scroll, say
+- Directions and arrows is confusing because scrolling down is moving your thumb up. Sheeee-it. I guess we can abstract it away if we only just an arrow?
+
 
 **Wed, 15 Jan 2025 16:20:24**  
-Broken while developing swipe icons/indicators 
+Broken while developing swipe icons/indicators
+
+- The objective is currently to find an indicator of how far through a swipe/pan you are by moving a "pip" along a track, which should be fairly familiar? Leaving it up to the player to decide on pan versus swipe in this case?
+- There's a part of my that wonders about it being purely textual suddenly? "Tap here" "Tap here" "Swipe left" "Scroll down"
+- But it wouldn't be as beautiful
+- But it would be kind of more amazingly blank? Maybe hoping for beautiful gleaming abstract UI is a bit of a false dream?
+- On the other hand part of the idea had been that the UI shouldn't be distracting/require a ton of interpretation/abstract thought? But maybe icons do that anyway?
+- There's actually some stuff to think about in this
+
 
 **Thu, 16 Jan 2025 13:55:36**  
-Prototype of swipe visualization 
+Prototype of swipe visualization
+
+- I don't think this is necessarily god's gift to UI but it's helpful to at lest have a starting point on some math if I want to do it this way
+- As always, do need to try it on mobile
+- Making something that works leaves me somewhat more confident in the symbolic approach, but still pretty unsure
+- Need to do some visual prototyping on UI concepts I think
+
 
 **Thu, 16 Jan 2025 14:39:59**  
-Journal: Swipe prototyping; visual prototyping; the main thing 
+Journal: Swipe prototyping; visual prototyping; the main thing
+
+
 
 **Wed, 22 Jan 2025 14:22:55**  
-Added basic concept of "acts" 
+Added basic concept of "acts"
+
+- That is, the game now displays something for you to do with your face/body while you're interacting
+- Plenty of work to do on the look and timing, but important just to quickly have that idea in place, no?
+
 
 **Wed, 22 Jan 2025 15:02:15**  
-Added a basic keyboard mode 
+Added a basic keyboard mode
+
+- Seems to "work" though the code is already feeling incredibly fragile and like it needs some engineering? It almost certainly makes sense to move to OOP at some point? OOP states and inheritance and all that? Composition?Whatever?
+- THe gongs are starting to annoy me - not correct for the keyboard at the very least.
+- But it's something I can test for authenticity on my phone now
+- In this exactly moment I'm neither excited not discouraged, just trying to do things
+
 
 **Thu, 23 Jan 2025 13:23:28**  
-Journal: Nexts 
+Journal: Nexts
+
+
 
 **Thu, 23 Jan 2025 13:40:27**  
-Some refactoring 
+Some refactoring
+
+- This refactoring was just to move functions and variables to other files, so nothing major
+- But I feel like my head keeps swimming with the UI engineering task here and I may be "forced" to switch to OOP and inheritance as a way to feel like I have it under control?
+- Kind of a big thing to do while still prototyping but miiight make prototyping easier in the longish run?
+- Or shall I just do a bit of the ol' visual prototyping for now in keynote and save the structural engineering for another day? Probably that would be wise
+
 
 **Thu, 23 Jan 2025 14:13:17**  
-Journal: Refactor? Visuals 
+Journal: Refactor? Visuals
+
+
 
 **Mon, 27 Jan 2025 14:47:24**  
-"Upgraded" to OOP 
+"Upgraded" to OOP
+
+- I have the beginnings of an OOP version of the basic tapping again
+- Currently not responsive, so I should remember that sometime
+- It's extremely satisfying that this much took me as little as 30 minutes
+- But I also did the easiest possible thing, so other elements may not be so easy BUT MAYBE THEY WILL BE SHOUTED WISHFUL THINKING
+- Anyway, if nothing else I feel happy
+
 
 **Tue, 28 Jan 2025 14:24:44**  
-OOP Browsing 
+OOP Browsing
+
+- I seem to have "engineered" my way to a minimally acceptable OOP version of a "Browsing" state that combines taps and scrolls in perfect harmony.
+- The reframing in terms of OOP and inheritance has paid of pretty much exactly in the way I hoped, though there are for sure further refinements
+- One thing I like about it is the way in which it allows for a (semi?) formal description of any given activity as just a set of interactions
+- If I want to get fancier (do I?) I could consider adding further parameterizations of those interaction (frequencies most obviously, potentially things like positional ranges, delays, etc... this turns into a bigger question of how much control to take versus just a continual flow of things-to-do)
+- Whatever the case I think there are nice/worthwhile correspondences to think about between representation in code and the acts themselves? There's a something there around roboticism, computational behaviour? The satisfaction therein?
+- Anyway for now there's a passable browsing activity to test out of true mobile
+
 
 **Tue, 28 Jan 2025 14:44:47**  
-"Fixed" responsive sizing of tap icon 
+"Fixed" responsive sizing of tap icon
+
+- By storing its size as a ratio of the width, for better or worse or just... whatever
+
 
 **Tue, 28 Jan 2025 15:04:24**  
-Journal: I OOPed in the code pool; I wanna be an FSM 
+Journal: I OOPed in the code pool; I wanna be an FSM
+
+
 
 **Wed, 29 Jan 2025 16:16:45**  
-Made scrolling more sophisticated 
+Made scrolling more sophisticated
+
+- By which I mean I implemented a few things I think of as key features of scrolling, like pan-scrolling (where you drag a touch in the scroll direction) and also having a press stop any swipe-based scrolling
+- That stuff appears to work though the numbers (especially swipe velocities) need some pretty serious work; maybe velocity can be normalized against the canvas height?
+- Is that even what normalization means?
+- I also had a design-ish moment where I started to think about the whole question of scrolling *up* during a downscroll instruction; it felt really weird NOT to let the player do that even though that's them going off script in a really super minimal way
+- Is that an example of giving them some (miniscule) ad libbing expressive potential? Or is it kind of stupidly confusing and against the message of total certainty? Unsure
+- For now you can scroll up and down in a downscroll and it will terminate when you get all the way to the bottom (no target part way down, which I think is good)
+- I think I can/should add variable "distance" though - the further the longer it takes to scroll/swipe down (could contemplate changing the pip to match but I think not? But I wonder if it will feel weird/wrong to have it react differently...?)
+- Also need to work on the actual delays between instructions as if officially feels bad to have the scroll instantly switch to the next one; let me just add a tiny artificial delay actually...
+- And need to get back the acting
+
 
 **Thu, 30 Jan 2025 14:34:26**  
-Simplifying matters 
+Simplifying matters
+
+- Realized that the main state class can (probably?) handle everything we need without specifialized substate classes? At least in this version of things.
+- I'm keeping the subclass (Browsing) just for now, but all it really is is a configuration class at this point, no methods
+- The exciting world of implementation details. I don't think there's anything design-oriented in here;
+- Though I shouldn't really say that. It is making some assumptions about specificity that probably do matter - it's making a statement that all states are the same: they are just a collection of interactions
+- Which I think is convenient here, but if I were thinking in terms of fidelity it might be that the specific states come more in handy as a way of defining things like frequency and possible specific chains/grammars of interactions?
+
 
 **Thu, 30 Jan 2025 14:58:33**  
-Added an ultrasimple delay between interactions 
+Added an ultrasimple delay between interactions
+
+- It's currently not premised on anything semantic, just a random small delay to create a breath in between
+- It's clearly a place for design intervention if I want it to be... its mere existence made me wonder about alternating acting and interacting, not having them co-appearing... it's a possibility, though it seems like you might want acting instructions while interacting? Should think more about this model, it's very simple/elegant/minimal (hi Marc-Antoine!)
+- But yeah it's a bit philosophical in terms of what it means to look like you're interacting... and also just cognitive acting-load? Hmmm. Don't write a journal entry here though
+- Anyway, it makes a difference to the overall vibe is what I'm saying
+
 
 **Thu, 30 Jan 2025 15:43:12**  
-Journal: Reimplementing the wheel?; Structures; A pause explodes my brain 
+Journal: Reimplementing the wheel?; Structures; A pause explodes my brain
+
+
 
 **Mon, 10 Feb 2025 13:33:54**  
-Implemented basic dating 
+Implemented basic dating
+
+- That is a collection of swipes according to probability, currently being done very bluntly by proportional representation in an array that is then queried randomly... feels inelegant
+- Starting to seem to me I may want to look at configuration data differently from just having a class for every single kind of thing? I could be wrong... but they aren't representing much more than a confiration object anyway, and maybe that can be a bit more compact than this.
+- Particularly will make sense sometimes to define probabilities on how often specific interactions show up
+- Does Tracery do this? Should I be consideration grammars from the outset or is that overkill for this particular project?
+- Anyway I'm satisfied by how relatively easy I was able to get Dating v1 up and running simply because of the (not amazing, but useful) engineering a put in initially?
+- Haven't tested it on my phone yet
+- Swiping unlike scrolling I have not included a continuous visual feedback thing, so it's just swipe or not swipe... but I would need some way of showing the user they did it other than just showing that they proceed to the next swipe?
+- But anyway, the bones are going in eh
+
 
 **Mon, 10 Feb 2025 13:50:46**  
-Introducing basic acting back in (serial) 
+Introducing basic acting back in (serial)
+
+- I don't know how it feels yet and there are many timing issues involved here
+- Should the user have to acknowledge the act (by clicking an "ok" button)?
+- Or you just give them time to read it and do it and then move on based on the timer
+- It's nice to have it back in there, and more testament to engineering that it was easy to do by changing the hierarchy a bit, what a guy, so excited by OOP right now
+- I now have enough to start thinking about switching activities, and thus to thinking significantly more about overall feel and longitudinal use?
+
 
 **Mon, 10 Feb 2025 14:31:02**  
-Journal: Dating; acting; testing 
+Journal: Dating; acting; testing
+
+
 
 **Tue, 11 Feb 2025 13:49:30**  
-Reintegrating acts/interactions and reducing OOP hierarchy 
+Reintegrating acts/interactions and reducing OOP hierarchy
+
+- Started this by getting Acts back into the main flow, so it's not a serial thing anymore but rather the acts and intertactions run in parallel on different timing (well, interactions are interaction based, the acts are random timing right now) - even viewing this on desktop showed it to be a significant improvement
+- aka Why the fuck didn't you just keep it the way it was in Chess?
+- And then in the heat of the moment I always went through and removed all the specialized subclassing of different interaction categories and replaced them with functions that generate configuration objects
+- Probably has its own flaws but feels a little bit more sensible for this moment at least
+- Could be busywork a little bit, but busywork keeps the buzzy bees buzzing
+
 
 **Tue, 11 Feb 2025 14:37:07**  
-Added in a basic typing activity 
+Added in a basic typing activity
+
+- I already had this in the very early prototype but now it has been integrated (read: kind of jammed) into the new structures of data and so on
+- I'm not all that happy about how much jiggling it took to make it work, but I'm also not totally mad at it; I think with a clear head I'll be able to understand what to do a bit
+- In essence I ran up against the desire to add some context-specific configuration elements to interactions, such as specifying the x and y of a particular tap, say... it may be I'm bumping up against some bad engineering of my own but I think there seems to be a semi-alright solution for now?
+- I'll have to test out how the typing feels but it's basically the same as I had previously so not anticipating much beyond it basically working and needing various tweaks to feel just right
+- Once I add a "scrolling and double tapping" activity I'll have a nice set of distinctive activities I could be switching between over time...
+
 
 **Tue, 11 Feb 2025 15:21:52**  
-Added activity switching 
+Added activity switching
+
+- Took a moment but it now randomly switches between different activities over time (randomly)
+- The big hitch was the typing activity which requires that you complete a whole set of taps... anyway I got there, perhaps poorly
+- So we're getting somewhere
+
 
 **Wed, 12 Feb 2025 14:08:23**  
-Added "Photos" (Instagram) 
+Added "Photos" (Instagram)
+
+- Currently a pretty inane version, but it does include relative probabilities of taps, double-taps, and scrolling
+- There's no grammar of action so you could end up double-tapping like three times in a row which doesn't make sense
+- Because this is such a strongly visual UI thing to me (I can see Instagram in my head as I interact with it), it has felt very flawed indeed and has helped to point out a bunch of stuff around how these UIs work/don't work
+- There's the action grammar thing - the idea that there are packagings/sequencings of actions (scroll, double-tap, scroll, scroll, double-tap) -- sequences that make sense in the specific context of that UI and that I semi-believe CAN be seen when you watch someone without seeing their screen...
+- The question of interactions that are location specific, the keyboard was one, but now we also have the idea of a tap that would be centred (on an image you are liking) rather than just somewhere random on the screen... perhaps random within a box?
+- The directionality of swipe/pan relative to scrolling is pretty fucking confusing... you swipe up to scroll down, so indicating that is actually pretty strange and hard. Has made me wonder if we want a kind of "fake content" display that helps make sense of it? But by god it starts to be like the Map and the Territory??? Which is funny af but scary af
+- But yeah that would open up the idea of scrolling a square into view and double-tapping it for instance... getting closer to the specialized suite I was imagining... but it's really surprisingly hard to draw a good line on this
+- So yeah, a lot to chew on. Call me Borges.
+
 
 **Fri, 14 Feb 2025 14:10:39**  
-Journal: What would it take for this game to be done? 
+Journal: What would it take for this game to be done?
+
+
 
 **Fri, 14 Feb 2025 15:47:42**  
-Journal: More visual design 
+Journal: More visual design
+
+
 
 **Fri, 14 Feb 2025 18:06:59**  
-Made a more random activity of "Phoning" 
+Made a more random activity of "Phoning"
+
+- But it feels a bit broken for exactly right now? I thought totally abandoning the more specific activities would be good, but it does lack something without them. In particular I think the "typing" activity now kind of stands out too much? Should it be removed as too clearly "doing a specific thing"?
+- And yet tapping away on the keyboard is such an "on my phone" thing it would be a bit of a shame to lose it... hmmm...
+- Maybe there need to be activities of like "now we're swiping for a while" and "now we're panning for a while" and "now we're tapping for a while"?
+- Also I will feel better when I add some of the UI stuff like the moving swipe arrow and the change to the scrolling appearance (i.e. making it less like scrolling and more generic)
+- Anyway probably a step in the right direction but too "partway" to feel really good...
+
 
 **Mon, 17 Feb 2025 13:30:03**  
-Basic "Phoning" interaction in place 
+Basic "Phoning" interaction in place
+
+- Now the game has been moved away from more cohesive activities to just picking any of the interactions and running it for a while
+- I could probably commit even harder to it than I am to gain some more specific forms of control, but I'm okay with what it is for right now at least, which is just a sequence of individual interactions unconnected with one another
+
 
 **Mon, 17 Feb 2025 13:50:44**  
-Added Look Here and Watch Box interactions 
+Added Look Here and Watch Box interactions
+
+- Nice to have these passive additions as I think it helps with the pacing a bit
+- I still have this sense that I'm going to have to do some user testing on what this feels like, but I'm trying to cling more or less purely to the idea it just "looks like" you're on your phone, not that it looks like you're doing something legible
+- Every time I demo this for someone they seem to really GET it, which is pretty awesome as an anecdotal piece of feedback
+
 
 **Mon, 17 Feb 2025 13:55:58**  
-Added the splash of colour 
+Added the splash of colour
+
+- Currently "watermelon pink"
+- I think it's nice, removes a bit of dreariness from things without going into the land of signification?
+- Can consider whether zen mode should have its own colour setup?
+
 
 **Mon, 17 Feb 2025 14:16:42**  
-Animated swipes 
+Animated swipes
+
+- Now when you swipe the arrow moves off the screen in the direction of the swipe
+- I experimented with making it relative to the swipe strength, but it felt weird and could easily be too slow
+- So now it's just constant speed once the swipe is recognized
+- Also ended up needing to make upward swipe arrows go "behind" the act text area, but fortunately it looks pretty good in the end
+- Still not sure about the weird scrolling issue that comes up on mobile, but I'll use this build to try some more since it's swipe-only (I added some more probably redundant overflow:hiddens and stuff)
+
 
 **Tue, 18 Feb 2025 15:13:07**  
-Working on dragging gesture 
+Working on dragging gesture
+
+- Running to a bunch of trouble here because it seems like the pan event starts returning 0,0 as the position suddenly in the browser's phone simulation mode... need to at least check if that happens on my phone too... if not, then I can work around it, if so... then why?
+- Otherwise there's progress here, alongside the entirely predictable bullshit of working with mobile and finnicks
+
 
 **Tue, 18 Feb 2025 15:48:53**  
-Dragging seems to be up and running 
+Dragging seems to be up and running
+
+- I can't totally recall all the bits I did, but importantly I did end up connecting up my phone to the computer so I could check out debugging info via Safari's tools in order to understand a bit better what's going wrong
+- Importantly it *does* seem to just be a bug in Chrome's phone simulation that the pan event starts sending 0,0 as a position - seems fine on the phone
+- Increased the size of the draggable and target because it was hard to see under my finger
+- Found position:fixed for canvas eliminates the ability to drag the page up in Safari
+- Messed around with all the touch-action: manipulation stuff to stop errant double-tap zooms that broke it
+- So the whole thing is potentially more robust in general as well
+- I've left this build only generating the Drag interaction just because of testing, but in theory it's mostly ready to be folded back into the whole larger thing
+- It made me realize I need better control over: the general size of the elements (especially any of the circles for dragging/targeting/typing), and for positioning elements randomly (or at all?) within the bounds of the playable area (taking account of the Acts area)
+- So there's some wiggles there
+
 
 **Tue, 18 Feb 2025 16:28:40**  
-Some basic space and size management 
+Some basic space and size management
+
+- Now there's a consistent size for looks and touchables (should really rename it since looks are not touchable... unless you... touch with your eyes... ≡ƒæÇ
+- And also added a basic function for getting back positions in the playable space for touchables/ui-bits including avoiding an existing one so we just get more sane positioning
+- Remains to think through positioning tutorial instructions relative to where on the screen things are, which sounds like a big old draggington but I'll live
+- The thing is starting to look more and more professional? Which is good
+- And I remain pretty happy with how ambiguous it is now, not that sense of it just being too much like a real activity
+- Only thing I wonder if keeping each specific interaction around for a while and then switching, rather than switching per interaction? But that's getting into quite fine detail
+
 
 **Wed, 19 Feb 2025 14:01:21**  
-Added instructions and rationalized some stuff 
+Added instructions and rationalized some stuff
+
+- Half-rationalized perhaps? I'm semi trying to fight my way to consistency amongst the different interactions so that I can handle as much as possible in the Interaction parent class but I'm not too sure how well it works versus just bespoking each one
+- For now at least they can all display the appropriate icon(s) and an instruction
+- Need to have the instructions vanish at some point - had a version working but then it didn't quite totally fit in because I need it to be persistent and the approach I took didn't work in the end oh well
+- This is largely in response to Jim trying it out overnight (in NZ daytime) and finding it utterly mystifying - let's see if this helps!
+- As an aside (did I already mention this?) I had Felix (age 6) playing this yesterday afternoon and he didn't want to stop! +1 for the efficacy and satisfactino of simple interactions with no point except to get to the next one
+
 
 **Wed, 19 Feb 2025 14:20:09**  
-Bugfixes 
+Bugfixes
+
+- Had omitted some data transfer stuff which led the whole thing to break, making my rationalization stuff feel really stupid; fixed for now
+
 
 **Wed, 19 Feb 2025 14:56:22**  
-Conversion to ratio-based positioning 
+Conversion to ratio-based positioning
+
+- It seemed so important and then while I was doing it it introduced a few issues I don't immediately know how to solve (specifically around the difference of ratios between width and height)
+- And then now that it's causing problems I cannot actually remember why it was so important to do it in the first place???
+- The problem revolves around sizes being set relative to the width exclusively (e.g. to get a circle), but then positions being relative to the width OR the height depending on the axis... this leads to: variable speed, hitbox, positioning, by axis... which sucks and annoys me
+- There's probably a typical smartguy solution I simply don't know and I'll try to figure it out
+
 
 **Wed, 19 Feb 2025 16:47:51**  
-Ratio positioning fixes 
+Ratio positioning fixes
+
+- I think I've caught all the major problems with the ratio-based positioning now?
+- I switched to distance checks by axis instead of pythagoras to avoid weirdness, and that is "good enough"
+- And then I fixed all the broken stuff
+- And as a bonus I made it so that in landscape it displays in portrait to at least make it look not totally disgusting on desktop; though I should probably CSS the canvas to the center (though I'm worried that will fuck up something else on mobile)
+- Anyway for now it's in quite nice shape?
+
 
 **Thu, 20 Feb 2025 13:26:55**  
-Tutorial disappears after you've seen each one 
+Tutorial disappears after you've seen each one
+
+- Currently you just see each one once and I rely on the sheer power of my visual design for people to remember what to do, I'll test it out with Jim amnd Mary
+- Definitely feels nice to get back to a version where you just see the shapes
+
 
 **Thu, 20 Feb 2025 13:59:25**  
-Resinstated Acts 
+Resinstated Acts
+
+- Compromised by composing them out of an action and a duration part rather than going all the way to Tracery.
+- Currently they're just relatively intuitive... the idea of microexpressions and actions
+- Currently not trying to have them be at all concrete or emotive though you could colour them with emotion
+- Writing the Zen ones will be kind of interesting
+
 
 **Thu, 20 Feb 2025 14:23:21**  
-Journal: Progress; Zen 
+Journal: Progress; Zen
+
+
 
 **Thu, 20 Feb 2025 14:51:03**  
-Why: A first cut at whying 
+Why: A first cut at whying
+
+
 
 **Fri, 21 Feb 2025 15:14:34**  
-Re-added basic sounds 
+Re-added basic sounds
+
+- Now I have the core idea of a set of sounds which can be the "standard sounds" (right now these are tones and not very satisfactory) or the "zen sounds" (right now these are gongs and... not bad but...)
+- In doing this I'm like "oh god, sound design" because I'm not necessarily good at that and it was apparent *instantly* that the choice of sounds is going to massively colour the experience. So much so that I'm less than clear I should even include sounds; except that there's a comedy to it, and the zen one in particular has a charm I kiiind of like... and really without the sound the zen one may feel a little bit thin? Is it just thin?
+- And with sound comes the idea of muting sounds... ughhhhhhh
+
 
 **Fri, 21 Feb 2025 16:01:34**  
-Added fades to instructions 
+Added fades to instructions
+
+- Still need to implement Drag which is a two stage thing, but at the very least this has a calmer vibe than it did before, a little extra breathing space
+
 
 **Mon, 24 Feb 2025 15:04:52**  
-Basic menu with standard and zen modes 
+Basic menu with standard and zen modes
+
+- A bit of an addled work session where I tried to do too many things and kind of "deengineered" stuff perhaps... it feels messier and more brittle again suddenly as I tried to do stuff like have a higher level State class to handle the menu (and eventually help) screens as well as the activity(ies)
+- Stuff around text and sound and timing for zen vs. standard represented as data and generation functions... which is a good thing in principle
+- Just a feeling of going too far down into the code and 100% not thinking about the meaning of the project - I suppose you could say I'm trying to have faith in the power of the to do list, but there's also a sense I have of making choices that I may have to undo because one way or another they don't support the central goal? We'll see.
+
 
 **Tue, 25 Feb 2025 14:39:19**  
-Menu improvements 
+Menu improvements
+
+- In the sense that I think it looks nicer with large title and then just circular icon buttons. It's a bit more vague, but more attractive and in keeping with the kind of "making your life better" vibe of the overall project
+
 
 **Tue, 25 Feb 2025 14:49:24**  
-Removed sound for Standard 
+Removed sound for Standard
+
+- I did think about whether there's a "neutral" sound I could have used, but in the end sound itself felt more like a distracting extra rather than part of the standard experience
+- In some good news, the small change I made of calling windowResized on "orientationchange" fixed my scary problem with going to landscape and back complete destroying the canvas scaling
+
 
 **Tue, 25 Feb 2025 15:07:23**  
-Put in a very placeholder Info screen 
+Put in a very placeholder Info screen
+
+- I'm concerned about all the bullshit involved in making this work responsively quite frankly - it's getting uglier the more I try to fight with it
+- Whatever the case I won't have much space to write about what the two modes mean so it'll have to pithy as all get out
+
 
 **Tue, 25 Feb 2025 15:39:57**  
-Added a bunch of new texts 
+Added a bunch of new texts
+
+- For Standard I integrated some of the "field research" I did in Tim Hortons in the weekend (I stood by the bins with my donuts watching three different people on their phones and took notes), also played with the second component a bit, branched out from timings to "and then X" ideas as a way to have an act and then punctuate it
+- Also added at least a few zen ideas and a timing function that means it stays on screen for five minutes rather than having them shift
+- The other zen option is to have a kind of "guided meditation" that unfolds over time? Could do...
+
 
 **Wed, 26 Feb 2025 14:43:17**  
-Moved the acting instructions for Watching into the box (care of Matt) 
+Moved the acting instructions for Watching into the box (care of Matt)
+
+- Matt suggested this at coffee and it's such a good idea I plowed through a *lot* of it not working with my code and breaking a lot of rules and so on to get it in there, but I'm glad I did
+- Why is the text in the box now top left aligned? Because p5 will be damned if it will center vertical align something in a box and I don't care to fight it further by writing my own line-wrapping thankyouverymuch
+- I think it feels pretty good
+- As I commit this commit I am thinking very seriously about cutting the zen mode - I'll write a journal about all that in a sec
+
 
 **Wed, 26 Feb 2025 15:01:38**  
-Journal: High praise; explainers; bye zen 
+Journal: High praise; explainers; bye zen
+
+
 
 **Wed, 26 Feb 2025 15:14:59**  
-Cut zen, wrote info 
+Cut zen, wrote info
+
+- As discussed in the journal, I'm cutting the zen mode for being too unclear, not ready, and competing/conflicting in weird ways with the main nature of this project
+- That in turn allowed me to write some info text which I've added now. I don't think it's there, but I think the tone is getting somewhere.
+
 
 **Thu, 27 Feb 2025 13:28:34**  
-Tweaks to the info statement 
+Tweaks to the info statement
+
+- Included a screenshot for that idea of a chrolonology of relevant screenshots per commit which I haven't done at all
+- Tonally for the writing I tried out detuning some of the jumping excitement of exclamation marks! I think it's probably closer.
+
 
 **Thu, 27 Feb 2025 13:46:47**  
-Journal: Back problems 
+Journal: Back problems
+
+
 
 **Thu, 27 Feb 2025 14:14:19**  
-Circuitous route to getting double-taps to position right on edge 
+Circuitous route to getting double-taps to position right on edge
+
+- It involved destroying everything I hold dear
+- That is, it felt like a total hack... but it also feels like I'm close enough to the finish line (probably I'm not really) that I didn't want to invest in further engineering to take care of the issue so I... yeah I hacked at it
+
 
 **Thu, 27 Feb 2025 14:32:23**  
-Switched to JSON for language 
+Switched to JSON for language
+
+- It's just the right thing to do and opens the door to potential translation stuff - although I'm guessing the action+duration structure may or may not really work
+- Still, virtue is its own reward?
+
 
 **Thu, 27 Feb 2025 14:34:31**  
-Removed sounds entirely 
+Removed sounds entirely
+
+- Just not a good fit - more of a distraction that something that's helpful - in a sense they emphasize the degree to which you aren't on your phone and sucker you into more of a gamestate than I want?
+
 
 **Fri, 28 Feb 2025 13:41:35**  
-Journal: Acting math; dead face 
+Journal: Acting math; dead face
+
+
 
 **Fri, 28 Feb 2025 14:25:29**  
-Worked on acting 
+Worked on acting
+
+- Complicated things a bit by having deadface + different combinatinos of actions and durations
+- Trying to weed out acts that seem weird if you get both of them in the same instruction
+- Mostly I think it's an improvement
+- Why don't I fade in the instructions for UI elements??
+
 
 **Fri, 28 Feb 2025 14:33:12**  
-Tweaking UI, notably moving acting for Watch back to top 
+Tweaking UI, notably moving acting for Watch back to top
+
+- It's a shame not to use that idea, but it was getting a bit hacky and complicated with other stuff and it was also just a strange outlier in general which was tricky. Another time.
+- Also played with fade times and discovered I was not doing that properly so now tutorial fades work much better
+
 
 **Fri, 28 Feb 2025 15:01:13**  
-The all important put your phone away 
+The all important put your phone away
 
-**Mon, 3 Mar 2025 13:25:04**  
-Added a spinner to the watch box 
 
-**Mon, 3 Mar 2025 13:33:46**  
-Mild act edits 
 
-**Mon, 3 Mar 2025 13:44:45**  
-Prevented getting the same interaction twice in a row 
+**Mon, 03 Mar 2025 13:25:04**  
+Added a spinner to the watch box
 
-**Mon, 3 Mar 2025 13:56:02**  
-Kind of done? 
+- It had felt a bit weird that you were meant to watch absolutely nothing when all the other interactions give you some "juice" or affordance to participate
+- So now a line spins in the middle of the box and you can watch that; I pretty much love it
+- Still struggling a bit with the question of the instructions for just looking at the phone, but I think that's not bad?
+- What about "Look at your phone and await further instructions"? Too much like a spy movie I guess
 
-**Mon, 3 Mar 2025 14:29:47**  
-Created info and press pages 
 
-**Mon, 3 Mar 2025 14:33:49**  
-Updated base level readme to at least point the right ways 
+**Mon, 03 Mar 2025 13:33:46**  
+Mild act edits
 
-**Mon, 3 Mar 2025 14:41:57**  
-Added a not-very-good request for portrait mode 
+- Increased frequency of vanilla acts just because I like their directness
+- Worked a bit on deadfaces trying to make them as unloaded as possible
+- More breathing, removing duplicate actions for fear of the kind of "Smile then smile inwardly" instruction that's awkward
+- It's always "the" phone instead of "your" phone now, more neutrality
+- Couple more actions, toes, phone stuff
 
-**Tue, 4 Mar 2025 09:29:12**  
-Added messaging about phones in portrait mode 
 
-**Wed, 5 Mar 2025 09:33:02**  
-Linked to info page for people who are not on their phones 
+**Mon, 03 Mar 2025 13:44:45**  
+Prevented getting the same interaction twice in a row
 
-**Wed, 5 Mar 2025 10:43:11**  
-PHones only in the press kit 
+- Briefy wondered about getting more sophisticated and remembering the previous three types and avoiding repeats of those, but I don't think that's necessary
+- Increased watch time
 
-**Wed, 5 Mar 2025 10:43:27**  
-Link in the press kit 
 
-**Thu, 6 Mar 2025 15:37:17**  
-Added Pocket Gamer article 
+**Mon, 03 Mar 2025 13:56:02**  
+Kind of done?
 
-**Fri, 7 Mar 2025 10:37:53**  
-Added article PDF 
 
-**Sat, 8 Mar 2025 11:17:45**  
-Added a link to the kottke post 
 
-**Sat, 8 Mar 2025 17:57:48**  
-Added mysterious line to try to fix this for Android+Chrome 
+**Mon, 03 Mar 2025 14:29:47**  
+Created info and press pages
 
-**Sat, 8 Mar 2025 17:58:11**  
-Fixed a typo... how was it even running?? 
+- Pretty seamlessly actually, what a guy
 
-**Sat, 8 Mar 2025 19:22:10**  
-Got what seems to be a working version without hammer? 
 
-**Sun, 9 Mar 2025 13:59:57**  
-Setting pixelDensity(1) to see if it helps lag on Chrome+Android? 
+**Mon, 03 Mar 2025 14:33:49**  
+Updated base level readme to at least point the right ways
 
-**Sun, 9 Mar 2025 15:01:34**  
-Journal: The feeling of release; community; success 
 
-**Sun, 9 Mar 2025 15:08:09**  
-Removed p5 sound given that it isn't used 
 
-**Sun, 9 Mar 2025 16:09:06**  
-Constrained drags 
+**Mon, 03 Mar 2025 14:41:57**  
+Added a not-very-good request for portrait mode
+
+- Rather than forcing the canvas to a phone size it now just won't run unless you have a portrait aspect ratio (which does mean that it won't work on desktop at all, which I think I'm okay with)
+- It has some trouble with "fatter" formats like iPads which... I don't know if I can bring myself to care about it, while knowing that I really should do
+
+
+**Tue, 04 Mar 2025 09:29:12**  
+Added messaging about phones in portrait mode
+
+
+
+**Wed, 05 Mar 2025 09:33:02**  
+Linked to info page for people who are not on their phones
+
+
+
+**Wed, 05 Mar 2025 10:43:11**  
+PHones only in the press kit
+
+
+
+**Wed, 05 Mar 2025 10:43:27**  
+Link in the press kit
+
+
+
+**Thu, 06 Mar 2025 15:37:17**  
+Added Pocket Gamer article
+
+
+
+**Fri, 07 Mar 2025 10:37:53**  
+Added article PDF
+
+
+
+**Sat, 08 Mar 2025 11:17:45**  
+Added a link to the kottke post
+
+
+
+**Sat, 08 Mar 2025 17:57:48**  
+Added mysterious line to try to fix this for Android+Chrome
+
+
+
+**Sat, 08 Mar 2025 17:58:11**  
+Fixed a typo... how was it even running??
+
+
+
+**Sat, 08 Mar 2025 19:22:10**  
+Got what seems to be a working version without hammer?
+
+- Hammer was causing trouble on Android+Chrome setups so I rewrote the thing using only native touch events
+- I worry they're significantly more janky... am I stupid to just merge this? I can always roll back right?
+
+
+**Sun, 09 Mar 2025 13:59:57**  
+Setting pixelDensity(1) to see if it helps lag on Chrome+Android?
+
+- Kind of a weird combo though if it's browser specific... so I dunnooooo
+
+
+**Sun, 09 Mar 2025 15:01:34**  
+Journal: The feeling of release; community; success
+
+
+
+**Sun, 09 Mar 2025 15:08:09**  
+Removed p5 sound given that it isn't used
+
+
+
+**Sun, 09 Mar 2025 16:09:06**  
+Constrained drags
+
+- Most of all so you can't drag the circle underneath the acting area at the top, but also so it won't go off the canvas at all
+- It's just nicer that way
+
 
 **Mon, 10 Mar 2025 08:42:40**  
-Oops. Built it without half the stuff. 
+Oops. Built it without half the stuff.
+
+
 
 **Mon, 10 Mar 2025 16:15:04**  
-Adding PDFs of "coverage" of one kind or another 
+Adding PDFs of "coverage" of one kind or another
+
+
 
 **Tue, 11 Mar 2025 09:38:50**  
-Added DanQ post 
+Added DanQ post
+
+
 
 **Wed, 12 Mar 2025 09:14:41**  
-Added Polygon article to press 
+Added Polygon article to press
+
+
 
 **Wed, 12 Mar 2025 10:19:47**  
-Added Polygon PDF 
+Added Polygon PDF
+
+
 
 **Wed, 12 Mar 2025 14:39:25**  
-J'ai ajout├⌐ l'article de RTBF Actus (en fran├ºais!) 
+J'ai ajout├⌐ l'article de RTBF Actus (en fran├ºais!)
+
+
 
 **Sun, 16 Mar 2025 16:50:07**  
-Added Web Curios 
+Added Web Curios
+
+
+
+**Mon, 24 Mar 2025 11:15:59**  
+Added Hacker News comments PDF and press entry

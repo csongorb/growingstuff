@@ -1,32 +1,70 @@
-## Booklets
+# Booklets
 
-### Shared Content
+## Shared Content
 
-#### Commit Export
+### Commit Export
 
-For **Booklet**:  
-`git log --pretty=fuller > gitbooklet.log`  
-You can also try `pretty=full`
+#### Booklet
 
-For **Gource**:  
+`git log --reverse --no-merges --format="**%cd**  %n%s%n%n%b%n" --date=format:'%a, %d %b %Y %H:%M:%S' > commit_log.qmd`
+
+Example of Commit message extracted with this line:
+**Tue, 7 Jan 2025 15:04:13**  
+Journal: Starting point 
+
+#### Gource
+
 `git log --pretty=format:user:%aN%n%ct --reverse --raw --encoding=UTF-8 --no-renames --no-show-signature > gitgource.log`
 
-### Quarto - Tutorial
+## Questions / Todos:
 
-#### General Setup
+### General
+
+- what to do with the links in the booklets? footnotes?
+- the timeline of Todo.md is interesting, almost up to the commit messages, maybe even more... how to show them better?
+- make better looking graphs for the commit overview
+- make a better looking timeline for *It is as if...*
+- displaying "done" todos in a more readable way?
+- adding assets?
+- adding code?
+- general preface area needs to be reworked
+	- infos & press infos can be much shorter
+
+### Only Phone
+
+- merging Why.md into Journal?
+
+### Only Love
+
+- (re-)formatting commit messages; Pipping has uses a lot of special characters in the commit messages, they are not looking good if just imported to markdown
+- it it right to assume in this case the journal was written in parallel and only added later (2022)? why?
+	- especially *to-do.md*, misses any commit history to it
+- press & info needs to be added
+
+### Only Work
+
+- adding screenshot to booklet?
+- finding missing images (blog posts)
+- restructuring press?
+- adding quotes from book & conference paper? or at least mentioning them in the intro? (or in the end?)
+- adding social media (images) to press about?
+
+## Quarto - Tutorial
+
+### General Setup
 
 [Get Started](https://quarto.org/docs/get-started/hello/vscode.html) on the Quarto website is a really good place to start. VS Code seems to work really well.
 
-#### Writing / Editing
+### Writing / Editing
 
 For writing / editing:  
 Work with *Preview* to show the results as an HTML page.
 
 But we can also use it to easily generate any format we might need for layout / printing.
 
-### Design / Layout
+## Design / Layout
 
-#### Message to Jesse 2025-03-10
+### Message to Jesse 2025-03-10
 
 Dear Jesse,
 
