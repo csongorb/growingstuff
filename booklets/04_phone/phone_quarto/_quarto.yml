@@ -10,9 +10,9 @@ book:
   chapters:
     - index.qmd
     - ./press_20250303/readme.qmd
-    - commits.qmd
     - why.qmd
     - journal.qmd
+    - commits.qmd
     - todo_20250110.qmd
     - todo_20250127.qmd
     - todo_20250130.qmd
