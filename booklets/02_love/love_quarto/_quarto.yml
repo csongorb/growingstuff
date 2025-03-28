@@ -1,14 +1,18 @@
 project:
   type: book
 
+number-depth: 1
+
 book:
   title: "It is as if you were making love"
   author: "Pippin Barr & Devolution"
   date: "3/17/2025"
   chapters:
     - index.qmd
+    - manifesto.qmd
     - commits.qmd
     - journal.qmd
+    - related-work.qmd
 
 bibliography: references.bib
 
@@ -19,3 +23,7 @@ format:
       - brand
   pdf:
     documentclass: scrreprt
+  docx:
+    toc: true
+    number-sections: true
+    highlight-style: github
