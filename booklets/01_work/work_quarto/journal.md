@@ -1,5 +1,3 @@
-# Journal
-
 ## Notes now that it seems releaseable (2017-07-02 19:23)
 
 Made changes as per J+M's feedback and sent it back to them and Jim felt like it was 'there'. I also tweeted an image of the About dialog and that got almost 200 favourites in about 4 hours, which I read as an endorsement of the sentiment and tone. I'm so eager for this project to be done at this point that those two things have me pretty convinced that I'll just release the project on Wednesday and try to send it to press tomorrow. As such I'll probably whip up my press kit this evening and tomorrow morning and that will be that.

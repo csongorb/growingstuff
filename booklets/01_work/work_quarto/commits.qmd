@@ -2,4 +2,408 @@
 
 ## Overview
 
+![](Commits%20over%20time%20work.png)
+
 ## Messages
+
+**Wed, 28 Dec 2016 12:57:41**  
+First commit
+
+In this initial state we basically have a jQuery UI setup with a theme
+I made in the Theme Roller, and some test code trying to figure out how
+to make checkboxes and radio buttons look the way I want (e.g. similar
+to It is as if you were playing chess)
+
+
+**Thu, 05 Jan 2017 11:50:25**  
+CSS and implementing more widgets
+
+Finally got the dot in the radio to be white
+Added various other widgets with variable success
+Discovered the ΓÇ£controlgroupΓÇ¥ which may help with setup (kind of like
+abandoning format over to jquery UI?)
+
+
+**Thu, 05 Jan 2017 12:08:35**  
+Menu generation (first attempt, buggy)
+
+
+
+**Thu, 05 Jan 2017 12:57:36**  
+Created process document from Evernote document
+
+
+
+**Thu, 05 Jan 2017 12:57:58**  
+Screenshot of early test case
+
+
+
+**Mon, 27 Mar 2017 16:04:38**  
+Got a prototype with radio buttons running
+
+
+
+**Wed, 29 Mar 2017 16:49:10**  
+Added a bunch of stuff, so much I forget. Worrying about mobile.
+
+
+
+**Wed, 29 Mar 2017 20:28:54**  
+Well at least some shit works right?
+
+
+
+**Fri, 31 Mar 2017 14:17:58**  
+Added process image
+
+
+
+**Tue, 11 Apr 2017 07:54:36**  
+Added lodash for no apparent reason?
+
+
+
+**Fri, 09 Jun 2017 11:00:57**  
+Added a bunch of CSS and code for different dialog elements
+
+
+
+**Sat, 10 Jun 2017 00:12:10**  
+Separated UI stuff, made semi progress, wrote about structure
+
+
+
+**Thu, 15 Jun 2017 10:55:16**  
+So many changes. I have been a bad person.
+
+
+
+**Thu, 15 Jun 2017 12:15:04**  
+Added new desktop images, added music selection, improved menu bar
+
+
+
+**Fri, 16 Jun 2017 15:49:09**  
+Added icons for music, desktop, game
+
+
+
+**Fri, 16 Jun 2017 18:14:48**  
+Modal darker, added basic starting workflow and states, hilarious 'not ready' sequence
+
+
+
+**Sun, 18 Jun 2017 19:03:24**  
+Updated process
+
+
+
+**Mon, 19 Jun 2017 15:53:16**  
+Added inspirational quotes, document editing
+
+
+
+**Tue, 20 Jun 2017 12:26:17**  
+Email subject/address, replaced Lorem Ipsum with technologies from Kazemi
+
+
+
+**Tue, 20 Jun 2017 17:39:15**  
+Working breakout game!
+
+
+
+**Tue, 20 Jun 2017 17:40:40**  
+Removed some old jquery crap
+
+
+
+**Wed, 21 Jun 2017 21:56:31**  
+Breakout + Breaks
+
+- Made Breakout look more like it belongs (background colour)
+- Tried to get Breakout to integrate and start/stop (failed)
+- Added a proper break timer that clears all dialogs and shows a
+progress bar
+- Created a job titler that can give random ranks
+- Gave all dialogs classes to make it easier to get hold of them
+
+
+**Sat, 24 Jun 2017 15:16:55**  
+Post MacBook Pro commit
+
+- A bunch of .DS_Store files
+- Some tiny refactoring of todos
+
+
+**Wed, 28 Jun 2017 20:43:03**  
+Testable candidate?
+
+- Added handling of window resize (non-responsive!)
+- Added more sounds
+- Added work units and promotions
+- Fixed various button behaviours and consistency
+- Like a boss
+
+
+**Wed, 28 Jun 2017 21:52:16**  
+Trying to only run when audio loaded
+
+
+
+**Wed, 28 Jun 2017 21:53:17**  
+Increased units for promotion
+
+
+
+**Thu, 29 Jun 2017 11:56:17**  
+Added process thoughts as of this version.
+
+
+
+**Sat, 01 Jul 2017 12:21:06**  
+Process update
+
+- Added correspondence file with playtesting emails from J+M
+- Added thoughts about playtest + new todos based on the results
+
+
+**Sat, 01 Jul 2017 19:31:11**  
+About dialog, inspirational texts
+
+- Added an about dialog (but not the text)
+- Fixed it so that after a break it restores the previous dialogs
+- Edited the inspirational phrases to remove over-specific ones and to be gender neutral
+- Added new desktop images that are CC0 and better
+
+
+**Sun, 02 Jul 2017 09:15:26**  
+Textual updates
+
+- Changed the technologies to have title case for more impressiveness
+- Changed typing activity to include headings that are technologies interspersed with the inspirational text
+- Fixed a bug with undefined button labels
+
+
+**Sun, 02 Jul 2017 14:49:38**  
+Updated promotion system
+
+- More serious title for positions
+- Slower promotions, more work units per promotion
+- Adjusted timing
+
+
+**Sun, 02 Jul 2017 15:31:16**  
+About text + tweaks
+
+- Wrote an about text for dialog
+- Adjusted spinner and datepicker to be a bit more reasonable
+- Process image of about dialog
+
+
+**Sun, 02 Jul 2017 21:58:48**  
+Press
+
+- Created press kit text
+- Made trailer
+- Took screenshots
+- Added base-level readme
+- Tweaked required characters for typing activities
+
+
+**Sun, 02 Jul 2017 22:00:11**  
+Added sound effect to login and ready to work dialogs
+
+
+
+**Mon, 03 Jul 2017 10:22:01**  
+Process + tweaks
+
+- Updated correspondence
+- Changed title in index.html
+- Edited About text
+- Added screenshot of how I created the titling for the trailer in textedit ha ha
+
+
+**Mon, 03 Jul 2017 10:27:13**  
+Small tweaks to press kit
+
+
+
+**Mon, 03 Jul 2017 10:30:52**  
+Added credit for Darius Kazemi's corpora!
+
+
+
+**Mon, 03 Jul 2017 10:53:38**  
+Sent press emails, oh god
+
+
+
+**Tue, 04 Jul 2017 09:50:17**  
+Bug fix, press
+
+- Added RPS press clipping
+- Fixed bug where you can select and delete text in textarea and break input
+
+
+**Tue, 04 Jul 2017 12:04:00**  
+Added homepage URL as administrator to login and about
+
+
+
+**Tue, 04 Jul 2017 14:46:49**  
+Added press and tweets
+
+
+
+**Tue, 04 Jul 2017 18:40:07**  
+More press, tweak
+
+- Added press
+- Tweaked to allow copy and select from textarea so @sonblaireau can capture the text for their patreon
+
+
+**Tue, 04 Jul 2017 18:44:31**  
+Reverted last changes since it isn't what they wanted.
+
+
+
+**Wed, 05 Jul 2017 11:24:37**  
+Promotion Blocker
+
+Could not reach CTO level, as `givePromotion` would crash.
+
+**Wed, 05 Jul 2017 09:36:04**  
+Bug fix, press kit
+
+- Disable close on escape for all dialogs
+- Added 'about me' to press kit
+
+
+**Wed, 05 Jul 2017 10:14:10**  
+Updated press 'about'
+
+
+
+**Wed, 05 Jul 2017 21:18:49**  
+Added press and tweets
+
+
+
+**Thu, 06 Jul 2017 13:53:47**  
+Added press, social media
+
+
+
+**Thu, 06 Jul 2017 14:04:15**  
+More press captures
+
+
+
+**Sun, 09 Jul 2017 13:07:57**  
+Press updates
+
+
+
+**Wed, 12 Jul 2017 09:27:47**  
+Added press
+
+
+
+**Fri, 14 Jul 2017 13:45:22**  
+More press
+
+
+
+**Wed, 19 Jul 2017 10:12:02**  
+More press, bugfix
+
+- Added more press including article from Hyperallergic
+- Correct issue with using lodash random on array index where I wasn't using -1 on length to correct for its behaviour
+
+
+**Wed, 19 Jul 2017 10:15:31**  
+Doing another commit to try to get a press article to upload...
+
+
+
+**Sun, 13 Aug 2017 19:54:19**  
+Guess I added some press
+
+
+
+**Fri, 22 Sep 2017 10:50:44**  
+Added new press
+
+
+
+**Sun, 24 Sep 2017 22:00:45**  
+Removed articles directory for space reasons
+
+
+
+**Sun, 24 Sep 2017 23:05:14**  
+Add full copy of license
+
+
+
+**Sun, 24 Sep 2017 23:18:38**  
+Remove .DS_Store files
+
+
+
+**Sun, 24 Sep 2017 23:22:00**  
+Remove more .DS_Store files
+
+
+
+**Wed, 27 Sep 2017 11:40:55**  
+Added press
+
+
+
+**Wed, 27 Sep 2017 11:46:04**  
+Trying to refer to commit https://github.com/pippinbarr/itisasifyouweredoingwork/commit/6559bb223b4e4dbb7eeb25e66edc096b27086036
+
+Commit https://github.com/pippinbarr/itisasifyouweredoingwork/commit/6559bb223b4e4dbb7eeb25e66edc096b27086036
+
+
+**Tue, 02 Jan 2018 21:24:48**  
+Press: added entry
+
+
+
+**Mon, 02 Apr 2018 18:08:59**  
+Updated Polansky link
+
+
+
+**Thu, 05 Apr 2018 12:30:02**  
+Added new Polansky article
+
+
+
+**Mon, 13 Jun 2022 11:16:46**  
+Added info dir
+
+
+
+**Wed, 20 Jul 2022 16:56:57**  
+Updated to new website standard
+
+
+
+**Wed, 20 Jul 2022 17:12:52**  
+Added press and process landing
+
+
+
+**Wed, 03 May 2023 13:40:11**  
+Fixed broken link to correspondence
+
+
+
+**Tue, 02 Apr 2024 15:50:36**  
+Added The White Pube review

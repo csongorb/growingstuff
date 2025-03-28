@@ -1,14 +1,21 @@
 project:
   type: book
 
+number-depth: 1
+
 book:
   title: "It is as if you were doing work"
   author: "Pippin Barr & Devolution"
   date: "3/17/2025"
   chapters:
     - index.qmd
+    - ./press/readme.qmd
     - commits.qmd
     - journal.qmd
+    - correspondence.qmd
+    - blog-posts.qmd
+    - to-do.qmd
+    - ./pressabout/readme.qmd
 
 bibliography: references.bib
 
@@ -19,3 +26,7 @@ format:
       - brand
   pdf:
     documentclass: scrreprt
+  docx:
+    toc: true
+    number-sections: true
+    highlight-style: github
