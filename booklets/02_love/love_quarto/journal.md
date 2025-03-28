@@ -1,6 +1,4 @@
-# Journal
-
-## 2017? -- In the beginning
+# 2017? -- In the beginning
 
 Here is the original game idea from my Things Game Ideas list.
 
@@ -8,19 +6,19 @@ Here is the original game idea from my Things Game Ideas list.
 
 ---
 
-## 2018-03-24 -- In which a bunch of early design notes from the iPad
+# 2018-03-24 -- In which a bunch of early design notes from the iPad
 
 ![](images/2018-03-24-notes.png)
 
 ---
 
-## 2018-03-30 -- In which some more design notes from the iPad
+# 2018-03-30 -- In which some more design notes from the iPad
 
 ![](images/2018-03-30-notes.png)
 
 ---
 
-## 2018-04-02 17:53 -- In which I set down the lay of the land and think about title, references, and what's needed
+# 2018-04-02 17:53 -- In which I set down the lay of the land and think about title, references, and what's needed
 
 So I have officially started this project gently over the last couple of days, gathering my strength after the kind-of-disappointment around _Tanks!?_, a game I think was very interesting but perhaps only to me.
 
@@ -52,9 +50,9 @@ So that is the current state of consideration. More news as the situation develo
 
 ---
 
-## 2018-04-09 14:15, Monday -- On CART415 discussion, input parameters, failure, Sepe's Cumshot, game flow
+# 2018-04-09 14:15, Monday -- On CART415 discussion, input parameters, failure, Sepe's Cumshot, game flow
 
-### Feedback from CART415
+## Feedback from CART415
 
 I presented the basic idea of the game to the class today including the current small set of CSS animations that can be triggered to indicate feedback, and they gave some insightful/helpful feedback:
 
@@ -68,7 +66,7 @@ I presented the basic idea of the game to the class today including the current 
 - Programming as a form of giving pleasure? (This would clearly be a completely different kind of game, but an interesting point of view)
 - How to represent loss of control at a moment of climax? (0s and 1s flying around?)
 
-### What are the input parameters?
+## What are the input parameters?
 
 One starting point when thinking about how this game will be played is to think about the player's activity. What can the player _do_ with the slider and how can that be detected and transformed into information that I can interpret?
 
@@ -78,13 +76,13 @@ One starting point when thinking about how this game will be played is to think 
   - Could you ask them to just brush the mouse over the slider without sliding? Over the handle? Or is that sufficiently foreign that it doesn't make sense (and also doesn't work with mobile)
   - Could caress the background/screen area instead - click and drag or touch... but how do you communicate that sort of thing?
 
-### On failure?
+## On failure?
 
 It came up when talking to the class - should it be possible to do poorly such that the computer is turned _off_? Or even shuts you down? On the one hand this is a better representation of sex, on the other hand it's maybe not a good fit with the idea of it being something that is ultimately meant to satisfy a human? On the other other hand, it's also true that such possibilities and experiences are part of what makes sex sexy? It's not quite so interesting/thrilling if you know it's going to work every time? On the other, other, other hand, I don't think Sepe's Cumshot goes that?
 
 ... goes to check ...
 
-## On Sepe's Cumshot
+# On Sepe's Cumshot
 
 Given this is a core reference, how does it work?
 
@@ -104,7 +102,7 @@ In which case my work will probably need to be at least a little more sophistica
 
 And does that end up meaning that the ideas around consent etc. become more problematic?
 
-## Game flow
+# Game flow
 
 - Game starts, it's the slider on a screen and nothing else
 - An instruction pops up asking for movement in a specific range (2-4) say
@@ -114,7 +112,7 @@ And does that end up meaning that the ideas around consent etc. become more prob
 - As arousal level goes down, we can remove these cues - perhaps they can be randomly collected up rather than obvious sequences? Can also tune the amount of effects (e.g. vibration rate and distance, breathing volume, pitch, rate, ramp and punch etc.)
 - At some point, if you're successful/keep following instructions, there is some kind of climactic moment (might be an opportunity to have "multiple endings" here as a funny game reference thing?) - fade to white, slider flies apart in all directions, shaking increases until the slider just vanishes, or a gradual return to calm (maybe asking you to continue gently rather than just watch a performance of orgasm?), sound crescendo (modem sound? connecting... ha ha), ... etc. These could be endings you could discover (could even explicitly list this as part of the experience - 1 of 5 endings reached to get people coming back for more - although that may not make sense in terms of the speculative aspect where you would be using it specifically as a tool...)
 
-## Interpreting input
+# Interpreting input
 
 If the user is moving the mouse up and down we can check at each moment whether they're in acceptable range of the top or bottom of the range desired (or possible if the idea is to remain still then just in range of that) - should be some basic error range.
 
@@ -126,9 +124,9 @@ Doesn't actually sound like it needs to be especially complex? Ha ha, famous las
 
 ---
 
-## 2018-04-12 11:52, Thursday -- On speech, expressive interactions, and what's next
+# 2018-04-12 11:52, Thursday -- On speech, expressive interactions, and what's next
 
-### Speech, Speech
+## Speech, Speech
 
 In the bath last night I was thinking about other ways of engaging in an erotic way with the UI and recalled that I'm constantly talking to my DART450 class about the power of sound and particularly the power of speech. Saying words feels, I think, like a way of taking ownership of them and engaging in their context more fully that, for instance, moving a mouse, clicking a button, etc.
 
@@ -161,11 +159,11 @@ The next question would be how to ask the player to say these words as part of t
 
 I suspect the former is going to be clearer and simpler and has a much more direct connection in terms of 'getting it right'. The latter is kind of nice because it's more creative/expressive to choose the words you want to say. Maybe you can combine by having it giving you options? "Say 'Start', 'Success', or 'Save' to me". Then you still choose which has an erotic quality - agency.
 
-### Expressive interactions
+## Expressive interactions
 
 Much of the game right now is based around the computer telling you precisely what to do (and how to do it), and I wonder whether there's a missed opportunity there. Sepe's Cumshot would have been more interesting if sometimes you went slow and that was more pleasurable for him than fast, for instance. This game can ask you to go slower or faster, but there's a difference between that and _choosing_ to go slower because part of the erotic nature of things is the lack of control your partner might have, or rather the idea of giving up control and experiencing a thrill _because_ of that. Maybe there can be a general "move the thing" implied, some requests made, but also freedom to just keep moving, to stop sometimes, to go slower or faster. This would be kind of nice, and it's still okay if the thing more or less inexorably moves toward a climax except, I guess, in the total absence of interaction.
 
-### What's next?
+# What's next?
 
 - It feels like a super vital thing to get going is better sound. Sound can even be the major form of output really, with a little bit of extra trembling etc.
 - It would make sense to actually create a basic arousal idea with desired ranges to just experience how that feels, then add in the idea of a rate as well.
@@ -175,9 +173,9 @@ Bam.
 
 ---
 
-## 2018-04-23 14:21, Monday -- Where are we? / Stick Shift
+# 2018-04-23 14:21, Monday -- Where are we? / Stick Shift
 
-### Where are we?
+## Where are we?
 
 It's been almost two weeks since I found the time to work on this project thanks to: life. On the other hand I did have a chance to run it by colleague and feature Miguel Sicart over the weekend, and ended up getting to see Robert Yang present on sex games and in part specifically on his game Stick Shift which is an incredibly obvious reference that I should have already included in my discussion here. In fact it shook my confidence that it's even worth making this game, but more on that shortly.
 
@@ -185,7 +183,7 @@ Overall the state of the game is that I need to just add things to it, notable t
 
 I think my current state of mind is that... well, it's still a worthwhile game to make... and I really just need to find a space of time to make it and release it and move ahead with other ideas. It's not valuable to be precious about it. Har har.
 
-### Stick Shift by Robert Yang
+## Stick Shift by Robert Yang
 
 So, Stick Shift is Robert's car-masturbation game. As he said recently as a symposium we invited him to: "If your car was gay, and you could have sex with your car, what would that look like?" Brilliant speculative question, and not unlike the question I'm asking with this current game - but still different. For one thing it positions the car as deriving true pleasure, I think? That it's a genuine partner in the experience. Whereas I'm interested in maintaining the awkwardness/strangeness of the user-interface ultimately still being a user-oriented thing - it doesn't feel pleasure and only shows enough pleasure to increase the sensation for the player/user of giving pleasure. (Naturally this is true at a particular layer of reading Robert's game too, but not - I think? - within the narrative framing of the game's world at least.)
 
@@ -201,7 +199,7 @@ Okay. Okay.
 
 (Also I'm reminded by Robert's discussion at the symposium of his artist's statement process and the relationship to the Manifesto idea I've produced in the past. Doesn't really matter what you call it obviously, but does matter that you write it. I should write one now. I will.)
 
-## 2018-05-03 14:52, Thursday -- Honestly, I'm going to get back to this
+# 2018-05-03 14:52, Thursday -- Honestly, I'm going to get back to this
 
 Now that the semester is over and the Games as Research symposium is over and A MAZE is over and although I have things in the future too... I intend to just settle down and finish this game. Perhaps I will read this entry in two months and think, ha! Yeah right. But hopefully not. It's becoming important to just finish it regardless of whether it is a heartbreaking work of staggering genius or not. Let's face, it isn't. But I still think the idea is strong and interesting.
 
@@ -217,7 +215,7 @@ I should try to write another manifesto attempt. Get my eye in. Then change over
 
 ---
 
-## 2018-05-06 18:39, Sunday -- Windows 95
+# 2018-05-06 18:39, Sunday -- Windows 95
 
 I changed over the style file and also redid the styling of the pips to look more Windows-y. At that point it also somehow seemed to make more sense to have the slider click to different settings rather than slide smoothly among them, so I also reinstated that (default) behaviour. So it's quite a different slider at this point, feels different, looks different.
 
@@ -233,11 +231,11 @@ I think it's plausible to go back into it and implement some of these ideas more
 
 ---
 
-## Wednesday, 9 May 2018, 09:48 -- Feedback and input in a Windows 95 setting
+# Wednesday, 9 May 2018, 09:48 -- Feedback and input in a Windows 95 setting
 
 I wrote the following notes in my notebook yesterday at Myriad in the afternoon. There aren't really any diagrams/drawings of notes so I'm just going to type them up in order to include them.
 
-### Let's rethink feedback?
+## Let's rethink feedback?
 
 - In the win95 context I'm not so sure the same kinds of animation effects make sense...
 
@@ -251,7 +249,7 @@ I wrote the following notes in my notebook yesterday at Myriad in the afternoon.
 
 (I note that this is a pretty limited palette of outputs, but maybe that's actually fine/good.)
 
-### Input? Anyone?
+## Input? Anyone?
 
 - Just sliding the slider on mobile feels surprisingly good
 
@@ -274,7 +272,9 @@ I wrote the following notes in my notebook yesterday at Myriad in the afternoon.
 
 ---
 
-## Monday, 4 June 2018, 7:33AM
+
+
+# Monday, 4 June 2018, 7:33AM
 
 I'm now back from a bunch of travel (Yellowknife workshop, wedding in Teano) and also back from diverting to a completely different game ([_b r 1_](https://www.pippinbarr.com/games/2018/05/23/b-r-1.html)). Obviously this _Love_ game of mine has been suffering from a lack of, well, love and attention. It's probably worth asking why...
 
@@ -304,7 +304,7 @@ OKAY. OKAY BUD. OKAY.
 
 ---
 
-## Wednesday, 6 June 2018, 7:17AM
+# Wednesday, 6 June 2018, 7:17AM
 
 Ha ha, hi. So I didn't work on the game at all yesterday, but I have now designated today as the Day of Love where I will work on it pretty much exclusively (other than a meeting with Jonathan about our game Chogue). As such, I'm trying to use my writing time in the morning to write about that game, and perhaps the best thing to do just now is to literally try to write down what I think I'm going to do today.
 
@@ -343,7 +343,7 @@ I think if you do all that you'll be doing well.
 
 ---
 
-## Wednesday, 6 June 2018, 16:37PM
+# Wednesday, 6 June 2018, 16:37PM
 
 I've now implemented a pretty substantial amount of this stuff with just the last three in that list above to go in some sense. Made some other design decisions along the way, such as ending up splitting the UI into the slider, input instruction text area, output text area (for feedback), and the progress bar. Also added modal dialogs that can be used to require text entry which is pretty fun.
 
@@ -381,7 +381,7 @@ So anyway, next up is just to populate the soundscape and see how it feels. Boom
 
 ---
 
-## Thursday, 7 June 2018, 6:55AM
+# Thursday, 7 June 2018, 6:55AM
 
 (Since it's the morning which is when I'm trying to write these days, I figure I can write a bit about the shift to Windows 95 as a possible post for my website.)
 
@@ -419,19 +419,19 @@ There is joy to be found is asking yourself how to best use the Microsoft 'ding'
 
 ---
 
-## Friday, 8 June 2018, 7:12AM
+# Friday, 8 June 2018, 7:12AM
 
 It's Friday morning and so I'm doing my morning writing. Given that I'll most likely devote the majority of my attention to this game today (aside from a workshop I have to go to), I figure the best writing task for the morning would be to look at where I'm at and figure out where this thing goes.
 
-### Where I'm at
+## Where I'm at
 
 At this point I'd hazard to say that the interface for the game is pretty much all established. We have the startup process by clicking an icon. We have a title card thing (placeholder). We have the basic application UI (windows with slider, input, output, progress, music), and we have the modal text input dialogs (which I just realised I still need to test out on mobile to know whether or not they make any sense).
 
-### When can I see you again?
+## When can I see you again?
 
 As I was typing the above I drifted into thinking about the UI element and wondered whether it could be amazing to include a 'when can I see you again?' dialog box where you choose a date and time for a next 'date'? It would remember in a cookie and if you went back it would be there waiting for you. If you went early it wouldn't be there (you could click on the icon and it would tell you to hold your horses). If you went late it would refuse to load until maybe you type in that you were sorry or something?
 
-### And now?
+## And now?
 
 The biggest thing that's missing is some attention to the actual interaction of strokes. The obvious things that need to be changed/done are
 
@@ -461,53 +461,53 @@ Yikes. So put that way it's not a tiny amount of work. But it's good work, impor
 
 ---
 
-## Tuesday, 12 June 2018, 18:23PM
+# Tuesday, 12 June 2018, 18:23PM
 
 Okay well, five days later I now have what I suppose is an alpha of the game. It has proper stroke tracking, stroke variations, speed tracking, breathing sounds, text inputs, feedback dialogs, message highlighting, a pretty decent orgasm, and so on. It is as if it were a real videogame made by me.
 
 I'm sitting down to write a few notes on the state of the project here. I think a fair bit of the design thinking behind the various additions is successfully in the commit messages, so I suppose I want to think critically about where it's at right now.
 
-### Language
+## Language
 
 The big thing that stands out to me at the moment is the tone of the language in the game. Definitely haven't nailed down the right voice or the right relationship between system and player. My writing is kind of trying a bunch of different things to see what sticks. So, for instance, something like "You are very good at this, human lover" feels way off and awkward. It draws too much attention to the falseness of the interaction and is just cringe inducing and unsexy. But something like "I love the way you slide me" feels pretty good I think - it has a vulnerability but maintains the kind of 'neutrality' of interface language/interface verbs. And there are other possibilities in there, including I suppose super neutral interface-only language? Something like "Your use of my slider element is highly successful." But here you pull _all_ the eroticism out and I think it becomes a turn off?
 
 At any rate, the main thing is to try to work out the tone and then rewrite all the pertinent language in the game. It's already in my todos, just wanted to register my feelings about it.
 
-### Orgasm
+## Orgasm
 
 I really like it! It's pretty well implemented, makes sense to me, and is kind of spectacular. There's a problem, I think, with the pacing of it. I want more of a crescendo followed by a more clearly extended ramp down so that you spend some more time at the bottom of the curve, with just the occasional twitch before it finally finishes. I guess I could hard code a final twitch if I really wanted to. Anyway in terms of signifying the event, it's good.
 
-### Time
+## Time
 
 When I played it through for Rilla I felt simultaneously like it was too slow and too fast somehow. Like I was boring her, so it should have ended faster, while also it felt like it was over all too soon. The transition from slow to fast felt a little too abrupt, not quite so much time to be playful in there (not that you're allowed to be of course, but still). Not enough time to really dwell in it and sink into the feeling of "I am pleasuring this interface".
 
-### Readme
+## Readme
 
 I think in order to keep with the _Work_ game I do need some kind of diegetic information with the game. I'm thinking a readme.txt on the desktop makes a lot of sense. With a short explanation of the experience in a dialog box. Easy to implement, just need to write the text. That kind of basic worlding is helpful.
 
-### Testing
+## Testing
 
 It's definitely a game that's going to need fairly serious testing to get it just right. It's so reliant on the player's emotional reaction and to them playing along, so trying to make sure that's possible and feels rewarded is going to be really important.
 
-### Cooldowns and dates
+## Cooldowns and dates
 
 Did think seriously about both having a cooldown before you could play again and having the option of setting up a 'date' with the interface when you would come back. I like both those ideas in general, I think they're fun and interesting (and sometimes important) ways to present interaction, but I think in this case it pulls me away from the speculative play line I've been developing for the game. If the game is software created by computers to simulate an erotic experience for the benefit of a human user, then it doesn't make sense to have the cooldown idea because it prevents the human user from perhaps repeating the experience immediately if they find it gratifying. The computer doesn't _need_ a cooldown, obviously - it's a computer, it's software. So it becomes too artificial and isn't really serving a purpose in this context.
 
 Pleasingly, the software is designed as 'software to please a human' but in the form of 'software to be pleased by a human'. Fun trick.
 
-### Here we are then
+## Here we are then
 
 Overall, this is a pretty solid version of what I'd envisaged I think. It's clearly very different to my original approach with the vibrating pulsing contemporary-looking slider, but I think it's doing what I wanted it to do. I think it _is_ a bit sexy or erotic to bring the interface all the way to orgasm.
 
 ---
 
-## Friday, 15 June 2018, 7:17AM
+# Friday, 15 June 2018, 7:17AM
 
 This morning I wanted to spend some time writing about the problem of verticality in the game, maybe as something to post more publicly, maybe not, but I guess I'll try to write it in a voice that's more public.
 
 ...
 
-### Penis problems: Designing the erotic user-interface of It is as if you were making love
+## Penis problems: Designing the erotic user-interface of It is as if you were making love
 
 My user-interface sex game _It is as if you were making love_ has reached a point where I've been able to actually show it to other people and ask them what they think. It has a opening sequence (starting the software from a faux desktop, looking at the splash screen), a core gameplay loop (moving the slider according to instructions), and a closing sequence (computational orgasm, shutdown). It all works and does, essentially, what I'd envisaged from pretty much the beginning of the project.
 
@@ -551,7 +551,7 @@ So, that's the state of affairs right now with _It is as if you were making love
 
 ---
 
-## Monday, 18 June 2018, 7:42AM
+# Monday, 18 June 2018, 7:42AM
 
 I'm writing an entry during my writing hour just to say a thing or two in continuation of the above discussion of the penis problem.
 
