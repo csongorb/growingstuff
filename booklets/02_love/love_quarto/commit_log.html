@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>commit_log</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="commit_log_files/libs/clipboard/clipboard.min.js"></script>
+<script src="commit_log_files/libs/quarto-html/quarto.js"></script>
+<script src="commit_log_files/libs/quarto-html/popper.min.js"></script>
+<script src="commit_log_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="commit_log_files/libs/quarto-html/anchor.min.js"></script>
+<link href="commit_log_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="commit_log_files/libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="commit_log_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="commit_log_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="commit_log_files/libs/bootstrap/bootstrap-c0367b04c37547644fece4185067e4a7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+
+
+
+<p>��<em></em>Wed, 28 Mar 2018 15:33:17<em></em>   Initial commit    <em></em>Wed, 28 Mar 2018 15:34:56<em></em>   Initial commit  A basic working jQuery UI slider with CSS styled to look innocuous.   <em></em>Mon, 02 Apr 2018 09:38:40<em></em>   Added shivering and pulsing tests  Started the process of adding actual output modalities to see how they feel and to test key issues like whether you can still slide the slider if it‘s animating.  Both pulsing and shivering look pretty effective (and work with sliding).   <em></em>Mon, 02 Apr 2018 16:21:23<em></em>   Added twisting, gradient BG, knob colour animation, blinking, breathing; Changed pulse and shiver to CSS animation  Tidied up a few ideas by using CSS animations more for the various effects - at the very least leads to cleaner test code while I’m working this stuff out, though it‘s clearly less flexible programmatically if I want to tweak values based on what’s happening in the game.  Currently I‘m seeing myself as just adding a bunch of basic output modalities to start to get a sense of how it feels. Already wondering whether I’m straying too close to a human-like output form (notably the breathing and blinking). Also wondering if it‘s just too over the top right now.  A good choice is always to strip back, so I may want to take that step again soon, but I do need to make sure I have a way of making the interaction actually feel like something. It still feels a little frictionless and a little undirected. It would make sense for the interface to have desires that can be communicated, rather than be a black box?  In which case literal instructions? “Slide me between 3 and 5”? That’s very sexual immediately. Things to think about. Really need to write a journal entry about this at this point.   <em></em>Mon, 02 Apr 2018 18:08:25<em></em>   .gitignore    <em></em>Mon, 09 Apr 2018 14:14:55<em></em>   Added slider pips to represent numbers  In order to have precise instructions I added a jQuery plugin that added pips and numbers to a slider. This allows the interface to specifically talk about specific locations in a precise way (rather than “top” or “bottom” or more suggestive language like “tip” and “base”)   <em></em>Mon, 09 Apr 2018 18:01:19<em></em>   Added pip highlighting for ranges of values rather than precision  Allows for a sense of selecting elements more loosely which will allow for more expressive movement on the slider and feedback.   <em></em>Thu, 12 Apr 2018 13:46:20<em></em>   + Added simple generation of upper and lower range + instructions + detection of successful number of strokes. + Added simple connection between sliding to correct next value and tone synthesis for feedback.  ? Ran into the kind of obvious issue around precision. It‘s easy to slide beyond the upper and below the lower and still catch them ’successfully‘ making the whole thing kind of loose. On the one hand, that seems good in the sense that you should have some play in the system, but on the other hand it maybe makes any given motion less meaningful. It did feel kind of unnatural, though, to try to slide very specifically between a set range.  ? I wondered whether it might be better to have a visual indication of range rather than the numbers (and maybe even not having the pips and numbering on the slider) as a way of making it feel a little more “naturalistic”? But do you just end up in the same situation? And in a way aren’t the numbers better for maintaining this idea of interface and computation as opposed to things that might be more overtly user experience-y or even organic?  ? The synthesis tone changes are quite satisfying and I can imagine that the base frequency going up with arousal will sound pretty appealing (possible even introducing harmonics now that I think about it?).   <em></em>Thu, 12 Apr 2018 13:55:15<em></em>   + Added annyang to the project with basic ability to listen for sexy words and recognise them ~ Tidied up code, added some commenting etc  ? Nothing particularly design-oriented happened on this step.   <em></em>Thu, 03 May 2018 16:31:57<em></em>   Moved to Windows 95 styling, added dialog generation from Work game to test, moved to 10 settings instead of 100, added local versions of libraries  ? There‘s a distinctly different feeling involved with the win95 aesthetic. I’m not 100% sure that it makes total sense to me yet, but it‘s approaching something that’s looking more like it has a personality and some kind of grasp on a reality. It‘s not so clear that this aesthetic ’make sense‘ for this application, but even just to position it as a proper sequel/co-existent of It is as if you were doing work feels like a valuable addition.  ? In moving back to the “only 10 settings” version of the slider the experience is of course much more janky and unsmooth... but I’m beginning to wonder whether there‘s something nice about that. It brings the computer back in a way, less evocative of a biological pleasuring and more of a computer pleasuring with ten unit settings. Makes more ’sense‘ perhaps in terms of this balancing act between wanting it to be actually sexy and wanting it to be actually computational feeling. Hard line to walk.  ? Confirmed that when a dialog pops up it doesn’t steal focus from the slider, which means it‘s possible to bring up dialogs during play without ruining the user experience. Pondering the idea of dialogs that aren’t dismissable and just represent an output for the system to indicate how things are going. They can disappear on their own over time and the player could move them out of the way. Have to consider, though, how this would play out in mobile? The dialogs may be too dominant in that scenario.  ? Continue to lose serious time in CSS styling woes with these kind of overcomplicated libraries to emulate uncomplicated UI setups. There‘s probably some delicious comical irony in there, but it doesn’t register as fun while I‘m doing it.   <em></em>Wed, 06 Jun 2018 09:54:53<em></em>   Created ’app version‘ with the UI inside a window, styled instructions/feedback, added progress bar  # App version  As per the design journal, I’ve been feeling like the slider on its own in the centre of the screen looks too isolated and too close to a potential ‘slickness’ that seems to reflect a more contemporary style and thus to evoke associations/connotations/expectations I don‘t want. By moving the slider and other UI inside a typical win95 style window, I think that assumption gets broken pretty effectively. I actually quite like the observation that the title in the menu bar gets abbreviated with an ellipsis on mobile, that has a realness to it that I appreciate.  # Styled instructions/feedback  In keeping with this aesthetic change, I gave the instructions a bevelled border in the same way as the slider, mimicking the win95 approach. Made the background of the text field grey because I feel like that indicates text that is output from the computer, that could conceivably change, but that cannot be edited? Not sure where that assumption is coming from, particularly the idea that it can indicate something dynamic. Log files maybe?  # Progress bar  Added a progress bar officially and again styled it as per win95 (they have a white background, garishly). The progress bar is kind of a nice symbol of the simplification of this game, moving away from ambiguity and the sexiness of not knowing to certainty and the sexiness of knowing. Makes my life easier and it’s good to have that symbolised right there in the UI in case I forget!   <em></em>Wed, 06 Jun 2018 11:58:45<em></em>   Shifted to a set of labeled UI elements, gave up on indicating target on slider itself  # UI change  After a conversation with Rilla about the affordances and meanings of the UI, trying to embrace win95 specificity even more by having the UI more explicitly divided into different elements/panels. So now there‘s a slider, then a ’instruction‘ text panel, then an ’output‘ text panel, then a progress bar, all labelled explicitly. I’ve tested out the basics of how it feels to watch the instruction while sliding the slider and it seems more or less okay - a bit worried it could break the flow too much, but we‘ll just have to see further down the line.   <em></em>Wed, 06 Jun 2018 15:34:37<em></em>   Added a minimum number of frames to hold selection for it to count, fiddled with target formatting  # Selection timer  Trying to avoid the situation where someone can just blinding slide the slider up and down and not care about what it wants. By setting a minimum number of frames you have to hold the slider in position, you can’t do that any more. By making that number of frames quite low, you can maintain a good fluidity of motion if you want to, and this allows for the idea of being too fast as well as too slow - it feels less plodding. Especially if I increase the number of desired strokes to a higher range so you can get into a good rhythm for a while before it requests something new. Sexy?  # Target formatting  Had a conversation with Jonathan over coffee about how to show the target. It‘s kind of painful, but you also kind of accept whatever it is. I added a border to the selected one which kind of feels better somehow, less arbitrary? Could even be that it doesn’t need anything more than an outline, not even a background colour. Hard to say, but I‘m fairly happy with it for now.   <em></em>Wed, 06 Jun 2018 16:15:48<em></em>   Did initial work to make it cross-platform, added modal ’tell me you love me‘ dialog  # Cross platform  Basically just shifted it over to a set pixel width instead of using viewport. It’s hacky but it does look pretty acceptable across platforms now and it‘s exact. I’ll have to test it on a real phone, and for some reason it‘s not centring on an iPhone SE (in emulation), but largely it seems pretty effective and it would be a huge relief not to have to fuck around with this too much.  # Modal talk dialog  Added a basic dialog box that pops up over the interface and interrupts everything (including sending a fake mouseup to the slider so you can’t keep or resume sliding) and asks you, for now, to write “I love you”, though of course I‘ll want that to be minimally procedural. I like the idea of an interrupt like this to break the flow of things, and it’s a key opportunity to have the player express themselves in a different way. It doesn‘t contribute to arousal but is rather a way to have a different form of input that commits you to the experience more...   <em></em>Thu, 07 Jun 2018 11:51:46<em></em>   Added sound effects, music and a embryonic title screen  # Sound  Took the first step of inserting a bunch of Windows 2000 sounds into the game in ’appropriate‘ situations. Some of them match the <em>Work</em> soundscape, such as the dialog-opening sound and the correct/incorrect button sounds. But there are new ones like a click for acknowledging the slider when to the right location, a notification sound for when the range shifts and/or you make progress on the progress bar, a startup sound that plays while a title card fades in.  # Music  Created some smooth-ish jazz on [Wolfram Tones](http://tones.wolfram.com/generate/) and have that playing after the title when the application itself opens. It doesn’t sound <em>quite</em> right yet, but I think it makes a decent amount of sense. I guess you could have a button/check-box that enableds or disables ‘mood music’? Might be pretty funny. Default it to off. Yeah that makes better sense. Here we are, designing in a commit message, just like MDMA taught us. Getting the music to loop clearly required installing [howler.js](https://howlerjs.com/) which seems to do a really nice job of it, god bless other people.  # Title screen  Just an idea for now, but as a consequence of having a startup sound you need an actual startup. Earlier I‘d thought about maybe presenting a desktop icon for the application the user would start up (and still could need to do this pending issues around sound triggering on iOS for example?), but for now I’m going with the way shitty Windows programs load with that awkward application card that appears in the middle of your screen while the application loads. So I‘ve got a kind of simulated version of that for now that fades in to the startup sound, then goes away when the app window pops up.   <em></em>Thu, 07 Jun 2018 14:04:10<em></em>   Added icon that launches the application, improved slider positioning and dialog positioning  # Icon  The game now starts as an icon on an empty ’desktop‘. The current icon is taken from some semi-random set of Windows 95 (ish?) icons, it’s an edited version of a human hand holding up a printer. I removed the paper coming out of the printer so now it looks like (to me) a human hand holding a computer, which is kind of a nice ‘loving’ image perhaps? I‘m not 100% happy with the aspect ratio of the image, because it’s a bit flat and doesn‘t quite read as much like an application icon as I want. I can fiddle with that.  The icon-launching version did turn out to be necessary because iOS won’t let you play sounds without some kind of input event. So now clicking the icon is the thing that starts everything rolling and from there it should just work.  # Positioning  Nothing so interesting, just making things work better.   <em></em>Thu, 07 Jun 2018 14:26:45<em></em>   Added mood music radio boxes and function    <em></em>Fri, 08 Jun 2018 16:26:02<em></em>   Added more controlled stroke ranges and strokes required, stroke timer, rearranged code, added title splash  # Controlled strokes  Now have stroke ranges and numbers set up with arrays so that it‘s easier to tune to specific stroke formats and numbers, it works well I think and makes more sense in terms of being able to control the experience the player’s having - there are particular kinds of strokes that are sexier, I think, than others (e.g. 0 to 10 is hotter than 1 to 7, say). I mean, this is getting pretty weird, but I think it‘s true. Likewise, the number of strokes required is a finesse thing - you particularly don’t want too few I think, though perhaps occasionally it‘s good.  # Stroke timer  Not doing anything with it yet, but the code now counts frames between selections so you know how long a stroke took. I was impressed by how it felt like something even to do that. And actually this makes me wonder whether actually displaying the current average stroke time or something makes some sense? Will think about it. Could be part of the feedback? Like “slow down, you‘re going at X-strokes-per-second“? This also points me at another problem which is how likely the player is to pay attention to the speed feedback. Should that be more front and centre with the slider? I feel like I’m gradually obviating the instruction panel though? Need to think about that more...  # Title splash  Wanted to have one of those retro ‘card style’ splash screens while the application loads. Ended up using Microsoft Windows 6.0 as a reference point, which has mostly text and then a clip-arty drawing of a pen (e.g. a kind of indexical sign?). Created something roughly like that but with a picture of a human heart (pixellated). Originally used a really amazing, bloody pig‘s heart an artist had taken a photo of, which looked very good, but for copyright purposes went across to a royalty free image which works well too. Definitely adds a lot to the idea of this as ’real‘ software, so I think that’s a big win. It‘s fun.  Note that in using the image of a heart as an organ I’m sort of gesturing toward this idea that the software is machine-made in some way and that they‘ve made a slight error in picking the wrong kind of heart. It’s not clear to me how far down that road I want to think (like ‘what would the AI do/design?’), but I find it amusing, and it signals something ‘weird’ is going on from the beginning. I wonder now whether the icon for the application should be the/a heart too?   <em></em>Fri, 08 Jun 2018 20:25:35<em></em>   Added tracking of stroke speed, changed to a single ”messages“ panel  # Stroke speed  Added the idea of fast/slow/indifferent and timing how long each stroke is. Track number of ’bad strokes‘. Set up to be able to give feedback ot the player based on all of this.  # Message panel  Started to feel like it was redundant having the two panels. And ’messages‘ is a really fun name for an output.   <em></em>Tue, 12 Jun 2018 12:28:40<em></em>   Added breathing sounds  # Breathing  I added breathing sounds because breathing is a pretty important part of making something feel organic, and of course because breathing is a big part of representing exertion and, in this case, arousal. It’s a way to make the game sexier outside the obvious confines of the user-interface which by its nature needs to be pretty blank. I am, however, still using a Windows sound as the breathing - it’s called ir<em>begin (presumaby played when an ifra-red thing is about to transmit, all very erotic in itself). By playing with the pitch and pacing and volume of the sound I think I‘m able to get something that sounds fairly close to breathing, which is neat. By speeding it up and pitching it up etc., there’s a definite sense (I think) of increased arousal from the interface... it takes it somewhere much more intimate and gives you some actual feedback on how things are going!   <em></em>Tue, 12 Jun 2018 13:14:53<em></em>   Added text input request with random requests and hints, added positive feedback phrases (but not implemented yet)  # Text input  Created an array of text input requests designed to help the player feel more involved by ‘expressing’ themselves in words. “I want you”, “I need you” and so on. Did some of the obvious regular expressions stuff to give the player </em>some<em> leeway with how they type it in, but also like the idea that they have to type </em>exactly_ the right response. If you get it wrong twice the system will just tell you what to time, which is also funny, like someone guiding your hand - “ugh, just do it like this!”  # Positive feedback  Added a bunch of phrases that can be popped up at random intervals to emphasise the sensuality of the experience for the computer side (or at least its feigned engagement at that level). Have to continue to think about the language here as right now it‘s <em>really</em> suggestive, like “keep sliding me”... need to think about whether I want that or whether it should be a little less obviously kind of human. Should it use metaphors and language from an operating system/piece of software? It’s a question.   <em></em>Tue, 12 Jun 2018 15:19:02<em></em>   Added feedback messages, feedback dialogs, arousal entropy  # Feedback messages and dialogs  The game now gives feedback for poor strokes (too fast, too slow) and good strokes (on target). Feedback can be either an update in the message field (including a flash so you actually check it), or a dialog box if it‘s particularly important (if you have multiple bad strokes or if you’re doing well over time). It feels like it makes a big difference to the experience and the flashing message box actually works really well for foregrounding that UI element and helping the player pay attention to it. Who knew that a tried and tested form of UI design would be effective? Eh? Not me.  I have concerns/thoughts about tuning the language, and there‘s of course tuning in terms of the frequency of the dialog based feedback in particular since it’s pretty disruptive. Though they at least don‘t interact with the stroke timer, so you don’t get penalised in that way (and notably it doesn‘t affect entropy).  # Arousal entropy  After thinking I wouldn’t have it in the game, I‘ve added the idea that arousal diminishes over time if you just leave the system alone. There’s a threshold and then it starts to decline, based on the current stroke time. So if you just stroke and then don‘t do anything, then eventually arousal drops toward zero. But there’s room for a little breather at least. Note that this conflicts with an idea I had that there would be an instruction to just leave the slider completely alone as an erotic act, but I think maybe that‘s too complex at this point, too ’hard‘ for the user to do? I’ll think about it.   <em></em>Tue, 12 Jun 2018 17:31:22<em></em>   Added the orgasm  # Consider the orgasm  Hoo boy, that was a flurry of programming. Integrated pretty much what I said I would in the todos so that the game now actually has an ending. So when you reach an arousal level of 1.0 you get a kind of ‘spasming’ of the various UI elements that ‘makes sense’ for - sounds, the slider setting, the slider target, the radio buttons, and the messages field. I think there‘s some work to be done in terms of tuning it, particularly the idea of the cooldown, which right now feels not ramped quite right - I think we need to dwell in the end of the cooldown longer, those final twitches. But overall the orgasm state is... honestly it’s pretty good.  # Consider the post-orgasm  Right now once the orgasm is done the whole app shuts down, returning to an earlier idea I had that it would be kind of ‘selfish’ about things and just leave on completion. I mostly did this because... it‘s easier right now and it feels like a complete narrative moment? So it shuts down and then there’s a “Thanks for playing!” dialog that pops up, and when you close that it‘s the shutdown sound and that’s that, no ability to restart the game or anything.  I‘m wondering about  - Do I implement the version where you can make a date to meet again? - Do I implement the idea of the UI having a cooldown between sessions so you can’t just reload it and go again? (Is this interesting in this context, or just me wanting to be Robert Yang?)  # Language  The language needs a buuuuunch of work mon fr%�re. I know that and you know that.   <em></em>Wed, 13 Jun 2018 08:03:48<em></em>   Added readme, readme icon, new app icon  # Readme  As with the Work game, I wanted to have some kind of diegetic text that explains the nature of the application and situated the speculative play aspect of things for anyone who might be interested. Again it‘s a kind of readme.txt you can check out before playing, totally optional. I mirrored the style of the Work text and I think the argument made is pretty reasonable (I mean makes sense, obviously). It was a real challenge getting a text that would be short enough to fit on a mobile screen and the iPhone 5/SE still elludes me (for the entire UI acutally, not just the readme).  # Icons  I used the standard windows “text file” icon for the readme, unsurprisingly. Once I had that in, the app icon looked a bit weird and not so nice, just because I’d repainted it rather than using a pure icon. As such I went back to original icons and found a stand-alone hand and a computer with what kind of looks like fireworks on its screen (maybe for a screensaver or something?). I combined those in Pixen to end up with a hand kind of caressing the computer which errupts in fireworks? At least that‘s what I see.   <em></em>Thu, 14 Jun 2018 10:50:39<em></em>   Built a horizontal slider prototype  # But why?  I’m in conversation with Jim and Mary (my parents) about the gendered nature of the vertical slider. Had the important experience of Mary pointing out that sliding the vertical slider has different connotations for her as a woman. I‘m trying to walk this line of the interface evoking the biological kind of sex and drawing on the eroticism of that, but without wanting to slide into the ’masturbating a male interface‘ chasm because that will really alter the experience for a lot of people and not in a way that I think is the right direction for the overall idea behind this project. Specifically, if I want it to feel like ’pleasuring a computer because pleasuring other people (or things?) is a pleasure‘ then it needs particular kinds of inflections. If it feels like a chore, or a gross patriarchical or gender normative thing, then it’s going to lose that sense.  So I‘ve made the slider horizontal as a test to run it by people. It maintains the important (I think) quality of still being a real-time and continuous form of input (unlike other UI elements) which I find important or at least interesting for the sexual nature of things. But by not being vertical it’s at least not immediately like an erect penis? I mean, who ever thought I‘d be writing about things like this in a git repository commit message? Not me. But it’s also kiiiind of amazing I haven‘t explicitly addressed this much until the ’end‘ of the project. We’ll see whether this issue ends up requiring more radical redesigns, but it‘s becoming clear that I suspect can’t just go ahead with the vertical... argh.   <em></em>Fri, 15 Jun 2018 17:23:01<em></em>   Relabelled slider to go from -5 to 0 to 5  # Relabelling  As discussed in my journal etc., the idea here is to make the slider symmetric rather than have an obvious ‘base’ and ‘tip’ that might imply penis. The symmetry perhaps makes it more like other erotic body parts and thus hopefully pulls focus from any penis-y feelings that the movement of the slider probably still evokes...   <em></em>Thu, 21 Jun 2018 21:55:05<em></em>   Created a separate data file for text, rewrote all texts, adjusted stroke difficulty, made multiple games possible  # Rewriting  Pursuant to the large amount of soul-searching about language alongside good feedback from a number of sources (notably Jim, Mary, and Jess), I tried my hand at a serious rewrite of the language in the game to set a more ‘accurate’ tone to the idea behind the software. I think it‘s significantly better, but it needs to be tested. (I won’t lie, though, I‘m feeling pretty fatigued by this at this point, so can’t guarantee I‘ve genuinely done a good job.)  # Stroke difficulty  Jim and Mary both had trouble with the fast strokes, so I made them easier - it’s not really about being ‘good at it’, just about distinguishing fast and slow.  # Multiple games  The icons don‘t vanish from the desktop and clicking the app icon resets the game so you can play again right away if you want. That kind of accessibility makes a lot more sense to me in the better-defined context of the game. It <em>is</em> in service to the human (even as they service it).   <em></em>Thu, 21 Jun 2018 21:57:17<em></em>   Put the arousal stroke back to correct value for testing.    <em></em>Fri, 22 Jun 2018 09:22:30<em></em>   Made about text smaller to fit vertically (on my phone), fixed typo, trying a ’no scroll on mobile‘ approach (position fixed for body and html)  # All about mobile  I really want the game to work well enough on mobile that somebody who chooses to play it that way doesn’t view it as utterly broken. I already know that on the iPhone SE (and lower I guess) it doesn‘t display well because the width of the display is 20px to narrow, leading to overflow. The game is still playable in that scenario, though (no vital UI is blocked), so I’m pretty tempted to not give a shit.  However it would be nice to eliminate the frustrations of the way iOS hides and shows the browser chrome depending on scrolling, so I‘m trying to kill scrolling with A Tip From The Internet. Worked in Chrome emulator, but that means exactly jack shit of course. Pushing mostly to test it.   <em></em>Fri, 22 Jun 2018 09:51:34<em></em>   Code rewrite to move selection results into a timer set off in slide to attempt to get more iOS sounds working  # Why?  iOS only allows sounds to play when they’re triggered by a user event. But I need sounds to play on a delay from user input (e.g. selection is acknolwedged a little bit after you select to create the effect of needing to be purposeful). I get the impression that iOS will play a sound triggered by a timeout that‘s set inside an event handler. It also results in kind of cleaner code I thiiiiink? Anyway, I did this to test my hypothesis and to thus get the feedback ’click‘ on iOS.   <em></em>Fri, 22 Jun 2018 15:06:43<em></em>   Wrote a better game over, moved and rewrote a bunch of code to try to force iOS to play my sounds (specifically the orgasm cacophony), added shake effect for a trembling pre-orgasm moment that quite pleasing  # Game over message  Game over is now an “arousal overflow” which I find pleasing. It’s an ending dialog based around a screenshot I found of a Windows-based buffer overrun error. It works nicely as a deadpan ending, with the app itself still orgasming all over the place in the background. When you dismiss the message, the whole thing shuts down. I actually only did it this way in order to be able to turn the sounds off! But it works well.  # Pre-orgasm  Same thing as above. iOS sound restrictions require me to induce a click from the user so that I can turn sounds/on off. Notably if I want to set the orgasm sounds in motion, there needs to be a specific user input (a click), so now there‘s a trembling pre-orgasm dialog (may need better language) that sets it off when you say ’ok‘. It feels a little bit teasing/s&amp;m in a way? Maybe it should say “May I?” Huh.   <em></em>Fri, 22 Jun 2018 16:52:11<em></em>   The game over dialog title is ’petite mort‘ (ha ha, because it’s a terminal error) and the pre-orgasm asks you to ‘push my button’ (ha ha, euphemisms)    <em></em>Fri, 22 Jun 2018 17:01:42<em></em>   Made some small adjustments to widths (and to the about text) to fit the game on the iPhone SE screen size, which is the lowest I plan to support    <em></em>Sat, 23 Jun 2018 21:37:23<em></em>   Edited about text, removed positive feedback and input dialog boxes  # About text  Just some tweaks to try to really nail the language. Think it‘s pretty much there now.  # Dialog boxes  Decided after some testing with J+M that they’re too intrusive when they show up while you‘re being successful. The positive message is just a distraction and breaks the flow and you already know you’re doing well from the other messages. The text-input dialog is a funny thing and worth exploring, but in this game it feels like it‘s too much or pulling to hard in a different direction. I’ll use it another time.   <em></em>Sun, 24 Jun 2018 18:56:05<em></em>   Fixed petite mort title for game over dialog    <em></em>Mon, 25 Jun 2018 07:35:30<em></em>   Updated README    <em></em>Mon, 25 Jun 2018 10:44:50<em></em>   Updated readme    <em></em>Mon, 25 Jun 2018 10:49:55<em></em>   Added tracking    <em></em>Fri, 10 Jun 2022 13:42:23<em></em>   Added info dir    <em></em>Tue, 19 Jul 2022 10:56:58<em></em>   Updating to new web standard    <em></em>Thu, 03 Nov 2022 15:22:46<em></em>   Fixed typo    <em></em>Thu, 19 Dec 2024 20:56:55<em></em>   remove framerate dependence    <em></em>Thu, 19 Dec 2024 23:47:21<em></em>   add epsilon to handle floating point error (I spent a ridiculous amount of time on this, exploratory code in other branch)    </p>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

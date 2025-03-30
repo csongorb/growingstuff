@@ -29,6 +29,7 @@ Journal: Starting point
 - adding code?
 - general preface area needs to be reworked
 	- infos & press infos can be much shorter
+- maybe: instead of a TOC: something similar to what Pippin usually uses as an info? "read the documentation to..."
 
 ### Only Phone
 
@@ -48,6 +49,7 @@ Journal: Starting point
 - restructuring press?
 - adding quotes from book & conference paper? or at least mentioning them in the intro? (or in the end?)
 - adding social media (images) to press about?
+- turning journal the other way around? this seems to be reversed...
 
 ## Quarto - Tutorial
 

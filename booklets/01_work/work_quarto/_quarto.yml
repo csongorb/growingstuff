@@ -26,6 +26,7 @@ format:
       - brand
   pdf:
     documentclass: scrreprt
+    toc-depth: 1
   docx:
     toc: true
     number-sections: true

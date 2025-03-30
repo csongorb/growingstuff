@@ -9,11 +9,13 @@ book:
   date: "3/17/2025"
   chapters:
     - index.qmd
+    - ./press/readme.qmd
     - manifesto.qmd
     - commits.qmd
     - journal.qmd
     - to-do.qmd
     - related-work.qmd
+    - pressabout.qmd
 
 bibliography: references.bib
 
@@ -24,6 +26,7 @@ format:
       - brand
   pdf:
     documentclass: scrreprt
+    toc-depth: 1
   docx:
     toc: true
     number-sections: true

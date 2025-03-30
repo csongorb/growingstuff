@@ -15,4 +15,6 @@
 
 # not sure about this...
 # contains the builds / rendered book files
-/_book/
+/_book/*
+!/_book/*.pdf
+!/_book/*.docx
