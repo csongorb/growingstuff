@@ -30,6 +30,13 @@ Journal: Starting point
 - general preface area needs to be reworked
 	- infos & press infos can be much shorter
 - maybe: instead of a TOC: something similar to what Pippin usually uses as an info? "read the documentation to..."
+- intro: mentioning, that all games were released unter the license...
+
+### Only Chess / Paperwork / Text Adventure
+
+- separate them into 3 small booklets? somehow I like the idea to emphasise how everything has developed... not hiding the rough edges
+	- is it not part of the idea that chess was only uploaded into a repository later?
+	- is it not ok that *Text Adventure* was not finished?
 
 ### Only Phone
 
