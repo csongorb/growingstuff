@@ -1,3 +1,11 @@
-## Booklet: As if you were designing a game
+# Booklet: As if you were designing a game
 
-tbd
+Cover:
+
+- As if you were designing a game
+- Pippin Barr x Devolution
+- A MAZE. / Berlin 2025
+
+A few quotes about journaling:
+
+- TBD
