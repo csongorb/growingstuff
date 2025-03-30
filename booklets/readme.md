@@ -5,12 +5,12 @@
 Direct links to the folders containing the PDFs & DOCXs to make life easier for everyone:
 
 - It is if you would grow a game (TBD)
-- [It is as if you were doing work](/01_work/work_quarto/_book/)
-- [It is as if you would make love](/02_love/love_quarto/_book/)
-- [It is as if you would... Chess / Paperwork / Text Adventure](/05_chessPaperworkAdventure/chessPaperworkAdventure_quarto/_book/)
-- [It is as if you were on your phone](/04_phone/phone_quarto/_book/)
+- [It is as if you were doing work](./01_work/work_quarto/_book/)
+- [It is as if you would make love](./02_love/love_quarto/_book/)
+- [It is as if you would... Chess / Paperwork / Text Adventure](./05_chessPaperworkAdventure/chessPaperworkAdventure_quarto/_book/)
+- [It is as if you were on your phone](./04_phone/phone_quarto/_book/)
 - It is as if you would... (TBD)
-- [It is as if you would design a game](/05_blank/readme.md)
+- [It is as if you would design a game](./05_blank/readme.md)
 
 ## Shared Content
 
