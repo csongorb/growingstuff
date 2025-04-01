@@ -46,3 +46,11 @@ To summarize the ideas:
 This last one troubles me. I want to have some kind of overarching thing that summarizes things, but I can't find the form. A *catalog*, a *meta* booklet. The issue feels similar to [on stage](onstage.md). Is it ok to just include this dialogue? Is it enough? Too self-referential? How to contextualize it? A *curator's note*, an *introduction* by someone else...? Who?
 
 So many questions! Didn't I started with that I see the path...!?
+
+## 2025-04-01 Pippin: Metabooklets and drawings
+
+Hey this all makes sense to me! I don't have a sense of the psychic or monetary cost of the numbers of booklets. I kind of love the idea of *too many booklets*? I like the idea of booklets of variable sizes indicating something tangible about the projects and the methodological approach. A booklet of *Text Adventure* would be tiny, and that's kind of intriguing and cool?
+
+The *Meta* booklet is crucial. I guess our dialogue has branched now because this is a dialog and it's in `booklets.md` instead of `dialogue.md`. However that works, I think it'll be a fun one. As I said on the call and maybe somewhere else... I've found this very strange meta-meta-meta conversation excellent and I'm here for your expertise in thinking about an exhibiting/revealing/exploring design process more than anything else. So your voice is, you know, pretty crucial.
+
+Also *drawings*. If I am right in sensing a mild anxiety in you about the rigidly textual nature of my approach to things... I have a lot of random drawings, I do them all the time, and we could throw them in for absolutely no reason other than to break things up. Might be "wrong" in terms of not being from the repositories? Maybe we don't care? Maybe we do? Not sure.

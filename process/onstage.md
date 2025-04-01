@@ -16,7 +16,7 @@ I have two suggestions, would be curious to hear what you think:
 Either: another talk that expands the idea, shows a new POV on the same topics. I don't have any particular names in mind, but I'm sure we can find someone great.  
 Or: we interview / discuss with each other. In general, I don't like the idea of putting myself on stage too much, I usually try to avoid that. But I see this more and more as an intersection, so it could work. And we would only have a few minutes, so if it goes wrong, it will be over fast.
 
-## 2025-03-28
+## 2025-03-28 Pippin: Years later
 
 Years later I reply.
 
@@ -33,3 +33,20 @@ So what do you think?
 - Pippin comes up with some sort of process talk and just delivers that, maybe a shorter one and you and I have some conversation afterwards to activate it a bit more and fold into a talk with the audience
 
 Do we need to sound exciting? Could we be humiliated and nobody comes? :)
+
+## 2025-04-1 Pippin: Post-meeting
+
+Just want to plant a tiny flag here after our meeting this morning and including Zoewi's (in this exact moment I'm like... is that how I should write her name??) ideas.
+
+Seems like "Pippin does the classics" is a no, which I'm good with.
+
+Feels like Pippin and Csongor chat is good, especially if we can add another voice.
+
+And my immediate thought for a structure (please edit, riff) is something like:
+
+- Pippin talks about a design exercise in relation to some stuff he does. I'm thinking in the immediate term about one version of the "variations" idea as in PONGS, BREAKSOUT, SNAKISMS, SNAKISTS, etc. all capitalized, huh. The objective would be to have audience thinking about the relationship between ideas kind of taken from elsewhere (the dictionary, say) and the language of a game... and what happens when you push them together over and over again.
+- Audience does this work with a specific example. We pick a game form (something simple, maybe prechosen to make it easier) and we pick a means to get ideas from elsewhere (a dictionary, an encyclopedia, random youtube videos, whatever) and then people call out one line game designs or something.
+- Maybe we even pick a couple and explore them further down into a design process. Obviously we're not going to actually implement anything but we can think more seriously about the implications and fit to the game language and so on.
+- And then after we've done that stuff we have a conversation about design process? Maybe Csongor and unspecified guest are involve in this thing at every step? (Mostly wrote myself in to not assign work, but I think it could be more fun if it's an everybody thing?)
+
+There's something slightly unsatisfactory about this for me right now but I can't quite name it. Maybe a bit too chaotic. Not sure. Not sure.
