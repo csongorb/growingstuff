@@ -54,3 +54,5 @@ Hey this all makes sense to me! I don't have a sense of the psychic or monetary 
 The *Meta* booklet is crucial. I guess our dialogue has branched now because this is a dialog and it's in `booklets.md` instead of `dialogue.md`. However that works, I think it'll be a fun one. As I said on the call and maybe somewhere else... I've found this very strange meta-meta-meta conversation excellent and I'm here for your expertise in thinking about an exhibiting/revealing/exploring design process more than anything else. So your voice is, you know, pretty crucial.
 
 Also *drawings*. If I am right in sensing a mild anxiety in you about the rigidly textual nature of my approach to things... I have a lot of random drawings, I do them all the time, and we could throw them in for absolutely no reason other than to break things up. Might be "wrong" in terms of not being from the repositories? Maybe we don't care? Maybe we do? Not sure.
+
+## 2025-04-03 Csongor: ❤️

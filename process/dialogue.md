@@ -413,3 +413,13 @@ Visualizing how things *work* is really intriguing though. I mean, the answer is
 Not quoting you, just a header.
 
 What do we really need to nail? I guess I'll go into some other documents to see what I can uncover and ideally help out with?
+
+## 2025-04-03: Csongor: Talking about drawings...
+
+Hey, just a quick one, a task!  
+Could you make a drawing, a visualisation of the whole *It is as if...* series? Somehow (branching?) visualising the evolution of the whole series, incl. *Chess* and *Work* and *Love* and *Paperwork* and *Text Adventure* and *Phone* and possible new games and iterations. You know, visualising ideas!
+
+Aaaand yesss, let's integrate your drawings...! But we need them in good quality. [You Insta](https://www.instagram.com/pippinbarr/) has a good amount, but it does not really allow us to download them and the quality is always restricted. Also, do you have more (maybe even design-related)?  
+Would you mind uploading them here? But remember: what is in the repository stays in the repository. Who do I tell?!
+
+See you!
