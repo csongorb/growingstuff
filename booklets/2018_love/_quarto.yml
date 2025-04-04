@@ -1,12 +1,13 @@
 project:
   type: book
 
-number-depth: 1
+number-depth: 0
 
 book:
-  title: "It is as if you were making love"
-  author: "Pippin Barr & Devolution"
-  date: "3/17/2025"
+  title: "It is as if you were making love (2018)"
+  subtitle: "The Process / Documentation / Devolution / Journey of..."
+  author: "Pippin Barr x Devolution"
+  abstract: "@ A MAZE. / Berlin 2025"
   chapters:
     - index.qmd
     - ./content/press/readme.qmd
@@ -16,8 +17,9 @@ book:
     - ./content/to-do.qmd
     - ./content/related-work.qmd
     - ./content/pressabout.qmd
+    - ./content/references.qmd
 
-bibliography: references.bib
+bibliography: ../sharedContent/references.bib
 
 format:
   html:
@@ -26,8 +28,8 @@ format:
       - brand
   pdf:
     documentclass: scrreprt
-    toc-depth: 1
+    toc: false
   docx:
-    toc: true
+    toc: false
     number-sections: true
     highlight-style: github

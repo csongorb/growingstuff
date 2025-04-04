@@ -1,7 +1,5 @@
-# Press About
+# press.md
 
 - Corbinais, Pierre. [It is as if you were making love](http://oujevipo.fr/general/6945-it-is-as-if-you-were-making-love/). Oujevipo. 29 June 2018.
 - Wilbur, Brock. [It Is As If You Were Making Love is complicated at best](https://www.rockpapershotgun.com/2018/06/30/it-is-as-if-you-were-making-love-is-complicated-at-best/#more-560929). Rock, Paper, Shotgun. 30 June 2018.
 - Fraser, Calum. [It Is As If You Were Making Love – Browser Game](https://www.freegameplanet.com/it-is-as-if-you-were-making-love-browser-game/). Free Game Planet. 1 July 2018.
-
-Read the [Press Kit](../press) for press information

@@ -11,15 +11,8 @@ _Physical intimacy is a thing of the past! Finally! But wait! Why do you feel so
 
 _It is as if you were making love_ is the sequel to [_It is as if you were doing work_](https://github.com/pippinbarr/itisasifyouweredoingwork). It is an application from a near future in which humans have lost the interest and will for physical sex with other humans. The application provides you with the experience of erotically pleasuring someone without the involvement of another human being, replacing that role with a user-interface.
 
-### Documentation
-* Read the [Process Documentation](../process) for process journal entries, to dos, and manifestos
-* Read the [Commit History](https://github.com/pippinbarr/itisasifyouweremakinglove/commits/master) for detailed, moment-to-moment insights into the development process
-* Look at the [Code Repository](https://github.com/pippinbarr/itisasifyouweremakinglove) for source code etc.
-
 ### License
 _It is as if you were making love_ is an open source game licensed under a [Creative Commons Attribution-NonCommercial 3.0 Unported License](http://creativecommons.org/licenses/by-nc/3.0/). You can obtain the source code from its [code repository](https://github.com/pippinbarr/itisasifyouweremakinglove) on GitHub.
-
-
 
 
 ## _It is as if you were making love_ Press Kit
@@ -62,8 +55,6 @@ If you want to, you can read a blow-by-blow history of the game's development by
 
 _It is as if you were making love_ was written in JavaScript and HTML using [jQuery](http://jquery.com/) and [jQueryUI](http://jqueryui.com/) for its basic functionality and user-interface elements, [jQuery UI Touch Punch](http://touchpunch.furf.com/) to help it work on mobile devices, and [Howler.js](https://howlerjs.com/) for some audio handling.
 
-_It is as if you were making love_ is an open source game licensed under a [Creative Commons Attribution-NonCommercial 3.0 Unported License](http://creativecommons.org/licenses/by-nc/3.0/). You can obtain the source code from its [code repository](https://github.com/pippinbarr/itisasifyouweremakinglove) on GitHub.
-
 ### Features
 
 - Horizontal slider!
@@ -81,12 +72,6 @@ _It is as if you were making love_ is an open source game licensed under a [Crea
 
 ![Desktop](images/desktop.png) ![About](images/about.png) ![Title](images/title.png) ![Play screen](images/play.png) ![Slow Down](images/slow-down.png) ![Petite Mort](images/petite-mort.png)
 
-### Additional Links
-
-- [Blog posts about _It is as if you were making love_](https://www.pippinbarr.com/search.html?q=%22It%20is%20as%20if%20you%20were%20making%20love%22)
-- [Process documentation of _It is as if you were making love_](https://github.com/pippinbarr/itisasifyouweremakinglove/wiki)
-- [Commit history of _It is as if you were making love_](https://github.com/pippinbarr/itisasifyouweremakinglove/commits/master)
-- [It is as if you were doing work](http://www.pippinbarr.com/games/2017/07/03/it-is-as-if-you-were-doing-work.html) (the previous game in the series)
 
 ### Credits
 

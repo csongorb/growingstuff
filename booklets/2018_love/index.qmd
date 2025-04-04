@@ -1,4 +1,62 @@
-# Preface {.unnumbered}
+# readme.md {.unnumbered}
 
-- see *Phone*
+This is the code and process repository for the game *It is as if you were making love*. See the [information page](info/) for more detail.
+
+an for printing adjusted version of...
+
+
+## Documentation
+
+* Read the [Process Documentation](../process) for process journal entries, to dos, and manifestos
+* Read the [Commit History](https://github.com/pippinbarr/itisasifyouweremakinglove/commits/master) for detailed, moment-to-moment insights into the development process
+* Look at the [Code Repository](https://github.com/pippinbarr/itisasifyouweremakinglove) for source code etc.
+
+
+Read the [Press Kit](../press) for press information
+
+
+Open the original Repository for the "real" experience.
+
+
+
+
+
+
+
 - should we mention that the journal was only added to the repository in 2022?
+
+
+### Additional Links
+
+- [Blog posts about _It is as if you were making love_](https://www.pippinbarr.com/search.html?q=%22It%20is%20as%20if%20you%20were%20making%20love%22)
+- [Process documentation of _It is as if you were making love_](https://github.com/pippinbarr/itisasifyouweremakinglove/wiki)
+- [Commit history of _It is as if you were making love_](https://github.com/pippinbarr/itisasifyouweremakinglove/commits/master)
+- [It is as if you were doing work](http://www.pippinbarr.com/games/2017/07/03/it-is-as-if-you-were-doing-work.html) (the previous game in the series)
+
+
+
+
+This is...
+
+Ideas / Questions:
+
+- is it important to assume that somebody checks this without any context?
+- intro into Devolution
+- intro into *Pippin Barr x Devolution*
+- clarifying what type of documents this are (?)
+- (visual) overview on *It is as if...*
+- link to the repository (QR-Code?)
+- copyright / year / imprint?
+
+
+![](../sharedContent/timeline_itisasif.png)
+
+> 100% a series yes! There are some bits in there where I feel like they end up being a bit about distinct things. I think of *Love* and *Work* as both existing in specific fictional universes where they're "needed" as a kind of therapeutic intervention into a problem. *Chess* didn't really come from that place, was more of a "wouldn't it be funny if...". And then *Phone* is unclear to me right now... I think probably giving it some Speculative Play scaffolding does make a bit of sense, but it feels reactive to exactly *now* rather than the future? So I'm not even sure it works out as speculative at all...^[@barr_stuff_2023]
+
+
+
+Pippin Barr  
+Editor: Csongor Baranyai  
+Additional Editors: Levent Cracea  
+Agustina ...
+
