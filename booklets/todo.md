@@ -1,0 +1,43 @@
+# Booklet related todos
+
+## General
+
+- what to do with the links in the booklets? footnotes?
+- the timeline of Todo.md is interesting, almost up to the commit messages, maybe even more... how to show them better?
+- make better looking graphs for the commit overview
+- make a better looking timeline for *It is as if...*
+- displaying "done" todos in a more readable way?
+- adding assets?
+- adding code?
+- general preface area needs to be reworked
+	- infos & press infos can be much shorter
+- maybe: instead of a TOC: something similar to what Pippin usually uses as an info? "read the documentation to..."
+- intro: mentioning, that all games were released unter the license...
+
+## Only Chess / Paperwork / Text Adventure
+
+- separate them into 3 small booklets? somehow I like the idea to emphasise how everything has developed... not hiding the rough edges
+	- is it not part of the idea that chess was only uploaded into a repository later?
+	- is it not ok that *Text Adventure* was not finished?
+
+## Only Phone
+
+- ~~merging Why.md into Journal?~~ No!
+
+## Only Love
+
+- (re-)formatting commit messages; Pipping has uses a lot of special characters in the commit messages, they are not looking good if just imported to markdown
+- it it right to assume in this case the journal was written in parallel and only added later (2022)? why?
+	- especially *to-do.md*, misses any commit history to it
+- press & info needs to be added
+- todos were maintained through a wiki: adding different versions from there!
+- file structure with game & data?
+
+## Only Work
+
+- adding screenshot to booklet?
+- finding missing images (blog posts)
+- restructuring press?
+- adding quotes from book & conference paper? or at least mentioning them in the intro? (or in the end?)
+- adding social media (images) to press about?
+- turning journal the other way around? this seems to be reversed...
