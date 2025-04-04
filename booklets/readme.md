@@ -4,8 +4,7 @@
 
 Direct links to the folders containing the PDFs & DOCXs to make life easier for everyone:
 
-booklets/01_work/work_quarto/_book
-
+**=== links are broken! tbd! ===**
 
 - It is if you would grow a game (TBD)
 - [It is as if you were doing work](01_work/work_quarto/_book/)

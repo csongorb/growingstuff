@@ -1,0 +1,4 @@
+# Preface {.unnumbered}
+
+- see *Phone*
+- mentioning that to-dos were keept in the readme file for a long time? maybe not thaaat interesting...
