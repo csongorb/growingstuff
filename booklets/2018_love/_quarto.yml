@@ -9,13 +9,13 @@ book:
   date: "3/17/2025"
   chapters:
     - index.qmd
-    - ./press/readme.qmd
-    - manifesto.qmd
-    - commits.qmd
-    - journal.qmd
-    - to-do.qmd
-    - related-work.qmd
-    - pressabout.qmd
+    - ./content/press/readme.qmd
+    - ./content/manifesto.qmd
+    - ./content/commits.qmd
+    - ./content/journal.qmd
+    - ./content/to-do.qmd
+    - ./content/related-work.qmd
+    - ./content/pressabout.qmd
 
 bibliography: references.bib
 
