@@ -1,62 +1,61 @@
 # readme.md {.unnumbered}
 
-This is the code and process repository for the game *It is as if you were making love*. See the [information page](info/) for more detail.
+This is the process documentation for the game *It is as if you were making love* by Pippin Barr. It was produced for the exhibition *Pippin Barr x Devolution: ???* at *A MAZE. / Berlin 2025*.
 
-an for printing adjusted version of...
+The document is edited for printing, but stays as close to the original spirit as possible. Archiving is the main purpose, data kept "as is" and not updated.
 
-
-## Documentation
-
+* See the [information page](info/) for more detail.
+* Read the [Press Kit](../press) for press information
 * Read the [Process Documentation](../process) for process journal entries, to dos, and manifestos
+- [Blog posts about _It is as if you were making love_](https://www.pippinbarr.com/search.html?q=%22It%20is%20as%20if%20you%20were%20making%20love%22)
+    - NOT working anymore!
 * Read the [Commit History](https://github.com/pippinbarr/itisasifyouweremakinglove/commits/master) for detailed, moment-to-moment insights into the development process
 * Look at the [Code Repository](https://github.com/pippinbarr/itisasifyouweremakinglove) for source code etc.
 
-
-Read the [Press Kit](../press) for press information
-
-
 Open the original Repository for the "real" experience.
 
+The original journal was kept in a wiki during the development process and added to the repository later (2022).
 
-
-
-
-
-
-- should we mention that the journal was only added to the repository in 2022?
-
+- [Process documentation of _It is as if you were making love_](https://github.com/pippinbarr/itisasifyouweremakinglove/wiki)
 
 ### Additional Links
 
-- [Blog posts about _It is as if you were making love_](https://www.pippinbarr.com/search.html?q=%22It%20is%20as%20if%20you%20were%20making%20love%22)
-- [Process documentation of _It is as if you were making love_](https://github.com/pippinbarr/itisasifyouweremakinglove/wiki)
-- [Commit history of _It is as if you were making love_](https://github.com/pippinbarr/itisasifyouweremakinglove/commits/master)
 - [It is as if you were doing work](http://www.pippinbarr.com/games/2017/07/03/it-is-as-if-you-were-doing-work.html) (the previous game in the series)
 
+- clarifying what type of documents this are (?)
 
-
-
-This is...
-
-Ideas / Questions:
+## Pippin Barr x Devolution
 
 - is it important to assume that somebody checks this without any context?
 - intro into Devolution
 - intro into *Pippin Barr x Devolution*
-- clarifying what type of documents this are (?)
+
 - (visual) overview on *It is as if...*
 - link to the repository (QR-Code?)
-- copyright / year / imprint?
 
+
+## It is as if...
 
 ![](../sharedContent/timeline_itisasif.png)
 
 > 100% a series yes! There are some bits in there where I feel like they end up being a bit about distinct things. I think of *Love* and *Work* as both existing in specific fictional universes where they're "needed" as a kind of therapeutic intervention into a problem. *Chess* didn't really come from that place, was more of a "wouldn't it be funny if...". And then *Phone* is unclear to me right now... I think probably giving it some Speculative Play scaffolding does make a bit of sense, but it feels reactive to exactly *now* rather than the future? So I'm not even sure it works out as speculative at all...^[@barr_stuff_2023]
 
+Pippin Barr has in parallel invented / worked on *Games as Research* 
+and has focused on the idea of *speculative play*.
 
+## Imprint
 
 Pippin Barr  
 Editor: Csongor Baranyai  
-Additional Editors: Levent Cracea  
-Agustina ...
+Additional Editors:  
+Levent  
+Agustina  
+
+2025
+
+### License
+
+Original project (game and project documentation) was released by Pippin Barr under...
+
+_It is as if you were making love_ is an open source game licensed under a [Creative Commons Attribution-NonCommercial 3.0 Unported License](http://creativecommons.org/licenses/by-nc/3.0/). You can obtain the source code from its [code repository](https://github.com/pippinbarr/itisasifyouweremakinglove) on GitHub.
 
