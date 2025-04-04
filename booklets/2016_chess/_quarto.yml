@@ -4,31 +4,17 @@ project:
 number-depth: 1
 
 book:
-  title: "It is as if you were..."
+  title: "It is as if you were playing chess"
   author: "Pippin Barr & Devolution"
   date: "3/17/2025"
   chapters:
     - index.qmd
-    - part: "It is as if you were playing chess"
-      chapters: 
-        - ./01_chess/info.qmd
-        - ./01_chess/press.qmd
-        - ./01_chess/commits.qmd
-        - ./01_chess/journal.qmd
-        - ./01_chess/blog-posts.qmd
-        - ./01_chess/pressabout.qmd
-    - part: "It is as if you were doing paperwork"
-      chapters: 
-        - ./02_paperwork/info.qmd
-        - ./02_paperwork/commits.qmd
-        - ./02_paperwork/process-journal.qmd
-    - part: "It is as if you were playing a text adventure"
-      chapters: 
-        - ./03_adventure/info.qmd
-        - ./03_adventure/commits.qmd
-        - ./03_adventure/journal.qmd
-        - ./03_adventure/to-do.qmd
-
+    - ./content/info.qmd
+    - ./content/press.qmd
+    - ./content/commits.qmd
+    - ./content/journal.qmd
+    - ./content/blog-posts.qmd
+    - ./content/pressabout.qmd
 
 bibliography: references.bib
 
