@@ -5,7 +5,8 @@ number-depth: 0
 
 book:
   title: "It is as if you were growing stuff"
-  author: "Pippin Barr & Devolution"
+  subtitle: "asdf"
+  author: "Pippin Barr x Devolution"
   date: "3/17/2025"
   chapters:
     - index.qmd

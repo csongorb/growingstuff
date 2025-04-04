@@ -1,5 +1,421 @@
-# Commits
+# Commit Messages
 
 ## Overview
 
 ## Messages
+
+**Wed, 08 Jan 2025 14:46:04 - csongorb**   
+I guess we need to start it somewhere...
+
+
+
+**Wed, 08 Jan 2025 12:38:30 - pippinbarr**   
+Dialogue: Pippin
+
+
+
+**Thu, 09 Jan 2025 16:28:40 - csongorb**   
+Running...
+
+
+
+**Fri, 10 Jan 2025 10:00:36 - pippinbarr**   
+Dialogue: Pippin replies too soon
+
+
+
+**Fri, 10 Jan 2025 16:57:59 - csongorb**   
+Sorting thoughts.
+
+
+
+**Fri, 10 Jan 2025 16:59:36 - csongorb**   
+Is this allowed?
+
+
+
+**Fri, 10 Jan 2025 17:19:58 - csongorb**   
+Parallel thinking.
+
+
+
+**Fri, 10 Jan 2025 17:32:56 - csongorb**   
+Why is this bothering me so much?
+
+
+
+**Mon, 13 Jan 2025 14:45:44 - pippinbarr**   
+Pippin: Great minds
+
+
+
+**Tue, 21 Jan 2025 07:20:31 - csongorb**   
+Serial?
+
+
+
+**Fri, 24 Jan 2025 22:11:32 - csongorb**   
+Devolutionizer?
+
+
+
+**Sat, 01 Feb 2025 16:52:50 - csongorb**   
+Two in one.
+
+
+
+**Thu, 13 Feb 2025 16:58:11 - pippinbarr**   
+Pippin: ≡ƒÿ¼
+
+
+
+**Tue, 18 Feb 2025 16:33:50 - pippinbarr**   
+Pippin: ≡ƒÆ¬
+
+
+
+**Mon, 03 Mar 2025 12:27:49 - csongorb**   
+Open World.
+
+
+
+**Wed, 05 Mar 2025 23:23:50 - csongorb**   
+Explosion!
+
+
+
+**Thu, 06 Mar 2025 13:23:59 - pippinbarr**   
+Pippin: ≡ƒñí
+
+
+
+**Mon, 10 Mar 2025 14:32:09 - csongorb**   
+Letter to Jesse regarding style & printing & booklets.
+
+
+
+**Sun, 16 Mar 2025 20:09:11 - csongorb**   
+ΓÿÇ∩╕Å
+
+
+
+**Mon, 17 Mar 2025 14:30:02 - csongorb**   
+Adding booklet-test with Quarto, incl. Journal. Tutorial is missing.
+
+
+
+**Mon, 17 Mar 2025 14:43:16 - csongorb**   
+Added quick Quarto Tutorial.
+
+
+
+**Mon, 17 Mar 2025 15:52:46 - csongorb**   
+Added git-export info, so that we have the same style for all booklets.
+
+
+
+**Mon, 17 Mar 2025 19:40:33 - AGooseB**   
+added commit_log.qmd
+
+
+
+**Mon, 17 Mar 2025 19:55:51 - csongorb**   
+Merged commit messages into the right chapter. Looks better. Still not finished.
+
+
+
+**Thu, 20 Mar 2025 17:36:36 - csongorb**   
+Testing style of commit messages (booklet).
+
+
+
+**Thu, 20 Mar 2025 17:37:04 - csongorb**   
+Adding images to Journal (Phone).
+
+
+
+**Thu, 20 Mar 2025 17:48:43 - csongorb**   
+Messing around with gitignore for Quarto... not exactly sure. We'll see.
+
+
+
+**Thu, 20 Mar 2025 18:02:10 - csongorb**   
+Using a more proper reference for this project.
+
+
+
+**Thu, 20 Mar 2025 18:02:31 - csongorb**   
+Deleting not needed Quarto cover image.
+
+
+
+**Thu, 20 Mar 2025 18:05:44 - csongorb**   
+Added Quarto project for "Work".
+
+Happy to see that you can have several Quarto projects in the same repository...
+
+
+**Thu, 20 Mar 2025 18:09:34 - csongorb**   
+Added Quarto project for "Love".
+
+
+
+**Thu, 20 Mar 2025 18:12:53 - csongorb**   
+Added Quarto project for "Blank".
+
+
+
+**Thu, 20 Mar 2025 18:14:29 - csongorb**   
+Added Quarto project for "Growing Stuff" (very much a working title).
+
+
+
+**Sat, 22 Mar 2025 10:54:19 - csongorb**   
+Added first exhibition overview.
+
+
+
+**Sat, 22 Mar 2025 14:19:46 - csongorb**   
+Tiny clarifications, as I need to send this to Jesse.
+
+
+
+**Sat, 22 Mar 2025 16:03:51 - csongorb**   
+Phone booklet: added commit overview.
+
+- more details? better design for sure!
+
+
+**Sat, 22 Mar 2025 16:04:40 - csongorb**   
+Added original Why.md.
+
+- merging it into Journal?
+
+
+**Sat, 22 Mar 2025 16:52:47 - csongorb**   
+Added some original todo files. Updated booklet todos (inspired by?).
+
+
+
+**Sat, 22 Mar 2025 18:00:30 - csongorb**   
+Phone booklet: added original press release.
+
+
+
+**Mon, 24 Mar 2025 16:42:24 - AGooseB**   
+Added instructions for Git log extract
+
+
+
+**Thu, 27 Mar 2025 16:03:20 - AGooseB**   
+added commit log for work booklet
+
+
+
+**Thu, 27 Mar 2025 16:06:04 - AGooseB**   
+added commit log booklet love
+
+
+
+**Fri, 28 Mar 2025 11:41:19 - AGooseB**   
+Updated commit_log.qmd work
+
+
+
+**Fri, 28 Mar 2025 11:47:54 - AGooseB**   
+Updated commit_log.qmd love
+
+
+
+**Fri, 28 Mar 2025 11:56:30 - AGooseB**   
+Updated commit_log.qmd phone
+
+
+
+**Fri, 28 Mar 2025 12:06:57 - AGooseB**   
+added commits over time .pngs
+
+
+
+**Fri, 28 Mar 2025 12:24:22 - AGooseB**   
+added to-do.md of work and love
+
+
+
+**Fri, 28 Mar 2025 12:51:20 - csongorb**   
+Merged commit-logs into the booklet (Phone).
+
+
+
+**Fri, 28 Mar 2025 14:12:14 - csongorb**   
+Big update on Phone, solid structure, not finished graphs, not finished intro, etc.
+
+
+
+**Fri, 28 Mar 2025 15:59:19 - csongorb**   
+Love: Added Journal to booklet (incl. original file).
+
+
+
+**Fri, 28 Mar 2025 16:07:19 - csongorb**   
+Added manifesto & related work (Love); some general booklet settings.
+
+
+
+**Fri, 28 Mar 2025 16:18:54 - csongorb**   
+Love: added commits (formatting still TBD).
+
+
+
+**Fri, 28 Mar 2025 17:07:11 - csongorb**   
+Love booklet: added to-do (history missing).
+
+
+
+**Fri, 28 Mar 2025 19:57:09 - csongorb**   
+Work: finally, first version of the booklet, yeah. Far from finished.
+
+
+
+**Fri, 28 Mar 2025 16:42:51 - pippinbarr**   
+Dialogue/Onstage/Booklets: Pippin Strikes Back
+
+
+
+**Sun, 30 Mar 2025 21:20:21 - csongorb**   
+Added info to phone
+
+- synchronizing the structures between booklets
+- beginning of the booklets still not clear
+
+
+**Sun, 30 Mar 2025 21:22:03 - csongorb**   
+Added some first rough versions of the 3 main booklets (PDF & docx).
+
+
+
+**Sun, 30 Mar 2025 22:49:54 - csongorb**   
+Added booklet for Chess / Paperwork / Text Adventure.
+
+- Not sure if having them all in one booklet is a gooooood idea. Maybe a separation would be good? But some of them would be really small...
+- Finally, with knowing how Quarto works: much better (less chaotic) file structure!
+
+
+**Sun, 30 Mar 2025 22:57:54 - csongorb**   
+Update on the blank booklet (deleted Quarto project, added some ideas).
+
+
+
+**Sun, 30 Mar 2025 23:05:15 - csongorb**   
+Added direct links to the PDFs & docx-s to make life easier.
+
+
+
+**Sun, 30 Mar 2025 23:07:32 - csongorb**   
+Broken links, this time?
+
+
+
+**Sun, 30 Mar 2025 23:09:12 - csongorb**   
+This time?
+
+
+
+**Sun, 30 Mar 2025 23:10:29 - csongorb**   
+Whaaaaat?
+
+
+
+**Mon, 31 Mar 2025 14:34:45 - csongorb**   
+Typo.
+
+
+
+**Mon, 31 Mar 2025 19:57:48 - csongorb**   
+Lost an index.qmd file.
+
+
+
+**Mon, 31 Mar 2025 19:58:46 - csongorb**   
+Update regarding the workInProgress booklet. Brainstorming.
+
+
+
+**Mon, 31 Mar 2025 20:26:24 - csongorb**   
+Tiny change to make PDF rendering work.
+
+
+
+**Mon, 31 Mar 2025 21:38:55 - csongorb**   
+More ideas on the blank booklet.
+
+
+
+**Mon, 31 Mar 2025 21:40:18 - csongorb**   
+The Stuff Booklets Are Made Of
+
+
+
+**Tue, 01 Apr 2025 15:23:05 - pippinbarr**   
+Pippin talks Booklets and Onstage
+
+
+
+**Thu, 03 Apr 2025 18:34:39 - csongorb**   
+Love!
+
+
+
+**Fri, 04 Apr 2025 11:13:42 - csongorb**   
+BIG restructuring of the booklet files, now that I have a better understanding how all this works.
+
+Unfortunately still not finished, might be chaotic for a while.
+
+
+**Fri, 04 Apr 2025 11:34:54 - csongorb**   
+Deleting "work in progress" booklet, not needed anymore.
+
+
+
+**Fri, 04 Apr 2025 12:35:53 - csongorb**   
+Chess & Paperwork & Text Adventure booklets are all working now.
+
+
+
+**Fri, 04 Apr 2025 12:51:36 - Agus**   
+added chess commit_log.qmd
+
+
+
+**Fri, 04 Apr 2025 12:52:37 - csongorb**   
+Added Quarto structure for Growing Stuff.
+
+
+
+**Fri, 04 Apr 2025 12:54:51 - Agus**   
+added commit_log.qmd text adventure
+
+
+
+**Fri, 04 Apr 2025 12:56:28 - Agus**   
+nevermind that was for paperwork oopsie
+
+
+
+**Fri, 04 Apr 2025 12:58:20 - Agus**   
+added commit_log.qmg text adventure
+
+
+
+**Fri, 04 Apr 2025 12:59:47 - csongorb**   
+Added content folder for Love.
+
+
+
+**Fri, 04 Apr 2025 13:08:54 - Agus**   
+created commits.qmd for chess
+
+
+
+**Fri, 04 Apr 2025 13:38:58 - Agus**   
+added commit_log for meta
