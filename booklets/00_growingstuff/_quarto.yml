@@ -11,9 +11,11 @@ book:
   chapters:
     - index.qmd
     - ./content/commits.qmd
-    - ./content/journal.qmd
+    - ./content/dialogue.qmd
+    - ./content/booklets.qmd
+    - ./content/onstage.qmd
 
-bibliography: references.bib
+bibliography: ../sharedContent/references.bib
 
 format:
   html:
@@ -22,8 +24,8 @@ format:
       - brand
   pdf:
     documentclass: scrreprt
-    toc-depth: 1
+    toc: false
   docx:
-    toc: true
+    toc: false
     number-sections: true
     highlight-style: github
