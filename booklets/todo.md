@@ -14,6 +14,12 @@
 - maybe: instead of a TOC: something similar to what Pippin usually uses as an info? "read the documentation to..."
 - intro: mentioning, that all games were released unter the license...
 
+## Only Meta
+
+- how to show that we needed to print before the content is finished?
+- should we add screenshots of the Miro board?
+- should we add the dialogue of the Devolutionizer?
+
 ## Only Chess / Paperwork / Text Adventure
 
 - separate them into 3 small booklets? somehow I like the idea to emphasise how everything has developed... not hiding the rough edges
