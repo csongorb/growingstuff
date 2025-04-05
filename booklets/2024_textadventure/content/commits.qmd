@@ -1,3 +1,76 @@
-## Commits
+## Commit Messages
 
-TBD
+**Mon, 26 Aug 2024 21:05:15**  
+Initial commit
+
+
+
+**Mon, 26 Aug 2024 21:34:39**  
+Initial setup
+
+- Very early html
+- Miniature questions like "should there be a menu bar?"
+- Looked at Kicker (and thus Inform online) for a basic understanding, but didn't really implement any of that particularly
+
+
+**Sun, 08 Sep 2024 15:28:38**  
+A very basic framework is in place now
+
+- Two commands, one of which yields point
+- A history that will build over time (have to pay attention to it scrolling off the bottom)
+- A feeling that this may not be a good solution, just going for total randomness, because it would be kind of hard to tell any kind of a story?
+- A feeling I shouldn't overthink this... generating commands with a tracery grammar might be the smartest approach?
+- But on the other hand do we want some level of awareness of what's actually around??
+- Do I end up secretly creating some part of an actual Inform thing if I do this? Kind of, but also not... maybe I can make a data structure that can generate meaningful and consistent stuff? Kind of like that...
+
+
+**Sun, 08 Sep 2024 15:40:22**  
+Journal: The Basics
+
+
+
+**Sun, 08 Sep 2024 22:02:03**  
+Very basic "procedural" idea working
+
+- But also not working at all really because it blossoms out into extreme complexity the more I think about it?
+- Having my doubts about this approach. I think it's doable but things like picking the probablility of specific commands seems daunting having put this little thing together
+- BUT I will say that it's for sure really quite satisfying feeling like it works and that there's this (fake-ass) sense of switching locations, picking something up, etc. I think there's something to this overall
+
+
+**Sun, 08 Sep 2024 22:18:11**  
+Journal: Further thoughts
+
+
+
+**Sun, 08 Sep 2024 22:20:55**  
+Fixed info/
+
+- Embarassingly it was still the Chesses 3 information
+
+
+**Mon, 16 Sep 2024 20:51:05**  
+Journal: Reminding myself of where I am
+
+
+
+**Mon, 16 Sep 2024 21:22:25**  
+Moving over to the linear story
+
+- Reworked the data and the engine to tell a linear story
+- Started thinking about the relationship of delays and timing to text
+- Thought about the idea of "preactions" and "reactions"... the idea of an expression of anticipation and then a response to whatever command and output you have
+- Because the user THINKS ABOUT WHAT TO TYPE and also then REACTS TO THE RESPONSE TO THAT TYPING
+- Oh my GOD I need to have typoes
+- I'm enjoying this form, but well aware I'm hiding from the real storytelling/writing task
+- But when I get there I get there
+
+
+**Tue, 17 Sep 2024 22:14:30**  
+Styling, flow, lorem ipsum
+
+- Spent time making the style sheet look at least partly "nice" or at least "more like a text adventure" - fixed width font feels like a win somehow, even though I don't think that's the norm?
+- Importantly now have the command entered as part of the history which looks right and was one of the things kind of throwing me somehow
+- Started thinking about how to write preactions/reactions and noticed that I was being thrown (it's like judo!) by how *short* the placeholders were. I threw in some Lorem ipsum and *that* turned out to be oddly inspiring... the idea of paragraph level texts describing what the player should do unlocks the idea of this being more of a true writing project which I kind of like... a meta story about how to act like you're reading a real story in an IF... it's kind of delightfully fucked up?
+- It may turn out to be impossible
+
+

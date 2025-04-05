@@ -1,4 +1,4 @@
-## Blog Posts
+## blog-posts.md
 
 Here are public-facing blog posts I wrote while creating the game.
 

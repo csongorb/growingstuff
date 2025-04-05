@@ -1,3 +1,62 @@
-## Commits
+## Commit Messages
 
-TBD
+**Thu, 14 Jul 2022 15:46:26**  
+Initial commit
+
+
+
+**Thu, 14 Jul 2022 15:55:43**  
+Getting this thing properly online
+
+
+
+**Thu, 14 Jul 2022 15:56:49**  
+Continuing to get it website ready
+
+
+
+**Thu, 14 Jul 2022 16:06:04**  
+Getting it together
+
+
+
+**Fri, 15 Jul 2022 14:27:46**  
+Made a nicer presentation of the game, finished up the info
+
+
+
+**Fri, 15 Jul 2022 14:36:40**  
+Trying to be more clear...
+
+
+
+**Fri, 15 Jul 2022 14:36:59**  
+Typo
+
+
+
+**Fri, 15 Jul 2022 14:37:42**  
+Clear clear clear
+
+
+
+**Fri, 15 Jul 2022 14:38:37**  
+CSS fuck ups
+
+
+
+**Fri, 15 Jul 2022 14:43:09**  
+Improving CSS
+
+
+
+**Fri, 15 Jul 2022 15:01:08**  
+Description for paperwork
+
+
+
+**Wed, 27 Jul 2022 11:09:32**  
+Added a question mark?
+
+
+

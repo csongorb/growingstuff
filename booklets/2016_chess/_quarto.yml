@@ -1,7 +1,7 @@
 project:
   type: book
 
-number-depth: 1
+number-depth: 0
 
 book:
   title: "It is as if you were playing chess"
@@ -16,7 +16,7 @@ book:
     - ./content/blog-posts.qmd
     - ./content/pressabout.qmd
 
-bibliography: references.bib
+bibliography: ../sharedContent/references.bib
 
 format:
   html:
@@ -25,8 +25,8 @@ format:
       - brand
   pdf:
     documentclass: scrreprt
-    toc-depth: 1
+    toc: false
   docx:
-    toc: true
+    toc: false
     number-sections: true
     highlight-style: github
