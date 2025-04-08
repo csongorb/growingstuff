@@ -4,12 +4,12 @@
 
 Direct links to the folders containing the PDFs & DOCXs to make life easier for everyone:
 
-- [It is if you would grow a game](00_growingstuff/_book/)
-- [It is if you were playing chess (2016)](2016_chess/_book/)
+- [It is as if you were growing a game](00_growingstuff/_book/)
+- [It is as if you were playing chess (2016)](2016_chess/_book/)
 - [It is as if you were doing work (2017)](2017_work/_book/)
 - [It is as if you were making love (2018)](2018_love/_book/)
-- [It is if you were doing paperwork (2022)](2022_paperwork/_book/)
-- [It is if you were playing a text adventure (2024)](2024_textadventure/_book/)
+- [It is as if you were doing paperwork (2022)](2022_paperwork/_book/)
+- [It is as if you were playing a text adventure (2024)](2024_textadventure/_book/)
 - [It is as if you were on your phone (2025)](2025_phone/_book/)
 - [It is as if you were designing a game](00_blank/readme.md)
 
