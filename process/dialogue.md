@@ -437,3 +437,10 @@ Aaand *this* repository would be a logical place for that. We would use the Play
 We would give this repository a [BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license. I mean, hey, we already have your process documentations here (we use them in the booklets, we never really talked about it), and you have a BY-NC 3.0 license (why not 4.0?) on your repositories... but still, I wanted to ask, the games kind of feel different. Are you okay with that? Are we missing something?
 
 Or is this the kind of question that is not good to ask in public? Hm... how do I get out of this?
+
+## 2025-04-08 Pippin: np
+
+Well... I think it's fine? Yeah we seem all good to me! I've been making my source code public for eons, long may it continue!
+
+Happy to work on getting specific builds that feel pertinent too, yeah, and then they can be individually QR coded or fit into the Devolutionizer as you/we see fit?
+
