@@ -423,3 +423,17 @@ Aaaand yesss, let's integrate your drawings...! But we need them in good quality
 Would you mind uploading them here? But remember: what is in the repository stays in the repository. Who do I tell?!
 
 See you!
+
+# 2025-04-08 Csongor: Jump, jump!
+
+Haha, I have just edited the [/booklets/00_growingstuff/content/dialogue.qmd](/booklets/00_growingstuff/content/dialogue.qmd) file first, a perfect glitch for this message!
+
+Hey Pippin, something else, a big jump: 
+
+It looks more and more like it would make sense to put the versions we want to exhibit somewhere online (and not just locally). We are brainstorming ideas to let people play versions with scanning QR codes, etc. Not all of them, but some.
+
+Aaand *this* repository would be a logical place for that. We would use the Player of the [Devolutionizer](https://github.com/csongorb/devolutionizer) for this, it's already in a nice shape, we'll try to improve it even more. This all means that there would be some sort of hub / sidebar where people could select the versions they want to play. 
+
+We would give this repository a [BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license. I mean, hey, we already have your process documentations here (we use them in the booklets, we never really talked about it), and you have a BY-NC 3.0 license (why not 4.0?) on your repositories... but still, I wanted to ask, the games kind of feel different. Are you okay with that? Are we missing something?
+
+Or is this the kind of question that is not good to ask in public? Hm... how do I get out of this?
