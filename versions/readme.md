@@ -11,6 +11,10 @@ Which versions to exhibit for which game? How (PC, phone, tablet?)?
 ### It is as if you were doing work (2017)
 
 ### It is as if you were making love (2018)
+ - Created 'app version' with the UI inside a window, styled instructions/feedback, added progress bar - 06.06.2018 15:54
+ - Added more controlled stroke ranges and strokes required, stroke timer, rearranged code, added title splash - 08.06.2018 22:26
+ - Put the arousal stroke back to correct value for testing. 22.06.2018 03:57
+ - Merge pull request #1 from Flourish38/master - 07.01.2025 18:12
 
 ### It is if you were doing paperwork (2022)
 
