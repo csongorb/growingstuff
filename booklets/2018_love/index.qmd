@@ -38,6 +38,28 @@ The original journal was kept in a wiki during the development process and added
 
 ![](../sharedContent/timeline_itisasif.png)
 
+```
+o It is as if you were/
+├── playing chess            (2016)/
+├── doing work               (2017)/
+├── making love              (2018)/
+├── doing paperwork          (2022)/
+├── playing a text adventure (2024)/
+├── on your phone            (2025)/
+└── 🌱
+```
+
+```
+🌱 It is as if you were/
+├── ♟️ playing chess            (2016)/
+├── 🖥️ doing work               (2017)/
+├── ❤️ making love              (2018)/
+├── 📋 doing paperwork          (2022)/
+├── ⌨️ playing a text adventure (2024)/
+├── 📱 on your phone            (2025)/
+└── 🌸
+```
+
 > 100% a series yes! There are some bits in there where I feel like they end up being a bit about distinct things. I think of *Love* and *Work* as both existing in specific fictional universes where they're "needed" as a kind of therapeutic intervention into a problem. *Chess* didn't really come from that place, was more of a "wouldn't it be funny if...". And then *Phone* is unclear to me right now... I think probably giving it some Speculative Play scaffolding does make a bit of sense, but it feels reactive to exactly *now* rather than the future? So I'm not even sure it works out as speculative at all...^[@barr_stuff_2023]
 
 Pippin Barr has in parallel invented / worked on *Games as Research* 
