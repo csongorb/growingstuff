@@ -1,0 +1,58 @@
+# Source / Code 
+
+
+## 2018-04-12
+
+
+
+```
+🔘 Slider/
+├── 📁 audio/
+├── 📁 css/
+├── 📁 js/
+    ├── flocking-all.min.js
+    ├── jquery-ui-slider-pips.js
+    ├── jquery.ui.touch-punch.min.js
+    └── script.js
+├── .gitignore
+├── readme.md
+└── index.htmls
+```
+
+## Date?
+
+
+
+
+```
+❤️ It is as if you were making love/
+├── 📁 assets/css/
+├── 📁 audio/
+├── 📁 css/
+├── 📁 images/
+├── 📁 info/
+├── 📁 js/
+    ├── howler.core.min.js
+    ├── jquery-ui-slider-pips.js
+    ├── jquery-ui.min.js
+    ├── jquery.min.js
+    ├── jquery.ui.touch-punch.min.js
+    ├── script.js
+    └── data.js
+├── 📁 press/
+├── 📁 process/
+├── .gitignore
+├── readme.md
+├── _config.yml
+└── index.htmls
+```
+
+|  │
+
+🖋️
+📝
+📋
+
+📁
+📂
+
