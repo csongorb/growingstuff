@@ -50,3 +50,20 @@ And my immediate thought for a structure (please edit, riff) is something like:
 - And then after we've done that stuff we have a conversation about design process? Maybe Csongor and unspecified guest are involve in this thing at every step? (Mostly wrote myself in to not assign work, but I think it could be more fun if it's an everybody thing?)
 
 There's something slightly unsatisfactory about this for me right now but I can't quite name it. Maybe a bit too chaotic. Not sure. Not sure.
+
+## 2024-04-11 Csongor: The Flag!
+
+Yes, I had the same feeling after the meeting. Lots of good ideas, but no sense of a resolution, no satisfying unity of thought.  
+
+But why is this happening? How do you overcome flags, how do you get to the other side?  
+But these are the big questions again, interesting, but we have a puzzle to solve.
+
+Just a few more ideas, thinking out loud:
+
+We could connect on-stage more with *The Designer Is Present*.  
+Either by having on-stage at the beginning (of A MAZE.) where you could integrate the audience's input into the design of the game you are working on, by starting to draw ideas! Like an *intro*, the *start*.  
+Or the other way around: having on-stage as a looking-back at *The Designer Is Present*, a post mortem, a reflection. In its purest form: you could just sit there and write the journal.
+
+Or we could go in the opposite direction and just make things simpler: three stages (you, us, drawing) is too much for such a short session. Maybe two would be enough / clearer / more focused?
+
+Still no resolution... is this a case where writing is not enough? Let's meet again!
