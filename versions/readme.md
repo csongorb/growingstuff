@@ -25,6 +25,10 @@ Which versions to exhibit for which game? How (PC, phone, tablet?)?
 ### It is if you were playing a text adventure (2024)
 
 ### It is as if you were on your phone (2025)
+ - The most basic tap simulator - 09.01.2025 21:48
+ - Added an ultrasimple delay between interactions - 30.01.2025 20:58
+ - Tutorial disappears after you've seen each one - 20.02.2025 19:26
+ - Kind of done? - 03.03.2025 19:56
 
 ### The Designer Is Present Game
 
