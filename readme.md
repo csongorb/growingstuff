@@ -22,3 +22,7 @@ We organise ourselves through:
 - a [process documentation](process/)
 - the [commit history](https://github.com/csongorb/growingstuff/commits/main/) of this repository
 - the reposotory itself
+
+## Credits
+
+See [credits.qmd](./booklets/00_growingstuff/content/credits.qmd).
