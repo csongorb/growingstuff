@@ -9,6 +9,10 @@ Which versions to exhibit for which game? How (PC, phone, tablet?)?
 ### It is if you were playing chess (2016)
 
 ### It is as if you were doing work (2017)
+ - Well at least some shit works right? - 30.03.2017 02:28
+ - Updated process - 19.07.2017 01:03
+ - Bux fix, press - 04.07.2017 15:50
+ - Added The White Pube review - 02.04.2024 21:50
 
 ### It is as if you were making love (2018)
  - Created 'app version' with the UI inside a window, styled instructions/feedback, added progress bar - 06.06.2018 15:54
