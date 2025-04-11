@@ -18,6 +18,7 @@ book:
     - ./content/related-work.qmd
     - ./content/pressabout.qmd
     - ./content/references.qmd
+    - ./content/filestructure.qmd
 
 bibliography: ../sharedContent/references.bib
 
