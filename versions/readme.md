@@ -7,10 +7,11 @@ Which versions to exhibit for which game? How (PC, phone, tablet?)?
 ### Teaser-Station (Main Hall)
 
 ### It is if you were playing chess (2016)
+ - I somehow LOST the game.js file along the way, it's back. - 09.09.2022 - 16:00
 
 ### It is as if you were doing work (2017)
  - Well at least some shit works right? - 30.03.2017 02:28
- - Updated process - 19.07.2017 01:03
+ - Updated process - 19.06.2017 01:03
  - Bux fix, press - 04.07.2017 15:50
  - Added The White Pube review - 02.04.2024 21:50
 
@@ -21,8 +22,10 @@ Which versions to exhibit for which game? How (PC, phone, tablet?)?
  - Merge pull request #1 from Flourish38/master - 07.01.2025 18:12
 
 ### It is if you were doing paperwork (2022)
+ - Added a question mark? - 27.07.2022 17:09
 
 ### It is if you were playing a text adventure (2024)
+ - Styling, flow, lorem ipsum - 18.09.2024 04:14
 
 ### It is as if you were on your phone (2025)
  - The most basic tap simulator - 09.01.2025 21:48
