@@ -14,6 +14,7 @@ book:
     - ./content/dialogue.qmd
     - ./content/booklets.qmd
     - ./content/onstage.qmd
+    - ./content/miroboards.qmd
     - ./content/credits.qmd
 
 bibliography: ../sharedContent/references.bib
