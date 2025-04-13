@@ -1,4 +1,4 @@
-# Miro boards
+# Miro boards {#sec-miroboards}
 
 ## 2025-02-28
 

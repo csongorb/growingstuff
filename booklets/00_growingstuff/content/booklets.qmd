@@ -1,4 +1,4 @@
-# booklets.md
+# booklets.md {#sec-booklets}
 
 ## 2025-03-05 Csongor: Too much changes on one day... need to commit!
 

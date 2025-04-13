@@ -1,4 +1,4 @@
-# dialogue.md
+# dialogue.md {#sec-dialogue}
 
 ## 2025-01-08 Csongor
 

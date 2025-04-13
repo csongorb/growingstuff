@@ -2,6 +2,7 @@ project:
   type: book
 
 number-depth: 0
+number-sections: true
 
 book:
   title: "It is as if you were growing stuff"
@@ -16,14 +17,19 @@ book:
     - ./content/onstage.qmd
     - ./content/miroboards.qmd
     - ./content/credits.qmd
+    - ./content/imprint.qmd
 
 bibliography: ../sharedContent/references.bib
+csl: ../sharedContent/chicago-mod.csl
 
 format:
   html:
     theme:
       - cosmo
       - brand
+    toc-depth: 2
+    link-external-icon: false
+    link-external-newwindow: true
   pdf:
     documentclass: scrreprt
     toc: false
@@ -31,3 +37,5 @@ format:
     toc: false
     number-sections: true
     highlight-style: github
+  epub:
+    toc: false

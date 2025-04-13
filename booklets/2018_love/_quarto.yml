@@ -2,10 +2,11 @@ project:
   type: book
 
 number-depth: 0
+number-sections: true
 
 book:
   title: "It is as if you were making love (2018)"
-  subtitle: "The Process / Documentation / Devolution / Journey of..."
+  subtitle: "The Evolution of..."
   author: "Pippin Barr x Devolution"
   abstract: "@ A MAZE. / Berlin 2025"
   chapters:
@@ -28,10 +29,14 @@ format:
     theme:
       - cosmo
       - brand
+    toc-depth: 2
+    link-external-icon: false
+    link-external-newwindow: true
   pdf:
     documentclass: scrreprt
     toc: false
   docx:
     toc: false
-    number-sections: true
     highlight-style: github
+  epub:
+    toc: false
