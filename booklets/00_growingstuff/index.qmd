@@ -1,3 +1,48 @@
 # readme.md {#sec-readme}
 
-This is...
+This is the *catalogue / curators statement / meta-booklet / process documentation* of the exhibition *Pippin Barr x Devolution: It is as if you were...* at *A MAZE. / Berlin 2025*.
+
+* Read...
+* File Structure...
+
+## Pippin Barr x Devolution
+
+- is it important to assume that somebody checks this without any context?
+- intro into Devolution
+- intro into *Pippin Barr x Devolution*
+- link to the repository (QR-Code?)
+
+## It is as if you were...
+
+*It is as if you were...* is a series of games by Pippin Barr...
+
+```
+🌱 It is as if you were/
+├── ♟️ playing chess            (2016)/
+├── 🖥️ doing work               (2017)/
+├── ❤️ making love              (2018)/
+├── 📋 doing paperwork          (2022)/
+├── ⌨️ playing a text adventure (2024)/
+├── 📱 on your phone            (2025)/
+└── 🌸
+```
+
+...that helped him to find a traction on the idea of 
+
+and has focused on the idea of *Speculative Play*.
+
+> 100% a series yes! There are some bits in there where I feel like they end up being a bit about distinct things. I think of *Love* and *Work* as both existing in specific fictional universes where they're "needed" as a kind of therapeutic intervention into a problem. *Chess* didn't really come from that place, was more of a "wouldn't it be funny if...". And then *Phone* is unclear to me right now... I think probably giving it some Speculative Play scaffolding does make a bit of sense, but it feels reactive to exactly *now* rather than the future? So I'm not even sure it works out as speculative at all...^[See...]
+
+...and has in parallel invented / worked on *Games as Research*.
+
+> I first tried documenting this history in anxious blog entries: “Visions of clipping errors and a million unforeseen bugs crowd my peripheral vision along with the faceless horrors of maybe having forgetting [sic] to uncomment some bit of code” (Barr 2011a). Later, I turned to writing lengthy design reflections in private Evernote journals. These days, the process has become much more sophisticated, and it even has a name. I work with what my colleagues and I call MDM, or the Method for Design Materialization (Khaled, Lessard, and Barr 2018; Khaled and Barr 2023).^[@barr_stuff_2023[p. 6-7]]
+
+## The Stuff Devolutions Are Made Of
+
+> *Devolution* is an ongoing artistic and/or design research project aimed at understanding and dissecting the process of game development, encountering new characteristics and features with each new iteration. Historically, *Devolution* began as an exhibition of the development process of selected games. The core of each exhibition is a visual timeline of around 6 to 8 playable versions of a game, often including prototypes, in-between or afterrelease states, and dead branches, accompanied by contextual information, developer tours, talks, and discussions. Visitors can explore the timeline and development histories of the games by comparing versions to each other and find interesting aspects on their own.^[@baranyai_save_2023]
+
+> For the player... well I continue to like the idea that the game itself (and this series and many of my things) are a kind of vehicle for research by the player at a more controlled level. You play this game and you are, yourself, investigating the nature of shadows in Unity, encouraged to think about and focus on them.^[[Process Journal v r 5, 21 March 2024](https://github.com/pippinbarr/v-r-5/blob/main/process/journal.md)]
+
+> Rather, most of the design work takes place in conversation with stuff. [...] When you’re listening, the stuff games are made of is not quiet, not transparent, and not just there to be used. It’s a close companion, offering up its own ideas about game design all along the way.^[@barr_stuff_2023[p. 5]]
+
+> If the stuff isn’t going to shout, we’ll have to lean in. To make the results accessible, we’ll need ways to explicitly document such design work. It has long been a goal of mine to present a completed video game together with the design history of how it came to be.^[@barr_stuff_2023[p. 6]]
