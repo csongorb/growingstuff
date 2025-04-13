@@ -1,9 +1,6 @@
-# Source / Code 
-
+# File Structure {#sec-filestructure}
 
 ## 2018-04-12
-
-
 
 ```
 🔘 Slider/

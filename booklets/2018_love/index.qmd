@@ -1,15 +1,15 @@
-# readme.md {.unnumbered}
+# readme.md {#sec-readme}
 
 This is the process documentation for the game *It is as if you were making love* by Pippin Barr. It was produced for the exhibition *Pippin Barr x Devolution: ???* at *A MAZE. / Berlin 2025*.
 
 The document is edited for printing, but stays as close to the original spirit as possible. Archiving is the main purpose, data kept "as is" and not updated.
 
-* See the [information page](info/) for more detail.
-* Read the [Press Kit](../press) for press information
-* Read the [Process Documentation](../process) for process journal entries, to dos, and manifestos
+* See the **information page** for more detail.
+* Read the **Press Kit** for press information
+* Read the **Process Documentation** for process journal entries (@sec-journal), to dos (@sec-todos), and manifestos (@sec-manifesto)
 - [Blog posts about _It is as if you were making love_](https://www.pippinbarr.com/search.html?q=%22It%20is%20as%20if%20you%20were%20making%20love%22)
     - NOT working anymore!
-* Read the [Commit History](https://github.com/pippinbarr/itisasifyouweremakinglove/commits/master) for detailed, moment-to-moment insights into the development process
+* Read the **Commit History** (@sec-commits) for detailed, moment-to-moment insights into the development process
 * Look at the [Code Repository](https://github.com/pippinbarr/itisasifyouweremakinglove) for source code etc.
 
 Open the original Repository for the "real" experience.
@@ -66,20 +66,3 @@ o It is as if you were/
 
 Pippin Barr has in parallel invented / worked on *Games as Research* 
 and has focused on the idea of *speculative play*.
-
-## Imprint
-
-Pippin Barr  
-Editor: Csongor Baranyai  
-Additional Editors:  
-Levent  
-Agustina  
-
-2025
-
-### License
-
-Original project (game and project documentation) was released by Pippin Barr under...
-
-_It is as if you were making love_ is an open source game licensed under a [Creative Commons Attribution-NonCommercial 3.0 Unported License](http://creativecommons.org/licenses/by-nc/3.0/). You can obtain the source code from its [code repository](https://github.com/pippinbarr/itisasifyouweremakinglove) on GitHub.
-

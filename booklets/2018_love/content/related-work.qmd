@@ -1,4 +1,4 @@
-# related-work.md
+# related-work.md {#sec-related-work}
 
 ## Games
 

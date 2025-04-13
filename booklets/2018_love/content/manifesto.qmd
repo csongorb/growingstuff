@@ -1,4 +1,4 @@
-# manifesto.md
+# manifesto.md {#sec-manifesto}
 
 ## 2018-04-23 14:34, Monday
 

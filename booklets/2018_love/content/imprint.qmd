@@ -1,0 +1,29 @@
+# Imprint
+
+The Evolution of...  
+It is as if you were making love (2018)
+
+Pippin Barr x Devolution  
+It is as if you were...  
+@ A MAZE. / Berlin 2025
+
+Devolution 2025
+
+## License(s)
+
+The original _It is as if you were making love_ by Pippin Barr is an open source project (game and process documentation) licensed under a [Creative Commons Attribution-NonCommercial 3.0 Unported License](http://creativecommons.org/licenses/by-nc/3.0/). You can obtain the source code from its [code repository](https://github.com/pippinbarr/itisasifyouweremakinglove) on GitHub.
+
+This booklet and the corresponding project (exhibition and process documentation) are licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). The source code is available from its [code repository](https://github.com/csongorb/growingstuff) on GitHub.
+
+## Pippin Barr
+
+* Website: [www.pippinbarr.com](http://www.pippinbarr.com/)
+* Bluesky: [pippinbarr.bsky.social](https://bsky.app/profile/pippinbarr.bsky.social)
+* Instagram: [&#64;pippinbarr](https://www.instagram.com/pippinbarr)
+
+## Devolution
+
+* Website: [www.devolution.online](https://www.devolution.online)
+* Bluesky: [devolutionbln.bsky.social](https://bsky.app/profile/devolutionbln.bsky.social)
+* Instagram: [&#64;devolutionbln](https://www.instagram.com/devolutionbln/)
+* Mastodon: [sunny.garden/&#64;devolution](https://sunny.garden/@devolution)
