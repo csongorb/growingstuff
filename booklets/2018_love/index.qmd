@@ -1,53 +1,25 @@
 # readme.md {#sec-readme}
 
-This is the process documentation for the game *It is as if you were making love* by Pippin Barr. It was produced for the exhibition *Pippin Barr x Devolution: ???* at *A MAZE. / Berlin 2025*.
+This is the process documentation for the game *It is as if you were making love* by Pippin Barr. 
 
-The document is edited for printing, but stays as close to the original spirit as possible. Archiving is the main purpose, data kept "as is" and not updated.
-
-* See the **information page** for more detail.
-* Read the **Press Kit** for press information
-* Read the **Process Documentation** for process journal entries (@sec-journal), to dos (@sec-todos), and manifestos (@sec-manifesto)
-- [Blog posts about _It is as if you were making love_](https://www.pippinbarr.com/search.html?q=%22It%20is%20as%20if%20you%20were%20making%20love%22)
-    - NOT working anymore!
+* Read the **Info & Press Kit** (@sec-presskit) for more details on the game and press information
+* Read the **Manifesto** (@sec-manifesto) for a series of attempts to crystallise the meaning and intend of the games in short-form writing
+* Read the **Design Journal** (@sec-journal) for high-level reflections on the design and development process, 
+* Look at the **To Dos** (@sec-todos), lists of practical tasks for the project
+* Look at **Related Work** (@sec-related-work) for inspirations and other references
 * Read the **Commit History** (@sec-commits) for detailed, moment-to-moment insights into the development process
-* Look at the [Code Repository](https://github.com/pippinbarr/itisasifyouweremakinglove) for source code etc.
+* Look at the **File Structure** (@sec-filestructure) for the evolution of the source code
+* Read others writing about the game in **Press** (@sec-pressabout)
 
-Open the original Repository for the "real" experience.
+The text is edited for print, but stays as close to the original as possible. Exploration of the original material is the main purpose, data is kept "as is" and not updated. See the original [repository](https://github.com/pippinbarr/itisasifyouweremakinglove) for the *real* experience.
 
-The original journal was kept in a wiki during the development process and added to the repository later (2022).
+The original process documentation was written as a wiki with MDMA already in mind, and only later (2022) uploaded to the same repository. 
 
-- [Process documentation of _It is as if you were making love_](https://github.com/pippinbarr/itisasifyouweremakinglove/wiki)
+> This is the process documentation wiki for the game It is as if you were making love. The process documentation available here is the result of following the [MDMA](http://www.gamesasresearch.com/mdma) (Method for Design Materialisation and Analysis), an approach to game design recoverability that forms the basis of the [Games as Research](http://www.gamesasresearch.com/) project I am part of with [Rilla Khaled](http://www.rillakhaled.com/) and [Jonathan Lessard](https://jonathanlessard.net/).^[[https://github.com/pippinbarr/itisasifyouweremakinglove/wiki](https://github.com/pippinbarr/itisasifyouweremakinglove/wiki)]
 
-### Additional Links
+## It is as if you were...
 
-- [It is as if you were doing work](http://www.pippinbarr.com/games/2017/07/03/it-is-as-if-you-were-doing-work.html) (the previous game in the series)
-
-- clarifying what type of documents this are (?)
-
-## Pippin Barr x Devolution
-
-- is it important to assume that somebody checks this without any context?
-- intro into Devolution
-- intro into *Pippin Barr x Devolution*
-
-- (visual) overview on *It is as if...*
-- link to the repository (QR-Code?)
-
-
-## It is as if...
-
-![](../sharedContent/timeline_itisasif.png)
-
-```
-o It is as if you were/
-├── playing chess            (2016)/
-├── doing work               (2017)/
-├── making love              (2018)/
-├── doing paperwork          (2022)/
-├── playing a text adventure (2024)/
-├── on your phone            (2025)/
-└── 🌱
-```
+This booklet is / was part of the exhibition *Pippin Barr x Devolution: It is as if you were...* at *A MAZE. / Berlin 2025*, which explored / exhibited the development process of the *It is as if you were...* games by Pippin Barr.
 
 ```
 🌱 It is as if you were/
@@ -60,9 +32,7 @@ o It is as if you were/
 └── 🌸
 ```
 
-> 100% a series yes! There are some bits in there where I feel like they end up being a bit about distinct things. I think of *Love* and *Work* as both existing in specific fictional universes where they're "needed" as a kind of therapeutic intervention into a problem. *Chess* didn't really come from that place, was more of a "wouldn't it be funny if...". And then *Phone* is unclear to me right now... I think probably giving it some Speculative Play scaffolding does make a bit of sense, but it feels reactive to exactly *now* rather than the future? So I'm not even sure it works out as speculative at all...^[Barr, P. (2023) The Stuff Games Are Made Of. Cambridge, Massachusetts; London, England: The MIT Press (Playful Thinking). Available at: https://doi.org/10.7551/mitpress/14495.001.0001.]
-
-
-
-Pippin Barr has in parallel invented / worked on *Games as Research* 
-and has focused on the idea of *speculative play*.
+- Explore the other booklets of the bundle for the evolution of the whole series, how it helped Pippin Barr to get a better idea of MDMA and refine his thinking around Speculative Play
+- Read *It is as if you were growing stuff* for additional context on the exhibition and reflections on how games evolve in conversation with their material
+- Visit the [repository of the exhibition](https://github.com/csongorb/growingstuff) for up-to-date information and reflections on the exhibition
+- Visit the [Devolution website](https://devolution.online/) for more development process explorations
