@@ -17,10 +17,7 @@ book:
     - ./content/to-do.qmd
     - ./content/related-work.qmd
     - ./content/pressabout.qmd
-    - ./content/references.qmd
     - ./content/filestructure.qmd
-
-bibliography: ../sharedContent/references.bib
 
 format:
   html:
