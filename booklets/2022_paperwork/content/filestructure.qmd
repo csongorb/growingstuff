@@ -4,7 +4,6 @@
 
 ```
 📋 It is as if you were doing paperwork/
-├── 📁 .git/
 ├── 📁 assets/
 ├── 📁 css/
     ├── style.css
@@ -24,7 +23,6 @@
 
 ```
 📋 It is as if you were doing paperwork/
-├── 📁 .git/
 ├── 📁 assets/
 ├── 📁 css/
     ├── generator-style.css
