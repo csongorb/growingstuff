@@ -1,0 +1,43 @@
+# File Structure {#sec-filestructure}
+
+## 2022-07-14
+
+```
+📋 It is as if you were doing paperwork/
+├── 📁 .git/
+├── 📁 assets/
+├── 📁 css/
+    ├── style.css
+├── 📁 info/
+├── 📁 js/
+    ├── FormGenerator.js
+    ├── html-version.js
+    ├── script.js
+    └── script-original.js
+├── 📁 process/    
+├── .gitignore
+├── index.html
+└── README.md
+```
+
+## 2022-07-15
+
+```
+📋 It is as if you were doing paperwork/
+├── 📁 .git/
+├── 📁 assets/
+├── 📁 css/
+    ├── generator-style.css
+├── 📁 info/
+├── 📁 js/
+    ├── FormGenerator.js
+    ├── generator.js
+    ├── script.js
+    └── script-original.js
+├── 📁 process/    
+├── .gitignore
+├── _config.yml
+├── generator.html
+├── index.html
+└── README.md
+```
