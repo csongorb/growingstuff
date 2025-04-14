@@ -67,3 +67,23 @@ Or the other way around: having on-stage as a looking-back at *The Designer Is P
 Or we could go in the opposite direction and just make things simpler: three stages (you, us, drawing) is too much for such a short session. Maybe two would be enough / clearer / more focused?
 
 Still no resolution... is this a case where writing is not enough? Let's meet again!
+
+## 2025-04-14
+
+Glad to see that you are also sometimes writing 2024 still this deep into the year. I feel like I do it at least once a day?
+
+HMMMMMMM okay. Yeah agreed on the time. I've never been able to get over my sense of panic about not filling time so I always overdo it with the "content".
+
+Simple is good. I like the idea of a kind of codesign thing actually, bring the audience into the process. It feels like a massive leap of faith to me - what if nobody wants to be my friend :( :( :(
+    
+However, what about...
+
+- Pippin is on stage working on the game (currently it would be It is as if you were playing a text adventure -- I'm chatting to Michael Berto about this because it involves a work of his as the world of the story) -- his screen is being broadcast while he does stuff
+    - (In the terrible situation that Pippin has either finished this game or is too far in or something by the time AMAZE rolls up, I pivot to another game in the series and do all of these same things for that one instead - I do have what I think will be a good backup)
+- Once it's time to start Pippin "notices" the audience and introduces himself
+- Pippin explains the game that he's working on, showing elements of the existing process documentation to illustrate what's going on; he especially outlines the current live problems/design stuff he needs to think about and asks the audience for help/conversation about it
+- Pippin and audience work on the game together - probably more in a design mode (writing things down, drawing if needed [maybe we can have an easel and a big piece of paper, maybe I can just draw on my screen poorly]), Pippin makes changes and commits and so on and the game moves along with the audience input
+- This might drag for 45 minutes, or it might not? Hard to say?
+- Plausible extra - at some point Csongor wanders in (for whatever reason I'm wanting a sitcom style laughtrack+applause when you enter?) and checks in with Pippin, asks how it's going; Pippin explains what's been happening (as if Csongor hasn't been there I guess) and then they have a conversation about this in perhaps a broader context of exhibitions of videogames... dot dot dot...
+
+I kind of like this in a more solid way, though I do fear it because it's very solo performance for a lot of it. Though that said it's something I for sure know how to do.
