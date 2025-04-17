@@ -3,55 +3,436 @@
 ## 2016-12-28
 
 ```
-⌨️ It is as if you were doing work/
+🖥️ It is as if you were doing work/
 ├── 📁 css/
+    ├── 📁 external/
+    ├── 📁 images/
+    ├── AUTHORS.txt
+    ├── index.html
+    ├── jquery-ui.css
+    ├── jquery-ui.js
+    ├── jquery-ui.min.css
+    ├── jquery-ui.min.js
+    ├── jquery-ui.structure.css
+    ├── jquery-ui.structure.min.css
+    ├── jquery-ui.theme.css
+    ├── jquery-ui.theme.min.css`
+    ├── LICENSE.txt
+    └── package.json    
 ├── 📁 js/
-├── index.html
-└── README.md
+    └── uigame.js
+└── index.html
 ```
 
 ## 2017-01-05
 
 ```
-⌨️ It is as if you were doing work/
-├── 📁 .vscode/
+🖥️ It is as if you were doing work/
 ├── 📁 css/
-├── 📁 data/
-    └── en.json
-├── 📁 info/
+    ├── 📁 external/
+    ├── 📁 images/
+    ├── AUTHORS.txt
+    ├── index.html
+    ├── jquery-ui.css
+    ├── jquery-ui.js
+    ├── jquery-ui.min.css
+    ├── jquery-ui.min.js
+    ├── jquery-ui.structure.css
+    ├── jquery-ui.structure.min.css
+    ├── jquery-ui.theme.css
+    ├── jquery-ui.theme.min.css`
+    ├── LICENSE.txt
+    ├── package.json
+    └── style.css
 ├── 📁 js/
-    └── script.js
+    └── uigame.js
+├── 📁 process/
+└── index.html
+```
+
+## 2017-03-29
+
+```
+🖥️ It is as if you were doing work/
+├── 📁 css/
+    ├── 📁 external/
+    ├── 📁 images/
+    ├── AUTHORS.txt
+    ├── index.html
+    ├── jquery-ui.css
+    ├── jquery-ui.js
+    ├── jquery-ui.min.css
+    ├── jquery-ui.min.js
+    ├── jquery-ui.structure.css
+    ├── jquery-ui.structure.min.css
+    ├── jquery-ui.theme.css
+    ├── jquery-ui.theme.min.css`
+    ├── LICENSE.txt
+    ├── package.json
+    └── style.css
+├── 📁 js/
+    ├── game.js
+    └── lodash.min.js
+├── 📁 process/
+└── index.html
+```
+
+## 2017-06-09
+
+```
+🖥️ It is as if you were doing work/
+├── 📁 css/
+    ├── 📁 external/
+    ├── 📁 images/
+    ├── 📁 old/
+        ├── 📁 external/
+        ├── 📁 images/
+        ├── AUTHORS.txt
+        ├── index.html
+        ├── jquery-ui.css
+        ├── jquery-ui.js
+        ├── jquery-ui.min.css
+        ├── jquery-ui.min.js
+        ├── jquery-ui.structure.css
+        ├── jquery-ui.structure.min.css
+        ├── jquery-ui.theme.css
+        ├── jquery-ui.theme.min.css`
+        ├── LICENSE.txt
+        ├── package.json
+        └── style.css
+    ├── AUTHORS.txt
+    ├── index.html
+    ├── jquery-ui.css
+    ├── jquery-ui.js
+    ├── jquery-ui.min.css
+    ├── jquery-ui.min.js
+    ├── jquery-ui.structure.css
+    ├── jquery-ui.structure.min.css
+    ├── jquery-ui.theme.css
+    ├── jquery-ui.theme.min.css`
+    ├── LICENSE.txt
+    ├── package.json
+    └── style.css
+├── 📁 images/
+├── 📁 js/
+    ├── game.js
+    └── lodash.min.js
+├── 📁 process/
+└── index.html
+```
+
+## 2017-06-10
+
+```
+🖥️ It is as if you were doing work/
+├── 📁 css/
+    ├── 📁 external/
+    ├── 📁 images/
+    ├── 📁 old/
+        ├── 📁 external/
+        ├── 📁 images/
+        ├── AUTHORS.txt
+        ├── index.html
+        ├── jquery-ui.css
+        ├── jquery-ui.js
+        ├── jquery-ui.min.css
+        ├── jquery-ui.min.js
+        ├── jquery-ui.structure.css
+        ├── jquery-ui.structure.min.css
+        ├── jquery-ui.theme.css
+        ├── jquery-ui.theme.min.css`
+        ├── LICENSE.txt
+        ├── package.json
+        └── style.css
+    ├── AUTHORS.txt
+    ├── index.html
+    ├── jquery-ui.css
+    ├── jquery-ui.js
+    ├── jquery-ui.min.css
+    ├── jquery-ui.min.js
+    ├── jquery-ui.structure.css
+    ├── jquery-ui.structure.min.css
+    ├── jquery-ui.theme.css
+    ├── jquery-ui.theme.min.css`
+    ├── LICENSE.txt
+    ├── package.json
+    └── style.css
+├── 📁 images/
+├── 📁 js/
+    ├── game.js
+    ├── lodash.min.js
+    └── ui-generators.js
+├── 📁 process/
+└── index.html
+```
+
+## 2017-06-15
+
+```
+🖥️ It is as if you were doing work/
+├── 📁 assets/
+    ├── 📁 images/
+    └── 📁 sounds/
+├── 📁 css/
+    ├── 📁 external/
+    ├── 📁 images/
+    ├── 📁 old/
+        ├── 📁 external/
+        ├── 📁 images/
+        ├── AUTHORS.txt
+        ├── index.html
+        ├── jquery-ui.css
+        ├── jquery-ui.js
+        ├── jquery-ui.min.css
+        ├── jquery-ui.min.js
+        ├── jquery-ui.structure.css
+        ├── jquery-ui.structure.min.css
+        ├── jquery-ui.theme.css
+        ├── jquery-ui.theme.min.css`
+        ├── LICENSE.txt
+        ├── package.json
+        └── style.css
+    ├── AUTHORS.txt
+    ├── index.html
+    ├── jquery-ui.css
+    ├── jquery-ui.js
+    ├── jquery-ui.min.css
+    ├── jquery-ui.min.js
+    ├── jquery-ui.structure.css
+    ├── jquery-ui.structure.min.css
+    ├── jquery-ui.theme.css
+    ├── jquery-ui.theme.min.css`
+    ├── LICENSE.txt
+    ├── package.json
+    └── style.css
+├── 📁 js/
+    ├── game.js
+    ├── lodash.min.js
+    └── ui-generators.js
+├── 📁 process/
+└── index.html
+```
+
+## 2017-06-19
+
+```
+🖥️ It is as if you were doing work/
+├── 📁 assets/
+    ├── 📁 images/
+    └── 📁 sounds/
+├── 📁 css/
+    ├── 📁 external/
+    ├── 📁 images/
+    ├── 📁 old/
+        ├── 📁 external/
+        ├── 📁 images/
+        ├── AUTHORS.txt
+        ├── index.html
+        ├── jquery-ui.css
+        ├── jquery-ui.js
+        ├── jquery-ui.min.css
+        ├── jquery-ui.min.js
+        ├── jquery-ui.structure.css
+        ├── jquery-ui.structure.min.css
+        ├── jquery-ui.theme.css
+        ├── jquery-ui.theme.min.css`
+        ├── LICENSE.txt
+        ├── package.json
+        └── style.css
+    ├── AUTHORS.txt
+    ├── index.html
+    ├── jquery-ui.css
+    ├── jquery-ui.js
+    ├── jquery-ui.min.css
+    ├── jquery-ui.min.js
+    ├── jquery-ui.structure.css
+    ├── jquery-ui.structure.min.css
+    ├── jquery-ui.theme.css
+    ├── jquery-ui.theme.min.css`
+    ├── LICENSE.txt
+    ├── package.json
+    └── style.css
+├── 📁 js/
+    ├── data.js
+    ├── game.js
+    ├── lodash.min.js
+    └── ui-generators.js
+├── 📁 process/
+└── index.html
+```
+
+## 2017-06-20
+
+```
+🖥️ It is as if you were doing work/
+├── 📁 assets/
+    ├── 📁 images/
+    └── 📁 sounds/
+├── 📁 css/
+    ├── 📁 external/
+    ├── 📁 images/
+    ├── AUTHORS.txt
+    ├── index.html
+    ├── jquery-ui.css
+    ├── jquery-ui.js
+    ├── jquery-ui.min.css
+    ├── jquery-ui.min.js
+    ├── jquery-ui.structure.css
+    ├── jquery-ui.structure.min.css
+    ├── jquery-ui.theme.css
+    ├── jquery-ui.theme.min.css`
+    ├── LICENSE.txt
+    ├── package.json
+    └── style.css
+├── 📁 js/
+    ├── 📁 breakout/
+        ├── 📁 images/
+        ├── 📁 music/
+        ├── 📁 sounds/
+        ├── Boot.js
+        ├── Breakout.js
+        ├── phaser.min.js
+        └── Preloader.js
+    ├── data.js
+    ├── game.js
+    ├── lodash.min.js
+    └── ui-generators.js
+├── 📁 process/
+└── index.html
+```
+
+## 2017-06-24
+
+```
+🖥️ It is as if you were doing work/
+├── 📁 assets/
+    ├── 📁 images/
+        ├── 📁 desktops/
+        ├── 📁 icons/
+        ├── 📁 stock/
+        └── .DS_Store
+    ├── 📁 sounds/
+        ├── 📁 music/
+        ├── .DS_Store
+        ├── dialog_failure.wav
+        ├── dialog_new.wav
+        ├── dialog_success.wav
+        ├── NOTIFY.WAV
+        ├── RECYCLE.WAV
+        ├── START.WAV
+        ├── startup.wav
+        ├── tada.wav
+        └── The Microsoft Sound.wav
+    └── .DS_Store
+├── 📁 css/
+    ├── 📁 external/
+    ├── 📁 images/
+    ├── .DS_Store
+    ├── AUTHORS.txt
+    ├── index.html
+    ├── jquery-ui.css
+    ├── jquery-ui.js
+    ├── jquery-ui.min.css
+    ├── jquery-ui.min.js
+    ├── jquery-ui.structure.css
+    ├── jquery-ui.structure.min.css
+    ├── jquery-ui.theme.css
+    ├── jquery-ui.theme.min.css`
+    ├── LICENSE.txt
+    ├── package.json
+    └── style.css
+├── 📁 js/
+    ├── 📁 breakout/
+        ├── 📁 images/
+        ├── 📁 music/
+        ├── 📁 sounds/
+        ├── .DS_Store
+        ├── Boot.js
+        ├── Breakout.js
+        ├── phaser.min.js
+        └── Preloader.js
+    ├── .DS_Store
+    ├── data.js
+    ├── game.js
+    ├── lodash.min.js
+    └── ui-generators.js
 ├── 📁 process/
     ├── 📁 images/
-        └── 📁 screens/
-            └── Screen Shot 2024-09-08 at 15.40.07
+    ├── .DS_Store
+    └── README.md
+├── .DS_Store
+└── index.html
+```
+
+## 2024-04-02
+
+```
+🖥️ It is as if you were doing work/
+├── 📁 assets/
+    ├── 📁 css/
+        ├── style.css
+    ├── 📁 images/
+        ├── 📁 desktops/
+        ├── 📁 icons/
+        ├── 📁 stock/
+        └── .DS_Store
+    ├── 📁 sounds/
+        ├── 📁 music/
+        ├── .DS_Store
+        ├── break.wav
+        ├── dialog_failure.wav
+        ├── dialog_new.wav
+        ├── dialog_success.wav
+        ├── promotion.wav
+        └── startup.wav
+    └── .DS_Store
+├── 📁 css/
+    ├── 📁 external/
+    ├── 📁 images/
+    ├── .DS_Store
+    ├── AUTHORS.txt
+    ├── index.html
+    ├── jquery-ui.css
+    ├── jquery-ui.js
+    ├── jquery-ui.min.css
+    ├── jquery-ui.min.js
+    ├── jquery-ui.structure.css
+    ├── jquery-ui.structure.min.css
+    ├── jquery-ui.theme.css
+    ├── jquery-ui.theme.min.css`
+    ├── LICENSE.txt
+    ├── package.json
+    └── style.css
+├── 📁 info/
+    ├── 📁 images/
+    └── README.md
+├── 📁 js/
+    ├── 📁 breakout/
+        ├── 📁 images/
+        ├── 📁 sounds/
+        ├── .DS_Store
+        ├── Boot.js
+        ├── Breakout.js
+        ├── phaser.min.js
+        └── Preloader.js
+    ├── .DS_Store
+    ├── data.js
+    ├── game.js
+    ├── lodash.min.js
+    └── ui-generators.js
+├── 📁 press/
+├── 📁 process/
+    ├── 📁 images/
+    ├── .DS_Store
+    ├── blog-posts.md
+    ├── CORRESPONDENCE.md
     ├── journal.md
     ├── README.md
     └── to-do.md
+├── .DS_Store
+├── .gitignore
 ├── _config.yml
 ├── index.html
-└── README.md
-```
-
-## 2024-09-17
-
-```
-⌨️ It is as if you were doing work/
-├── 📁 .vscode/
-├── 📁 css/
-├── 📁 data/
-    └── en.json
-├── 📁 info/
-├── 📁 js/
-    └── main.js
-├── 📁 process/
-    ├── 📁 images/
-        └── 📁 screens/
-            └── Screen Shot 2024-09-08 at 15.40.07
-    ├── journal.md
-    ├── README.md
-    └── to-do.md
-├── _config.yml
-├── index.html
+├── LICENSE
 └── README.md
 ```
