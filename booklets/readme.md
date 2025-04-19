@@ -46,7 +46,7 @@ Work with *Preview* to show the results as an HTML page.
 
 But we can also use it to easily generate any format we might need for layout / printing.
 
-## Design / Layout
+## Design / Layout / Editing
 
 ### Message to Jesse 2025-03-10
 
@@ -86,3 +86,32 @@ A kind of manifesto on everything booklet-related:
 
 I think / hope thats it. 
 Looking forward to discuss, not sure about half the things I wrote about.
+
+### Message to Jesse 2025-04-19
+
+Dear Jesse,
+
+again, thank sooooo much, [this](./tests/LoveTest_250418.pdf) is such an awesome version already. Interesting to see of your changes, your point of view adds so much.
+
+We just had a longer discussion and here are our observations, starting with simple ones:
+
+- most images do / will NOT have a caption, I think it's easier to not work with that
+- I / we have a similar feeling with the upper right/left corners "It is as if you were making love"
+	- on the one hand I feel it's just not so much needed, and it's also killing a lot of space
+	- but I also don't fully "get" the logic when its there and when not, maybe I just misunderstand?
+- Table of Contents
+	- thats just not easy... generally, I feel it looks gooood, BUT:
+	- the idea was to use a Pippin-style TOC, resembling his readme-structure
+	- which would be the first bullet-point list of the redame section (incl. the brief descriptions) AND the page-nr. next to them... maybe I can / should visualise it?
+- With or without ".md"
+	- hm, I get your reasoning behind excluding them... need to think about it more, but yes, maybe we can just leave them out, the idea behind them is... very nerdy and not too clear
+- Restructuring / merging Info & Press Kit
+	- hmm, thats again not easy, as I tried to aim for a nice balance between "preserving" and "not-repeating"
+	- for example, I kept the "Who is this Pippin Barr guy?" because he has a new version of it for each booklet, so there is a "progress" and for us exploring such progress is... essential?
+- Imprint & such
+	- yesss, you are already very much more on point than I ever could! thanks!
+	- small changes in production team, will let you know when we have it
+
+We made a new version [again](./2018_love/_book/), except the todo-chapter: done.
+
+Such things. Lot of details. Let's talk? Looking forward for sure!
