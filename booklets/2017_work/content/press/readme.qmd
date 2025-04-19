@@ -4,7 +4,7 @@
 
 ![](images/it-is-as-if-you-were-doing-work-banner.png)
 
-#### [Play Online](http://www.pippinbarr.com/itisasifyouweredoingwork/) (desktop only)
+Play Online^[[pippinbarr.com/itisasifyouweredoingwork](http://www.pippinbarr.com/itisasifyouweredoingwork/)] (desktop only)
 
 ### Description
 
@@ -18,13 +18,7 @@
 * Read the [Commit History](https://github.com/pippinbarr/itisasifyouweredoingwork/commits/master) for detailed, moment-to-moment insights into the development process
 * Look at the [Code Repository](https://github.com/pippinbarr/itisasifyouweredoingwork) for source code etc.
 
-### License
-
-_It is as if you were doing work* is licensed under a [Creative Commons Attribution-NonCommercial 3.0 Unported License](http://creativecommons.org/licenses/by-nc/3.0/).
-
-## _It is as if you were doing work_ Press Kit
-
-#### [Play _It is as if you were doing work_ in your browser](https://pippinbarr.github.io/itisasifyouweredoingwork/) (probably not mobile-friendly, sorry!)
+## Press Kit
 
 ### The basics
 
@@ -33,10 +27,6 @@ _It is as if you were doing work* is licensed under a [Creative Commons Attribut
 * Platform: Browser (probably mobile-unfriendly)
 * Code repository: https://www.github.com/pippinbarr/itisasifyouweredoingwork/
 * Price: $0.00
-
-### Description
-
-_The robots are here! No more work! It's great! Is it great?! Wait! You feel apathetic and unproductive! You miss clicking buttons! You miss waiting for progress bars! You miss checkboxes! You miss work! But it's going to be okay! Use this handy application and it is as if you were doing work!_
 
 ### Who is this Pippin Barr guy?
 
@@ -66,8 +56,6 @@ And that's how the game came together.
 
 _It is as if you were doing work_ is written in JavaScript using [jQuery](http://www.jquery.com/) and [jQuery UI](http://www.jqueryui.com/), two of the quintessential libraries for web development. The sound effects for _It is as if you were doing work_ are pulled from Windows 95 and Windows 98 system sounds, while the music was generated using [Wolfram Tones](http://tones.wolfram.com/). The desktop icons in the game are from Windows 95, the desktop pictures are all creative-commons zero-attribution or public domain, and the inspirational images are all watermarked stock images of work. The technology names are from Darius Kazemi's amazing [corpora on GitHub](https://github.com/dariusk/corpora/tree/master/data/technology). The theming of the dialog boxes was created in jQuery UI's [ThemeRoller](https://jqueryui.com/themeroller/).
 
-_It is as if you were doing work_ is an open source game licensed under a [Creative Commons Attribution-NonCommercial 3.0 Unported License](http://creativecommons.org/licenses/by-nc/3.0/). You are looking at the code (and process and press) repository right now.
-
 ### Features
 
 * Text areas!
@@ -82,33 +70,21 @@ _It is as if you were doing work_ is an open source game licensed under a [Creat
 
 ### Videos
 
-#### [_It is as if you were doing work_ Trailer](https://www.youtube.com/watch?v=RDMiRiHcezI)
+#### _It is as if you were doing work_ Trailer^[[youtube.com/watch?v=RDMiRiHcezI](https://www.youtube.com/watch?v=RDMiRiHcezI)]
 
-[![_It is as if you were doing work_ Trailer](https://img.youtube.com/vi/RDMiRiHcezI/0.jpg)](https://www.youtube.com/watch?v=RDMiRiHcezI)
+[![](https://img.youtube.com/vi/RDMiRiHcezI/0.jpg)](https://www.youtube.com/watch?v=RDMiRiHcezI)
 
 ### Images
 
-![Login](images/Login.png) ![Working_1](images/Working_1.png) ![Promotion](images/Promotion.png) ![Music](images/Music.png) ![Working_2](images/Working_2.png) ![Break](images/Break.png)
-
-#### Radio
-
-* [Program: forwards and backwards](http://www.deutschlandfunkkultur.de/suchergebnisse.2544.de.html?search%5Bword%5D=pippin&search%5Bsubmit%5D=1). 20 July 2017. Deutchlandfunk Kultur.
+![](images/Login.png) ![](images/Working_1.png) ![](images/Promotion.png) ![](images/Music.png) ![](images/Working_2.png) ![](images/Break.png)
 
 ### Additional Links
 
 * [Pippin's blog posts about _It is as if you were doing work_](http://www.pippinbarr.com/search.html?q=%22it%20is%20as%20if%20you%20were%20doing%20work%22)
 
-* [E-tray Exercise](https://www.wikijob.co.uk/content/aptitude-tests/test-types/e-tray-exercise) - Real world dystopian interface to train people to work with email
+* [E-tray Exercise](https://www.wikijob.co.uk/content/aptitude-tests/test-types/e-tray-exercise) - Real world dystopian interface to train people to work with email [assessmentday.co.uk/e-tray-exercise](https://www.assessmentday.co.uk/e-tray-exercise.html)
 * [In Europe, Fake Jobs Can Have Real Benefits](https://www.nytimes.com/2015/05/31/business/international/in-europe-fake-jobs-can-have-real-benefits.html) - New York Times article about fake businesses used for training
 
 ### Credits
 
 * Pippin Barr: everything.
-
-### Contact
-
-* Email: [pippin.barr+press@gmail.com](mailto:pippin.barr+press@gmail.com)
-* Website: [www.pippinbarr.com](http://www.pippinbarr.com/)
-* Twitter: [@pippinbarr](https://www.twitter.com/pippinbarr)
-* Instagram: [@pippinbarr](https://www.instagram.com/pippinbarr)
-* Facebook: [Pippin Barr](http://www.facebook.com/pippin.barr)

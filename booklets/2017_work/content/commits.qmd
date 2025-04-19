@@ -262,7 +262,7 @@ Added press and tweets
 More press, tweak
 
 - Added press
-- Tweaked to allow copy and select from textarea so @sonblaireau can capture the text for their patreon
+- Tweaked to allow copy and select from textarea so &#64;sonblaireau can capture the text for their patreon
 
 
 **Tue, 04 Jul 2017 18:44:31**  
@@ -365,10 +365,7 @@ Added press
 
 
 **Wed, 27 Sep 2017 11:46:04**  
-Trying to refer to commit https://github.com/pippinbarr/itisasifyouweredoingwork/commit/6559bb223b4e4dbb7eeb25e66edc096b27086036
-
-Commit https://github.com/pippinbarr/itisasifyouweredoingwork/commit/6559bb223b4e4dbb7eeb25e66edc096b27086036
-
+Trying to refer to commit 6559bb2
 
 **Tue, 02 Jan 2018 21:24:48**  
 Press: added entry
