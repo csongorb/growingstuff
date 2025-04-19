@@ -4,7 +4,7 @@
 
 ![Banner](images/it-is-as-if-you-were-making-love-banner.png)
 
-##### [Play Online](https://www.pippinbarr.com/itisasifyouweremakinglove/) (desktop and mobile)
+Play Online^[[pippinbarr.com/itisasifyouweremakinglove](https://www.pippinbarr.com/itisasifyouweremakinglove/)] (desktop and mobile)
 
 ### Description
 
@@ -39,8 +39,6 @@ _It is as if you were making love_ began life as a game idea in my notebook that
 Like any project, _It is as if you were making love_ changed over time, but the fundamental question stuck. Eventually I decided it was the sequel to [_It is as if you were doing work_](https://github.com/pippinbarr/itisasifyouweredoingwork), which included the realisation that I could use the same early-Windows style of graphical user-interface (though that came with its own weird problems). As such, _It is as if you were making love_ came to be positioned, like _It is as if you were doing work_, as a form of [Speculative Play](http://www.speculativeplay.com/). That is, it is a playful, interactive experience that seeks to comment on the present by representing itself as an artifact (application) from a possible future - in this case a specific meditation on sex in the context of technology and automation.
 
 The documentation surrounding _It is as if you were making love_ in the code repository is part of a process documentation approach developed with my colleagues [Rilla Khaled](https://rillakhaled.github.io/) and [Jonathan Lessard](https://jonathanlessard.net/) called the [MDMA](http://www.gamesasresearch.com/mdma) (for me it stands for _Method for Design Materialisation and Analysis_) and it forms a fundamental part of our [Games as Research](http://www.gamesasresearch.com/) project.
-
-If you want to, you can read a blow-by-blow history of the game's development by reading its [process documentation wiki](https://github.com/pippinbarr/itisasifyouweremakinglove/wiki) and by going through its [commit history](https://github.com/pippinbarr/itisasifyouweremakinglove/commits/master).
 
 ### Technology
 
