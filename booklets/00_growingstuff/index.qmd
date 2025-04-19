@@ -2,8 +2,44 @@
 
 This is the *catalogue / curators statement / meta-booklet / process documentation* of the exhibition *Pippin Barr x Devolution: It is as if you were...* at *A MAZE. / Berlin 2025*.
 
-* Read...
+* Read the **Commit History**  for detailed, moment-to-moment insights into the development process
+* Read the **Design Journal** for high-level reflections on the design and development process, **Booklets** / **On Stage**
+* Check the **Miro boards**
+* **Timeline**
+* Look at the **File Structure**  for the evolution of the source code
+
+## Description
+
+The text has been edited for print, but remains as close to the original as possible. Its main purpose is to provide the original material for exploration, the data is preserved *as is* and not updated.
+
+As a physical booklet it preserves the state of the project *as is* in a certain moment in time, when still far away from being finished. 
+
+> And it never ends. [...] [V]ideo games, and games in general, are never truly “finished.” The conversations with their rules can always continue a little longer [...]."^[@barr_stuff_2023[p. 23]]
+
+
+
+
+
+As printed a few days / weeks prior the exhibition 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Read
 * File Structure...
+* Read...
 
 ## Pippin Barr x Devolution
 
@@ -27,9 +63,10 @@ This is the *catalogue / curators statement / meta-booklet / process documentati
 └── 🌸
 ```
 
-...that helped him to find a traction on the idea of 
+In parallel...
 
-and has focused on the idea of *Speculative Play*.
+- ...that helped him to find a traction on the idea of 
+- and has focused on the idea of *Speculative Play*.
 
 > 100% a series yes! There are some bits in there where I feel like they end up being a bit about distinct things. I think of *Love* and *Work* as both existing in specific fictional universes where they're "needed" as a kind of therapeutic intervention into a problem. *Chess* didn't really come from that place, was more of a "wouldn't it be funny if...". And then *Phone* is unclear to me right now... I think probably giving it some Speculative Play scaffolding does make a bit of sense, but it feels reactive to exactly *now* rather than the future? So I'm not even sure it works out as speculative at all...^[See...]
 

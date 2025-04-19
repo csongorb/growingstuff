@@ -6,9 +6,8 @@ number-sections: true
 
 book:
   title: "It is as if you were growing stuff"
-  subtitle: "asdf"
   author: "Pippin Barr x Devolution"
-  date: "3/17/2025"
+  abstract: "@ A MAZE. / Berlin 2025"
   chapters:
     - index.qmd
     - ./content/commits.qmd
@@ -16,6 +15,7 @@ book:
     - ./content/booklets.qmd
     - ./content/onstage.qmd
     - ./content/miroboards.qmd
+    - ./content/timelines.qmd  
     - ./content/credits.qmd
     - ./content/imprint.qmd
 
