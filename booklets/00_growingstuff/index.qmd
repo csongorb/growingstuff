@@ -5,8 +5,9 @@ This is the *catalogue / curators statement / meta-booklet / process documentati
 * Read the **Commit History**  for detailed, moment-to-moment insights into the development process
 * Read the **Design Journal** for high-level reflections on the design and development process, **Booklets** / **On Stage**
 * Check the **Miro boards**
-* **Timeline**
+* **Timeline Iterations**
 * Look at the **File Structure**  for the evolution of the source code
+* **Credits**
 
 ## Description
 
@@ -17,40 +18,15 @@ As a physical booklet it preserves the state of the project *as is* in a certain
 > And it never ends. [...] [V]ideo games, and games in general, are never truly “finished.” The conversations with their rules can always continue a little longer [...]."^[@barr_stuff_2023[p. 23]]
 
 
-
-
-
 As printed a few days / weeks prior the exhibition 
 
+Link to repo!
 
 
+## It is as if you were... - Timeline!
 
+*It is as if you were...* is a series of games by Pippin Barr developed from 2016 and still ongoing.
 
-
-
-
-
-
-
-
-
-
-
-
-* Read
-* File Structure...
-* Read...
-
-## Pippin Barr x Devolution
-
-- is it important to assume that somebody checks this without any context?
-- intro into Devolution
-- intro into *Pippin Barr x Devolution*
-- link to the repository (QR-Code?)
-
-## It is as if you were...
-
-*It is as if you were...* is a series of games by Pippin Barr...
 
 ```
 🌱 It is as if you were/
@@ -63,14 +39,13 @@ As printed a few days / weeks prior the exhibition
 └── 🌸
 ```
 
-In parallel...
+To understand the development process of the whole series, it is important to observe them in parallel to other events mostly happening:
 
-- ...that helped him to find a traction on the idea of 
-- and has focused on the idea of *Speculative Play*.
+- joining *Speculative Play* (2017)
+- publishing Games as Research website
+- publishing a paper with ... (2018)
 
 > 100% a series yes! There are some bits in there where I feel like they end up being a bit about distinct things. I think of *Love* and *Work* as both existing in specific fictional universes where they're "needed" as a kind of therapeutic intervention into a problem. *Chess* didn't really come from that place, was more of a "wouldn't it be funny if...". And then *Phone* is unclear to me right now... I think probably giving it some Speculative Play scaffolding does make a bit of sense, but it feels reactive to exactly *now* rather than the future? So I'm not even sure it works out as speculative at all...^[See...]
-
-...and has in parallel invented / worked on *Games as Research*.
 
 > I first tried documenting this history in anxious blog entries: “Visions of clipping errors and a million unforeseen bugs crowd my peripheral vision along with the faceless horrors of maybe having forgetting [sic] to uncomment some bit of code” (Barr 2011a). Later, I turned to writing lengthy design reflections in private Evernote journals. These days, the process has become much more sophisticated, and it even has a name. I work with what my colleagues and I call MDM, or the Method for Design Materialization (Khaled, Lessard, and Barr 2018; Khaled and Barr 2023).^[@barr_stuff_2023[p. 6-7]]
 

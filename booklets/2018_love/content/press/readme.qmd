@@ -1,4 +1,4 @@
-# Info & Press Kit {#sec-presskit}
+# Press Kit {#sec-presskit}
 
 ## Info
 
@@ -26,7 +26,7 @@ _It is as if you were making love_ is the sequel to [_It is as if you were doing
 
 Pippin is an experimental game developer who has made games about everything from [Eurovision](http://www.pippinbarr.com/2012/03/27/epic-sax-game/) to [performance art](http://www.pippinbarr.com/2011/09/14/the-artist-is-present/) to [dystopian post-work futures](http://www.pippinbarr.com/games/2017/07/03/it-is-as-if-you-were-doing-work.html). He's an Assistant Professor in the [Department of Design and Computation Arts](http://www.concordia.ca/finearts/design.html) at [Concordia University](http://www.concordia.ca/) in Montréal. He is also the associate director of the [Technoculture, Art, and Games (TAG)](http://tag.hexagram.ca/) Research Centre, which is part of the [Milieux Institute for Arts, Culture, and Technology](http://milieux.concordia.ca/).
 
-### Description
+### More
 
 _It is as if you were making love_ is a game posing as an application from a near future in which humans have lost the interest and will for physical sex with other humans. Whether this is through distaste or for other reasons is not made clear. The application promises to provide humans with the experience of erotically pleasuring someone without the involvement of another human being. The experience is created as you interact with a set of standard user-interface elements styled in the tradition of a classic operating system along the lines of Windows 3.1 or 95. The major input element here is a slider, which is used to sexually please the interface, while other elements such as a text-field, a progress bar, and dialog boxes provide feedback on your success.
 
