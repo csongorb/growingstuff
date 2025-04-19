@@ -40,8 +40,6 @@ Like any project, _It is as if you were making love_ changed over time, but the 
 
 The documentation surrounding _It is as if you were making love_ in the code repository is part of a process documentation approach developed with my colleagues [Rilla Khaled](https://rillakhaled.github.io/) and [Jonathan Lessard](https://jonathanlessard.net/) called the [MDMA](http://www.gamesasresearch.com/mdma) (for me it stands for _Method for Design Materialisation and Analysis_) and it forms a fundamental part of our [Games as Research](http://www.gamesasresearch.com/) project.
 
-If you want to, you can read a blow-by-blow history of the game's development by reading its [process documentation wiki](https://github.com/pippinbarr/itisasifyouweremakinglove/wiki) and by going through its [commit history](https://github.com/pippinbarr/itisasifyouweremakinglove/commits/master).
-
 ### Technology
 
 _It is as if you were making love_ was written in JavaScript and HTML using [jQuery](http://jquery.com/) and [jQueryUI](http://jqueryui.com/) for its basic functionality and user-interface elements, [jQuery UI Touch Punch](http://touchpunch.furf.com/) to help it work on mobile devices, and [Howler.js](https://howlerjs.com/) for some audio handling.
