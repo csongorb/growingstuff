@@ -1,0 +1,149 @@
+# File Structure {#sec-filestructure}
+
+## 2025-01-08
+
+```
+🌱 It is as if you were growing stuff/
+└── 📁 process/
+    └── dialogue.md
+```
+
+## 2025-03-05
+
+```
+🌱 It is as if you were growing stuff/
+├── 📁 booklets/
+    ├── 📁 00_growingstuff/
+    ├── 📁 01_work/
+    ├── 📁 02_love/
+    ├── 📁 03_chessPaperworkAdventure/
+    ├── 📁 04_phone/
+    ├── 📁 05_workInProgress/
+    ├── 📁 06_blank/
+    └── booklets.md
+├── 📁 onstage/
+├── 📁 process/
+├── .gitignore
+└── readme.md
+```
+
+## 2025-01-30
+
+```
+📱 It is as if you were on your phone/
+├── 📁 assets/
+├── 📁 css/
+├── 📁 info/
+├── 📁 js/
+    ├── 📁 interactions/
+        ├── Interaction.js
+        ├── Scroll.js
+        ├── ScrollDown.js
+        └── Tap.js
+    ├── 📁 libraries/
+        ├── hammer.min.js
+        ├── p5.min.js
+        ├── p5.play.js
+        └── p5.sound.min.js
+    ├── 📁 states/
+        ├── Browsing.js
+        └── State.js
+    ├── acting.js
+    ├── main.js
+    ├── main-older.js
+    ├── swiping.js
+    ├── tappin.js
+    └── typing.js
+├── 📁 process/
+├── .gitignore
+├── _config_yml
+├── index.html
+└── README.md
+```
+
+## 2025-02-20
+
+```
+📱 It is as if you were on your phone/
+├── 📁 assets/
+├── 📁 css/
+├── 📁 info/
+├── 📁 js/
+    ├── 📁 actions/
+        └── Action.js
+    ├── 📁 activities/
+        ├── 📁 app-model/
+        ├── Activity.js
+        └── Phoning.js
+    ├── 📁 acts/
+        └── Act.js
+    ├── 📁 interactions/
+        ├── DoubleTap.js
+        ├── Drag.js
+        ├── drags.js
+        ├── Interaction.js
+        ├── LookBox.js
+        ├── looks.js
+        ├── Swipe.js
+        ├── swipes.js
+        ├── Tap.js
+        ├── taps.js
+        └── Type.js
+    ├── 📁 libraries/
+        ├── hammer.min.js
+        ├── p5.min.js
+        ├── p5.play.js
+        └── p5.sound.min.js
+    ├── helpers.js
+    └── main.js
+├── 📁 process/
+├── .gitignore
+├── _config_yml
+├── index.html
+└── README.md
+```
+
+## 2025-03-24
+
+```
+📱 It is as if you were on your phone/
+├── 📁 assets/
+├── 📁 css/
+├── 📁 info/
+├── 📁 js/
+    ├── 📁 actions/
+        └── Action.js
+    ├── 📁 activities/
+        ├── 📁 app-model/
+        ├── Activity.js
+        └── Phoning.js
+    ├── 📁 acts/
+        └── Act.js
+        └── actings.js
+    ├── 📁 interactions/
+        ├── DoubleTap.js
+        ├── Drag.js
+        ├── drags.js
+        ├── Interaction.js
+        ├── Swipe.js
+        ├── swipes.js
+        ├── Tap.js
+        ├── taps.js
+        ├── Type.js
+        ├── Watch.js
+        └── watches.js
+    ├── 📁 libraries/
+        └── p5.min.js
+    ├── Button.js
+    ├── helpers.js
+    ├── Info.js
+    ├── main.js
+    ├── Menu.js
+    └── State.js
+├── 📁 press/
+├── 📁 process/
+├── .gitignore
+├── _config_yml
+├── index.html
+└── README.md
+```
