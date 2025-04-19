@@ -1,12 +1,14 @@
 project:
   type: book
 
-number-depth: 1
+number-depth: 0
+number-sections: true
 
 book:
-  title: "It is as if you were playing a text adventure"
-  author: "Pippin Barr & Devolution"
-  date: "3/17/2025"
+  title: "It is as if you were playing a text adventure (2024)"
+  subtitle: "The evolution of..."
+  author: "Pippin Barr x Devolution"
+  abstract: "@ A MAZE. / Berlin 2025"
   chapters:
     - index.qmd
     - ./content/info.qmd
@@ -15,16 +17,21 @@ book:
     - ./content/to-do.qmd
 
 bibliography: ../sharedContent/references.bib
+csl: ../sharedContent/chicago-mod.csl
 
 format:
   html:
     theme:
       - cosmo
       - brand
+    toc-depth: 2
+    link-external-icon: false
+    link-external-newwindow: true
   pdf:
     documentclass: scrreprt
     toc: false
   docx:
     toc: false
-    number-sections: true
     highlight-style: github
+  epub:
+    toc: false

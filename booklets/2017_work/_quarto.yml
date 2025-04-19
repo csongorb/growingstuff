@@ -1,33 +1,41 @@
 project:
   type: book
 
-number-depth: 1
+number-depth: 0
+number-sections: true
 
 book:
-  title: "It is as if you were doing work"
+  title: "It is as if you were doing work (2017)"
+  subtitle: "The evolution of..."
   author: "Pippin Barr & Devolution"
-  date: "3/17/2025"
+  abstract: "@ A MAZE. / Berlin 2025"
+
   chapters:
     - index.qmd
-    - ./press/readme.qmd
-    - commits.qmd
-    - journal.qmd
-    - correspondence.qmd
-    - blog-posts.qmd
-    - to-do.qmd
-    - ./pressabout/readme.qmd
+    - ./content/press/readme.qmd
+    - ./content/commits.qmd
+    - ./content/journal.qmd
+    - ./content/correspondence.qmd
+    - ./content/blog-posts.qmd
+    - ./content/to-do.qmd
+    - ./content/pressabout/readme.qmd
 
-bibliography: references.bib
+bibliography: ../sharedContent/references.bib
+csl: ../sharedContent/chicago-mod.csl
 
 format:
   html:
     theme:
       - cosmo
       - brand
+    toc-depth: 2
+    link-external-icon: false
+    link-external-newwindow: true
   pdf:
     documentclass: scrreprt
-    toc-depth: 1
+    toc: false
   docx:
-    toc: true
-    number-sections: true
+    toc: false
     highlight-style: github
+  epub:
+    toc: false
