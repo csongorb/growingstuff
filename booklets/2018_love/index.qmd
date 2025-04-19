@@ -2,7 +2,7 @@
 
 This is the process documentation for the game *It is as if you were making love* by Pippin Barr. 
 
-* Read the **Info & Press Kit** (@sec-presskit) for more details on the game and press information
+* Read the **Press Kit** (@sec-presskit) for more details on the game and press information
 * Read the **Manifesto** (@sec-manifesto) for a series of attempts to crystallise the meaning and intend of the games in short-form writing
 * Read the **Design Journal** (@sec-journal) for high-level reflections on the design and development process, 
 * Look at the **To Dos** (@sec-todos), lists of practical tasks for the project
@@ -11,15 +11,17 @@ This is the process documentation for the game *It is as if you were making love
 * Look at the **File Structure** (@sec-filestructure) for the evolution of the source code
 * Read others writing about the game in **Press** (@sec-pressabout)
 
-The text is edited for print, but stays as close to the original as possible. Exploration of the original material is the main purpose, data is kept "as is" and not updated. See the original [repository](https://github.com/pippinbarr/itisasifyouweremakinglove) for the *real* experience.
+## Description
 
-The original process documentation was written as a wiki with MDMA already in mind, and only later (2022) uploaded to the same repository. 
+The text has been edited for print, but remains as close to the original as possible. Its main purpose is to provide the original material for exploration, the data is preserved *as is* and not updated.
 
-> This is the process documentation wiki for the game It is as if you were making love. The process documentation available here is the result of following the [MDMA](http://www.gamesasresearch.com/mdma) (Method for Design Materialisation and Analysis), an approach to game design recoverability that forms the basis of the [Games as Research](http://www.gamesasresearch.com/) project I am part of with [Rilla Khaled](http://www.rillakhaled.com/) and [Jonathan Lessard](https://jonathanlessard.net/).^[[https://github.com/pippinbarr/itisasifyouweremakinglove/wiki](https://github.com/pippinbarr/itisasifyouweremakinglove/wiki)]
+> This is the process documentation wiki for the game *It is as if you were making love*. The process documentation available here is the result of following the [MDMA](http://www.gamesasresearch.com/mdma) (Method for Design Materialisation and Analysis), an approach to game design recoverability that forms the basis of the [Games as Research](http://www.gamesasresearch.com/) project I am part of with [Rilla Khaled](http://www.rillakhaled.com/) and [Jonathan Lessard](https://jonathanlessard.net/).^[[github.com/pippinbarr/itisasifyouweremakinglove/wiki](https://github.com/pippinbarr/itisasifyouweremakinglove/wiki)]
+
+The original process documentation was written as a wiki with MDMA already in mind, and only later (2022) uploaded to the repository. 
 
 ## It is as if you were...
 
-This booklet is / was part of the exhibition *Pippin Barr x Devolution: It is as if you were...* at *A MAZE. / Berlin 2025*, which explored / exhibited the development process of the *It is as if you were...* games by Pippin Barr.
+This booklet is part of the exhibition **Pippin Barr x Devolution: It is as if you were...** at *A MAZE. / Berlin 2025*, which explored & exhibited the development process of the *It is as if you were...* game series by Pippin Barr.
 
 ```
 🌱 It is as if you were/
@@ -32,7 +34,5 @@ This booklet is / was part of the exhibition *Pippin Barr x Devolution: It is as
 └── 🌸
 ```
 
-- Explore the other booklets of the bundle for the evolution of the whole series, how it helped Pippin Barr to get a better idea of MDMA and refine his thinking around Speculative Play
-- Read *It is as if you were growing stuff* for additional context on the exhibition and reflections on how games evolve in conversation with their material
-- Visit the [repository of the exhibition](https://github.com/csongorb/growingstuff) for up-to-date information and reflections on the exhibition
-- Visit the [Devolution website](https://devolution.online/) for more development process explorations
+- Read *Pippin Barr x Devolution: It is as if you were growing stuff*^[It is as if you were growing stuff, vol. 1, Pippin Barr x Devolution: It is as if you were... (Berlin: Devolution & Dessauer Press, 2025).] and the other booklets of the bundle for additional context on the exhibition and reflections on how games evolve in conversation with their material
+- Visit the *repository of the exhibition*^[[github.com/csongorb/growingstuff](https://github.com/csongorb/growingstuff)] for ongoing information and reflections, for the *real* experience
