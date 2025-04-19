@@ -424,7 +424,7 @@ Would you mind uploading them here? But remember: what is in the repository stay
 
 See you!
 
-# 2025-04-08 Csongor: Jump, jump!
+## 2025-04-08 Csongor: Jump, jump!
 
 Haha, I have just edited the [/booklets/00_growingstuff/content/dialogue.qmd](/booklets/00_growingstuff/content/dialogue.qmd) file first, a perfect glitch for this message!
 
@@ -444,3 +444,16 @@ Well... I think it's fine? Yeah we seem all good to me! I've been making my sour
 
 Happy to work on getting specific builds that feel pertinent too, yeah, and then they can be individually QR coded or fit into the Devolutionizer as you/we see fit?
 
+## 2025-04-19 Csongor: The speed of rabbits & how to catch fluids
+
+I did not realized, but suddenly, we are in the stage where *stop and think* gets harder and harder. We just *do*. But it seems that Eastern helps to give my mind some time to rest / reflect.
+
+Printing booklets is sooo... final, I guess? The need to finalize the content of the booklets clashes with fluidity. Especially visible in *Growing Stuff*, obviously, but also for *Text Adventure*. I mean hey, maybe that's what you will develop during *The Designer Is Present* and you have just added a new journal entry.  
+
+Is this:  
+Catch me if you can?  
+Hmm, no it is not. Because it is Eastern and I have just arrived in the garden:  
+Perhaps it is not *freezing a moment*, or *visualizing the process*, but: 
+Showing in every moment that it *has grown* and that it *will continue to grow*.
+
+But thinking helps, I already have some [ideas](../booklets/todo.md). 
