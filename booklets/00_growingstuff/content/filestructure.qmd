@@ -23,127 +23,212 @@
     └── booklets.md
 ├── 📁 onstage/
 ├── 📁 process/
+    ├── 📁 screenshots/
+    ├── booklets.md
+    ├── dialogue.md
+    └── onstage.md
 ├── .gitignore
 └── readme.md
 ```
 
-## 2025-01-30
+## 2025-03-31
 
 ```
-📱 It is as if you were on your phone/
-├── 📁 assets/
-├── 📁 css/
-├── 📁 info/
-├── 📁 js/
-    ├── 📁 interactions/
-        ├── Interaction.js
-        ├── Scroll.js
-        ├── ScrollDown.js
-        └── Tap.js
-    ├── 📁 libraries/
-        ├── hammer.min.js
-        ├── p5.min.js
-        ├── p5.play.js
-        └── p5.sound.min.js
-    ├── 📁 states/
-        ├── Browsing.js
-        └── State.js
-    ├── acting.js
-    ├── main.js
-    ├── main-older.js
-    ├── swiping.js
-    ├── tappin.js
-    └── typing.js
+🌱 It is as if you were growing stuff/
+├── 📁 booklets/
+    ├── 📁 00_growingstuff/
+        ├── 📁 growingstuff_quarto/
+            ├── .gitignore
+            ├── _quarto.yml
+            ├── commits.qmd
+            ├── index.qmd
+            ├── journal.qmd
+            ├── references.bib
+            └── references.qmd
+        └── readme.md
+    ├── 📁 01_work/
+        ├── 📁 work_quarto/
+            ├── 📁 _book/
+            ├── 📁 images/
+            ├── 📁 press/
+            ├── 📁 pressabout/
+            ├── .gitignore
+            ├── _quarto.yml
+            ├── blog-posts.md
+            ├── blog-posts.qmd
+            ├── commit_log.md
+            ├── Commits over time work.png
+            ├── commits.qmd
+            ├── CORRESPONDENCE.md
+            ├── correspondence.qmd
+            ├── index.qmd
+            ├── journal.md
+            ├── journal.qmd
+            ├── references.bib
+            ├── references.qmd
+            ├── to-do.qmd
+            └── to-do_20220720.md
+        └── readme.md
+    ├── 📁 02_love/
+        ├── 📁 love_quarto/
+            ├── 📁 _book/
+            ├── 📁 images/
+            ├── 📁 info/
+            ├── 📁 press/
+            ├── .gitignore
+            ├── _quarto.yml
+            ├── commit_log.html
+            ├── commit_log.qmd
+            ├── blog-posts.qmd
+            ├── Commits over time love.png
+            ├── commits.qmd
+            ├── index.qmd
+            ├── journal.md
+            ├── journal.qmd
+            ├── manifesto.md
+            ├── manifesto.qmd
+            ├── pressabout.qmd
+            ├── references.bib
+            ├── references.qmd
+            ├── related-work.md
+            ├── related-work.qmd
+            ├── to-do.qmd
+            └── to-do_20220719.md
+        └── readme.md
+    ├── 📁 03_chessPaperworkAdventure/
+        ├── 📁 chessPaperworkAdventure_quarto/
+            ├── 📁 _book/
+            ├── 📁 01_chess/
+            ├── 📁 02_paperwork/
+            ├── 📁 03_adventure/
+            ├── .gitignore
+            ├── _quarto.yml
+            ├── index.qmd
+            ├── references.bib
+            └── timeline_itisasif.png
+        └── readme.md
+    ├── 📁 04_phone/
+        ├── 📁 phone_quarto/
+            ├── 📁 _book/
+            ├── 📁 images/
+            ├── 📁 info/
+            ├── 📁 press_20250303/
+            ├── .gitignore
+            ├── _quarto.yml
+            ├── Commits over time phone.png            
+            ├── commits.qmd
+            ├── index.qmd
+            ├── journal.qmd
+            ├── references.bib
+            ├── references.qmd
+            ├── timeline_itisasif.png
+            ├── todo_20250110.qmd
+            ├── todo_20250127.qmd
+            ├── todo_20250130.qmd
+            ├── todo_20250221.qmd
+            ├── todo_20250227.qmd
+            ├── todo_20250316.qmd
+            ├── todos.qmd
+            └── why.qmd
+        └── readme.md
+    ├── 📁 05_workInProgress/
+    ├── 📁 06_blank/
+    └── readme.md
+├── 📁 exhibition/
+├── 📁 onstage/
 ├── 📁 process/
+    ├── 📁 images/
+    ├── 📁 screenshots/
+    ├── booklets.md
+    ├── dialogue.md
+    └── onstage.md
 ├── .gitignore
-├── _config_yml
-├── index.html
-└── README.md
+└── readme.md
 ```
 
-## 2025-02-20
+## 2025-04-19
 
 ```
-📱 It is as if you were on your phone/
-├── 📁 assets/
-├── 📁 css/
-├── 📁 info/
-├── 📁 js/
-    ├── 📁 actions/
-        └── Action.js
-    ├── 📁 activities/
-        ├── 📁 app-model/
-        ├── Activity.js
-        └── Phoning.js
-    ├── 📁 acts/
-        └── Act.js
-    ├── 📁 interactions/
-        ├── DoubleTap.js
-        ├── Drag.js
-        ├── drags.js
-        ├── Interaction.js
-        ├── LookBox.js
-        ├── looks.js
-        ├── Swipe.js
-        ├── swipes.js
-        ├── Tap.js
-        ├── taps.js
-        └── Type.js
-    ├── 📁 libraries/
-        ├── hammer.min.js
-        ├── p5.min.js
-        ├── p5.play.js
-        └── p5.sound.min.js
-    ├── helpers.js
-    └── main.js
+🌱 It is as if you were growing stuff/
+├── 📁 booklets/
+    ├── 📁 00_blank/
+    ├── 📁 00_growingstuff/
+        ├── 📁 _book/
+        ├── 📁 content/
+            ├── 📁 2025_growingstuff/
+            ├── 📁 images/
+            ├── 📁 screenshots/
+            ├── 📁 TimelineVisualization/
+            ├── booklets.qmd
+            ├── commit_log.qmd
+            ├── commits.qmd
+            ├── credits.qmd
+            ├── dialogue.qmd
+            ├── filestructure.qmd
+            ├── imprint.qmd
+            ├── miroboards.qmd
+            ├── onstage.qmd
+            ├── references.qmd
+            ├── timelines.qmd
+        ├── .gitignore
+        ├── _quarto.yml
+        ├── index.qmd
+        └── readme.md
+    ├── 📁 2016_chess/
+        ├── 📁 _book/
+        ├── 📁 content/
+        ├── .gitignore
+        ├── _quarto.yml
+        ├── index.qmd
+        └── readme.md
+    ├── 📁 2017_work/
+        ├── 📁 _book/
+        ├── 📁 content/
+        ├── .gitignore
+        ├── _quarto.yml
+        ├── index.qmd
+        └── readme.md
+    ├── 📁 2018_love/
+        ├── 📁 _book/
+        ├── 📁 content/
+        ├── .gitignore
+        ├── _quarto.yml
+        ├── index.qmd
+        └── readme.md
+    ├── 📁 2022_paperwork/
+        ├── 📁 _book/
+        ├── 📁 content/
+        ├── .gitignore
+        ├── _quarto.yml
+        ├── index.qmd
+        └── readme.md
+    ├── 📁 2024_textadventure/
+        ├── 📁 _book/
+        ├── 📁 content/
+        ├── .gitignore
+        ├── _quarto.yml
+        ├── index.qmd
+        └── readme.md
+    ├── 📁 2025_phone/
+        ├── 📁 _book/
+        ├── 📁 content/
+        ├── .gitignore
+        ├── _quarto.yml
+        ├── index.qmd
+        └── readme.md
+    ├── 📁 sharedContent/
+    ├── 📁 tests/
+    ├── readme.md
+    └── todo.md
+├── 📁 exhibition/
+├── 📁 onstage/
 ├── 📁 process/
+    ├── 📁 images/
+    ├── 📁 screenshots/
+    ├── booklets.md
+    ├── dialogue.md
+    └── onstage.md
+├── 📁 versions/
 ├── .gitignore
-├── _config_yml
-├── index.html
-└── README.md
-```
-
-## 2025-03-24
-
-```
-📱 It is as if you were on your phone/
-├── 📁 assets/
-├── 📁 css/
-├── 📁 info/
-├── 📁 js/
-    ├── 📁 actions/
-        └── Action.js
-    ├── 📁 activities/
-        ├── 📁 app-model/
-        ├── Activity.js
-        └── Phoning.js
-    ├── 📁 acts/
-        └── Act.js
-        └── actings.js
-    ├── 📁 interactions/
-        ├── DoubleTap.js
-        ├── Drag.js
-        ├── drags.js
-        ├── Interaction.js
-        ├── Swipe.js
-        ├── swipes.js
-        ├── Tap.js
-        ├── taps.js
-        ├── Type.js
-        ├── Watch.js
-        └── watches.js
-    ├── 📁 libraries/
-        └── p5.min.js
-    ├── Button.js
-    ├── helpers.js
-    ├── Info.js
-    ├── main.js
-    ├── Menu.js
-    └── State.js
-├── 📁 press/
-├── 📁 process/
-├── .gitignore
-├── _config_yml
-├── index.html
-└── README.md
+└── readme.md
 ```
