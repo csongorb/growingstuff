@@ -18,9 +18,11 @@ A few quotes about journaling:
           -Now don’t forget to select ▝▍▀▟▖▀▎ and then press ▚▎▗▀ before you go.
           -be careful with aesthetics, my friends
         -Something to do while you're doing something (2017-06-19)
-            -Work continues on It is as if you were doing work. 
+            -Work continues on It is as if you were doing work.
+  
     -Book
         -banality is my cup of tea
+  
     -Journal
         -Today's thoughts (2017-06-10 12:24)
             -One, two, three.
@@ -29,9 +31,11 @@ A few quotes about journaling:
             -So basically I need to work out how to make correct decisions
         -Longer-term tasks (2017-06-18 18:26)
             -So those are some thoughts.
+  
 -It is as if you would be on your phone
     -Process/Why
             -Again I can't totally tell where I am on the funny versus honest spectrum with this one.
+            
     -Journal
             -Continuing with pretty meta stuff
             -Let me pick up my phone now and do some "dating"...
@@ -39,6 +43,7 @@ A few quotes about journaling:
             -I think I need to take another pass at it with this in mind and see if it helps.
             -if you work on something that connects with internet/tech/game culture you're more likely to catch the wind of interest from people
             -One of those release processes that surprise you by not just being "well... it's out there now, the end".
+  
 -It is as if you were making love
     -Journal
             -So that is the current state of consideration. More news as the situation develops.
