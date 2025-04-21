@@ -252,11 +252,6 @@ Add all jQuery UI widgets to a test page to use them and understand/fix styling,
 * ~~Only show desktop on successful login~~
 * ~~Random typical desktop image (maybe let user select on login?)~~
 * ~~Login screen on start (username and password, use username in UI and occasionally ask them to reenter their password)~~
-* ~~Repair CSS for niggles~~
-  - ~~**DOESN'T SEEM TO BE HAPPENING FOR NOW** Refix the highlighting of focused elements~~
-  - ~~**FOR NOW I'M AT PEACE WITH THE NON-JQUERY CHECKBOXES** Colour of radio button (want black on white eventually, no fucking idea why it ought to be hard though)~~
-  - ~~**DID IT** Consider whether need more windows-y drop shadow on the buttons?~~
-  - ~~Remove focus outline of focused elements (too usable)~~
 * ~~Shake the dialog box when it's incorrect~~
 * ~~Implement 'check at the end' version of validation for each type~~
 * ~~Add ability for dialog to specify and evaluate its task~~
@@ -264,15 +259,3 @@ Add all jQuery UI widgets to a test page to use them and understand/fix styling,
 * ~~**NOT DOING THIS** Add dropdown menu to top of the screen if that's plausible (at least like File Edit Something)~~
 * ~~**DECOMPLICATED THIS OUT** Work out a language for generating and specifying and testing tasks~~
 * ~~**BASICALLY WORKS** Test multiple UI elements in a single dialog in list form~~
-* ~~Add other jQuery UI widgets into dialog boxes and display them~~
-  - ~~Radio buttons~~
-  - ~~Checkboxes~~
-  - ~~Date picker~~
-  - ~~**NOT ACTUALLY NEEDED** Multiple buttons~~
-  - ~~**PART DONE** Spinner~~
-  - ~~**ALL DONE** Spinner~~
-  - ~~Slider~~
-  - ~~Progress bar~~
-  - ~~Select menu~~
-  * ~~**BUT NOTE NO MULTI-SELECT WHICH I THINK IS FINE** Think through integrating icon selection and dragging~~
-  * ~~Integrate new Win95esque CSS~~
