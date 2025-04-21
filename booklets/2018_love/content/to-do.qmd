@@ -18,7 +18,7 @@
 - ~~Add a text panel to indicate instruction modifiers and other phrases~~
 - ~~Add a progress bar (need to think about how this is going to look)~~
 - ~~__NAH__ Add numbers to the pips? (I feel like this is not very win95-y, but otherwise how do you know what the setting it?)~~
-- ~~__IT'S BETTER IN THE PANEL I THINK__Highlight the setting to slider to on the slider (try this over the version where it's in the panel)~~
+- ~~**IT'S BETTER IN THE PANEL I THINK** Highlight the setting to slider to on the slider (try this over the version where it's in the panel)~~
 - ~~Add some kind of timing requirement to stay on a selection before moving on to avoid mindless stroking~~
 - ~~Add a popup dialog with a text to type in and test on mobile (make it modal)~~
 
@@ -34,7 +34,7 @@
 
 - ~~Write a journal entry about sounds to figure out how they'll work~~
 - ~~Add sounds from Win 2000~~
-- ~~__INDEED YOU NEED AN EVENT TO TRIGGER IT__Check iOS audio triggering issues on actual device~~
+- ~~**INDEED YOU NEED AN EVENT TO TRIGGER IT** Check iOS audio triggering issues on actual device~~
 - ~~Add an application icon to load the game (gives us the music trigger too for iOS)~~
 - ~~Add radio/checkbox/button for toggling 'mood music' on and off~~
 - ~~Add array for strokes-per-range to emphasise higher stroke counts~~
