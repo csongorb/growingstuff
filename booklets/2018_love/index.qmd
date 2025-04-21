@@ -34,5 +34,5 @@ This booklet is part of the exhibition **Pippin Barr x Devolution: It is as if y
 └── 🌸
 ```
 
-- Read *Pippin Barr x Devolution: It is as if you were growing stuff*^[It is as if you were growing stuff, vol. 1, Pippin Barr x Devolution: It is as if you were... (Berlin: Devolution & Dessauer Press, 2025).] and the other booklets of the bundle for additional context on the exhibition and reflections on how games evolve in conversation with their material
+- Read *Pippin Barr x Devolution: It is as if you were growing stuff*^[Barr, P. and Devolution (2025) It is as if you were growing stuff. A MAZE. / Berlin 2025. Berlin: The Dessauer Press & Devolution (Pippin Barr x Devolution: It is as if you were...).] and the other booklets of the bundle for additional context on the exhibition and reflections on how games evolve in conversation with their material
 - Visit the *repository of the exhibition*^[[github.com/csongorb/growingstuff](https://github.com/csongorb/growingstuff)] for ongoing information and reflections, for the *real* experience
