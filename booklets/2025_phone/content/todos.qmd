@@ -30,7 +30,6 @@
 ### Research
 
 - ~~Spend some time on my phone just trying to see typical interactions and interaction clusters and interaction sequences~~
-
 - Spend time in specific apps and take notes on typical interaction
     - Instagram
     - Browser
@@ -80,14 +79,6 @@
     - ~~This remains a problem after some initial testing~~
     - ~~Further testing makes me think this is a series issue, at least in p5 seems to come down to whether a conditional is evaluated or not which... seems insane to me~~
     - ~~Even further reflection has me wondering about using a different library (PixiJS?)~~
-
-
-
-
-
-
-
-
 
 
 
@@ -172,13 +163,6 @@
 - **Eliminating this only because I don't have a scroll anymore, this may come back to haunt** ~~Also if you hold a pan it seems to manage to scroll up sometimes when you mean down or..?~~
 
 
-
-
-
-
-
-
-
 ## 2025-02-27
 
 ### Sound
@@ -223,9 +207,3 @@
 - ~~If you tip to landscape and back it is fuuuuucked (on mobile)~~
 - ~~Layout of Menu looks pretty bad on mobile right now~~
 - **Well that took a lot of frustrating work that further broke my sparkling engineering** ~~DoubleTap positions at edge sometimes because the position code assumes single tap positioning~~
-
-
-
-
-
-

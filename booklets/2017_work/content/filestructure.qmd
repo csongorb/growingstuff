@@ -45,7 +45,6 @@
     ├── package.json
     └── style.css
 ├── 📁 js/
-    └── uigame.js
 ├── 📁 process/
 └── index.html
 ```
@@ -55,21 +54,6 @@
 ```
 🖥️ It is as if you were doing work/
 ├── 📁 css/
-    ├── 📁 external/
-    ├── 📁 images/
-    ├── AUTHORS.txt
-    ├── index.html
-    ├── jquery-ui.css
-    ├── jquery-ui.js
-    ├── jquery-ui.min.css
-    ├── jquery-ui.min.js
-    ├── jquery-ui.structure.css
-    ├── jquery-ui.structure.min.css
-    ├── jquery-ui.theme.css
-    ├── jquery-ui.theme.min.css`
-    ├── LICENSE.txt
-    ├── package.json
-    └── style.css
 ├── 📁 js/
     ├── game.js
     └── lodash.min.js
@@ -85,21 +69,6 @@
     ├── 📁 external/
     ├── 📁 images/
     ├── 📁 old/
-        ├── 📁 external/
-        ├── 📁 images/
-        ├── AUTHORS.txt
-        ├── index.html
-        ├── jquery-ui.css
-        ├── jquery-ui.js
-        ├── jquery-ui.min.css
-        ├── jquery-ui.min.js
-        ├── jquery-ui.structure.css
-        ├── jquery-ui.structure.min.css
-        ├── jquery-ui.theme.css
-        ├── jquery-ui.theme.min.css`
-        ├── LICENSE.txt
-        ├── package.json
-        └── style.css
     ├── AUTHORS.txt
     ├── index.html
     ├── jquery-ui.css
@@ -115,8 +84,6 @@
     └── style.css
 ├── 📁 images/
 ├── 📁 js/
-    ├── game.js
-    └── lodash.min.js
 ├── 📁 process/
 └── index.html
 ```
@@ -126,37 +93,6 @@
 ```
 🖥️ It is as if you were doing work/
 ├── 📁 css/
-    ├── 📁 external/
-    ├── 📁 images/
-    ├── 📁 old/
-        ├── 📁 external/
-        ├── 📁 images/
-        ├── AUTHORS.txt
-        ├── index.html
-        ├── jquery-ui.css
-        ├── jquery-ui.js
-        ├── jquery-ui.min.css
-        ├── jquery-ui.min.js
-        ├── jquery-ui.structure.css
-        ├── jquery-ui.structure.min.css
-        ├── jquery-ui.theme.css
-        ├── jquery-ui.theme.min.css`
-        ├── LICENSE.txt
-        ├── package.json
-        └── style.css
-    ├── AUTHORS.txt
-    ├── index.html
-    ├── jquery-ui.css
-    ├── jquery-ui.js
-    ├── jquery-ui.min.css
-    ├── jquery-ui.min.js
-    ├── jquery-ui.structure.css
-    ├── jquery-ui.structure.min.css
-    ├── jquery-ui.theme.css
-    ├── jquery-ui.theme.min.css`
-    ├── LICENSE.txt
-    ├── package.json
-    └── style.css
 ├── 📁 images/
 ├── 📁 js/
     ├── game.js
@@ -174,41 +110,7 @@
     ├── 📁 images/
     └── 📁 sounds/
 ├── 📁 css/
-    ├── 📁 external/
-    ├── 📁 images/
-    ├── 📁 old/
-        ├── 📁 external/
-        ├── 📁 images/
-        ├── AUTHORS.txt
-        ├── index.html
-        ├── jquery-ui.css
-        ├── jquery-ui.js
-        ├── jquery-ui.min.css
-        ├── jquery-ui.min.js
-        ├── jquery-ui.structure.css
-        ├── jquery-ui.structure.min.css
-        ├── jquery-ui.theme.css
-        ├── jquery-ui.theme.min.css`
-        ├── LICENSE.txt
-        ├── package.json
-        └── style.css
-    ├── AUTHORS.txt
-    ├── index.html
-    ├── jquery-ui.css
-    ├── jquery-ui.js
-    ├── jquery-ui.min.css
-    ├── jquery-ui.min.js
-    ├── jquery-ui.structure.css
-    ├── jquery-ui.structure.min.css
-    ├── jquery-ui.theme.css
-    ├── jquery-ui.theme.min.css`
-    ├── LICENSE.txt
-    ├── package.json
-    └── style.css
 ├── 📁 js/
-    ├── game.js
-    ├── lodash.min.js
-    └── ui-generators.js
 ├── 📁 process/
 └── index.html
 ```
@@ -218,40 +120,7 @@
 ```
 🖥️ It is as if you were doing work/
 ├── 📁 assets/
-    ├── 📁 images/
-    └── 📁 sounds/
 ├── 📁 css/
-    ├── 📁 external/
-    ├── 📁 images/
-    ├── 📁 old/
-        ├── 📁 external/
-        ├── 📁 images/
-        ├── AUTHORS.txt
-        ├── index.html
-        ├── jquery-ui.css
-        ├── jquery-ui.js
-        ├── jquery-ui.min.css
-        ├── jquery-ui.min.js
-        ├── jquery-ui.structure.css
-        ├── jquery-ui.structure.min.css
-        ├── jquery-ui.theme.css
-        ├── jquery-ui.theme.min.css`
-        ├── LICENSE.txt
-        ├── package.json
-        └── style.css
-    ├── AUTHORS.txt
-    ├── index.html
-    ├── jquery-ui.css
-    ├── jquery-ui.js
-    ├── jquery-ui.min.css
-    ├── jquery-ui.min.js
-    ├── jquery-ui.structure.css
-    ├── jquery-ui.structure.min.css
-    ├── jquery-ui.theme.css
-    ├── jquery-ui.theme.min.css`
-    ├── LICENSE.txt
-    ├── package.json
-    └── style.css
 ├── 📁 js/
     ├── data.js
     ├── game.js
@@ -266,24 +135,7 @@
 ```
 🖥️ It is as if you were doing work/
 ├── 📁 assets/
-    ├── 📁 images/
-    └── 📁 sounds/
 ├── 📁 css/
-    ├── 📁 external/
-    ├── 📁 images/
-    ├── AUTHORS.txt
-    ├── index.html
-    ├── jquery-ui.css
-    ├── jquery-ui.js
-    ├── jquery-ui.min.css
-    ├── jquery-ui.min.js
-    ├── jquery-ui.structure.css
-    ├── jquery-ui.structure.min.css
-    ├── jquery-ui.theme.css
-    ├── jquery-ui.theme.min.css`
-    ├── LICENSE.txt
-    ├── package.json
-    └── style.css
 ├── 📁 js/
     ├── 📁 breakout/
         ├── 📁 images/
@@ -306,56 +158,8 @@
 ```
 🖥️ It is as if you were doing work/
 ├── 📁 assets/
-    ├── 📁 images/
-        ├── 📁 desktops/
-        ├── 📁 icons/
-        ├── 📁 stock/
-        └── .DS_Store
-    ├── 📁 sounds/
-        ├── 📁 music/
-        ├── .DS_Store
-        ├── dialog_failure.wav
-        ├── dialog_new.wav
-        ├── dialog_success.wav
-        ├── NOTIFY.WAV
-        ├── RECYCLE.WAV
-        ├── START.WAV
-        ├── startup.wav
-        ├── tada.wav
-        └── The Microsoft Sound.wav
-    └── .DS_Store
 ├── 📁 css/
-    ├── 📁 external/
-    ├── 📁 images/
-    ├── .DS_Store
-    ├── AUTHORS.txt
-    ├── index.html
-    ├── jquery-ui.css
-    ├── jquery-ui.js
-    ├── jquery-ui.min.css
-    ├── jquery-ui.min.js
-    ├── jquery-ui.structure.css
-    ├── jquery-ui.structure.min.css
-    ├── jquery-ui.theme.css
-    ├── jquery-ui.theme.min.css`
-    ├── LICENSE.txt
-    ├── package.json
-    └── style.css
 ├── 📁 js/
-    ├── 📁 breakout/
-        ├── 📁 images/
-        ├── 📁 music/
-        ├── 📁 sounds/
-        ├── .DS_Store
-        ├── Boot.js
-        ├── Breakout.js
-        ├── phaser.min.js
-        └── Preloader.js
-    ├── .DS_Store
-    ├── data.js
-    ├── game.js
-    ├── lodash.min.js
-    └── ui-generators.js
 ├── 📁 process/
     ├── 📁 images/
     ├── .DS_Store
@@ -372,54 +176,13 @@
     ├── 📁 css/
         ├── style.css
     ├── 📁 images/
-        ├── 📁 desktops/
-        ├── 📁 icons/
-        ├── 📁 stock/
-        └── .DS_Store
     ├── 📁 sounds/
-        ├── 📁 music/
-        ├── .DS_Store
-        ├── break.wav
-        ├── dialog_failure.wav
-        ├── dialog_new.wav
-        ├── dialog_success.wav
-        ├── promotion.wav
-        └── startup.wav
     └── .DS_Store
 ├── 📁 css/
-    ├── 📁 external/
-    ├── 📁 images/
-    ├── .DS_Store
-    ├── AUTHORS.txt
-    ├── index.html
-    ├── jquery-ui.css
-    ├── jquery-ui.js
-    ├── jquery-ui.min.css
-    ├── jquery-ui.min.js
-    ├── jquery-ui.structure.css
-    ├── jquery-ui.structure.min.css
-    ├── jquery-ui.theme.css
-    ├── jquery-ui.theme.min.css`
-    ├── LICENSE.txt
-    ├── package.json
-    └── style.css
 ├── 📁 info/
     ├── 📁 images/
     └── README.md
 ├── 📁 js/
-    ├── 📁 breakout/
-        ├── 📁 images/
-        ├── 📁 sounds/
-        ├── .DS_Store
-        ├── Boot.js
-        ├── Breakout.js
-        ├── phaser.min.js
-        └── Preloader.js
-    ├── .DS_Store
-    ├── data.js
-    ├── game.js
-    ├── lodash.min.js
-    └── ui-generators.js
 ├── 📁 press/
 ├── 📁 process/
     ├── 📁 images/

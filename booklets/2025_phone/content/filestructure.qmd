@@ -29,9 +29,6 @@
 ├── 📁 info/
 ├── 📁 js/
     ├── 📁 libraries/
-        ├── p5.min.js
-        ├── p5.play.js
-        └── p5.sound.min.js
     └── main.js
 ├── 📁 process/
 ├── .gitignore
@@ -125,11 +122,7 @@
 ├── 📁 info/
 ├── 📁 js/
     ├── 📁 actions/
-        └── Action.js
     ├── 📁 activities/
-        ├── 📁 app-model/
-        ├── Activity.js
-        └── Phoning.js
     ├── 📁 acts/
         └── Act.js
         └── actings.js

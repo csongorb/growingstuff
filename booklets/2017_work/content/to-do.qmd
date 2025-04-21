@@ -1,12 +1,8 @@
 # to-dos.md {#sec-todos}
 
+## 2017-03-27
 
-
-
-
-
-
-## To dos? (2017-03-27)
+### To dos?
 
 Add all jQuery UI widgets to a test page to use them and understand/fix styling, don’t worry too much about brokenness for this round
 
@@ -23,12 +19,6 @@ Add all jQuery UI widgets to a test page to use them and understand/fix styling,
 * Tabs
 * ?Tooltip
 
-
-
-
-
-
-
 ## 2017-06-09
 
 ### Actual To Dos, None of This Tentative Bullshit
@@ -43,50 +33,19 @@ Add all jQuery UI widgets to a test page to use them and understand/fix styling,
   - ~~Progress bar~~
   - ~~Select menu~~
   * ~~**BUT NOTE NO MULTI-SELECT WHICH I THINK IS FINE** Think through integrating icon selection and dragging~~
-
 * Add dropdown menu to top of the screen if that's plausible (at least like File Edit Something)
 * Work out a language for generating and specifying and testing tasks
 * Add ability for dialog to specify its task
 * Research possibilities for business-speak in dialog tasks
-
 * Repair CSS for niggles
   - Colour of radio button (want black on white eventually, no fucking idea why it ought to be hard though)
   - ~~**DID IT** Consider whether need more windows-y drop shadow on the buttons?~~
   - ~~Remove focus outline of focused elements (too usable)~~
-
 * ~~Integrate new Win95esque CSS~~
 
-### To dos?
+## 2017-06-20
 
-Add all jQuery UI widgets to a test page to use them and understand/fix styling, don’t worry too much about brokenness for this round
-
-* Radio
-* Checkbox
-* Button
-* Date
-* Menu
-* Accordion
-* Progress
-* Select menu
-* Slider
-* Spinner
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Actual To Dos, None of This Tentative Bullshit (2017-06-20)
+### Actual To Dos, None of This Tentative Bullshit
 
 * Make long term tasks come up appropriately (only one at a time)
 * Add success, ~~failure~~, warnings?, promotions, ~~demotions~~, as dialogs...
@@ -97,10 +56,11 @@ Add all jQuery UI widgets to a test page to use them and understand/fix styling,
 * Add break time trigger (clears all dialogs, brings up dialog about taking a break with a progress bar no buttons, can't close, timer that restarts work)
 
 ### Later on
+
 * Add more SFX
 * Add more desktop images (or maybe just the four, but nail the tone - the work one is amazing)
 
----
+### Done
 
 * ~~**I DON'T THINK THIS WOULD HAPPEN** Make system re-ask for password sometimes ha ha...? _Why would this happen though_?~~
 * ~~Implement breakout that can inject (and resize to) a div. Guess this is in Phaser?~~
@@ -139,27 +99,15 @@ Add all jQuery UI widgets to a test page to use them and understand/fix styling,
 * ~~**DECOMPLICATED THIS OUT** Work out a language for generating and specifying and testing tasks~~
 * ~~**BASICALLY WORKS** Test multiple UI elements in a single dialog in list form~~
 
+## 2017-07-03
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Actual To Dos, None of This Tentative Bullshit (2017-07-03)
+### Actual To Dos, None of This Tentative Bullshit
 
 * On Wednesday: Release the game
 
 ### Bugs
 
----
+### Done
 
 * ~~Email press contacts with the game~~
 * ~~Make a trailer~~
@@ -179,7 +127,6 @@ Add all jQuery UI widgets to a test page to use them and understand/fix styling,
 * ~~**FOUND IT. LO-DASH RANDOM VERSUS MATH.RANDOM** Still possible to get [undefined] as a button label on WorkDialog (happened on one with 3 buttons that I saw)~~
 * ~~**ALSO DID MY BEST TO GENDER NEUTRALISE IT** Edit the list of inspirational stuff and remove over-specific elements~~
 * ~~**I'LL GO THROUGH AND DO AN EDIT TO REMOVE SOME OF THE INSPIRATIONALS THAT ARE TOO SPECIFIC** Reconsider the texts in document and email - could that be more technology oriented somehow? There's a pleasure in being able to _read_ what you type, is one reason to maintain the current thing. What about writing the text of technical manuals?~~
-
 * ~~Add more desktop images (or maybe just the four, but nail the tone - the work one is amazing)~~
 * ~~Add an 'about' icon to the desktop that can have a text-file explaining the software and its use~~
 * ~~Close dialogs on break instead of destroy and reopen them afterwards so that you resume work rather than starting fresh each round~~
