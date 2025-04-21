@@ -1,4 +1,4 @@
-# Blog Posts
+# blog-posts.md {#sec-blogposts}
 
 Here are public-facing blog posts I wrote about the game.
 
