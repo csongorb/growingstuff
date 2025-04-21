@@ -1,4 +1,19 @@
-# Preface {.unnumbered}
+# readme.md
 
-- see *Phone*
-- mentioning that to-dos were keept in the readme file for a long time? maybe not thaaat interesting...
+This is the process documentation for the game *It is as if you were doing work* by Pippin Barr.
+
+* Read the **Press Kit** (@sec-presskit) for more details on the game and press information
+* Read the **Design Journal** (@sec-journal) for high-level reflections on the design and development process
+
+* **Correspondance**
+* **Blog Posts**
+* Look at the **To Dos** (@sec-todos) for lists of practical tasks for the project
+* Read the **Commit History** (@sec-commits) for detailed, moment-to-moment insights into the development process
+* Look at the **File Structure** (@sec-filestructure) for the evolution of the source code
+* Read others writing about the game in **Press** (@sec-pressabout)
+
+
+
+
+
+mentioning that to-dos were keept in the readme file for a long time? maybe not thaaat interesting...
