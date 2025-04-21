@@ -1,4 +1,4 @@
-# Commit History {#sec-commits}
+# commits.md {#sec-commits}
 
 ## Overview
 
