@@ -16,6 +16,7 @@ book:
     - content/commits.qmd
     - content/journal.qmd
     - content/todos.qmd
+    - content/imprint.qmd
 
 format:
   html:
