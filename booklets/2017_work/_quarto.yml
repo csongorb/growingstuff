@@ -13,12 +13,14 @@ book:
   chapters:
     - index.qmd
     - ./content/press/readme.qmd
-    - ./content/commits.qmd
     - ./content/journal.qmd
     - ./content/correspondence.qmd
     - ./content/blog-posts.qmd
     - ./content/to-do.qmd
+    - ./content/commits.qmd
+    - ./content/filestructure.qmd
     - ./content/pressabout/readme.qmd
+    - ./content/imprint.qmd
 
 bibliography: ../sharedContent/references.bib
 csl: ../sharedContent/chicago-mod.csl
