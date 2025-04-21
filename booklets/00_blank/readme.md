@@ -17,7 +17,9 @@ Blog Posts
   - you don’t have to actually make decisions, you just appear to be making decisions
   - Now don’t forget to select ▝▍▀▟▖▀▎ and then press ▚▎▗▀ before you go.
   - be careful with aesthetics, my friends
-  - Something to do while you're doing something (2017-06-19)
+    
+ Something to do while you're doing something (2017-06-19)
+
   - Work continues on It is as if you were doing work.
   
 Book
@@ -26,12 +28,16 @@ Book
   
 Journal
 
-   - Today's thoughts (2017-06-10 12:24)
+Today's thoughts (2017-06-10 12:24)
+
    - One, two, three.
-   - Today's actual thoughts (2017-06-11 13:05)
+    
+Today's actual thoughts (2017-06-11 13:05)
+    
    - Yesterday's thoughts were perhaps a little underwhelming.
    - So basically I need to work out how to make correct decisions
-   - Longer-term tasks (2017-06-18 18:26)
+ Longer-term tasks (2017-06-18 18:26)
+
    - So those are some thoughts.
   
 It is as if you would be on your phone
@@ -39,7 +45,9 @@ It is as if you would be on your phone
 Process/Why
 
    - Again I can't totally tell where I am on the funny versus honest spectrum with this one.
-   - Journal
+
+Journal
+
    - Continuing with pretty meta stuff
    - Let me pick up my phone now and do some "dating"...
    - Pippin lies down on a sofa and holds his head in his hands.
