@@ -8,12 +8,11 @@
 - A MAZE. / Berlin 2025
 
 Disclaimer:  
-All the used quotes are from the process documentations of the following games of Pippin Barr:
+All quotes in this notebook are from the process documentations of games *It is as if you were playing chess*, *It is as if you were making love*, *It is as if you were doing work*, and/or *It is as if you were on your phone* from Pippin Barr.
 
-- It is as if you were playing chess
-- It is as if you were making love
-- It is as if you were doing work
-- It is as if you were on your phone
+## Imprint
+
+See other booklets.
 
 ## Quotes (the ones we want to take!)
 
@@ -28,11 +27,9 @@ All the used quotes are from the process documentations of the following games o
 - I think I need to take another pass at it with this in mind and see if it helps.
 - One of those release processes that surprise you by not just being "well... it's out there now, the end".
 - So that is the current state of consideration. More news as the situation develops.
-- there can be a general “move the thing” implied
 - It’s not valuable to be precious about it
 - I’m interested in maintaining the awkwardness/strangeness
 - Perhaps I will read this entry in two months and think, ha! Yeah right
-- Why? There’s the comedy value going on in there
 - I’ve maaaaaybe been overcomplicating how that should work
 - I think if you do all that you’ll be doing well.
 - The implication of underlying complexity really got me
@@ -40,7 +37,7 @@ All the used quotes are from the process documentations of the following games o
 - I like the idea that my “design process” might just be “looking like I’m asleep”
 - Hope you’re well, say hi to the kids for me.
 - Excuse me while I push through the pain and write a quick post about something or other.
-- Jesper Juul says it’s not a game, my world is in ruins around me. But I’ve always kind of liked post-apocalyptic settings, so it’s okay?
+- Jesper Juul says it’s not a game, my world is in ruins around me.
 
 ## Quotes (old ideas)
 
@@ -87,7 +84,8 @@ Journal
 
 - So that is the current state of consideration. More news as the situation develops.
 - there can be a general “move the thing” implied
-- It’s not valuable to be precious about it  I’m interested in maintaining the awkwardness/strangeness
+- It’s not valuable to be precious about it
+- I’m interested in maintaining the awkwardness/strangeness
 - Perhaps I will read this entry in two months and think, ha! Yeah right
 - Why? There’s the comedy value going on in there
 - Obviously this Love game of mine has been suffering from a lack of, well, love and attention
