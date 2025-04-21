@@ -11,36 +11,27 @@
 
 A few quotes about journaling:
 
-It is as if you were doing work
+### It is as if you were doing work
+
 Blog Posts
 
   - you don’t have to actually make decisions, you just appear to be making decisions
   - Now don’t forget to select ▝▍▀▟▖▀▎ and then press ▚▎▗▀ before you go.
   - be careful with aesthetics, my friends
-    
- Something to do while you're doing something (2017-06-19)
-
   - Work continues on It is as if you were doing work.
-  
+
 Book
 
   - banality is my cup of tea
   
 Journal
 
-Today's thoughts (2017-06-10 12:24)
-
-   - One, two, three.
-    
-Today's actual thoughts (2017-06-11 13:05)
-    
+   - One, two, three.    
    - Yesterday's thoughts were perhaps a little underwhelming.
    - So basically I need to work out how to make correct decisions
- Longer-term tasks (2017-06-18 18:26)
-
    - So those are some thoughts.
   
-It is as if you would be on your phone
+### It is as if you would be on your phone
 
 Process/Why
 
@@ -55,7 +46,7 @@ Journal
    - if you work on something that connects with internet/tech/game culture you're more likely to catch the wind of interest from people
    - One of those release processes that surprise you by not just being "well... it's out there now, the end".
   
-It is as if you were making love
+### It is as if you were making love
 
 Journal
 
@@ -71,6 +62,22 @@ Journal
  - I think if you do all that you’ll be doing well.
  - The implication of underlying complexity really got me
  - There is joy to be found is asking yourself how to best use the Microsoft ‘ding’ in a sexy way…
+
+### It is as if you were playing chess
+
+Blog
+
+- It’s probably a little bit depressing, but at present I find it stressful to just detune and not work on a game/thing
+- I like the idea that my “design process” might just be “looking like I’m asleep”
+- Those key ideas as I see them right now revolve around the idea of “performing” a game without actually playing it
+- Hope you’re well, say hi to the kids for me.
+- Excuse me while I push through the pain and write a quick post about something or other.
+- I found myself wondering whether a pseudo-game such as It is as if you were playing chess meets the definition of a game or not
+- Jesper Juul says it’s not a game, my world is in ruins around me. But I’ve always kind of liked post-apocalyptic settings, so it’s okay?
+
+Press Kit 
+
+- Whether I will ever succeed in creating the more general "It is as if you were playing a videogame" is less certain
 
 ## Questions / Todos
 

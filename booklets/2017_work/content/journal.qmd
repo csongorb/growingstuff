@@ -1,4 +1,4 @@
-# Journal
+# journal.md {#sec-journal}
 
 ## Notes now that it seems releaseable (2017-07-02 19:23)
 

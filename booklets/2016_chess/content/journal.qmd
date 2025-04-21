@@ -1,4 +1,4 @@
-## journal.md
+## journal.md {#sec-journal}
 
 ### Tuesday, 16 August 2016 
 

@@ -1,4 +1,4 @@
-# Press Kit {#sec-presskit}
+# press-kit.md {#sec-presskit}
 
 ## Info
 

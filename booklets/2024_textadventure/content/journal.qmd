@@ -1,4 +1,4 @@
-## Journal
+## journal.md {#sec-journal}
 
 ### The Basics -- Sunday 8 September 2024
 
