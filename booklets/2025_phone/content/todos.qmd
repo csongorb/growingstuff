@@ -1,4 +1,4 @@
-# To-do
+# todo.md {#sec-todos}
 
 ## 2025-01-10
 
@@ -103,12 +103,10 @@
 
 ### Research
 
-- ~~Spend some time on my phone just trying to see typical interactions and interaction clusters and interaction sequences~~
 - **This is likely more important for when I'm working on the suite?** ~~Spend time in specific apps and take notes on typical interaction~~
 
 ### Visual design
 
-- ~~Do some sketches of how this could look in terms of the actual screens and most especially the interaction indicators~~
 - ~~Make some visual prototypes in Keynote or similar~~
 - ~~How to indicate "swipe" and "scroll" ~~
     - **Yes but only for now** ~~Is this sort of "fixed for now" with the arrow plus scrollbar?~~
@@ -118,14 +116,8 @@
 
 ### Prototyping
 
-- ~~Checking on proportional positioning and sizing and a resizing canvas~~
-- ~~Checking on basic feel of random-location bubble popping (plus points?)~~
-- ~~Explore Zen sound effects~~
-- ~~Explore simple animations for feedback~~
-- ~~Exploration of swipe~~
 - ~~Esablish "modes"~~
 - **Calling them "acts" for now** ~~Add instructions for face etc.~~
-- **Feels good, though can be tweaked** ~~Checking on the feel of "keyboard input" idea~~
 - ~~Activities and a general state/modular model~~
 - ~~Scrolling (think about the relationship of pan and swipe)~~
 - ~~Bring in a second activity (Dating?)~~

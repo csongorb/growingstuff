@@ -1,4 +1,4 @@
-# Commits
+# Commit Messages {#sec-commits}
 
 ## Overview
 
