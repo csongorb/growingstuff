@@ -179,6 +179,9 @@ Aaaah, and also a few words about your awesome [Cover Tests](./tests/CoverTests_
 	- the last / brown one is... brown I suppose? 
 - text-wise I would like to add "It is as if you were..." to it and also "A MAZE. / Berlin 2025" to it, just for completion
 - the line is... just awesome!
-- missing one one one playful element on those, not the emojis, but one graphical element per game? something like this
+- missing one one one playful element on those, 
+	- not the emojis, but one graphical element per game?
+	- or some pieces of the Devolution leaf?
+	- something like this?
 
 So happy, see you tomorrow!
