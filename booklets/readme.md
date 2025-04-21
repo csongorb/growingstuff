@@ -115,3 +115,70 @@ We just had a longer discussion and here are our observations, starting with sim
 We made a new version [again](./2018_love/_book/), except the todo-chapter: done.
 
 Such things. Lot of details. Let's talk? Looking forward for sure!
+
+### Jesse > Csongor 2025-04-20
+
+Hi Csongor,  
+Thanks for the feedback … and, of course, I'm glad to hear you're generally happy with the way things are going. I think most of what you wrote in your message can be distilled to a single question: to what degree do we want to preserve the structure and apparatus of the original digital form, and to what extent should we adapt it to the restrictions of a physical book.
+ 
+As you know, my own background is in classical (i.e. physical) book design, which has its own rules and conventions that I have (somewhat unthinkingly) applied to the booklet design; I confess that I am wholly unfamiliar with the format in which you are working, although I am aware that your field – as with all specialist fields – has its own vocabulary and its series of conventions that make sense to initiates but that seem utterly foreign to outsiders. All of which is to say that the current design is my attempt to find a common ground between your text and my own design approach, but that it has necessarily skewed in the direction of traditional book design.
+ 
+So, for example, the running headers follow a very traditional scheme: they appear on all pages except important recto pages (in this case title, contents and chapter heads) … and in my own view they are not killing space so much as giving the pages room to breathe. The ToC follows the conventions of a traditional book – i.e. as a simple index – rather than the conventions of a "readme" which, although I don't really know what it is, seems designed more for an environment in which you can click on the word "chapter 2" and be transported there instantly. (Also, full disclosure: I was absolutely confused by the purpose of that page … I kept it because it was part of the text, but you'll notice that I shunted it off to a verso page because I wasn't entirely sure what to do with it).
+ 
+In short, your original text has its own structural mechanisms that allow the reader to "navigate" the text, while the printed booklet necessarily has a different set of mechanisms that serve the same function. Our joint goal is to figure out the best way to translate the text from one medium to the other … I suppose this is something we should have discussed ages ago, but I am confident we will be able to figure something out. Ultimately you know the audience for which these books are intended, and I want to make sure they reflect your vision.
+ 
+I suppose the larger existential question is: if all of this information is freely available to read on the internet, why are we bothering to turn it into a book? The answer (for me, at least) is self-evident: the physical artefact is a tangible luxury in an age when texts exist primarily as zeroes and ones. But the value of these documents consists not merely in the fact that they are printed, but in the fact that they are edited and organised, sculpted into something permanent. I know that this goes somewhat against the ethos of the digital age in which everything is logged in real time and even errors become an important part of the process, but that, of course, is what makes the project interesting: like the letterpress-printed QR code that I showed you the other day, there is value in attempting to translate between media.
+ 
+I include all of the above comments primarily in order that they may guide our remaining work. There is, of course, no right or wrong way to translate from the original format to the printed booklet … the only guideline is "does it work?" And if we are all in agreement, then it probably works.
+ 
+In practical terms, I am happy to prepare a new version of the booklet with the size of the running headers reduced — this will, of course, have the side-effect of buying us a bit more space and thus making the booklet smaller. I am also happy to play around with the ToC, perhaps to find a hybrid approach (now I know that the "readme" was intended as a ToC this will make my work easier).
+ 
+Regarding the "Who is this Pippin Barr guy" I really like this, which is why I removed it to the back where the "about the author" would traditionally be located, and there is certainly no problem if it changes from booklet to booklet. If you would prefer it near the front – perhaps on the verso opposite the press kit – I am happy to do this, but I would recommend keeping it separate. However I really liked the idea of having it as the last page of every booklet, and I was thinking you might also add a few sentences of your own under the header "…and what exactly is Devolution?"
+ 
+I also have a request: the thing that took me the longest when designing the text in InDesign was standardising the format of dates (I had to retype them all myself); would it be possible for you to do this easily in the original files? I recommend the following: "Day, Date Month Year [forced line return] Time" … so: Sunday, 20 April 2025 13:48. However any format is fine so long as it is consistent (in the draft I set it switched midway through).
+ 
+One final thing: the text, as it stands, is full of minor typos and errors, many of which cannot be caught by a spell-checker because they are, in fact, proper words (just not the right one). I have not been correcting these as a I typeset because I am aware that this is not the final draft … but if you can let me know when I have the final draft, I will start combing for typos as I set. Once I start this process, we will no longer be able to edit the original text, but must make all changes directly in the InDesign document.
+ 
+I think that's it for now. Hope you're having a relaxing Easter weekend – it looks like a nice day out there – and I will try to send a new draft today or tomorrow incorporating some of the things we've discussed.
+ 
+See you soon,  
+J
+
+## Jesse > Csongor 2025-04-21
+
+Hello again.
+ 
+Further to my last message (which, I realise, was rather long … I think it was Pascal who said that he wrote a long letter because he didn't have time to write a short one) here is a new version of the Love booklet. I reset the whole thing from scratch, mostly to see how long it would take.
+ 
+I also made a [few modifications](./tests/LoveTest_250421.pdf) based on your feedback:
+
+— The ToC reflects your text more closely while still remaining within a traditional book structure
+— I've slightly amended the second half of the readme text and included it as "a note on the text" on the verso. I wasn't sure who wrote this, but generally speaking when the text includes a "I" it should have the name of the author or editor underneath.
+— I've pushed the running headers to the top of the page and made the page numbers a bit smaller. This has allowed me to make the columns a bit wider. As such, the total extent of the booklet is now 64pp. Not bad.
+ 
+There are still lots of minor design errors that will be ironed out in the final version, but I wanted to send this so that you could get a sense of how things are evolving.
+ 
+See you soon,  
+J
+
+## Csongor > Jesse
+
+Dear Jesse,  
+this is just... just so awesome!  
+Don't really know what to say, that besides a few last more typo-like things this is all almost finished.
+
+- the "a note on the text" has a quote in the original (maybe it got lost on the way?), can you keep that? we'll have a few more quotes in the meta-booklet, maybe you need a style for that?
+- about the dates... have tried to change them, but couldn't manage. today my focus was on something else, but I can try tomorrow again
+
+Also: most booklets are done now, feel free to start / continue with *Love* (fully finished!) and *Chess* and *Work*. Give me one more day to finish the others.
+
+Aaaah, and also a few words about your awesome [Cover Tests](./tests/CoverTests_250419.pdf):
+
+- my initial impulse was that the colors are one step too pale, but the more I look at it the more I like it
+	- have the feeling I would like to see another one, just for options, but its just my ego
+	- the last / brown one is... brown I suppose? 
+- text-wise I would like to add "It is as if you were..." to it and also "A MAZE. / Berlin 2025" to it, just for completion
+- the line is... just awesome!
+- missing one one one playful element on those, not the emojis, but one graphical element per game? something like this
+
+So happy, see you tomorrow!
