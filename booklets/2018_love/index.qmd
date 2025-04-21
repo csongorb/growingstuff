@@ -4,9 +4,9 @@ This is the process documentation for the game *It is as if you were making love
 
 * Read the **Press Kit** (@sec-presskit) for more details on the game and press information
 * Read the **Manifesto** (@sec-manifesto) for a series of attempts to crystallise the meaning and intend of the games in short-form writing
-* Read the **Design Journal** (@sec-journal) for high-level reflections on the design and development process, 
-* Look at the **To Dos** (@sec-todos), lists of practical tasks for the project
+* Read the **Design Journal** (@sec-journal) for high-level reflections on the design and development process
 * Look at **Related Work** (@sec-related-work) for inspirations and other references
+* Look at the **To Dos** (@sec-todos), lists of practical tasks for the project
 * Read the **Commit History** (@sec-commits) for detailed, moment-to-moment insights into the development process
 * Look at the **File Structure** (@sec-filestructure) for the evolution of the source code
 * Read others writing about the game in **Press** (@sec-pressabout)

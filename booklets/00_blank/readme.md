@@ -63,6 +63,22 @@ Journal
  - The implication of underlying complexity really got me
  - There is joy to be found is asking yourself how to best use the Microsoft ‘ding’ in a sexy way…
 
+### It is as if you were playing chess
+
+Blog
+
+- It’s probably a little bit depressing, but at present I find it stressful to just detune and not work on a game/thing
+- I like the idea that my “design process” might just be “looking like I’m asleep”
+- Those key ideas as I see them right now revolve around the idea of “performing” a game without actually playing it
+- Hope you’re well, say hi to the kids for me.
+- Excuse me while I push through the pain and write a quick post about something or other.
+- I found myself wondering whether a pseudo-game such as It is as if you were playing chess meets the definition of a game or not
+- Jesper Juul says it’s not a game, my world is in ruins around me. But I’ve always kind of liked post-apocalyptic settings, so it’s okay?
+
+Press Kit 
+
+- Whether I will ever succeed in creating the more general "It is as if you were playing a videogame" is less certain
+
 ## Questions / Todos
 
 ### Old notes about the booklet "The Designer Is Present"
