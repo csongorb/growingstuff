@@ -254,8 +254,4 @@ Add all jQuery UI widgets to a test page to use them and understand/fix styling,
 * ~~Login screen on start (username and password, use username in UI and occasionally ask them to reenter their password)~~
 * ~~Shake the dialog box when it's incorrect~~
 * ~~Implement 'check at the end' version of validation for each type~~
-* ~~Add ability for dialog to specify and evaluate its task~~
-* ~~**NOW SEEMS TO ME IT SHOULD BE LITERAL UI LANGUAGE** Research possibilities for business-speak in dialog tasks~~
-* ~~**NOT DOING THIS** Add dropdown menu to top of the screen if that's plausible (at least like File Edit Something)~~
-* ~~**DECOMPLICATED THIS OUT** Work out a language for generating and specifying and testing tasks~~
 * ~~**BASICALLY WORKS** Test multiple UI elements in a single dialog in list form~~
