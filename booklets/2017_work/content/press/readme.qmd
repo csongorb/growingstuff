@@ -1,4 +1,4 @@
-# press-kit.md {#sec-presskit}
+# Press Kit {#sec-presskit}
 
 ## Info
 
@@ -10,13 +10,7 @@ Play Online^[[pippinbarr.com/itisasifyouweredoingwork](http://www.pippinbarr.com
 
 *The robots are here! No more work! It’s great! Is it great?! Wait! You feel apathetic and unproductive! You miss clicking buttons! You miss waiting for progress bars! You miss checkboxes! You miss work! But it’s going to be okay! Use this handy application and it is as if you were doing work!*
 
-*It is as if you were doing work* is a work of [speculative play](https://www.speculativeplay.com), presenting a vision of a possible/near-future in the form of an application that helps people pretend they're doing standard-issue computer work. Jump in an answer emails, write documents, click check boxes, and so much more!
-
-### Documentation
-
-* Read the [Process Documentation](../process) for todos, process journal, blog posts, and correspondence
-* Read the [Commit History](https://github.com/pippinbarr/itisasifyouweredoingwork/commits/master) for detailed, moment-to-moment insights into the development process
-* Look at the [Code Repository](https://github.com/pippinbarr/itisasifyouweredoingwork) for source code etc.
+*It is as if you were doing work* is a work of *speculative play*^[[speculativeplay.com](https://www.speculativeplay.com)], presenting a vision of a possible/near-future in the form of an application that helps people pretend they're doing standard-issue computer work. Jump in an answer emails, write documents, click check boxes, and so much more!
 
 ## Press Kit
 
@@ -50,11 +44,9 @@ With the look settled, the content started being decided by the fact I was think
 
 And that's how the game came together.
 
-(You can see the game's [process documentation](https://github.com/pippinbarr/itisasifyouweredoingwork/tree/master/process) for far more information about its development than you could possibly want.)
-
 ### Technology/Media
 
-_It is as if you were doing work_ is written in JavaScript using [jQuery](http://www.jquery.com/) and [jQuery UI](http://www.jqueryui.com/), two of the quintessential libraries for web development. The sound effects for _It is as if you were doing work_ are pulled from Windows 95 and Windows 98 system sounds, while the music was generated using [Wolfram Tones](http://tones.wolfram.com/). The desktop icons in the game are from Windows 95, the desktop pictures are all creative-commons zero-attribution or public domain, and the inspirational images are all watermarked stock images of work. The technology names are from Darius Kazemi's amazing [corpora on GitHub](https://github.com/dariusk/corpora/tree/master/data/technology). The theming of the dialog boxes was created in jQuery UI's [ThemeRoller](https://jqueryui.com/themeroller/).
+_It is as if you were doing work_ is written in JavaScript using [jQuery](http://www.jquery.com/) and [jQuery UI](http://www.jqueryui.com/), two of the quintessential libraries for web development. The sound effects for _It is as if you were doing work_ are pulled from Windows 95 and Windows 98 system sounds, while the music was generated using [Wolfram Tones](http://tones.wolfram.com/). The desktop icons in the game are from Windows 95, the desktop pictures are all creative-commons zero-attribution or public domain, and the inspirational images are all watermarked stock images of work. The technology names are from Darius Kazemi's amazing *corpora on GitHub*^[[github.com/dariusk/corpora/tree/master/data/technology](https://github.com/dariusk/corpora/tree/master/data/technology)]. The theming of the dialog boxes was created in jQuery UI's [ThemeRoller](https://jqueryui.com/themeroller/).
 
 ### Features
 
@@ -80,9 +72,7 @@ _It is as if you were doing work_ is written in JavaScript using [jQuery](http:/
 
 ### Additional Links
 
-* [Pippin's blog posts about _It is as if you were doing work_](http://www.pippinbarr.com/search.html?q=%22it%20is%20as%20if%20you%20were%20doing%20work%22)
-
-* [E-tray Exercise](https://www.wikijob.co.uk/content/aptitude-tests/test-types/e-tray-exercise) - Real world dystopian interface to train people to work with email [assessmentday.co.uk/e-tray-exercise](https://www.assessmentday.co.uk/e-tray-exercise.html)
+* [E-tray Exercise](https://www.assessmentday.co.uk/e-tray-exercise.html) - Real world dystopian interface to train people to work with email ([assessmentday.co.uk/e-tray-exercise](https://www.assessmentday.co.uk/e-tray-exercise.html))
 * [In Europe, Fake Jobs Can Have Real Benefits](https://www.nytimes.com/2015/05/31/business/international/in-europe-fake-jobs-can-have-real-benefits.html) - New York Times article about fake businesses used for training
 
 ### Credits

@@ -1,4 +1,4 @@
-# readme.md {#sec-readme}
+# readme.md {.unnumbered}
 
 This is the *catalogue / curators statement / meta-booklet / process documentation* of the exhibition *Pippin Barr x Devolution: It is as if you were...* at *A MAZE. / Berlin 2025*.
 

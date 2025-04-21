@@ -14,12 +14,6 @@ Play Online^[[pippinbarr.com/it-is-as-if-you-were-on-your-phone](https://pippinb
 
 *It is as if you were on your phone* was created using [p5](https://p5js.org) along with [Hammer.js](https://hammerjs.github.io/) for touch gestures.
 
-### Documentation
-
-* Read the [Process Documentation](../process) for todos and design explorations
-* Read the [Commit History](https://github.com/pippinbarr/it-is-as-if-you-were-on-your-phone/commits/main) for detailed, moment-to-moment insights into the development process
-* Look at the [Code Repository](https://github.com/pippinbarr/it-is-as-if-you-were-on-your-phone) for source code etc.
-
 ## Press Kit
 
 ### The basics
@@ -30,12 +24,6 @@ Play Online^[[pippinbarr.com/it-is-as-if-you-were-on-your-phone](https://pippinb
 * Code repository: https://www.github.com/pippinbarr/it-is-as-if-you-were-on-your-phone/
 * Price: $0.00
 
-### Description
-
-*Look at you! On your phone! But you've got a secret! And you won't tell! You're not on your phone! It is only as if you were on your phone! You're just pretending to be on your phone! On your phone!*
-
-*It is as if you were on your phone* is an *almost speculative* game about an *incredibly near future* in which we're all simultaneously under significant pressure to be on our phones all the time, but also to not be on our phones all the time. Our fingers want to touch the screen, our eyes want to watch the surface, our brains want to be occupied efficiently and always. But it's also exhausting liking photos, swiping profiles, watching short-form video, and everything else we're always doing. *It is as if you were on your phone* presents an alternative: *pretend* to be on your phone so that you pass as human, but actually do essentially nothing instead. Follow the prompts and be free.
-
 ### History
 
 I've made a bunch of games in the speculative "It is as if" series. One on [Chess](https://pippinbarr.com/it-is-as-if-you-were-playing-chess/info/), one on [Work](https://pippinbarr.com/itisasifyouweredoingwork/info/), one on [Making Love](https://pippinbarr.com/itisasifyouweremakinglove/info/) and one on [Papework](https://pippinbarr.com/it-is-as-if-you-were-doing-paperwork/info/). It seemed fitting to keep expanding outward even further and to explore the idea of making a game about simply seeming to be using a phone at all, with no underlying context or objectives.
@@ -45,8 +33,6 @@ I fit this into a "speculative play" framework – games that function in part 
 ### Technology
 
 *It is as if you were on your phone* was created using [p5](https://p5js.org) along with [Hammer.js](https://hammerjs.github.io/) for touch gestures.
-
-*It is as if you were on your phone* is an open source game licensed under a [Creative Commons Attribution-NonCommercial 3.0 Unported License](http://creativecommons.org/licenses/by-nc/3.0/).
 
 ### Features
 

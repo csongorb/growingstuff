@@ -1,4 +1,10 @@
-## commits.md {#sec-commits}
+# Commit History {#sec-commits}
+
+## Overview
+
+![](./2022_paperwork/Commits%20over%20time.png)
+
+## Messages
 
 **Thu, 14 Jul 2022 15:46:26**  
 Initial commit

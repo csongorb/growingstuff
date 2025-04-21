@@ -1,4 +1,4 @@
-# file-structure.md {#sec-filestructure}
+# File Structure {#sec-filestructure}
 
 ## 2024-08-27
 
@@ -10,29 +10,6 @@
 ├── 📁 js/
     └── script.js
 ├── 📁 process/
-    ├── journal.md
-    ├── README.md
-    └── to-do.md
-├── _config.yml
-├── index.html
-└── README.md
-```
-
-## 2024-09-09
-
-```
-⌨️ It is as if you were playing a text adventure/
-├── 📁 .vscode/
-├── 📁 css/
-├── 📁 data/
-    └── en.json
-├── 📁 info/
-├── 📁 js/
-    └── script.js
-├── 📁 process/
-    ├── 📁 images/
-        └── 📁 screens/
-            └── Screen Shot 2024-09-08 at 15.40.07
     ├── journal.md
     ├── README.md
     └── to-do.md
@@ -54,8 +31,6 @@
     └── main.js
 ├── 📁 process/
     ├── 📁 images/
-        └── 📁 screens/
-            └── Screen Shot 2024-09-08 at 15.40.07
     ├── journal.md
     ├── README.md
     └── to-do.md

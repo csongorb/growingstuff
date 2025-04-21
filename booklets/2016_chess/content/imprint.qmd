@@ -1,6 +1,6 @@
-# Imprint
+# Imprint {.unnumbered}
 
-The Evolution of...  
+The evolution of...  
 It is as if you were playing chess (2016)
 
 See: Love.

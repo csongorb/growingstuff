@@ -135,8 +135,6 @@ All of this lends itself to an atmosphere of extreme effusiveness about your ski
 
 ## Radically open game development? (2017-07-07)
 
-[comment]: <> (   ![](images/it-is-as-if-you-were-doing-work-github-header.png)   )
-
 Since I made [_SNAKISMS_](https://github.com/pippinbarr/SNAKISMS) earlier this year I've moved toward an open-source version of my games as much as I've been able. [_v r 3_](https://github.com/pippinbarr/v-r-3) was a challenge because it included proprietary assets I'd paid for and because I'm dumb at Unity, but in general I've been trying to release my code when I release a project, including all the commits etc. (It is also making me hyper-aware of how absolutely terrible I am about commenting my code lately - really must fix that.)
 
 To go with the basic availability of my code (under a [Creative Commons Attribution-NonCommercial 3.0 Unported License](https://creativecommons.org/licenses/by-nc/3.0/)), I've also used GitHub to host other elements of the development process (examples here are from _It is as if you were doing work_):

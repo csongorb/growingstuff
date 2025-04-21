@@ -1,4 +1,10 @@
-## commits.md {#sec-commits}
+# Commit History {#sec-commits}
+
+## Overview
+
+![](./2024_textadventure/Commits%20over%20time.png)
+
+## Messages
 
 **Mon, 26 Aug 2024 21:05:15**  
 Initial commit
@@ -74,3 +80,5 @@ Styling, flow, lorem ipsum
 - It may turn out to be impossible
 
 
+**Mon, 14 Apr 2025 17:14:58**  
+Journal: Time passes

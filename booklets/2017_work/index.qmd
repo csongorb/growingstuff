@@ -1,19 +1,22 @@
-# readme.md
+# readme.md {.unnumbered}
 
-This is the process documentation for the game *It is as if you were doing work* by Pippin Barr.
+This is the process documentation for the game *It is as if you were doing work* (2017) by Pippin Barr.
 
 * Read the **Press Kit** (@sec-presskit) for more details on the game and press information
 * Read the **Design Journal** (@sec-journal) for high-level reflections on the design and development process
-
-* **Correspondance**
-* **Blog Posts**
+* Read the **Correspondence** (@sec-correspondence) for a dialogue that has essentially shaped the game
+* Read the **Blog Posts** (@sec-blogposts) for public-facing writings while creating the game
 * Look at the **To Dos** (@sec-todos) for lists of practical tasks for the project
 * Read the **Commit History** (@sec-commits) for detailed, moment-to-moment insights into the development process
 * Look at the **File Structure** (@sec-filestructure) for the evolution of the source code
-* Read others writing about the game in **Press** (@sec-pressabout)
+* Loot at **Press** (@sec-pressabout) to read others writing about the game
 
+## A note on the text
 
+The text has been edited for print, but remains as close to the original as possible. Its main purpose is to provide the original material for exploration, the data is preserved *as is* and not updated.
 
+In addition to the process documentation Pippin Barr has also reflected on the particular development process of *It is as if you were doing work* in a conference paper^[Barr, P., Khaled, R. and Lessard, J. (2018) ‘Documenting trajectories in design space: a methodology for applied game design research’, in Proceedings of the 13th International Conference on the Foundations of Digital Games. Foundations of Digital Games 2018, Malmö Sweden.] and later in a book^[Barr, P. (2023) The Stuff Games Are Made Of. Cambridge, Massachusetts; London, England: The MIT Press (Playful Thinking).].
 
+## It is as if you were...
 
-mentioning that to-dos were keept in the readme file for a long time? maybe not thaaat interesting...
+See: Love.

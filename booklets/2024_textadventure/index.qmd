@@ -1,4 +1,19 @@
-# Preface {.unnumbered}
+# readme.md {.unnumbered}
 
-- see *Phone*
-- mentioning that to-dos were keept in the readme file for a long time? maybe not thaaat interesting...
+This is the process documentation for the game *It is as if you were playing a text adventure* (2024) by Pippin Barr.
+
+* There is no press kit. Should there be? Read **Info** (@sec-info) instead
+* Take a look at the **Journal** (@sec-journal) for a very incomplete picture of development
+* Look at the **To Dos** (@sec-todos) for lists of practical tasks for the project
+* Read the **Commit History** (@sec-commits) for detailed, moment-to-moment insights into the development process
+* Look at the **File Structure** (@sec-filestructure) for the evolution of the source code
+
+## A note on the text
+
+The text has been edited for print, but remains as close to the original as possible. Its main purpose is to provide the original material for exploration.
+
+The game is not finished at the time of printing. As a physical booklet it preserves the state of the project *as is* at a given moment in time, please visit the repository^[[github.com/pippinbarr/it-is-as-if-you-were-playing-a-text-adventure](https://github.com/pippinbarr/it-is-as-if-you-were-playing-a-text-adventure)] to see the full (?) design journey of the game.
+
+## It is as if you were...
+
+See: *Love*

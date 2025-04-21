@@ -13,9 +13,10 @@ book:
     - index.qmd
     - content/press_20250303/readme.qmd
     - content/why.qmd
-    - content/commits.qmd
     - content/journal.qmd
     - content/todos.qmd
+    - content/commits.qmd
+    - content/filestructure.qmd
     - content/imprint.qmd
 
 format:

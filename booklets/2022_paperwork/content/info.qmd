@@ -13,7 +13,3 @@ The paper generator was written in JavaScript using jQuery.
 
 ### Press
 There is no press kit. Should there be? If you want one, I guess I'll make one.
-
-### Process
-* Take a look at the [process documentation](../process) for a very incomplete picture of development
-* Go through the [code repository](https://www.github.com/pippinbarr/it-is-as-if-you-were-doing-paperwork) if you want the source code

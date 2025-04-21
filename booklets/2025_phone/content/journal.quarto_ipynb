@@ -621,7 +621,7 @@
         "\n",
         "Well so yeah. One of those release processes that surprise you by not just being \"well... it's out there now, the end\"."
       ],
-      "id": "e9a9f1d7"
+      "id": "31feba57"
     }
   ],
   "metadata": {
@@ -629,7 +629,7 @@
       "name": "python3",
       "language": "python",
       "display_name": "Python 3 (ipykernel)",
-      "path": "C:\\Users\\rlmm9\\AppData\\Local\\Programs\\Python\\Python311\\share\\jupyter\\kernels\\python3"
+      "path": "/Library/Frameworks/Python.framework/Versions/3.13/share/jupyter/kernels/python3"
     }
   },
   "nbformat": 4,

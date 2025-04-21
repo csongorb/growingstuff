@@ -1,4 +1,4 @@
-# file-structure.md {#sec-filestructure}
+# File Structure {#sec-filestructure}
 
 ## 2022-07-14
 
@@ -6,7 +6,7 @@
 📋 It is as if you were doing paperwork/
 ├── 📁 assets/
 ├── 📁 css/
-    ├── style.css
+    └── style.css
 ├── 📁 info/
 ├── 📁 js/
     ├── FormGenerator.js
@@ -25,7 +25,7 @@
 📋 It is as if you were doing paperwork/
 ├── 📁 assets/
 ├── 📁 css/
-    ├── generator-style.css
+    └── generator-style.css
 ├── 📁 info/
 ├── 📁 js/
     ├── FormGenerator.js

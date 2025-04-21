@@ -1,4 +1,17 @@
-## *It is as if you were playing chess* Press Kit {#sec-presskits}
+# Press Kit {#sec-presskit}
+
+## Info
+
+![](info/images/it-is-as-if-you-were-playing-chess-banner.png)
+
+Play Online^[[pippinbarr.com/it-is-as-if-you-were-playing-chess/](http://www.pippinbarr.com/it-is-as-if-you-were-playing-chess/)] (desktop and mobile)
+
+### Description
+*You’ve always wanted to be a chess master! But you aren’t one! Are you! Now you can at least look like one! Pretend you’re playing chess! Make moves! Act like you feel things! Smirk! Frown! Weep! Chess!*
+
+_It is as if you were playing chess_ was written in JavaScript/HTML5 using the [Phaser](http://www.phaser.io/) game framework. It's a game that allows you to pretend to be playing chess. You know, impress your friends and strangers on the metro...
+
+## Press Kit
 
 ### Information
 * Released: August, 2016
@@ -6,11 +19,6 @@
 * Platforms: Browser
 * Link: https://www.pippinbarr.com/it-is-as-if-you-were-playing-chess/
 * Price: Free.
-
-### Description
-You've always wanted to be a chess master! But you aren't one! Are you!
-Now you can at least look like one! Pretend you're playing chess! Make moves!
-Act like you feel things! Smirk! Frown! Weep! Chess!
 
 ### History
 "It is as if you were playing chess" is part of a larger project I'm calling

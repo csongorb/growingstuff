@@ -1,11 +1,14 @@
-# Imprint
+# Imprint {.unnumbered}
 
-The Evolution of...  
+The evolution of...  
 It is as if you were making love (2018)
 
 Pippin Barr x Devolution  
 It is as if you were...  
 A MAZE. / Berlin 2025
+
+Content-freeze:
+2025-04-21
 
 Devolution 2025
 
@@ -16,9 +19,9 @@ Devolution 2025
 
 ## License(s)
 
-The original _It is as if you were making love_ by Pippin Barr is an open source project (game and process documentation) licensed under a [Creative Commons Attribution-NonCommercial 3.0 Unported License](http://creativecommons.org/licenses/by-nc/3.0/). You can obtain the source code from its [code repository](https://github.com/pippinbarr/itisasifyouweremakinglove) on GitHub.
+The original _It is as if you were making love_ by Pippin Barr is an open source project (game and process documentation) licensed under a [Creative Commons Attribution-NonCommercial 3.0 Unported License](http://creativecommons.org/licenses/by-nc/3.0/). You can obtain the source code from its *code repository* ([github.com/pippinbarr/itisasifyouweremakinglove](https://github.com/pippinbarr/itisasifyouweremakinglove)) on GitHub.
 
-This booklet and the corresponding project (exhibition and process documentation) are licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). The source code is available from its [code repository](https://github.com/csongorb/growingstuff) on GitHub.
+This booklet and the corresponding project (exhibition and process documentation) are licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). The source is available from its *repository* ([github.com/csongorb/growingstuff](https://github.com/csongorb/growingstuff)) on GitHub.
 
 ## Pippin Barr
 

@@ -1,4 +1,4 @@
-# Press About
+# Press {#sec-pressabout}
 
 * O'Connor, Alice. [*It is as if you were doing work really is*](https://www.rockpapershotgun.com/2017/07/04/free-desktop-work-simulator/). 4 July 2017. Rock, Paper, Shotgun.
 * Beschizza, Rob. [*It Is As If You Were Doing Work is a browser game celebrating Windows 3-era cubicle drudgery*](http://boingboing.net/2017/07/04/it-is-as-if-you-were-doing-wor.html). 4 July 2017. Boing Boing.

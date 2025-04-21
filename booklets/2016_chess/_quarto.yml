@@ -11,13 +11,13 @@ book:
   abstract: "@ A MAZE. / Berlin 2025"
   chapters:
     - index.qmd
-    - ./content/info.qmd
-    - ./content/press.qmd
-    - ./content/commits.qmd
-    - ./content/journal.qmd
-    - ./content/blog-posts.qmd
-    - ./content/pressabout.qmd
-    - ./content/imprint.qmd
+    - content/press.qmd
+    - content/journal.qmd
+    - content/blog-posts.qmd
+    - content/commits.qmd
+    - content/filestructure.qmd
+    - content/pressabout.qmd
+    - content/imprint.qmd
 
 bibliography: ../sharedContent/references.bib
 csl: ../sharedContent/chicago-mod.csl

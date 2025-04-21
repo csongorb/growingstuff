@@ -1,4 +1,10 @@
-## Commit Messages {#sec-commits}
+# Commit History {#sec-commits}
+
+## Overview
+
+![](./2016_chess/Commits%20over%20time.png)
+
+## Messages
 
 **Mon, 13 Jun 2022 14:05:33**  
 Initial commit

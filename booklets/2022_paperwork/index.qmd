@@ -1,4 +1,16 @@
-# Preface {.unnumbered}
+# readme.md {.unnumbered}
 
-- see *Phone*
-- mentioning that to-dos were keept in the readme file for a long time? maybe not thaaat interesting...
+This is the process documentation for the game *It is as if you were doing paperwork* (2024) by Pippin Barr. 
+
+* There is no press kit. Should there be? Read **Info** (@sec-info) instead
+* Take a look at the **Journal** (@sec-journal) for a very incomplete picture of development
+* Read the **Commit History** (@sec-commits) for detailed, moment-to-moment insights into the development process
+* Look at the **File Structure** (@sec-filestructure) for the evolution of the source code
+
+## A note on the text
+
+The text has been edited for print, but remains as close to the original as possible. Its main purpose is to provide the original material for exploration, the data is preserved *as is* and not updated.
+
+## It is as if you were...
+
+See: *Love*
