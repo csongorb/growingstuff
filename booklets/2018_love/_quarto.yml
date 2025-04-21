@@ -14,8 +14,8 @@ book:
     - content/press/readme.qmd
     - content/manifesto.qmd
     - content/journal.qmd
-    - content/to-do.qmd
     - content/related-work.qmd
+    - content/to-do.qmd
     - content/commits.qmd
     - content/filestructure.qmd
     - content/pressabout.qmd
