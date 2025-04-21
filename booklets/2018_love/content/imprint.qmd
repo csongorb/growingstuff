@@ -7,8 +7,7 @@ Pippin Barr x Devolution
 It is as if you were...  
 A MAZE. / Berlin 2025
 
-Content-freeze:
-2025-04-21
+Version & content-freeze: 2025-04-21
 
 Devolution 2025
 
@@ -16,6 +15,7 @@ Devolution 2025
 - Editorial: Csongor Baranyai / Devolution
 - Design: Jesse Simon / The Dessauer Press
 - Additional Editors: Agustina Böthig Gargiulo, Rodrigo López Moreira Mazacotte
+- Production Team: Devolution
 
 ## License(s)
 
