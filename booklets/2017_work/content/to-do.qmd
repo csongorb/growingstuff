@@ -131,9 +131,6 @@ Add all jQuery UI widgets to a test page to use them and understand/fix styling,
 * ~~Login screen on start (username and password, use username in UI and occasionally ask them to reenter their password)~~
 * ~~Repair CSS for niggles~~
   - ~~**DOESN'T SEEM TO BE HAPPENING FOR NOW** Refix the highlighting of focused elements~~
-  - ~~**FOR NOW I'M AT PEACE WITH THE NON-JQUERY CHECKBOXES** Colour of radio button (want black on white eventually, no fucking idea why it ought to be hard though)~~
-  - ~~**DID IT** Consider whether need more windows-y drop shadow on the buttons?~~
-  - ~~Remove focus outline of focused elements (too usable)~~
 * ~~Shake the dialog box when it's incorrect~~
 * ~~Implement 'check at the end' version of validation for each type~~
 * ~~Add ability for dialog to specify and evaluate its task~~
@@ -141,18 +138,6 @@ Add all jQuery UI widgets to a test page to use them and understand/fix styling,
 * ~~**NOT DOING THIS** Add dropdown menu to top of the screen if that's plausible (at least like File Edit Something)~~
 * ~~**DECOMPLICATED THIS OUT** Work out a language for generating and specifying and testing tasks~~
 * ~~**BASICALLY WORKS** Test multiple UI elements in a single dialog in list form~~
-* ~~Add other jQuery UI widgets into dialog boxes and display them~~
-  - ~~Radio buttons~~
-  - ~~Checkboxes~~
-  - ~~Date picker~~
-  - ~~**NOT ACTUALLY NEEDED** Multiple buttons~~
-  - ~~**PART DONE** Spinner~~
-  - ~~**ALL DONE** Spinner~~
-  - ~~Slider~~
-  - ~~Progress bar~~
-  - ~~Select menu~~
-  * ~~**BUT NOTE NO MULTI-SELECT WHICH I THINK IS FINE** Think through integrating icon selection and dragging~~
-  * ~~Integrate new Win95esque CSS~~
 
 
 
@@ -225,33 +210,3 @@ Add all jQuery UI widgets to a test page to use them and understand/fix styling,
 - ~~Add set of hilarious position names (maybe around 20+?)~~
 * ~~Add break time trigger (clears all dialogs, brings up dialog about taking a break with a progress bar no buttons, can't close, timer that restarts work at end of progress bar)~~
 * ~~Make breakout colours match dialog~~
-* ~~**I DON'T THINK THIS WOULD HAPPEN** Make system re-ask for password sometimes ha ha...? _Why would this happen though_?~~
-* ~~Implement breakout that can inject (and resize to) a div. Guess this is in Phaser?~~
-* ~~Slow it dooooown~~
-* ~~Fix the language used in dialogs (e.g. button labels, titles, menu items, etc - e.g. generateLanguage())~~
-* ~~Add in long term tasks options~~
-  - ~~Document~~
-  - ~~Email~~
-  - ~~**NAH** Data entry~~
-* ~~Remove ability to get a task wrong~~
-* ~~Markov chain for document/email contents to avoid typing meaningless nonsense? Lorem ipsum?~~
-* ~~**ARRAY OF INSPIRATIONAL/MOTIVATIONAL PHRASES** Lorem Ipsum versus Markov versus Arrays of BusinessWords?~~
-* ~~Make the modal background a bit darker~~
-* ~~Add actual cycle of work, inspiration dialogs endlessly (need a state machine)~~
-* ~~Add icons for music, desktop, breakout game (game only available during break)~~
-* ~~Create music selection and volume dialog~~
-* ~~Music (ideally written by an AI/procedure) plays (WolframTones? Something else?)~~
-* ~~Add position/rank ui + username~~
-* ~~Add dialog for setting desktop image~~
-* ~~**NOT QUITE HAPPY WITH SUCCESS** Add SFX for current things (success, fail, log in, new dialog)~~
-* ~~Add random positivity messages to inspirational popups~~
-* ~~Display slider current value on update (probably in text of label)~~
-* ~~**FOR NOW THERE'S ONE PER DIALOG** Avoid situations where dialog could be too big for the screen (avoid datepicker, or just always have single instructions? <-- probably reasonable)~~
-* ~~**WITH COMPROMISE OF overflow: hidden THIS IS OKAY** Randomly position dialogs (and remember the nightmares of You Are Not Here.)~~
-* ~~Random dialogs with inspirational work images (stock) pop up~~
-* ~~Only show desktop on successful login~~
-* ~~Random typical desktop image (maybe let user select on login?)~~
-* ~~Login screen on start (username and password, use username in UI and occasionally ask them to reenter their password)~~
-* ~~Shake the dialog box when it's incorrect~~
-* ~~Implement 'check at the end' version of validation for each type~~
-* ~~**BASICALLY WORKS** Test multiple UI elements in a single dialog in list form~~
