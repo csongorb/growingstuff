@@ -29,8 +29,6 @@
 
 ### Research
 
-- ~~Spend some time on my phone just trying to see typical interactions and interaction clusters and interaction sequences~~
-
 - Spend time in specific apps and take notes on typical interaction
     - Instagram
     - Browser
@@ -42,7 +40,6 @@
 
 ### Visual design
 
-- ~~Do some sketches of how this could look in terms of the actual screens and most especially the interaction indicators~~
 - ~~Make some visual prototypes in Keynote or similar~~
 - Make more visual prototypes
 - How to indicate "swipe" and "scroll" 
@@ -51,9 +48,6 @@
 
 ### Prototyping
 
-- ~~Checking on proportional positioning and sizing and a resizing canvas~~
-- ~~Checking on basic feel of random-location bubble popping (plus points?)~~
-- ~~Explore Zen sound effects~~
 - ~~Explore simple animations for feedback~~
 - ~~Exploration of swipe~~
 - ~~Esablish "modes"~~
@@ -107,7 +101,6 @@
 
 ### Visual design
 
-- ~~Make some visual prototypes in Keynote or similar~~
 - ~~How to indicate "swipe" and "scroll" ~~
     - **Yes but only for now** ~~Is this sort of "fixed for now" with the arrow plus scrollbar?~~
 - ~~Make more visual prototypes~~
@@ -116,10 +109,6 @@
 
 ### Prototyping
 
-- ~~Esablish "modes"~~
-- **Calling them "acts" for now** ~~Add instructions for face etc.~~
-- ~~Activities and a general state/modular model~~
-- ~~Scrolling (think about the relationship of pan and swipe)~~
 - ~~Bring in a second activity (Dating?)~~
 - ~~Inter-interaction delay system~~
 - ~~Bring back acting~~
@@ -141,7 +130,6 @@
 
 ### Actually building
 
-- ~~Make the whole thing responsive in the OOP model~~
 - ~~Create a better representation of tap size and location (as below as well I guess, just make it better)~~
 - ~~Need better control over where taps (and all elements generate), e.g. x y (that is we need the idea of the Playable Area)~~
 - ~~Add instructions~~
@@ -159,13 +147,6 @@
 
 ### Issues
 
-- **I think so anyway?** ~~Remove text selection on the page~~
-- ~~Think about "modes" that correspond to specific UIs, this could build toward the bigger "ecosystem" idea~~
-- ~~Think about thumb radius (most of the time UIs don't require interactions further than a thumb away?)~~
-- **SEEMS TO BE SOLVED** ~~Lag on press on mobile (same as the debug view, so testable)~~
-    - ~~This remains a problem after some initial testing~~
-    - ~~Further testing makes me think this is a series issue, at least in p5 seems to come down to whether a conditional is evaluated or not which... seems insane to me~~
-    - ~~Even further reflection has me wondering about using a different library (PixiJS?)~~
 - Was being caused by the interaction being cleared but the pan still triggering ~~Crash on holding a pan at the bottom of a scroll?~~
 - ~~Sometimes on mobile it gets to a state where the page scrolls instead of the ui element...~~
 - ~~If you hold a pan it seems to hold over to the next interaction which feels a bit wrong? Like we need to require a touch up first? ~~
