@@ -11,36 +11,27 @@
 
 A few quotes about journaling:
 
-It is as if you were doing work
+### It is as if you were doing work
+
 Blog Posts
 
   - you don’t have to actually make decisions, you just appear to be making decisions
   - Now don’t forget to select ▝▍▀▟▖▀▎ and then press ▚▎▗▀ before you go.
   - be careful with aesthetics, my friends
-    
- Something to do while you're doing something (2017-06-19)
-
   - Work continues on It is as if you were doing work.
-  
+
 Book
 
   - banality is my cup of tea
   
 Journal
 
-Today's thoughts (2017-06-10 12:24)
-
-   - One, two, three.
-    
-Today's actual thoughts (2017-06-11 13:05)
-    
+   - One, two, three.    
    - Yesterday's thoughts were perhaps a little underwhelming.
    - So basically I need to work out how to make correct decisions
- Longer-term tasks (2017-06-18 18:26)
-
    - So those are some thoughts.
   
-It is as if you would be on your phone
+### It is as if you would be on your phone
 
 Process/Why
 
@@ -55,7 +46,7 @@ Journal
    - if you work on something that connects with internet/tech/game culture you're more likely to catch the wind of interest from people
    - One of those release processes that surprise you by not just being "well... it's out there now, the end".
   
-It is as if you were making love
+### It is as if you were making love
 
 Journal
 
