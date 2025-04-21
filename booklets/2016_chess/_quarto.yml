@@ -17,6 +17,7 @@ book:
     - ./content/journal.qmd
     - ./content/blog-posts.qmd
     - ./content/pressabout.qmd
+    - ./content/imprint.qmd
 
 bibliography: ../sharedContent/references.bib
 csl: ../sharedContent/chicago-mod.csl
