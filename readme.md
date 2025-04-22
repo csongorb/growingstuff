@@ -25,4 +25,4 @@ We organise ourselves through:
 
 ## Credits
 
-See [credits.qmd](./booklets/00_growingstuff/content/credits.qmd).
+See [credits.md](/credits.md).
