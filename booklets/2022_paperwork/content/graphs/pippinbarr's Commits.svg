@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 288.6 173.4">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath-51);
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-34);
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath-38);
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath-21);
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-6);
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath-7);
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath-17);
+      }
+
+      .cls-8 {
+        clip-path: url(#clippath-31);
+      }
+
+      .cls-9 {
+        font-size: 11.1px;
+      }
+
+      .cls-9, .cls-10 {
+        fill: #595959;
+        font-family: Calibri, Calibri;
+      }
+
+      .cls-11 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-12 {
+        clip-path: url(#clippath-15);
+      }
+
+      .cls-13 {
+        clip-path: url(#clippath-33);
+      }
+
+      .cls-14 {
+        clip-path: url(#clippath-18);
+      }
+
+      .cls-15 {
+        clip-path: url(#clippath-47);
+      }
+
+      .cls-16 {
+        clip-path: url(#clippath-4);
+      }
+
+      .cls-17 {
+        letter-spacing: .03em;
+      }
+
+      .cls-18 {
+        clip-path: url(#clippath-22);
+      }
+
+      .cls-19 {
+        clip-path: url(#clippath-23);
+      }
+
+      .cls-20 {
+        stroke: #4472c4;
+        stroke-linecap: round;
+        stroke-width: 1.8px;
+      }
+
+      .cls-20, .cls-21, .cls-22, .cls-23 {
+        fill: none;
+      }
+
+      .cls-20, .cls-22 {
+        stroke-linejoin: round;
+      }
+
+      .cls-24 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-25 {
+        clip-path: url(#clippath-54);
+      }
+
+      .cls-26 {
+        clip-path: url(#clippath-9);
+      }
+
+      .cls-27 {
+        clip-path: url(#clippath-10);
+      }
+
+      .cls-28 {
+        clip-path: url(#clippath-42);
+      }
+
+      .cls-29 {
+        letter-spacing: 0em;
+      }
+
+      .cls-30 {
+        clip-path: url(#clippath-43);
+      }
+
+      .cls-31 {
+        clip-path: url(#clippath-25);
+      }
+
+      .cls-32 {
+        clip-path: url(#clippath-27);
+      }
+
+      .cls-33 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+
+      .cls-34 {
+        clip-path: url(#clippath-11);
+      }
+
+      .cls-35 {
+        letter-spacing: 0em;
+      }
+
+      .cls-36 {
+        clip-path: url(#clippath-36);
+      }
+
+      .cls-22 {
+        stroke: #d9d9d9;
+        stroke-width: .6px;
+      }
+
+      .cls-37 {
+        clip-path: url(#clippath-35);
+      }
+
+      .cls-38 {
+        clip-path: url(#clippath-48);
+      }
+
+      .cls-39 {
+        clip-path: url(#clippath-28);
+      }
+
+      .cls-40 {
+        letter-spacing: 0em;
+      }
+
+      .cls-41 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-42 {
+        clip-path: url(#clippath-56);
+      }
+
+      .cls-43 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-44 {
+        clip-path: url(#clippath-45);
+      }
+
+      .cls-45 {
+        clip-path: url(#clippath-46);
+      }
+
+      .cls-46 {
+        clip-path: url(#clippath-40);
+      }
+
+      .cls-47 {
+        clip-path: url(#clippath-5);
+      }
+
+      .cls-48 {
+        clip-path: url(#clippath-20);
+      }
+
+      .cls-10 {
+        font-size: 7.2px;
+      }
+
+      .cls-49 {
+        clip-path: url(#clippath-8);
+      }
+
+      .cls-50 {
+        clip-path: url(#clippath-52);
+      }
+
+      .cls-51 {
+        clip-path: url(#clippath-41);
+      }
+
+      .cls-52 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-53 {
+        clip-path: url(#clippath-26);
+      }
+
+      .cls-54 {
+        clip-path: url(#clippath-12);
+      }
+
+      .cls-55 {
+        clip-path: url(#clippath-50);
+      }
+
+      .cls-56 {
+        letter-spacing: .01em;
+      }
+
+      .cls-57 {
+        clip-path: url(#clippath-14);
+      }
+
+      .cls-23 {
+        clip-rule: evenodd;
+      }
+
+      .cls-58 {
+        clip-path: url(#clippath-30);
+      }
+
+      .cls-59 {
+        clip-path: url(#clippath-19);
+      }
+
+      .cls-60 {
+        clip-path: url(#clippath-32);
+      }
+
+      .cls-61 {
+        clip-path: url(#clippath-55);
+      }
+
+      .cls-62 {
+        letter-spacing: 0em;
+      }
+
+      .cls-63 {
+        letter-spacing: .01em;
+      }
+
+      .cls-64 {
+        clip-path: url(#clippath-53);
+      }
+
+      .cls-65 {
+        clip-path: url(#clippath-39);
+      }
+
+      .cls-66 {
+        clip-path: url(#clippath-16);
+      }
+
+      .cls-67 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-68 {
+        clip-path: url(#clippath-29);
+      }
+
+      .cls-69 {
+        clip-path: url(#clippath-49);
+      }
+
+      .cls-70 {
+        clip-path: url(#clippath-37);
+      }
+
+      .cls-71 {
+        clip-path: url(#clippath-13);
+      }
+
+      .cls-72 {
+        letter-spacing: 0em;
+      }
+
+      .cls-73 {
+        letter-spacing: 0em;
+      }
+
+      .cls-74 {
+        clip-path: url(#clippath-24);
+      }
+
+      .cls-75 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-76 {
+        letter-spacing: 0em;
+      }
+
+      .cls-77 {
+        clip-path: url(#clippath-44);
+      }
+    </style>
+    <clipPath id="clippath">
+      <polygon class="cls-23" points=".3 173.1 288.3 173.1 288.3 .3 .3 .3 .3 173.1 .3 173.1"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <polygon class="cls-23" points=".3 173.1 288.3 173.1 288.3 .3 .3 .3 .3 173.1 .3 173.1"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <polygon class="cls-23" points=".3 173.1 288.3 173.1 288.3 .3 .3 .3 .3 173.1 .3 173.1"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <polygon class="cls-23" points="19.5 132.9 280.2 132.9 280.2 30 19.5 30 19.5 132.9 19.5 132.9"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <polygon class="cls-23" points=".3 173.1 288.3 173.1 288.3 .3 .3 .3 .3 173.1 .3 173.1"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <rect class="cls-21" x=".3" y=".3" width="288" height="172.8"/>
+    </clipPath>
+    <clipPath id="clippath-6">
+      <polygon class="cls-23" points=".3 173.1 288.3 173.1 288.3 .3 .3 .3 .3 173.1 .3 173.1"/>
+    </clipPath>
+    <clipPath id="clippath-7">
+      <rect class="cls-21" x=".3" y=".3" width="288" height="172.8"/>
+    </clipPath>
+    <clipPath id="clippath-8">
+      <polygon class="cls-23" points=".3 173.1 288.3 173.1 288.3 .3 .3 .3 .3 173.1 .3 173.1"/>
+    </clipPath>
+    <clipPath id="clippath-9">
+      <rect class="cls-21" x=".3" y=".3" width="288" height="172.8"/>
+    </clipPath>
+    <clipPath id="clippath-10">
+      <polygon class="cls-23" points=".3 173.1 288.3 173.1 288.3 .3 .3 .3 .3 173.1 .3 173.1"/>
+    </clipPath>
+    <clipPath id="clippath-11">
+      <rect class="cls-21" x=".3" y=".3" width="288" height="172.8"/>
+    </clipPath>
+    <clipPath id="clippath-12">
+      <polygon class="cls-23" points=".3 173.1 288.3 173.1 288.3 .3 .3 .3 .3 173.1 .3 173.1"/>
+    </clipPath>
+    <clipPath id="clippath-13">
+      <rect class="cls-21" x=".3" y=".3" width="288" height="172.8"/>
+    </clipPath>
+    <clipPath id="clippath-14">
+      <polygon class="cls-23" points=".3 173.1 288.3 173.1 288.3 .3 .3 .3 .3 173.1 .3 173.1"/>
+    </clipPath>
+    <clipPath id="clippath-15">
+      <rect class="cls-21" x=".3" y=".3" width="288" height="172.8"/>
+    </clipPath>
+    <clipPath id="clippath-16">
+      <polygon class="cls-23" points=".3 173.1 288.3 173.1 288.3 .3 .3 .3 .3 173.1 .3 173.1"/>
+    </clipPath>
+    <clipPath id="clippath-17">
+      <rect class="cls-21" x=".3" y=".3" width="288" height="172.8"/>
+    </clipPath>
+    <clipPath id="clippath-18">
+      <polygon class="cls-23" points=".3 173.1 288.3 173.1 288.3 .3 .3 .3 .3 173.1 .3 173.1"/>
+    </clipPath>
+    <clipPath id="clippath-19">
+      <rect class="cls-21" x=".3" y=".3" width="288" height="172.8"/>
+    </clipPath>
+    <clipPath id="clippath-20">
+      <polygon class="cls-23" points=".3 173.1 288.3 173.1 288.3 .3 .3 .3 .3 173.1 .3 173.1"/>
+    </clipPath>
+    <clipPath id="clippath-21">
+      <rect class="cls-21" x=".3" y=".3" width="288" height="172.8"/>
+    </clipPath>
+    <clipPath id="clippath-22">
+      <polygon class="cls-23" points=".3 173.1 288.3 173.1 288.3 .3 .3 .3 .3 173.1 .3 173.1"/>
+    </clipPath>
+    <clipPath id="clippath-23">
+      <rect class="cls-21" x=".3" y=".3" width="288" height="172.8"/>
+    </clipPath>
+    <clipPath id="clippath-24">
+      <polygon class="cls-23" points=".3 173.1 288.3 173.1 288.3 .3 .3 .3 .3 173.1 .3 173.1"/>
+    </clipPath>
+    <clipPath id="clippath-25">
+      <rect class="cls-21" x=".3" y=".3" width="288" height="172.8"/>
+    </clipPath>
+    <clipPath id="clippath-26">
+      <polygon class="cls-23" points=".3 173.1 288.3 173.1 288.3 .3 .3 .3 .3 173.1 .3 173.1"/>
+    </clipPath>
+    <clipPath id="clippath-27">
+      <rect class="cls-21" x=".3" y=".3" width="288" height="172.8"/>
+    </clipPath>
+    <clipPath id="clippath-28">
+      <polygon class="cls-23" points=".3 173.1 288.3 173.1 288.3 .3 .3 .3 .3 173.1 .3 173.1"/>
+    </clipPath>
+    <clipPath id="clippath-29">
+      <rect class="cls-21" x=".3" y=".3" width="288" height="172.8"/>
+    </clipPath>
+    <clipPath id="clippath-30">
+      <polygon class="cls-23" points=".3 173.1 288.3 173.1 288.3 .3 .3 .3 .3 173.1 .3 173.1"/>
+    </clipPath>
+    <clipPath id="clippath-31">
+      <rect class="cls-21" x=".3" y=".3" width="288" height="172.8"/>
+    </clipPath>
+    <clipPath id="clippath-32">
+      <polygon class="cls-23" points=".3 173.1 288.3 173.1 288.3 .3 .3 .3 .3 173.1 .3 173.1"/>
+    </clipPath>
+    <clipPath id="clippath-33">
+      <rect class="cls-21" x=".3" y=".3" width="288" height="172.8"/>
+    </clipPath>
+    <clipPath id="clippath-34">
+      <polygon class="cls-23" points=".3 173.1 288.3 173.1 288.3 .3 .3 .3 .3 173.1 .3 173.1"/>
+    </clipPath>
+    <clipPath id="clippath-35">
+      <rect class="cls-21" x=".3" y=".3" width="288" height="172.8"/>
+    </clipPath>
+    <clipPath id="clippath-36">
+      <polygon class="cls-23" points=".3 173.1 288.3 173.1 288.3 .3 .3 .3 .3 173.1 .3 173.1"/>
+    </clipPath>
+    <clipPath id="clippath-37">
+      <rect class="cls-21" x=".3" y=".3" width="288" height="172.8"/>
+    </clipPath>
+    <clipPath id="clippath-38">
+      <polygon class="cls-23" points=".3 173.1 288.3 173.1 288.3 .3 .3 .3 .3 173.1 .3 173.1"/>
+    </clipPath>
+    <clipPath id="clippath-39">
+      <rect class="cls-21" x=".3" y=".3" width="288" height="172.8"/>
+    </clipPath>
+    <clipPath id="clippath-40">
+      <polygon class="cls-23" points=".3 173.1 288.3 173.1 288.3 .3 .3 .3 .3 173.1 .3 173.1"/>
+    </clipPath>
+    <clipPath id="clippath-41">
+      <rect class="cls-21" x=".3" y=".3" width="288" height="172.8"/>
+    </clipPath>
+    <clipPath id="clippath-42">
+      <polygon class="cls-23" points=".3 173.1 288.3 173.1 288.3 .3 .3 .3 .3 173.1 .3 173.1"/>
+    </clipPath>
+    <clipPath id="clippath-43">
+      <rect class="cls-21" x=".3" y=".3" width="288" height="172.8"/>
+    </clipPath>
+    <clipPath id="clippath-44">
+      <polygon class="cls-23" points=".3 173.1 288.3 173.1 288.3 .3 .3 .3 .3 173.1 .3 173.1"/>
+    </clipPath>
+    <clipPath id="clippath-45">
+      <rect class="cls-21" x=".3" y=".3" width="288" height="172.8"/>
+    </clipPath>
+    <clipPath id="clippath-46">
+      <polygon class="cls-23" points=".3 173.1 288.3 173.1 288.3 .3 .3 .3 .3 173.1 .3 173.1"/>
+    </clipPath>
+    <clipPath id="clippath-47">
+      <rect class="cls-21" x=".3" y=".3" width="288" height="172.8"/>
+    </clipPath>
+    <clipPath id="clippath-48">
+      <polygon class="cls-23" points=".3 173.1 288.3 173.1 288.3 .3 .3 .3 .3 173.1 .3 173.1"/>
+    </clipPath>
+    <clipPath id="clippath-49">
+      <rect class="cls-21" x=".3" y=".3" width="288" height="172.8"/>
+    </clipPath>
+    <clipPath id="clippath-50">
+      <polygon class="cls-23" points=".3 173.1 288.3 173.1 288.3 .3 .3 .3 .3 173.1 .3 173.1"/>
+    </clipPath>
+    <clipPath id="clippath-51">
+      <rect class="cls-21" x=".3" y=".3" width="288" height="172.8"/>
+    </clipPath>
+    <clipPath id="clippath-52">
+      <polygon class="cls-23" points=".3 173.1 288.3 173.1 288.3 .3 .3 .3 .3 173.1 .3 173.1"/>
+    </clipPath>
+    <clipPath id="clippath-53">
+      <rect class="cls-21" x=".3" y=".3" width="288" height="172.8"/>
+    </clipPath>
+    <clipPath id="clippath-54">
+      <polygon class="cls-23" points=".3 173.1 288.3 173.1 288.3 .3 .3 .3 .3 173.1 .3 173.1"/>
+    </clipPath>
+    <clipPath id="clippath-55">
+      <rect class="cls-21" x=".3" y=".3" width="288" height="172.8"/>
+    </clipPath>
+    <clipPath id="clippath-56">
+      <polygon class="cls-23" points="0 173.4 288.6 173.4 288.6 0 0 0 0 173.4 0 173.4"/>
+    </clipPath>
+  </defs>
+  <polygon class="cls-33" points=".3 .3 288.3 .3 288.3 173.1 .3 173.1 .3 .3 .3 .3"/>
+  <g class="cls-75">
+    <path class="cls-22" d="M19.5,115.22h260.1M19.5,98.42h260.1M19.5,81.32h260.1M19.5,64.22h260.1M19.5,47.11h260.1M19.5,30h260.1"/>
+  </g>
+  <g class="cls-41">
+    <line class="cls-22" x1="19.5" y1="132.3" x2="279.6" y2="132.3"/>
+  </g>
+  <g class="cls-67">
+    <path class="cls-22" d="M19.5,132.3v2.4M33.93,132.3v2.4M48.63,132.3v2.4M63.04,132.3v2.4M77.44,132.3v2.4M91.84,132.3v2.4M106.24,132.3v2.4M120.64,132.3v2.4M135.04,132.3v2.4M149.74,132.3v2.4M164.15,132.3v2.4M178.55,132.3v2.4M192.95,132.3v2.4M207.35,132.3v2.4M221.75,132.3v2.4M236.45,132.3v2.4M250.86,132.3v2.4M265.26,132.3v2.4M279.6,132.3v2.4"/>
+  </g>
+  <g class="cls-52">
+    <polyline class="cls-20" points="23.1 38.7 73.84 132.3 124.24 123.92 174.95 132.3 225.35 132.3 276 132.3"/>
+  </g>
+  <g class="cls-16">
+    <g class="cls-47">
+      <text class="cls-10" transform="translate(9.3 134.49)"><tspan x="0" y="0">0</tspan></text>
+    </g>
+  </g>
+  <g class="cls-5">
+    <g class="cls-6">
+      <text class="cls-10" transform="translate(9.3 117.45)"><tspan x="0" y="0">2</tspan></text>
+    </g>
+  </g>
+  <g class="cls-49">
+    <g class="cls-26">
+      <text class="cls-10" transform="translate(9.3 100.4)"><tspan x="0" y="0">4</tspan></text>
+    </g>
+  </g>
+  <g class="cls-27">
+    <g class="cls-34">
+      <text class="cls-10" transform="translate(9.3 83.36)"><tspan x="0" y="0">6</tspan></text>
+    </g>
+  </g>
+  <g class="cls-54">
+    <g class="cls-71">
+      <text class="cls-10" transform="translate(9.3 66.31)"><tspan x="0" y="0">8</tspan></text>
+    </g>
+  </g>
+  <g class="cls-57">
+    <g class="cls-12">
+      <text class="cls-10" transform="translate(5.65 49.27)"><tspan class="cls-76" x="0" y="0">1</tspan><tspan x="3.61" y="0">0</tspan></text>
+    </g>
+  </g>
+  <g class="cls-66">
+    <g class="cls-7">
+      <text class="cls-10" transform="translate(5.65 32.23)"><tspan class="cls-76" x="0" y="0">1</tspan><tspan x="3.61" y="0">2</tspan></text>
+    </g>
+  </g>
+  <g class="cls-14">
+    <g class="cls-59">
+      <text class="cls-10" transform="translate(25.74 168.05) rotate(-90)"><tspan class="cls-72" x="0" y="0">7</tspan><tspan class="cls-24" x="3.61" y="0">/</tspan><tspan class="cls-17" x="6.31" y="0">1</tspan><tspan class="cls-40" x="10.2" y="0">0</tspan><tspan class="cls-11" x="13.81" y="0">/</tspan><tspan class="cls-40" x="16.51" y="0">202</tspan><tspan x="27.33" y="0">2</tspan></text>
+    </g>
+  </g>
+  <g class="cls-48">
+    <g class="cls-4">
+      <text class="cls-10" transform="translate(40.19 168.05) rotate(-90)"><tspan class="cls-72" x="0" y="0">7</tspan><tspan class="cls-24" x="3.61" y="0">/</tspan><tspan class="cls-17" x="6.31" y="0">1</tspan><tspan class="cls-40" x="10.2" y="0">2</tspan><tspan class="cls-11" x="13.81" y="0">/</tspan><tspan class="cls-40" x="16.51" y="0">202</tspan><tspan x="27.33" y="0">2</tspan></text>
+    </g>
+  </g>
+  <g class="cls-18">
+    <g class="cls-19">
+      <text class="cls-10" transform="translate(54.63 168.05) rotate(-90)"><tspan class="cls-72" x="0" y="0">7</tspan><tspan class="cls-24" x="3.61" y="0">/</tspan><tspan class="cls-17" x="6.31" y="0">1</tspan><tspan class="cls-40" x="10.2" y="0">4</tspan><tspan class="cls-11" x="13.81" y="0">/</tspan><tspan class="cls-40" x="16.51" y="0">202</tspan><tspan x="27.33" y="0">2</tspan></text>
+    </g>
+  </g>
+  <g class="cls-74">
+    <g class="cls-31">
+      <text class="cls-10" transform="translate(69.08 168.05) rotate(-90)"><tspan class="cls-72" x="0" y="0">7</tspan><tspan class="cls-24" x="3.61" y="0">/</tspan><tspan class="cls-17" x="6.31" y="0">1</tspan><tspan class="cls-40" x="10.2" y="0">6</tspan><tspan class="cls-11" x="13.81" y="0">/</tspan><tspan class="cls-40" x="16.51" y="0">202</tspan><tspan x="27.33" y="0">2</tspan></text>
+    </g>
+  </g>
+  <g class="cls-53">
+    <g class="cls-32">
+      <text class="cls-10" transform="translate(83.52 168.05) rotate(-90)"><tspan class="cls-72" x="0" y="0">7</tspan><tspan class="cls-24" x="3.61" y="0">/</tspan><tspan class="cls-17" x="6.31" y="0">1</tspan><tspan class="cls-40" x="10.2" y="0">8</tspan><tspan class="cls-11" x="13.81" y="0">/</tspan><tspan class="cls-40" x="16.51" y="0">202</tspan><tspan x="27.33" y="0">2</tspan></text>
+    </g>
+  </g>
+  <g class="cls-39">
+    <g class="cls-68">
+      <text class="cls-10" transform="translate(97.97 168.05) rotate(-90)"><tspan class="cls-72" x="0" y="0">7</tspan><tspan class="cls-24" x="3.61" y="0">/</tspan><tspan class="cls-17" x="6.31" y="0">2</tspan><tspan class="cls-40" x="10.2" y="0">0</tspan><tspan class="cls-11" x="13.81" y="0">/</tspan><tspan class="cls-40" x="16.51" y="0">202</tspan><tspan x="27.33" y="0">2</tspan></text>
+    </g>
+  </g>
+  <g class="cls-58">
+    <g class="cls-8">
+      <text class="cls-10" transform="translate(112.41 168.05) rotate(-90)"><tspan class="cls-72" x="0" y="0">7</tspan><tspan class="cls-24" x="3.61" y="0">/</tspan><tspan class="cls-17" x="6.31" y="0">2</tspan><tspan class="cls-40" x="10.2" y="0">2</tspan><tspan class="cls-11" x="13.81" y="0">/</tspan><tspan class="cls-40" x="16.51" y="0">202</tspan><tspan x="27.33" y="0">2</tspan></text>
+    </g>
+  </g>
+  <g class="cls-60">
+    <g class="cls-13">
+      <text class="cls-10" transform="translate(126.86 168.05) rotate(-90)"><tspan class="cls-72" x="0" y="0">7</tspan><tspan class="cls-24" x="3.61" y="0">/</tspan><tspan class="cls-17" x="6.31" y="0">2</tspan><tspan class="cls-40" x="10.2" y="0">4</tspan><tspan class="cls-11" x="13.81" y="0">/</tspan><tspan class="cls-40" x="16.51" y="0">202</tspan><tspan x="27.33" y="0">2</tspan></text>
+    </g>
+  </g>
+  <g class="cls-2">
+    <g class="cls-37">
+      <text class="cls-10" transform="translate(141.3 168.05) rotate(-90)"><tspan class="cls-72" x="0" y="0">7</tspan><tspan class="cls-24" x="3.61" y="0">/</tspan><tspan class="cls-17" x="6.31" y="0">2</tspan><tspan class="cls-40" x="10.2" y="0">6</tspan><tspan class="cls-11" x="13.81" y="0">/</tspan><tspan class="cls-40" x="16.51" y="0">202</tspan><tspan x="27.33" y="0">2</tspan></text>
+    </g>
+  </g>
+  <g class="cls-36">
+    <g class="cls-70">
+      <text class="cls-10" transform="translate(155.75 168.05) rotate(-90)"><tspan class="cls-72" x="0" y="0">7</tspan><tspan class="cls-24" x="3.61" y="0">/</tspan><tspan class="cls-17" x="6.31" y="0">2</tspan><tspan class="cls-40" x="10.2" y="0">8</tspan><tspan class="cls-11" x="13.81" y="0">/</tspan><tspan class="cls-40" x="16.51" y="0">202</tspan><tspan x="27.33" y="0">2</tspan></text>
+    </g>
+  </g>
+  <g class="cls-3">
+    <g class="cls-65">
+      <text class="cls-10" transform="translate(170.19 168.05) rotate(-90)"><tspan class="cls-72" x="0" y="0">7</tspan><tspan class="cls-24" x="3.61" y="0">/</tspan><tspan class="cls-17" x="6.31" y="0">3</tspan><tspan class="cls-40" x="10.2" y="0">0</tspan><tspan class="cls-11" x="13.81" y="0">/</tspan><tspan class="cls-40" x="16.51" y="0">202</tspan><tspan x="27.33" y="0">2</tspan></text>
+    </g>
+  </g>
+  <g class="cls-46">
+    <g class="cls-51">
+      <text class="cls-10" transform="translate(184.65 164.4) rotate(-90)"><tspan class="cls-72" x="0" y="0">8</tspan><tspan class="cls-24" x="3.61" y="0">/</tspan><tspan class="cls-17" x="6.31" y="0">1</tspan><tspan class="cls-24" x="10.2" y="0">/</tspan><tspan class="cls-72" x="12.9" y="0">202</tspan><tspan class="cls-73" x="23.72" y="0">2</tspan></text>
+    </g>
+  </g>
+  <g class="cls-28">
+    <g class="cls-30">
+      <text class="cls-10" transform="translate(199.09 164.4) rotate(-90)"><tspan class="cls-72" x="0" y="0">8</tspan><tspan class="cls-24" x="3.61" y="0">/</tspan><tspan class="cls-17" x="6.31" y="0">3</tspan><tspan class="cls-24" x="10.2" y="0">/</tspan><tspan class="cls-72" x="12.9" y="0">202</tspan><tspan class="cls-73" x="23.72" y="0">2</tspan></text>
+    </g>
+  </g>
+  <g class="cls-77">
+    <g class="cls-44">
+      <text class="cls-10" transform="translate(213.54 164.4) rotate(-90)"><tspan class="cls-72" x="0" y="0">8</tspan><tspan class="cls-24" x="3.61" y="0">/</tspan><tspan class="cls-17" x="6.31" y="0">5</tspan><tspan class="cls-24" x="10.2" y="0">/</tspan><tspan class="cls-72" x="12.9" y="0">202</tspan><tspan class="cls-73" x="23.72" y="0">2</tspan></text>
+    </g>
+  </g>
+  <g class="cls-45">
+    <g class="cls-15">
+      <text class="cls-10" transform="translate(227.98 164.4) rotate(-90)"><tspan class="cls-72" x="0" y="0">8</tspan><tspan class="cls-24" x="3.61" y="0">/</tspan><tspan class="cls-17" x="6.31" y="0">7</tspan><tspan class="cls-24" x="10.2" y="0">/</tspan><tspan class="cls-72" x="12.9" y="0">202</tspan><tspan class="cls-73" x="23.72" y="0">2</tspan></text>
+    </g>
+  </g>
+  <g class="cls-38">
+    <g class="cls-69">
+      <text class="cls-10" transform="translate(242.43 164.4) rotate(-90)"><tspan class="cls-72" x="0" y="0">8</tspan><tspan class="cls-24" x="3.61" y="0">/</tspan><tspan class="cls-17" x="6.31" y="0">9</tspan><tspan class="cls-24" x="10.2" y="0">/</tspan><tspan class="cls-72" x="12.9" y="0">202</tspan><tspan class="cls-73" x="23.72" y="0">2</tspan></text>
+    </g>
+  </g>
+  <g class="cls-55">
+    <g class="cls-1">
+      <text class="cls-10" transform="translate(256.87 168.05) rotate(-90)"><tspan class="cls-72" x="0" y="0">8</tspan><tspan class="cls-24" x="3.61" y="0">/</tspan><tspan class="cls-17" x="6.31" y="0">1</tspan><tspan class="cls-40" x="10.2" y="0">1</tspan><tspan class="cls-11" x="13.81" y="0">/</tspan><tspan class="cls-40" x="16.51" y="0">202</tspan><tspan x="27.33" y="0">2</tspan></text>
+    </g>
+  </g>
+  <g class="cls-50">
+    <g class="cls-64">
+      <text class="cls-10" transform="translate(271.32 168.05) rotate(-90)"><tspan class="cls-72" x="0" y="0">8</tspan><tspan class="cls-24" x="3.61" y="0">/</tspan><tspan class="cls-17" x="6.31" y="0">1</tspan><tspan class="cls-40" x="10.2" y="0">3</tspan><tspan class="cls-11" x="13.81" y="0">/</tspan><tspan class="cls-40" x="16.51" y="0">202</tspan><tspan x="27.33" y="0">2</tspan></text>
+    </g>
+  </g>
+  <g class="cls-25">
+    <g class="cls-61">
+      <text class="cls-9" transform="translate(124.35 17.25)"><tspan class="cls-62" x="0" y="0">C</tspan><tspan class="cls-56" x="6" y="0">o</tspan><tspan class="cls-63" x="11.99" y="0">mm</tspan><tspan class="cls-43" x="29.97" y="0">i</tspan><tspan class="cls-29" x="32.38" y="0">t</tspan><tspan class="cls-35" x="35.98" y="0">s</tspan></text>
+    </g>
+  </g>
+  <g class="cls-42">
+    <polygon class="cls-22" points=".3 .3 288.3 .3 288.3 173.1 .3 173.1 .3 .3 .3 .3"/>
+  </g>
+</svg>
