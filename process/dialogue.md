@@ -457,3 +457,11 @@ Perhaps it is not *freezing a moment*, or *visualizing the process*, but:
 Showing in every moment that it *has grown* and that it *will continue to grow*.
 
 But thinking helps, I already have some [ideas](../booklets/todo.md). 
+
+## 2025-04-22 Pippin: deer in the headlights
+
+Well, yes things are moving ain't they. I think it's likely I'll be doing Text Adventure at AMAZE so it's probably not a priority to capture booklet-wise etc.?
+
+Think we're getting somewhere healthy with onstage?
+
+Looking forward to seeing a booklet!
