@@ -2,10 +2,9 @@
 
 <h2 align="center">Pippin Barr x Devolution</h2>
 
-<p align="center">It is as if you were…</h3>
-<p align="center">A MAZE. / Berlin 2025</h3>
-
-<p align="center">**A cooperation between Pippin Barr, A MAZE. / Berlin, Devolution, and Game Design // UE.**</p>
+<h3 align="center">It is as if you were…<br>
+<h3 align="center">A MAZE. / Berlin 2025<br>
+<h3 align="center">A cooperation between Pippin Barr, A MAZE. / Berlin, Devolution, and Game Design // UE.</h3>
 
 <p align="center">Pippin Barr 🤡<br>
 Csongor Baranyai 🌱</p>
