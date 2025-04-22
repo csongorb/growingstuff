@@ -10,7 +10,7 @@ Devolution, and Game Design // UE.
 Pippin Barr 🤡
 Csongor Baranyai 🌱
 
-Exhibition:
+**Exhibition:**  
 Marianna Koszutska 👑
 Marta Vedral 👑
 Agustina Böthig Gargiulo
