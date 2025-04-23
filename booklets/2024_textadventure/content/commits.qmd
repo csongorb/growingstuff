@@ -82,3 +82,16 @@ Styling, flow, lorem ipsum
 
 **Mon, 14 Apr 2025 17:14:58**  
 Journal: Time passes
+
+**Mon, 14 Apr 2025 17:14:58**  
+Journal: Time passes
+
+**Tue, 22 Apr 2025 19:53:02**
+Journal: Guides for these territories
+
+**Tue, 22 Apr 2025 20:37:14**
+A .gitignore for all seasons
+
+- Did this so I can have a secret folder to work in while the story is embargoed
+- Important to be able to write freely and with reference to the story so that I can think through writing
+- Working on early thinking about how to approach it

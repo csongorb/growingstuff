@@ -3,4 +3,6 @@
 The evolution of...  
 It is as if you were playing a text adventure (2024)
 
+Content-freeze: 2025-04-22
+
 See: Love.
