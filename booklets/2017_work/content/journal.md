@@ -246,7 +246,7 @@ Discussion with DART 450:
 * The way that the characters are varied and horizontal makes them look like traditional written human languages - could there be a way around that? If they were of uniform height would that help? If they were just variable length censored blocks? (That doesn't really get around it.)
 * ... HMMM.
 
-## Return of the man, 2017-03-27 14:08
+## 2017-03-27 14:08 - Return of the man
 
 I'm back in the directory containing this game thinking about whatever it is I'm meant to be thinking about when I'm meant to be working on this game. Since the last time I actually though about this I started and finished SNAKISMS, v r 3, and Let's Play: Ancient Greek Punishment: CPU Edition! So it's kind of been a while.
 
@@ -278,7 +278,7 @@ WWwwwweeelllll at the very least let's make the 'single element version' and we 
 
 Alright well I create the barest minimum thing - two radio buttons and a button. It looks very daunting. Next thing is I guess to generate some text with instructions. Which may make it look a little less hideously daunting in terms of what it is.
 
-## Tuesday, 27 December 2016 11:17
+## 2016-12-27 11:17
 Candidate naming:
 
 * It is as if you were doing some work
@@ -294,7 +294,7 @@ Candidate naming:
 Extra thought: If it were part of the “It is as if you were” series then I could theme the jQuery UI CSS to resemble the same kind of abstracted setup I imagine, which could look really cool actually.
 
 
-## Thursday, 8 December 2016 11:54
+## 2016-12-08 11:54
 
 Feeling irked with jQuery UI. Have added a button (easy). Then battling with radio selectors, which are displaying a little strangely and pissing me off. The point of using jQuery UI is to have nicer (“nicer”?) styling for everything, so it’s kind of an ass-pain to have it not working properly and actually just not even recreating the default look that’s meant to be there according to the jQuery UI website.
 
