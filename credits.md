@@ -60,7 +60,7 @@ Marianna Koszutska</p>
 
 <h3 align="center">PR & Social Media</h3>
 
-<p align="center">Taisia Malakhova 👑<br>
+<p align="center">Taisia Malakhova 👑 insta: https://www.instagram.com/fufaaykaa/<br>
 Agustina Böthig Gargiulo<br>
 Marianna Koszutska<br>
 Marta Vedral<br>
