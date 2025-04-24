@@ -1,6 +1,6 @@
 # readme.md {.unnumbered}
 
-This is the process documentation for the game *It is as if you were playing a text adventure* (2024) by Pippin Barr.
+This is the process documentation for the game *It is as if you were playing a text adventure* (2024-) by Pippin Barr.
 
 * There is no press kit. Should there be? Read **Info** (@sec-info) instead
 * Take a look at the **Journal** (@sec-journal) for a very incomplete picture of development
