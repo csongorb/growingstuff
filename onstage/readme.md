@@ -31,7 +31,7 @@ So you can observe this as a kind of stage for experience. Or you can really ent
 
 Because the energy coming from the audience I have to be transmitter and receiver in the same time; that energy just goes through me. ~~And to be ready for the next visitor and the next one and the next one.~~
 
-(Title & Description based on / inspired by [moma.org/audio/playlist/243/3133](https://www.moma.org/audio/playlist/243/3133).)
+(Title & description -obviously- based on / inspired by [Marina Abramović](https://www.moma.org/audio/playlist/243/3133).)
 
 The tour is a part of [*Pippin Barr x Devolution: It is as if you were...*](https://github.com/csongorb/growingstuff), a cooperation between [Pippin Barr](https://pippinbarr.com/), [Devolution](https://devolution.online/), A MAZE. / Berlin 2025 and [UE University of Europe for Applied Sciences](https://www.ue-germany.com).
 
@@ -42,7 +42,8 @@ When?
 - Thursday?
 
 Who?
-- Pippin Barr [Bio](./bios.md#pippin-barr)- Csongor Baranyai [Bio](./bios.md#csongor-baranyai)
+- Pippin Barr [Bio](./bios.md#pippin-barr)
+- Csongor Baranyai [Bio](./bios.md#csongor-baranyai)
 
 Type / Tag:
 - Devolution
@@ -63,7 +64,8 @@ When?
 - Friday?
 
 Who?
-- Pippin Barr [Bio](./bios.md#pippin-barr)- ?
+- Pippin Barr [Bio](./bios.md#pippin-barr)
+- ?
 - Csongor Baranyai [Bio](./bios.md#csongor-baranyai)
 
 Type / Tag:
