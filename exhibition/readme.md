@@ -1,5 +1,9 @@
 # Exhibition
 
+## Overview Visual Elements
+
+See [visualelements.md](./visualelements.md).
+
 ## First Overview (2025-03-22)
 
 Covering more than only the core elements of the exhibition, but I think it's needed for the overview.
