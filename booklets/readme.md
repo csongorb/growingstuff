@@ -21,9 +21,15 @@ Direct links to the folders containing the PDFs & DOCXs to make life easier for 
 
 `git log --reverse --no-merges --format="**%cd**  %n%s%n%n%b%n" --date=format:'%a, %d %b %Y %H:%M:%S' > commit_log.qmd`
 
-Example of Commit message extracted with this line:
+Example of Commit message extracted with this line:  
 **Tue, 7 Jan 2025 15:04:13**  
 Journal: Starting point 
+
+`git log --reverse --no-merges --format="**%cd - %an**  %n%s%n%n%b%n" --date=format:'%a, %d %b %Y %H:%M:%S' > commit_log.qmd`
+
+Example of Commit message extracted with this line:  
+**Fri, 04 Apr 2025 16:45:27 - csongorb**  
+Some notes on Designer's Notebook.
 
 #### Gource
 
