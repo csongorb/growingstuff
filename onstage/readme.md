@@ -1,14 +1,75 @@
 # Texts / Short Descriptions
 
-Reminder, this is what I mean:  
+Reminder, this is what we need:  
 https://2023.amaze-berlin.de/schedule/  
 (Filter by "Devolution".)
 
-## Schedule / Overview
+Supposedly this year they will show up here:  
+https://2025.amaze-berlin.de/schedule/
 
-Schedule needs to be discussed with Amaze...
+## The Designer is Present
 
-- general description of the exhibition
-- description of the talk(s)
-- description of the live sessions (*The Designer is Present*?)
-- CVs (incl. pictures) of all participants
+```
+When?
+- Thursday, 15 May 2025: 1 to 3pm
+- Friday, 16 May 2025: 1 to 3pm
+
+Who?
+- Pippin Barr [Bio](./bios.md#pippin-barr)
+
+Type / Tag:
+- Devolution
+```
+
+In The ~~Artist~~Designer is Present, I perform every day for ~~three months~~two days. The performance is really about presence *and speculative play and game development*. You have to be in the here and now, 100 percent.
+
+~~I have the empty chair, so~~ everybody from the audience can come on his free time and ~~sit in the front of me, and~~ engage in this kind ~~of silence, experience of the~~ here and now, the present moment.
+
+So you can observe this as a kind of stage for experience. Or you can really enter that space and take active participation, which actually bring you much closer to the artist, and this presence, and to your own experience.
+
+~~If you sit on this chair opposite of me, it's extremely important to actually find a very comfortable position and you don't move. Just sit motionless, and~~ see what happen if we connect with our eyes. And I really think that it’s going to be something quite special to go into this unknown territory.
+
+Because the energy coming from the audience I have to be transmitter and receiver in the same time; that energy just goes through me. ~~And to be ready for the next visitor and the next one and the next one.~~
+
+(Title & Description based on / inspired by [moma.org/audio/playlist/243/3133](https://www.moma.org/audio/playlist/243/3133).)
+
+The tour is a part of [*Pippin Barr x Devolution: It is as if you were...*](https://github.com/csongorb/growingstuff), a cooperation between [Pippin Barr](https://pippinbarr.com/), [Devolution](https://devolution.online/), A MAZE. / Berlin 2025 and [UE University of Europe for Applied Sciences](https://www.ue-germany.com).
+
+## Exhibition Tours
+
+```
+When?
+- Thursday?
+
+Who?
+- Pippin Barr [Bio](./bios.md#pippin-barr)- Csongor Baranyai [Bio](./bios.md#csongor-baranyai)
+
+Type / Tag:
+- Devolution
+```
+
+**Capacity for this session is limited, spots will be assigned on a first-come first-served basis: we recommend meeting in the Devolution exhibition area at least 20 minutes before the starting time.**
+
+For the ultimate insight into the development of the *It is as if you were...* series and its design decisions. Guided tour through the exhibition by Pippin Barr and the curator of the exhibition. Complementing the exhibited versions with background information, secrets and anecdotes.
+
+*It is as if you were...* is an ongoing game series of short, experimental games by Pippin Barr started in 2016.
+
+The tour is a part of [*Pippin Barr x Devolution: It is as if you were...*](https://github.com/csongorb/growingstuff), a cooperation between [Pippin Barr](https://pippinbarr.com/), [Devolution](https://devolution.online/), A MAZE. / Berlin 2025 and [UE University of Europe for Applied Sciences](https://www.ue-germany.com).
+
+## Title for Stage Time
+
+```
+When?
+- Friday?
+
+Who?
+- Pippin Barr [Bio](./bios.md#pippin-barr)- ?
+- Csongor Baranyai [Bio](./bios.md#csongor-baranyai)
+
+Type / Tag:
+- Devolution
+```
+
+Short Description: TBD
+
+The talk / panel / session is a part of [*Pippin Barr x Devolution: It is as if you were...*](https://github.com/csongorb/growingstuff), a cooperation between [Pippin Barr](https://pippinbarr.com/), [Devolution](https://devolution.online/), A MAZE. / Berlin 2025 and [UE University of Europe for Applied Sciences](https://www.ue-germany.com).
