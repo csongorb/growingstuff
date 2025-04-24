@@ -7,6 +7,8 @@ https://2023.amaze-berlin.de/schedule/
 Supposedly this year they will show up here:  
 https://2025.amaze-berlin.de/schedule/
 
+For all bios, see [bios.md](./bios.md).
+
 ## The Designer is Present
 
 ```
@@ -15,7 +17,7 @@ When?
 - Friday, 16 May 2025: 1 to 3pm
 
 Who?
-- Pippin Barr [Bio](./bios.md#pippin-barr)
+- Pippin Barr
 
 Type / Tag:
 - Devolution
@@ -42,8 +44,8 @@ When?
 - Thursday?
 
 Who?
-- Pippin Barr [Bio](./bios.md#pippin-barr)
-- Csongor Baranyai [Bio](./bios.md#csongor-baranyai)
+- Pippin Barr
+- Csongor Baranyai
 
 Type / Tag:
 - Devolution
@@ -64,9 +66,9 @@ When?
 - Friday?
 
 Who?
-- Pippin Barr [Bio](./bios.md#pippin-barr)
+- Pippin Barr
 - ?
-- Csongor Baranyai [Bio](./bios.md#csongor-baranyai)
+- Csongor Baranyai
 
 Type / Tag:
 - Devolution
