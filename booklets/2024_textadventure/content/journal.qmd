@@ -93,3 +93,29 @@ Don’t forget to put this in the docs
 So there are some design leads there too as I try to spin up.
 
 Not on this list but underway is a conversation with Michael B about his feelings about me doing this and especially about me doing this publically. Right now he's just "Michael B"ing his way around in this docs, but if I got serious I'd want to include the notes I'm taking on *Cornerstone* etc.
+
+
+## Guides for these territories -- Tuesday, 22 April 2025
+
+### Michael B
+
+Spent some time just now finishing up the notes I've been taking on ▒▒▒▒▒▒▒▒▒▒▒, Michael B's novella. Importantly I've also been going back and forth with Michael about how and whether to work with the world of his story in this game. We're both keen on it, I think, but also both a bit trepidatious about the implications - for him whether I'll break or otherwise embarrass the loveliness of what he has; for me... well the same thing, but also the concern of having my hands tied in ways that might make it really hard to progress. It remains a good challenge though.
+
+One thing we kind of both agreed might help was to have as my protagonist someone peripheral who is not in the novella.
+
+I'm thinking about a Janitor. I've been writing poems about janitors for the last few days.
+
+### Samuel A
+
+I had a great coffee meeting with Samuel A last week (I think?) where I was trying to get his perspective on the challenge of adapting a novella/world to a text adventure that is actions-only. A strange situation. It was helpful. We settled on a couple of thing I think are good (I have an index card somewhere, I should pop it in here):
+
+- The idea of this game as a kind of *mime* act. Specifically relative to the idea that you *can* tell a story through actions and not through the visibility/legibility of results (except through further actions - well I suppose *reactions* too, but those are somewhat a luxury we don't have in a text adventure? Or do we?)
+- The idea of *playing the story to write it* as a way to approach the intimidating writing challenge. That is, to sit down and type a first command and then reflect on what the game would respond, what would happen, what is the result. And writing notes about all this. But at the end only the commands would remain. Because you do, fundamentally, need to *know the story* to tell it; there needs to be a story under there. The mime needs to know how high the invisible wall is to climb it.
+
+So those are two quite practical elements. So practical that one could imagine just beginning. On the other hand it's tough because until Michael puts out his story it's not clear that I can do any of this stuff "in repo" because it would necessarily involve writing out my thoughts about what I'm doing relative to the story. 
+
+### Now what?
+
+Well the obvious thing is to start trying to play myself in. I have a bunch of notes about the novella from a new reading. I have a glimpse of a setting and even of a key dramatic moment in the story (an evacuation), but not much more. I could try to imagine some fundamental beats and how they'd fit into a text adventure, maybe I need at least the three "acts" in order to comprehend things a little better?
+
+Yeah. And I guess... I just do that "secretly" with a folder in the .gitignore for now.

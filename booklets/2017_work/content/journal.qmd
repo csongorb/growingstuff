@@ -1,6 +1,6 @@
 # journal.md {#sec-journal}
 
-## Tuesday, 30 August 2016
+## 2016-08-30
 
 ### The basic idea
 A game made entirely of small (WarioWare-esque) activities from our daily life of using computers. So, for instance, you might be challenged to drag a folder into the trash, or move a slider to a specific setting.
@@ -40,7 +40,7 @@ A sufficiently sophisticated generative narrative - e.g. if I committed to the i
 
 
 
-## Thursday, 1 December 2016 19:34
+## 2016-12-01 19:34
 
 It’s been a while since I paid attention to this, and for now what I want to do is just list the plausible activities that one could be taking in this scenario. Perhaps with a mind toward how it might be implemented in jQuery specifically…
 
@@ -77,7 +77,7 @@ So first task: make a thing that can randomly place any of the jQuery UI widgets
 
 
 
-## Thursday, 8 December 2016 11:54
+## 2016-12-08 11:54
 
 Feeling irked with jQuery UI. Have added a button (easy). Then battling with radio selectors, which are displaying a little strangely and pissing me off. The point of using jQuery UI is to have nicer (“nicer”?) styling for everything, so it’s kind of an ass-pain to have it not working properly and actually just not even recreating the default look that’s meant to be there according to the jQuery UI website.
 
@@ -95,7 +95,7 @@ Okay? Okay.
 
 
 
-## Tuesday, 27 December 2016 11:17
+## 2016-12-27 11:17
 Candidate naming:
 
 * It is as if you were doing some work
@@ -114,7 +114,7 @@ Extra thought: If it were part of the “It is as if you were” series then I c
 
 
 
-## Return of the man, 2017-03-27 14:08
+## 2017-03-27 14:08 - Return of the man
 
 I'm back in the directory containing this game thinking about whatever it is I'm meant to be thinking about when I'm meant to be working on this game. Since the last time I actually though about this I started and finished SNAKISMS, v r 3, and Let's Play: Ancient Greek Punishment: CPU Edition! So it's kind of been a while.
 
@@ -184,7 +184,7 @@ Key next steps:
 
 
 
-## Technical plan? (2017-06-09 11:02)
+## 2017-06-09 11:02 - Tehnical plan?
 
 Time to think about about the overall structure of the game (though much of that is taken care of below), and the strategy for actually implementing it specifically, so that I can move forward and eventually get this thing done.
 
@@ -245,12 +245,12 @@ Pitched it to Rilla and she agrees. So the language translation problem becomes 
 _Okay:_ Looks like we're ready to move forward.
 
 
-## Today's thoughts (2017-06-10 12:24)
+## 2017-06-10 12:24 - Today's thoughts 
 
 One, two, three.
 
 
-## Today's actual thoughts (2017-06-11 13:05)
+## 2017-06-11 13:05 - Today's actual thoughts
 
 Yesterday's thoughts were perhaps a little underwhelming. But okay here we are, what do we have now?
 
@@ -277,7 +277,7 @@ Basically I'll need to collect up all the elements in a single dialog and then c
 
 
 
-## More actual thoughts (2017-06-12 11:40)
+## 2017-06-12 11:40 - More actual thoughts
 
 I've now implemented the evaluation mode where the correctness of a dialog box is decided by the accumulation of all possible steps (including clicking the right button to dismiss it). (Actually I haven't quite got the final final decision, but I might as well have, it's easy enough.)
 
@@ -291,7 +291,7 @@ So there's a bunch of larger stuff to do basically. But the basic underpinnings 
 
 
 
-## The bigger picture (2017-06-13 11:22)
+## 2017-06-13 11:22 - The bigger picture 
 
 Oh my god can I just tell you that I finally disabled autocomplete inside markdown and text files and it is just such a goddamn relief.
 
@@ -321,7 +321,7 @@ Hehehehe.
 
 
 
-## Thursday Thoughts (2017-06-15 11:02)
+## 2017-06-15 11:02 - Thursday Thoughts
 
 I'm at a point with the game suddenly where it's looking more and more like a real thing and the code is, simultaneously, becoming more and more unmanageable and gross.
 
@@ -334,7 +334,7 @@ So those are some pretty big things. The most intimidating is the evaluation stu
 
 
 
-## Longer-term tasks (2017-06-18 18:26)
+## 2017-06-18 18:26 - Longer-term tasks
 
 Walking to the OBX BBQ yesterday had the idea of longer-term tasks you could be doing during the game as a way to get out of it 'just' being a relentless stream of dialogs, but also to avoid the situation if/when I slow them down of just kind of sitting there with nothing to do.
 
@@ -353,7 +353,7 @@ Also while I was thinking about this just now and writing my diary I started won
 So those are some thoughts.
 
 
-## One or two words (2017-06-20 12:27)
+## 2017-06-20 12:27 - One or two words
 
 The game is really getting there at this point. I've got two longer term tasks - documents and emails - implemented now and they look appropriately funny I think. Then beneath that we have the desktop with three options. And on top of it we have random work dialogs (that now have 'technical language' as their default) and inspirational images. I dropped the data entry one since it requires too much CSS, too much thinking for the user, and strays too far from the textual basis of the whole thing.
 
@@ -364,7 +364,7 @@ I'm realising as I type this that the horrible megatask of making a game of brea
 
 
 
-## Post-sending testable version to J+M (2017-06-29 11:42)
+## 2017-06-29 11:42 - Post-sending testable version to J+M
 
 Last night I finally got together a build of the game that I could send to Jim and Mary, so I sent it to them. No word as yet on their reaction, but I'll of course be interested to see. Main things I'm 'worried' about, in the sense that I'm not really sure about them are
 
@@ -382,7 +382,7 @@ Okay. Well those are my thoughts for now. I think I'll wait until I hear from J+
 
 
 
-## Notes on J+M's feedback (2017-07-01 11:43)
+## 2017-07-01 11:43 - Notes on J+M's feedback
 
 Jim and Mary sent feedback on the game a couple of days ago and I've got enough headspace to look at them this weekend. I'll make some notes of what seem to be the key issues - as well as what I might do to address them.
 
@@ -404,7 +404,7 @@ Okay, well I think the feedback has helped to crystalise a couple of things.
 
 
 
-## Notes now that it seems releaseable (2017-07-02 19:23)
+## 2017-07-02 19:23 - Notes now that it seems releaseable
 
 Made changes as per J+M's feedback and sent it back to them and Jim felt like it was 'there'. I also tweeted an image of the About dialog and that got almost 200 favourites in about 4 hours, which I read as an endorsement of the sentiment and tone. I'm so eager for this project to be done at this point that those two things have me pretty convinced that I'll just release the project on Wednesday and try to send it to press tomorrow. As such I'll probably whip up my press kit this evening and tomorrow morning and that will be that.
 

@@ -1,11 +1,11 @@
-## Notes now that it seems releaseable (2017-07-02 19:23)
+## 2017-07-02 19:23 - Notes now that it seems releaseable
 
 Made changes as per J+M's feedback and sent it back to them and Jim felt like it was 'there'. I also tweeted an image of the About dialog and that got almost 200 favourites in about 4 hours, which I read as an endorsement of the sentiment and tone. I'm so eager for this project to be done at this point that those two things have me pretty convinced that I'll just release the project on Wednesday and try to send it to press tomorrow. As such I'll probably whip up my press kit this evening and tomorrow morning and that will be that.
 
 It's entirely possible I could do more and better with it, but it's gone on long enough and I have other plans and thoughts for games based around user interfaces (in fact I'm thinking of basing a funding application on it this funding season to see what happens). Better to make and release and make something else that continue to try to perfect this specific idea. I think it does its job at this point.
 
 
-## Notes on J+M's feedback (2017-07-01 11:43)
+## 2017-07-01 11:43 - Notes on J+M's feedback
 
 Jim and Mary sent feedback on the game a couple of days ago and I've got enough headspace to look at them this weekend. I'll make some notes of what seem to be the key issues - as well as what I might do to address them.
 
@@ -26,7 +26,7 @@ I'll write back to them with responses to their feedback, but that's definitely 
 Okay, well I think the feedback has helped to crystalise a couple of things.
 
 
-## Post-sending testable version to J+M (2017-06-29 11:42)
+## 2017-06-29 11:42 - Post-sending testable version to J+M
 
 Last night I finally got together a build of the game that I could send to Jim and Mary, so I sent it to them. No word as yet on their reaction, but I'll of course be interested to see. Main things I'm 'worried' about, in the sense that I'm not really sure about them are
 
@@ -43,7 +43,7 @@ Possibly a 'solution' to this might actually to be to add another icon to the de
 Okay. Well those are my thoughts for now. I think I'll wait until I hear from J+M before I really do much more on the game and in my dreams it's basically done.
 
 
-## One or two words (2017-06-20 12:27)
+## 2017-06-20 12:27 - One or two words
 
 The game is really getting there at this point. I've got two longer term tasks - documents and emails - implemented now and they look appropriately funny I think. Then beneath that we have the desktop with three options. And on top of it we have random work dialogs (that now have 'technical language' as their default) and inspirational images. I dropped the data entry one since it requires too much CSS, too much thinking for the user, and strays too far from the textual basis of the whole thing.
 
@@ -52,7 +52,7 @@ I'm kind of wondering now whether the automatically typed text ought to be the i
 I'm realising as I type this that the horrible megatask of making a game of breakout appear is still needed to be done and that could be quite a task. Other than that the big thing remaining is just the question of promotions and feedback on actions beyond the audio stuff... not a huge deal, but still have to think of something to do for it.
 
 
-## Longer-term tasks (2017-06-18 18:26)
+## 2017-06-18 18:26 - Longer-term tasks
 
 Walking to the OBX BBQ yesterday had the idea of longer-term tasks you could be doing during the game as a way to get out of it 'just' being a relentless stream of dialogs, but also to avoid the situation if/when I slow them down of just kind of sitting there with nothing to do.
 
@@ -71,7 +71,7 @@ Also while I was thinking about this just now and writing my diary I started won
 So those are some thoughts.
 
 
-## Thursday Thoughts (2017-06-15 11:02)
+## 2017-06-15 11:02 - Thursday Thoughts 
 
 I'm at a point with the game suddenly where it's looking more and more like a real thing and the code is, simultaneously, becoming more and more unmanageable and gross.
 
@@ -82,7 +82,7 @@ Big remaining tasks are: implementing breaks (including a little version of brea
 So those are some pretty big things. The most intimidating is the evaluation stuff I suppose.
 
 
-## The bigger picture (2017-06-13 11:22)
+## 2017-06-13 11:22 - The bigger picture 
 
 Oh my god can I just tell you that I finally disabled autocomplete inside markdown and text files and it is just such a goddamn relief.
 
@@ -110,7 +110,7 @@ Hehehehe.
 
 * And perhaps either procedural or other computer-generated music in the background
 
-## More actual thoughts (2017-06-12 11:40)
+## 2017-06-12 11:40 - More actual thoughts
 
 I've now implemented the evaluation mode where the correctness of a dialog box is decided by the accumulation of all possible steps (including clicking the right button to dismiss it). (Actually I haven't quite got the final final decision, but I might as well have, it's easy enough.)
 
@@ -123,7 +123,7 @@ The next step is the outer structure of generating dialog boxes over time and re
 So there's a bunch of larger stuff to do basically. But the basic underpinnings of the project now actually work.
 
 
-## Today's actual thoughts (2017-06-11 13:05)
+## 2017-06-11 13:05 - Today's actual thoughts
 
 Yesterday's thoughts were perhaps a little underwhelming. But okay here we are, what do we have now?
 
@@ -148,12 +148,12 @@ I've implemented a bunch of stuff to be able to generate correct answers to elem
 Basically I'll need to collect up all the elements in a single dialog and then check if they're all satisfied on the button click.
 
 
-## Today's thoughts (2017-06-10 12:24)
+## 2017-06-10 12:24 -  Today's thoughts 
 
 One, two, three.
 
 
-## Technical plan? (2017-06-09 11:02)
+## 2017-06-09 11:02 - Tehnical plan?
 
 Time to think about about the overall structure of the game (though much of that is taken care of below), and the strategy for actually implementing it specifically, so that I can move forward and eventually get this thing done.
 
@@ -246,7 +246,7 @@ Discussion with DART 450:
 * The way that the characters are varied and horizontal makes them look like traditional written human languages - could there be a way around that? If they were of uniform height would that help? If they were just variable length censored blocks? (That doesn't really get around it.)
 * ... HMMM.
 
-## Return of the man, 2017-03-27 14:08
+## 2017-03-27 14:08 - Return of the man
 
 I'm back in the directory containing this game thinking about whatever it is I'm meant to be thinking about when I'm meant to be working on this game. Since the last time I actually though about this I started and finished SNAKISMS, v r 3, and Let's Play: Ancient Greek Punishment: CPU Edition! So it's kind of been a while.
 
@@ -278,7 +278,7 @@ WWwwwweeelllll at the very least let's make the 'single element version' and we 
 
 Alright well I create the barest minimum thing - two radio buttons and a button. It looks very daunting. Next thing is I guess to generate some text with instructions. Which may make it look a little less hideously daunting in terms of what it is.
 
-## Tuesday, 27 December 2016 11:17
+## 2016-12-27 11:17
 Candidate naming:
 
 * It is as if you were doing some work
@@ -294,7 +294,7 @@ Candidate naming:
 Extra thought: If it were part of the “It is as if you were” series then I could theme the jQuery UI CSS to resemble the same kind of abstracted setup I imagine, which could look really cool actually.
 
 
-## Thursday, 8 December 2016 11:54
+## 2016-12-08 11:54
 
 Feeling irked with jQuery UI. Have added a button (easy). Then battling with radio selectors, which are displaying a little strangely and pissing me off. The point of using jQuery UI is to have nicer (“nicer”?) styling for everything, so it’s kind of an ass-pain to have it not working properly and actually just not even recreating the default look that’s meant to be there according to the jQuery UI website.
 
@@ -308,7 +308,7 @@ And then to give thought to how to track what the “correct” (set of) action(
 
 Okay? Okay.
 
-## Thursday, 1 December 2016 19:34
+## 2016-12-01 19:34
 
 It’s been a while since I paid attention to this, and for now what I want to do is just list the plausible activities that one could be taking in this scenario. Perhaps with a mind toward how it might be implemented in jQuery specifically…
 
@@ -344,7 +344,7 @@ So the basic task would be to conquer jQuery’s widgets and then have code that
 So first task: make a thing that can randomly place any of the jQuery UI widgets on the screen. Then make it so that it knows if you did the “right” thing.
 
 
-## Tuesday, 30 August 2016
+## 2016-08-30
 
 ### The basic idea
 A game made entirely of small (WarioWare-esque) activities from our daily life of using computers. So, for instance, you might be challenged to drag a folder into the trash, or move a slider to a specific setting.

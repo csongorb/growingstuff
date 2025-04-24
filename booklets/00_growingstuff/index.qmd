@@ -34,7 +34,7 @@ Link to repo!
 ├── 🖥️ doing work               (2017)/
 ├── ❤️ making love              (2018)/
 ├── 📋 doing paperwork          (2022)/
-├── ⌨️ playing a text adventure (2024)/
+├── ⌨️ playing a text adventure (2024-)/
 ├── 📱 on your phone            (2025)/
 └── 🌸
 ```

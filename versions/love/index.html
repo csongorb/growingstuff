@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+    button {
+      margin: 5px;
+      padding: 10px;
+      font-size: 16px;
+    }
+
+    html, body {
+      margin: 0;
+      height: 100%;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    .top-frame {
+    }
+
+    .bottom-frame {
+      flex-grow: 1; /* Take the rest of the space */
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <span class="top-frame"></span>
+
+      <button onclick="loadContent('./180412_1946/index.html')">2018-04-12</button>
+      <button onclick="loadContent('./180606_1554/index.html')">2018-06-06</button>
+      <button onclick="loadContent('./180608_2226/index.html')">2018-06-08</button>
+      <button onclick="loadContent('./180622_0357/index.html')">2018-06-22</button>
+      <button onclick="loadContent('./250107_1812/index.html')">2025-01-07</button>
+
+    </span>
+
+  <iframe class="bottom-frame" id="contentFrame" src="about:blank"></iframe>
+
+  </div>
+
+  <script>
+    function loadContent(url) {
+      document.getElementById('contentFrame').src = url;
+    }
+  </script>
+
+</body>
+</html>

@@ -68,7 +68,7 @@ Or we could go in the opposite direction and just make things simpler: three sta
 
 Still no resolution... is this a case where writing is not enough? Let's meet again!
 
-## 2025-04-14
+## 2025-04-14 Pippin
 
 Glad to see that you are also sometimes writing 2024 still this deep into the year. I feel like I do it at least once a day?
 
