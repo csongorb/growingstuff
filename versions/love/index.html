@@ -97,6 +97,27 @@
       font-weight: bold;
     }
 
+    .tooltip {
+      position: absolute;
+      left: 110%;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(255,255,255,0.1);
+      padding: 6px 10px;
+      border-radius: 6px;
+      color: var(--text);
+      white-space: nowrap;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease, transform 0.3s ease;
+      font-size: 14px;
+    }
+
+    .link:hover .tooltip {
+      opacity: 1;
+      transform: translateY(-50%) translateX(5px);
+    }
+
     .toggle-btn {
       padding: 0.5rem 1rem;
       font-size: 14px;
@@ -126,11 +147,26 @@
   <nav>
     <div class="logo-text">Versions</div>
     <ul>
-      <li><a href="#" class="link" onclick="loadContent(this, './180412_1946/index.html')">2018-04-12</a></li>
-      <li><a href="#" class="link" onclick="loadContent(this, './180606_1554/index.html')">2018-06-06</a></li>
-      <li><a href="#" class="link" onclick="loadContent(this, './180608_2226/index.html')">2018-06-08</a></li>
-      <li><a href="#" class="link" onclick="loadContent(this, './180622_0357/index.html')">2018-06-22</a></li>
-      <li><a href="#" class="link" onclick="loadContent(this, './250107_1812/index.html')">2025-01-07</a></li>
+      <li><a href="#" class="link" onclick="loadContent(this, './180412_1946/index.html')">
+        2018-04-12
+        <span class="tooltip">Version Description</span>
+      </a></li>
+      <li><a href="#" class="link" onclick="loadContent(this, './180606_1554/index.html')">
+        2018-06-06
+        <span class="tooltip">Version Description</span>
+      </a></li>
+      <li><a href="#" class="link" onclick="loadContent(this, './180608_2226/index.html')">
+        2018-06-08
+        <span class="tooltip">Version Description</span>
+      </a></li>
+      <li><a href="#" class="link" onclick="loadContent(this, './180622_0357/index.html')">
+        2018-06-22
+        <span class="tooltip">Version Description</span>
+      </a></li>
+      <li><a href="#" class="link" onclick="loadContent(this, './250107_1812/index.html')">
+        2025-01-07
+        <span class="tooltip">Version Description</span>
+      </a></li>
     </ul>
     <button class="toggle-btn" onclick="toggleDarkMode()">Toggle Dark Mode</button>
   </nav>
