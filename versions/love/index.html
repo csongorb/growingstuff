@@ -1,122 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Revolutionized</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Devolutionizer</title>
   <style>
     :root {
-      --bg-color: #ffffff;
-      --text-color: #000000;
-      --sidebar-bg: #f0f0f0;
-      --button-bg: #e0e0e0;
-      --button-active: #c0c0ff;
+      --bg: hsl(0, 0%, 8%);
+      --text: #ffffff;
+      --sidebar: hsl(0, 0%, 10%);
+      --link-bg-active: #444488;
+      --hover-line: #ffffff;
     }
 
-    body.dark-mode {
-      --bg-color: #121212;
-      --text-color: #ffffff;
-      --sidebar-bg: #1e1e1e;
-      --button-bg: #2a2a2a;
-      --button-active: #444488;
+    body.light-mode {
+      --bg: #f0f0f0;
+      --text: #111111;
+      --sidebar: #ffffff;
+      --link-bg-active: #ccccff;
+      --hover-line: #222222;
     }
 
-    html, body {
+    *, *::before, *::after {
       margin: 0;
-      height: 100%;
-      background-color: var(--bg-color);
-      color: var(--text-color);
-      font-family: sans-serif;
+      padding: 0;
+      box-sizing: border-box;
     }
 
-    .container {
-      display: flex;
-      flex-direction: row;
+    body {
+      font-family: "SF Pro Text", sans-serif;
       height: 100vh;
-      overflow: hidden;
+      display: flex;
+      background: var(--bg);
+      color: var(--text);
     }
 
-    .sidebar {
+    nav {
+      width: 220px;
+      background: var(--sidebar);
+      padding: 20px 10px;
       display: flex;
       flex-direction: column;
-      background-color: var(--sidebar-bg);
-      padding: 10px;
-      width: 200px;
-      box-shadow: 2px 0 5px rgba(0,0,0,0.1);
-      transition: transform 0.3s ease, background-color 0.3s ease;
-      transform: translateX(0);
-      z-index: 10;
+      align-items: center;
+      gap: 1.5rem;
+      box-shadow: 2px 0 10px rgba(0,0,0,0.2);
     }
 
-    .sidebar button {
-      margin: 5px 0;
-      padding: 10px;
-      font-size: 14px;
-      background-color: var(--button-bg);
-      border: none;
-      cursor: pointer;
-      transition: background-color 0.2s ease;
-      color: var(--text-color);
+    .logo-text {
+      font-size: 24px;
+      font-weight: bold;
+      color: var(--text);
+      margin-bottom: 1rem;
     }
 
-    .sidebar button.active {
-      background-color: var(--button-active);
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      gap: 1rem;
+      flex-grow: 1;
+    }
+
+    .link {
+      text-decoration: none;
+      color: var(--text);
+      font-size: 18px;
+      padding: 0.5rem;
+      position: relative;
+      display: block;
+      width: 100%;
+      text-align: center;
+      transition: 0.4s;
+      border-radius: 8px;
+    }
+
+    .link::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background: var(--hover-line);
+      border-radius: 5px;
+      transform: scaleX(0);
+      transition: all 0.5s ease;
+      bottom: 0;
+      left: 0;
+    }
+
+    .link:hover::before {
+      transform: scaleX(1);
+    }
+
+    .link.active {
+      background: var(--link-bg-active);
       font-weight: bold;
     }
 
-    .bottom-frame {
+    .toggle-btn {
+      padding: 0.5rem 1rem;
+      font-size: 14px;
+      border: none;
+      cursor: pointer;
+      background: var(--link-bg-active);
+      color: var(--text);
+      border-radius: 6px;
+      transition: background 0.3s;
+    }
+
+    .toggle-btn:hover {
+      background: var(--hover-line);
+      color: var(--bg);
+    }
+
+    iframe {
       flex-grow: 1;
       border: none;
       width: 100%;
-    }
-
-    .top-bar {
-      padding: 10px;
-      background-color: var(--sidebar-bg);
-      text-align: center;
-    }
-
-    .top-bar button {
-      padding: 8px 16px;
-      background-color: var(--button-bg);
-      border: none;
-      cursor: pointer;
-      font-size: 14px;
-      color: var(--text-color);
+      height: 100vh;
     }
   </style>
 </head>
 <body>
-  <div class="top-bar">
-    <button onclick="toggleDarkMode()">Dark Mode</button>
-  </div>
 
-  <div class="container">
+  <nav>
+    <div class="logo-text">Versions</div>
+    <ul>
+      <li><a href="#" class="link" onclick="loadContent(this, './180412_1946/index.html')">2018-04-12</a></li>
+      <li><a href="#" class="link" onclick="loadContent(this, './180606_1554/index.html')">2018-06-06</a></li>
+      <li><a href="#" class="link" onclick="loadContent(this, './180608_2226/index.html')">2018-06-08</a></li>
+      <li><a href="#" class="link" onclick="loadContent(this, './180622_0357/index.html')">2018-06-22</a></li>
+      <li><a href="#" class="link" onclick="loadContent(this, './250107_1812/index.html')">2025-01-07</a></li>
+    </ul>
+    <button class="toggle-btn" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+  </nav>
 
-    <div class="sidebar" id="sidebar">
-      <button onclick="loadContent(this, './180412_1946/index.html')">2018-04-12</button>
-      <button onclick="loadContent(this, './180606_1554/index.html')">2018-06-06</button>
-      <button onclick="loadContent(this, './180608_2226/index.html')">2018-06-08</button>
-      <button onclick="loadContent(this, './180622_0357/index.html')">2018-06-22</button>
-      <button onclick="loadContent(this, './250107_1812/index.html')">2025-01-07</button>
-    </div>
-
-    <iframe class="bottom-frame" id="contentFrame" src="about:blank"></iframe>
-
-  </div>
+  <iframe id="contentFrame" src="about:blank"></iframe>
 
   <script>
-    function loadContent(button, url) {
-
-      const buttons = document.querySelectorAll('.sidebar button');
-      buttons.forEach(btn => btn.classList.remove('active'));
-      button.classList.add('active');
-
+    function loadContent(element, url) {
+      const links = document.querySelectorAll('.link');
+      links.forEach(link => link.classList.remove('active'));
+      element.classList.add('active');
       document.getElementById('contentFrame').src = url;
     }
 
     function toggleDarkMode() {
-      document.body.classList.toggle('dark-mode');
+      document.body.classList.toggle('light-mode');
     }
   </script>
+
 </body>
 </html>
