@@ -151,6 +151,28 @@
       top: 0;
       left: 0;
     }
+
+    .commit-box {
+      position: absolute;
+      left: 240px;
+      top: 100px;
+      max-width: 280px;
+      background: rgba(255, 255, 255, 0.07);
+      color: var(--text);
+      padding: 16px 20px;
+      border-radius: 8px;
+      font-size: 14px;
+      line-height: 1.5;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease, top 0.3s ease;
+      z-index: 10;
+    }
+
+    .commit-box.visible {
+      opacity: 1;
+      pointer-events: auto;
+    }
   </style>
 </head>
 <body>
@@ -158,23 +180,23 @@
   <nav>
     <div class="logo-text">Versions</div>
     <ul>
-      <li><a href="#" class="link" onclick="loadContent(this, './180412_1946/index.html')">
+      <li><a href="#" class="link" onclick="loadContent(this, './180412_1946/index.html')" data-story="First commit">
         2018-04-12
         <span class="tooltip">Version Description</span>
       </a></li>
-      <li><a href="#" class="link" onclick="loadContent(this, './180606_1554/index.html')">
+      <li><a href="#" class="link" onclick="loadContent(this, './180606_1554/index.html')" data-story="Second commit">
         2018-06-06
         <span class="tooltip">Version Description</span>
       </a></li>
-      <li><a href="#" class="link" onclick="loadContent(this, './180608_2226/index.html')">
+      <li><a href="#" class="link" onclick="loadContent(this, './180608_2226/index.html')" data-story="Third commit">
         2018-06-08
         <span class="tooltip">Version Description</span>
       </a></li>
-      <li><a href="#" class="link" onclick="loadContent(this, './180622_0357/index.html')">
+      <li><a href="#" class="link" onclick="loadContent(this, './180622_0357/index.html')" data-story="Fourth commit">
         2018-06-22
         <span class="tooltip">Version Description</span>
       </a></li>
-      <li><a href="#" class="link" onclick="loadContent(this, './250107_1812/index.html')">
+      <li><a href="#" class="link" onclick="loadContent(this, './250107_1812/index.html')" data-story="Fifth commit">
         2025-01-07
         <span class="tooltip">Version Description</span>
       </a></li>
@@ -186,6 +208,8 @@
     <iframe id="contentFrame" src="about:blank"></iframe>
   </div>
 
+  <div id="commitBox" class="commit-box"></div>
+
   <script>
     function loadContent(element, url) {
       const links = document.querySelectorAll('.link');
@@ -193,17 +217,25 @@
       element.classList.add('active');
 
       const iframe = document.getElementById('contentFrame');
-
-      // Fade out first
       iframe.style.opacity = 0;
 
-      // Load new content after short delay
       setTimeout(() => {
         iframe.src = url;
         iframe.onload = () => {
           iframe.style.opacity = 1;
         };
       }, 300);
+
+      const commitBox = document.getElementById('commitBox');
+      const story = element.getAttribute('data-story');
+      if (story) {
+        const rect = element.getBoundingClientRect();
+        commitBox.textContent = story;
+        commitBox.style.top = `${rect.top + window.scrollY}px`;
+        commitBox.classList.add('visible');
+      } else {
+        commitBox.classList.remove('visible');
+      }
     }
 
     function toggleDarkMode() {
