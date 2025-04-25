@@ -37,7 +37,7 @@ Because the energy coming from the audience I have to be transmitter and receive
 
 The tour is a part of [*Pippin Barr x Devolution: It is as if you were...*](https://github.com/csongorb/growingstuff), a cooperation between [Pippin Barr](https://pippinbarr.com/), [Devolution](https://devolution.online/), A MAZE. / Berlin 2025 and [UE University of Europe for Applied Sciences](https://www.ue-germany.com).
 
-## Exhibition Tours
+## Exhibition Tour: It is as if you were...
 
 ```
 When?
