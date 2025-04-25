@@ -25,7 +25,7 @@ Made a fast setup, it already makes a strange sense to be able to switch between
 
 ![](./screenshots/Bildschirmfoto%202025-04-22%20um%2015.34.51.png)
 
-## 2025-04-25 Csongor: 
+## 2025-04-25 Csongor: ⬇️ or ➡️
 
 Dear Haniyeh,  
 this already looks and works so much more amazing, thaaanks! 
