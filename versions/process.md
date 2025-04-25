@@ -23,6 +23,8 @@ Time is running short, so instead of making the full Devolutionizer, let's focus
 
 Made a fast setup, it already makes a strange sense to be able to switch between the versions so fast
 
+![](./screenshots/Bildschirmfoto%202025-04-22%20um%2015.34.51.png)
+
 ## 2025-04-25 Csongor: 
 
 Dear Haniyeh,  
