@@ -23,9 +23,9 @@ Type / Tag:
 - Devolution
 ```
 
-In The ~~Artist~~Designer is Present, I perform every day for ~~three months~~two days. The performance is really about presence *and speculative play and game development*. You have to be in the here and now, 100 percent.
+In The ~~Artist~~Designer is Present, I perform every day for ~~three months~~two days. The performance is really about presence *and speculative play and developing some new iterations for an **It is as if you were...** games*. You have to be in the here and now, 100 percent.
 
-~~I have the empty chair, so~~ everybody from the audience can come on his free time and ~~sit in the front of me, and~~ engage in this kind ~~of silence, experience of the~~ here and now, the present moment.
+~~I have the empty chair, so~~ everybody from the audience can come on his free time and ~~sit in the front of me, and~~ engage in this kind of ~~silence, experience of the~~ here and now, the present moment.
 
 So you can observe this as a kind of stage for experience. Or you can really enter that space and take active participation, which actually bring you much closer to the artist, and this presence, and to your own experience.
 
