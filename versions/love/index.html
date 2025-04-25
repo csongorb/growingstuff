@@ -4,48 +4,100 @@
   <meta charset="UTF-8">
   <title>Revolutionized</title>
   <style>
+    :root {
+      --bg-color: #ffffff;
+      --text-color: #000000;
+      --sidebar-bg: #f0f0f0;
+      --button-bg: #e0e0e0;
+      --button-active: #c0c0ff;
+    }
+
+    body.dark-mode {
+      --bg-color: #121212;
+      --text-color: #ffffff;
+      --sidebar-bg: #1e1e1e;
+      --button-bg: #2a2a2a;
+      --button-active: #444488;
+    }
+
     html, body {
       margin: 0;
       height: 100%;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: sans-serif;
     }
 
     .container {
       display: flex;
-      flex-direction: row; 
+      flex-direction: row;
       height: 100vh;
+      overflow: hidden;
     }
 
     .sidebar {
       display: flex;
       flex-direction: column;
-      background-color: #f0f0f0;
+      background-color: var(--sidebar-bg);
       padding: 10px;
       width: 200px;
       box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, background-color 0.3s ease;
+      transform: translateX(0);
+      z-index: 10;
     }
 
     .sidebar button {
       margin: 5px 0;
       padding: 10px;
       font-size: 14px;
+      background-color: var(--button-bg);
+      border: none;
       cursor: pointer;
+      transition: background-color 0.2s ease;
+      color: var(--text-color);
+    }
+
+    .sidebar button.active {
+      background-color: var(--button-active);
+      font-weight: bold;
     }
 
     .bottom-frame {
       flex-grow: 1;
       border: none;
+      width: 100%;
+    }
+
+    .top-bar {
+      padding: 10px;
+      background-color: var(--sidebar-bg);
+      text-align: center;
+    }
+
+    .top-bar button {
+      padding: 8px 16px;
+      background-color: var(--button-bg);
+      border: none;
+      cursor: pointer;
+      font-size: 14px;
+      color: var(--text-color);
     }
   </style>
 </head>
 <body>
+  <div class="top-bar">
+    <button onclick="toggleDarkMode()">Dark Mode</button>
+  </div>
+
   <div class="container">
 
-    <div class="sidebar">
-      <button onclick="loadContent('./180412_1946/index.html')">2018-04-12</button>
-      <button onclick="loadContent('./180606_1554/index.html')">2018-06-06</button>
-      <button onclick="loadContent('./180608_2226/index.html')">2018-06-08</button>
-      <button onclick="loadContent('./180622_0357/index.html')">2018-06-22</button>
-      <button onclick="loadContent('./250107_1812/index.html')">2025-01-07</button>
+    <div class="sidebar" id="sidebar">
+      <button onclick="loadContent(this, './180412_1946/index.html')">2018-04-12</button>
+      <button onclick="loadContent(this, './180606_1554/index.html')">2018-06-06</button>
+      <button onclick="loadContent(this, './180608_2226/index.html')">2018-06-08</button>
+      <button onclick="loadContent(this, './180622_0357/index.html')">2018-06-22</button>
+      <button onclick="loadContent(this, './250107_1812/index.html')">2025-01-07</button>
     </div>
 
     <iframe class="bottom-frame" id="contentFrame" src="about:blank"></iframe>
@@ -53,8 +105,17 @@
   </div>
 
   <script>
-    function loadContent(url) {
+    function loadContent(button, url) {
+
+      const buttons = document.querySelectorAll('.sidebar button');
+      buttons.forEach(btn => btn.classList.remove('active'));
+      button.classList.add('active');
+
       document.getElementById('contentFrame').src = url;
+    }
+
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
     }
   </script>
 </body>
