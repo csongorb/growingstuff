@@ -2,14 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title></title>
+  <title>Revolutionized</title>
   <style>
-    button {
-      margin: 5px;
-      padding: 10px;
-      font-size: 16px;
-    }
-
     html, body {
       margin: 0;
       height: 100%;
@@ -17,15 +11,28 @@
 
     .container {
       display: flex;
-      flex-direction: column;
+      flex-direction: row; 
       height: 100vh;
     }
 
-    .top-frame {
+    .sidebar {
+      display: flex;
+      flex-direction: column;
+      background-color: #f0f0f0;
+      padding: 10px;
+      width: 200px;
+      box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    }
+
+    .sidebar button {
+      margin: 5px 0;
+      padding: 10px;
+      font-size: 14px;
+      cursor: pointer;
     }
 
     .bottom-frame {
-      flex-grow: 1; /* Take the rest of the space */
+      flex-grow: 1;
       border: none;
     }
   </style>
@@ -33,17 +40,15 @@
 <body>
   <div class="container">
 
-    <span class="top-frame"></span>
-
+    <div class="sidebar">
       <button onclick="loadContent('./180412_1946/index.html')">2018-04-12</button>
       <button onclick="loadContent('./180606_1554/index.html')">2018-06-06</button>
       <button onclick="loadContent('./180608_2226/index.html')">2018-06-08</button>
       <button onclick="loadContent('./180622_0357/index.html')">2018-06-22</button>
       <button onclick="loadContent('./250107_1812/index.html')">2025-01-07</button>
+    </div>
 
-    </span>
-
-  <iframe class="bottom-frame" id="contentFrame" src="about:blank"></iframe>
+    <iframe class="bottom-frame" id="contentFrame" src="about:blank"></iframe>
 
   </div>
 
@@ -52,6 +57,5 @@
       document.getElementById('contentFrame').src = url;
     }
   </script>
-
 </body>
 </html>
