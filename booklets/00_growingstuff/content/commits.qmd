@@ -6,511 +6,511 @@
 
 ## Messages
 
-**Wed, 08 Jan 2025 14:46:04 - csongorb**  
+**Wed, 08 Jan 2025 14:46:04 - Csongor**  
 I guess we need to start it somewhere...
 
 
 
-**Wed, 08 Jan 2025 12:38:30 - pippinbarr**  
+**Wed, 08 Jan 2025 12:38:30 - Pippin Barr**  
 Dialogue: Pippin
 
 
 
-**Thu, 09 Jan 2025 16:28:40 - csongorb**  
+**Thu, 09 Jan 2025 16:28:40 - Csongor**  
 Running...
 
 
 
-**Fri, 10 Jan 2025 10:00:36 - pippinbarr**  
+**Fri, 10 Jan 2025 10:00:36 - Pippin Barr**  
 Dialogue: Pippin replies too soon
 
 
 
-**Fri, 10 Jan 2025 16:57:59 - csongorb**  
+**Fri, 10 Jan 2025 16:57:59 - Csongor**  
 Sorting thoughts.
 
 
 
-**Fri, 10 Jan 2025 16:59:36 - csongorb**  
+**Fri, 10 Jan 2025 16:59:36 - Csongor**  
 Is this allowed?
 
 
 
-**Fri, 10 Jan 2025 17:19:58 - csongorb**  
+**Fri, 10 Jan 2025 17:19:58 - Csongor**  
 Parallel thinking.
 
 
 
-**Fri, 10 Jan 2025 17:32:56 - csongorb**  
+**Fri, 10 Jan 2025 17:32:56 - Csongor**  
 Why is this bothering me so much?
 
 
 
-**Mon, 13 Jan 2025 14:45:44 - pippinbarr**  
+**Mon, 13 Jan 2025 14:45:44 - Pippin Barr**  
 Pippin: Great minds
 
 
 
-**Tue, 21 Jan 2025 07:20:31 - csongorb**  
+**Tue, 21 Jan 2025 07:20:31 - Csongor**  
 Serial?
 
 
 
-**Fri, 24 Jan 2025 22:11:32 - csongorb**  
+**Fri, 24 Jan 2025 22:11:32 - Csongor**  
 Devolutionizer?
 
 
 
-**Sat, 01 Feb 2025 16:52:50 - csongorb**  
+**Sat, 01 Feb 2025 16:52:50 - Csongor**  
 Two in one.
 
 
 
-**Thu, 13 Feb 2025 16:58:11 - pippinbarr**  
+**Thu, 13 Feb 2025 16:58:11 - Pippin Barr**  
 Pippin: 😬
 
 
 
-**Tue, 18 Feb 2025 16:33:50 - pippinbarr**  
+**Tue, 18 Feb 2025 16:33:50 - Pippin Barr**  
 Pippin: 💪
 
 
 
-**Mon, 03 Mar 2025 12:27:49 - csongorb**  
+**Mon, 03 Mar 2025 12:27:49 - Csongor**  
 Open World.
 
 
 
-**Wed, 05 Mar 2025 23:23:50 - csongorb**  
+**Wed, 05 Mar 2025 23:23:50 - Csongor**  
 Explosion!
 
 
 
-**Thu, 06 Mar 2025 13:23:59 - pippinbarr**  
+**Thu, 06 Mar 2025 13:23:59 - Pippin Barr**  
 Pippin: 🤡
 
 
 
-**Mon, 10 Mar 2025 14:32:09 - csongorb**  
+**Mon, 10 Mar 2025 14:32:09 - Csongor**  
 Letter to Jesse regarding style & printing & booklets.
 
 
 
-**Sun, 16 Mar 2025 20:09:11 - csongorb**  
+**Sun, 16 Mar 2025 20:09:11 - Csongor**  
 ☀️
 
 
 
-**Mon, 17 Mar 2025 14:30:02 - csongorb**  
+**Mon, 17 Mar 2025 14:30:02 - Csongor**  
 Adding booklet-test with Quarto, incl. Journal. Tutorial is missing.
 
 
 
-**Mon, 17 Mar 2025 14:43:16 - csongorb**  
+**Mon, 17 Mar 2025 14:43:16 - Csongor**  
 Added quick Quarto Tutorial.
 
 
 
-**Mon, 17 Mar 2025 15:52:46 - csongorb**  
+**Mon, 17 Mar 2025 15:52:46 - Csongor**  
 Added git-export info, so that we have the same style for all booklets.
 
 
 
-**Mon, 17 Mar 2025 19:40:33 - AGooseB**  
+**Mon, 17 Mar 2025 19:40:33 - Agustina**  
 added commit_log.qmd
 
 
 
-**Mon, 17 Mar 2025 19:55:51 - csongorb**  
+**Mon, 17 Mar 2025 19:55:51 - Csongor**  
 Merged commit messages into the right chapter. Looks better. Still not finished.
 
 
 
-**Thu, 20 Mar 2025 17:36:36 - csongorb**  
+**Thu, 20 Mar 2025 17:36:36 - Csongor**  
 Testing style of commit messages (booklet).
 
 
 
-**Thu, 20 Mar 2025 17:37:04 - csongorb**  
+**Thu, 20 Mar 2025 17:37:04 - Csongor**  
 Adding images to Journal (Phone).
 
 
 
-**Thu, 20 Mar 2025 17:48:43 - csongorb**  
+**Thu, 20 Mar 2025 17:48:43 - Csongor**  
 Messing around with gitignore for Quarto... not exactly sure. We'll see.
 
 
 
-**Thu, 20 Mar 2025 18:02:10 - csongorb**  
+**Thu, 20 Mar 2025 18:02:10 - Csongor**  
 Using a more proper reference for this project.
 
 
 
-**Thu, 20 Mar 2025 18:02:31 - csongorb**  
+**Thu, 20 Mar 2025 18:02:31 - Csongor**  
 Deleting not needed Quarto cover image.
 
 
 
-**Thu, 20 Mar 2025 18:05:44 - csongorb**  
+**Thu, 20 Mar 2025 18:05:44 - Csongor**  
 Added Quarto project for "Work".
 
 Happy to see that you can have several Quarto projects in the same repository...
 
 
-**Thu, 20 Mar 2025 18:09:34 - csongorb**  
+**Thu, 20 Mar 2025 18:09:34 - Csongor**  
 Added Quarto project for "Love".
 
 
 
-**Thu, 20 Mar 2025 18:12:53 - csongorb**  
+**Thu, 20 Mar 2025 18:12:53 - Csongor**  
 Added Quarto project for "Blank".
 
 
 
-**Thu, 20 Mar 2025 18:14:29 - csongorb**  
+**Thu, 20 Mar 2025 18:14:29 - Csongor**  
 Added Quarto project for "Growing Stuff" (very much a working title).
 
 
 
-**Sat, 22 Mar 2025 10:54:19 - csongorb**  
+**Sat, 22 Mar 2025 10:54:19 - Csongor**  
 Added first exhibition overview.
 
 
 
-**Sat, 22 Mar 2025 14:19:46 - csongorb**  
+**Sat, 22 Mar 2025 14:19:46 - Csongor**  
 Tiny clarifications, as I need to send this to Jesse.
 
 
 
-**Sat, 22 Mar 2025 16:03:51 - csongorb**  
+**Sat, 22 Mar 2025 16:03:51 - Csongor**  
 Phone booklet: added commit overview.
 
 - more details? better design for sure!
 
 
-**Sat, 22 Mar 2025 16:04:40 - csongorb**  
+**Sat, 22 Mar 2025 16:04:40 - Csongor**  
 Added original Why.md.
 
 - merging it into Journal?
 
 
-**Sat, 22 Mar 2025 16:52:47 - csongorb**  
+**Sat, 22 Mar 2025 16:52:47 - Csongor**  
 Added some original todo files. Updated booklet todos (inspired by?).
 
 
 
-**Sat, 22 Mar 2025 18:00:30 - csongorb**  
+**Sat, 22 Mar 2025 18:00:30 - Csongor**  
 Phone booklet: added original press release.
 
 
 
-**Mon, 24 Mar 2025 16:42:24 - AGooseB**  
+**Mon, 24 Mar 2025 16:42:24 - Agustina**  
 Added instructions for Git log extract
 
 
 
-**Thu, 27 Mar 2025 16:03:20 - AGooseB**  
+**Thu, 27 Mar 2025 16:03:20 - Agustina**  
 added commit log for work booklet
 
 
 
-**Thu, 27 Mar 2025 16:06:04 - AGooseB**  
+**Thu, 27 Mar 2025 16:06:04 - Agustina**  
 added commit log booklet love
 
 
 
-**Fri, 28 Mar 2025 11:41:19 - AGooseB**  
+**Fri, 28 Mar 2025 11:41:19 - Agustina**  
 Updated commit_log.qmd work
 
 
 
-**Fri, 28 Mar 2025 11:47:54 - AGooseB**  
+**Fri, 28 Mar 2025 11:47:54 - Agustina**  
 Updated commit_log.qmd love
 
 
 
-**Fri, 28 Mar 2025 11:56:30 - AGooseB**  
+**Fri, 28 Mar 2025 11:56:30 - Agustina**  
 Updated commit_log.qmd phone
 
 
 
-**Fri, 28 Mar 2025 12:06:57 - AGooseB**  
+**Fri, 28 Mar 2025 12:06:57 - Agustina**  
 added commits over time .pngs
 
 
 
-**Fri, 28 Mar 2025 12:24:22 - AGooseB**  
+**Fri, 28 Mar 2025 12:24:22 - Agustina**  
 added to-do.md of work and love
 
 
 
-**Fri, 28 Mar 2025 12:51:20 - csongorb**  
+**Fri, 28 Mar 2025 12:51:20 - Csongor**  
 Merged commit-logs into the booklet (Phone).
 
 
 
-**Fri, 28 Mar 2025 14:12:14 - csongorb**  
+**Fri, 28 Mar 2025 14:12:14 - Csongor**  
 Big update on Phone, solid structure, not finished graphs, not finished intro, etc.
 
 
 
-**Fri, 28 Mar 2025 15:59:19 - csongorb**  
+**Fri, 28 Mar 2025 15:59:19 - Csongor**  
 Love: Added Journal to booklet (incl. original file).
 
 
 
-**Fri, 28 Mar 2025 16:07:19 - csongorb**  
+**Fri, 28 Mar 2025 16:07:19 - Csongor**  
 Added manifesto & related work (Love); some general booklet settings.
 
 
 
-**Fri, 28 Mar 2025 16:18:54 - csongorb**  
+**Fri, 28 Mar 2025 16:18:54 - Csongor**  
 Love: added commits (formatting still TBD).
 
 
 
-**Fri, 28 Mar 2025 17:07:11 - csongorb**  
+**Fri, 28 Mar 2025 17:07:11 - Csongor**  
 Love booklet: added to-do (history missing).
 
 
 
-**Fri, 28 Mar 2025 19:57:09 - csongorb**  
+**Fri, 28 Mar 2025 19:57:09 - Csongor**  
 Work: finally, first version of the booklet, yeah. Far from finished.
 
 
 
-**Fri, 28 Mar 2025 16:42:51 - pippinbarr**  
+**Fri, 28 Mar 2025 16:42:51 - Pippin Barr**  
 Dialogue/Onstage/Booklets: Pippin Strikes Back
 
 
 
-**Sun, 30 Mar 2025 21:20:21 - csongorb**  
+**Sun, 30 Mar 2025 21:20:21 - Csongor**  
 Added info to phone
 
 - synchronizing the structures between booklets
 - beginning of the booklets still not clear
 
 
-**Sun, 30 Mar 2025 21:22:03 - csongorb**  
+**Sun, 30 Mar 2025 21:22:03 - Csongor**  
 Added some first rough versions of the 3 main booklets (PDF & docx).
 
 
 
-**Sun, 30 Mar 2025 22:49:54 - csongorb**  
+**Sun, 30 Mar 2025 22:49:54 - Csongor**  
 Added booklet for Chess / Paperwork / Text Adventure.
 
 - Not sure if having them all in one booklet is a gooooood idea. Maybe a separation would be good? But some of them would be really small...
 - Finally, with knowing how Quarto works: much better (less chaotic) file structure!
 
 
-**Sun, 30 Mar 2025 22:57:54 - csongorb**  
+**Sun, 30 Mar 2025 22:57:54 - Csongor**  
 Update on the blank booklet (deleted Quarto project, added some ideas).
 
 
 
-**Sun, 30 Mar 2025 23:05:15 - csongorb**  
+**Sun, 30 Mar 2025 23:05:15 - Csongor**  
 Added direct links to the PDFs & docx-s to make life easier.
 
 
 
-**Sun, 30 Mar 2025 23:07:32 - csongorb**  
+**Sun, 30 Mar 2025 23:07:32 - Csongor**  
 Broken links, this time?
 
 
 
-**Sun, 30 Mar 2025 23:09:12 - csongorb**  
+**Sun, 30 Mar 2025 23:09:12 - Csongor**  
 This time?
 
 
 
-**Sun, 30 Mar 2025 23:10:29 - csongorb**  
+**Sun, 30 Mar 2025 23:10:29 - Csongor**  
 Whaaaaat?
 
 
 
-**Mon, 31 Mar 2025 14:34:45 - csongorb**  
+**Mon, 31 Mar 2025 14:34:45 - Csongor**  
 Typo.
 
 
 
-**Mon, 31 Mar 2025 19:57:48 - csongorb**  
+**Mon, 31 Mar 2025 19:57:48 - Csongor**  
 Lost an index.qmd file.
 
 
 
-**Mon, 31 Mar 2025 19:58:46 - csongorb**  
+**Mon, 31 Mar 2025 19:58:46 - Csongor**  
 Update regarding the workInProgress booklet. Brainstorming.
 
 
 
-**Mon, 31 Mar 2025 20:26:24 - csongorb**  
+**Mon, 31 Mar 2025 20:26:24 - Csongor**  
 Tiny change to make PDF rendering work.
 
 
 
-**Mon, 31 Mar 2025 21:38:55 - csongorb**  
+**Mon, 31 Mar 2025 21:38:55 - Csongor**  
 More ideas on the blank booklet.
 
 
 
-**Mon, 31 Mar 2025 21:40:18 - csongorb**  
+**Mon, 31 Mar 2025 21:40:18 - Csongor**  
 The Stuff Booklets Are Made Of
 
 
 
-**Tue, 01 Apr 2025 15:23:05 - pippinbarr**  
+**Tue, 01 Apr 2025 15:23:05 - Pippin Barr**  
 Pippin talks Booklets and Onstage
 
 
 
-**Thu, 03 Apr 2025 18:34:39 - csongorb**  
+**Thu, 03 Apr 2025 18:34:39 - Csongor**  
 Love!
 
 
 
-**Fri, 04 Apr 2025 11:13:42 - csongorb**  
+**Fri, 04 Apr 2025 11:13:42 - Csongor**  
 BIG restructuring of the booklet files, now that I have a better understanding how all this works.
 
 Unfortunately still not finished, might be chaotic for a while.
 
 
-**Fri, 04 Apr 2025 11:34:54 - csongorb**  
+**Fri, 04 Apr 2025 11:34:54 - Csongor**  
 Deleting "work in progress" booklet, not needed anymore.
 
 
 
-**Fri, 04 Apr 2025 12:35:53 - csongorb**  
+**Fri, 04 Apr 2025 12:35:53 - Csongor**  
 Chess & Paperwork & Text Adventure booklets are all working now.
 
 
 
-**Fri, 04 Apr 2025 12:51:36 - Agus**  
+**Fri, 04 Apr 2025 12:51:36 - Agustina**  
 added chess commit_log.qmd
 
 
 
-**Fri, 04 Apr 2025 12:52:37 - csongorb**  
+**Fri, 04 Apr 2025 12:52:37 - Csongor**  
 Added Quarto structure for Growing Stuff.
 
 
 
-**Fri, 04 Apr 2025 12:54:51 - Agus**  
+**Fri, 04 Apr 2025 12:54:51 - Agustina**  
 added commit_log.qmd text adventure
 
 
 
-**Fri, 04 Apr 2025 12:56:28 - Agus**  
+**Fri, 04 Apr 2025 12:56:28 - Agustina**  
 nevermind that was for paperwork oopsie
 
 
 
-**Fri, 04 Apr 2025 12:58:20 - Agus**  
+**Fri, 04 Apr 2025 12:58:20 - Agustina**  
 added commit_log.qmg text adventure
 
 
 
-**Fri, 04 Apr 2025 12:59:47 - csongorb**  
+**Fri, 04 Apr 2025 12:59:47 - Csongor**  
 Added content folder for Love.
 
 
 
-**Fri, 04 Apr 2025 13:08:54 - Agus**  
+**Fri, 04 Apr 2025 13:08:54 - Agustina**  
 created commits.qmd for chess
 
 
 
-**Fri, 04 Apr 2025 13:38:58 - Agus**  
+**Fri, 04 Apr 2025 13:38:58 - Agustina**  
 added commit_log for meta
 
 
 
-**Fri, 04 Apr 2025 14:24:22 - Agus**  
+**Fri, 04 Apr 2025 14:24:22 - Agustina**  
 updated commit_log for meta
 
 
 
-**Fri, 04 Apr 2025 16:01:13 - csongorb**  
+**Fri, 04 Apr 2025 16:01:13 - Csongor**  
 Love: reworked main structure; moved shared content to shared folder.
 
 
 
-**Fri, 04 Apr 2025 16:39:41 - csongorb**  
+**Fri, 04 Apr 2025 16:39:41 - Csongor**  
 Slowly getting a feeling for a possible intro for the booklets (trying first with Love).
 
 
 
-**Fri, 04 Apr 2025 16:45:27 - csongorb**  
+**Fri, 04 Apr 2025 16:45:27 - Csongor**  
 Some notes on Designer's Notebook.
 
 
 
-**Fri, 04 Apr 2025 17:40:22 - csongorb**  
+**Fri, 04 Apr 2025 17:40:22 - Csongor**  
 Added some first content to meta booklet. Let's see...
 
 
 
-**Fri, 04 Apr 2025 19:41:03 - csongorb**  
+**Fri, 04 Apr 2025 19:41:03 - Csongor**  
 More meta booklet update, added dialogue and commit messages.
 
 This was more fun than expected. I mean, hey, I can write a booklet like this?
 
 
-**Fri, 04 Apr 2025 19:51:57 - csongorb**  
+**Fri, 04 Apr 2025 19:51:57 - Csongor**  
 Updated links to be able to find the PDFs faster.
 
 
 
-**Fri, 04 Apr 2025 19:56:59 - csongorb**  
+**Fri, 04 Apr 2025 19:56:59 - Csongor**  
 Externalized todos into an extra file (learning from Pippin I guess).
 
 
 
-**Sat, 05 Apr 2025 13:53:11 - csongorb**  
+**Sat, 05 Apr 2025 13:53:11 - Csongor**  
 Added rough structure for the versions.
 
 
 
-**Sat, 05 Apr 2025 13:55:56 - csongorb**  
+**Sat, 05 Apr 2025 13:55:56 - Csongor**  
 Added screenshot.
 
 
 
-**Sat, 05 Apr 2025 14:29:04 - csongorb**  
+**Sat, 05 Apr 2025 14:29:04 - Csongor**  
 Chess / Paperwork / Text Adventure: added commit messages; removed references.bib & timeline image.
 
 
 
-**Tue, 08 Apr 2025 22:02:40 - csongorb**  
+**Tue, 08 Apr 2025 22:02:40 - Csongor**  
 Jump!
 
 
 
-**Tue, 08 Apr 2025 22:03:27 - csongorb**  
+**Tue, 08 Apr 2025 22:03:27 - Csongor**  
 Some embarassing mistakes.
 
 
 
-**Tue, 08 Apr 2025 18:02:58 - pippinbarr**  
+**Tue, 08 Apr 2025 18:02:58 - Pippin Barr**  
 Pippin: np!
 
 
 
-**Fri, 11 Apr 2025 08:09:16 - csongorb**  
+**Fri, 11 Apr 2025 08:09:16 - Csongor**  
 Added credits in a real meta-way. The most meta-credits of all times!
 
 
 
-**Fri, 11 Apr 2025 17:51:36 - Agus**  
+**Fri, 11 Apr 2025 17:51:36 - Agustina**  
 Added displayable love versions
 
 
 
-**Fri, 11 Apr 2025 18:06:36 - csongorb**  
+**Fri, 11 Apr 2025 18:06:36 - Csongor**  
 Added file-structure to Love.
 
 
 
-**Fri, 11 Apr 2025 18:28:50 - Agus**  
+**Fri, 11 Apr 2025 18:28:50 - Agustina**  
 Added displayable work versions
 
 
@@ -520,82 +520,82 @@ file structure edit
 
 
 
-**Fri, 11 Apr 2025 18:50:32 - Agus**  
+**Fri, 11 Apr 2025 18:50:32 - Agustina**  
 Added displayable phone versions
 
 
 
-**Fri, 11 Apr 2025 19:02:50 - Agus**  
+**Fri, 11 Apr 2025 19:02:50 - Agustina**  
 Added displayable versions for chess, paperwork and text adventure
 
 
 
-**Fri, 11 Apr 2025 20:57:53 - csongorb**  
+**Fri, 11 Apr 2025 20:57:53 - Csongor**  
 Messing around with timeline visualisations; added license info.
 
 
 
-**Fri, 11 Apr 2025 21:22:58 - csongorb**  
+**Fri, 11 Apr 2025 21:22:58 - Csongor**  
 Missing a resolution.
 
 
 
-**Sat, 12 Apr 2025 13:42:49 - csongorb**  
+**Sat, 12 Apr 2025 13:42:49 - Csongor**  
 Added Miro boards to GrowingStuff booklet (experimental).
 
 
 
-**Sun, 13 Apr 2025 10:30:01 - csongorb**  
+**Sun, 13 Apr 2025 10:30:01 - Csongor**  
 Trying references as footnotes.
 
 (Harvard, Cite Them Right 12th edition)
 
 
-**Sun, 13 Apr 2025 22:59:25 - csongorb**  
+**Sun, 13 Apr 2025 22:59:25 - Csongor**  
 Updated File Structure of Love.
 
 
 
-**Sun, 13 Apr 2025 23:12:31 - csongorb**  
+**Sun, 13 Apr 2025 23:12:31 - Csongor**  
 Restructured references; moved around imprint and license (Love).
 
 
 
-**Sun, 13 Apr 2025 23:13:50 - csongorb**  
+**Sun, 13 Apr 2025 23:13:50 - Csongor**  
 Messing around with preferences (previous commit might not work without these).
 
 
 
-**Sun, 13 Apr 2025 23:20:24 - csongorb**  
+**Sun, 13 Apr 2025 23:20:24 - Csongor**  
 Added new reference structure...
 
 ...to GrowingStuff and finished it for Love;
 added epub.
 
 
-**Mon, 14 Apr 2025 01:23:47 - csongorb**  
+**Mon, 14 Apr 2025 01:23:47 - Csongor**  
 Restucturing Love.
 
 I like how this sounds...
 The whole first few pages are new now, much better (though still not fully finished).
 
 
-**Mon, 14 Apr 2025 01:24:10 - csongorb**  
+**Mon, 14 Apr 2025 01:24:10 - Csongor**  
 Added more versions of To Dos.
 
 
 
-**Mon, 14 Apr 2025 01:24:43 - csongorb**  
+**Mon, 14 Apr 2025 01:24:43 - Csongor**  
 Added rendered Love booklets.
 
 
 
-**Mon, 14 Apr 2025 01:31:12 - csongorb**  
+**Mon, 14 Apr 2025 01:31:12 - Csongor**  
 Update to the intro of GrowingStuff, still not finished.
 
 
 
-**Mon, 14 Apr 2025 01:32:11 - csongorb**  
+**Mon, 14 Apr 2025 01:32:11 - Csongor**  
 Deleted contact from phone (moved to imprint).
 
 
@@ -610,7 +610,7 @@ added timeline design options
 
 
 
-**Mon, 14 Apr 2025 10:47:29 - pippinbarr**  
+**Mon, 14 Apr 2025 10:47:29 - Pippin Barr**  
 Onstage: Pippin YES ANDS
 
 
@@ -620,12 +620,12 @@ edited structure file
 
 
 
-**Mon, 14 Apr 2025 20:10:26 - csongorb**  
+**Mon, 14 Apr 2025 20:10:26 - Csongor**  
 Love-Test.
 
 
 
-**Mon, 14 Apr 2025 20:22:03 - csongorb**  
+**Mon, 14 Apr 2025 20:22:03 - Csongor**  
 Added additional version.
 
 This already feels really great...
@@ -651,33 +651,33 @@ finished all date entries for the work filestructure .qmd file
 
 
 
-**Sat, 19 Apr 2025 10:45:32 - csongorb**  
+**Sat, 19 Apr 2025 10:45:32 - Csongor**  
 Added content folder for Phone & Work.
 
 
 
-**Sat, 19 Apr 2025 10:46:24 - csongorb**  
+**Sat, 19 Apr 2025 10:46:24 - Csongor**  
 Added unified Commit visualisations to all booklets.
 
 Not perfect, but good enough and all the same. Already something.
 
 
-**Sat, 19 Apr 2025 10:50:15 - csongorb**  
+**Sat, 19 Apr 2025 10:50:15 - Csongor**  
 Finished (?) restructuring the booklet folders.
 
 
 
-**Sat, 19 Apr 2025 11:12:14 - csongorb**  
+**Sat, 19 Apr 2025 11:12:14 - Csongor**  
 First designed draft! Love!
 
 
 
-**Sat, 19 Apr 2025 12:33:30 - csongorb**  
+**Sat, 19 Apr 2025 12:33:30 - Csongor**  
 Reworked intro of Love, shorter, more self-contained.
 
 
 
-**Sat, 19 Apr 2025 13:22:14 - csongorb**  
+**Sat, 19 Apr 2025 13:22:14 - Csongor**  
 Updated yaml-files for some Quarto booklets; Work & Phone are working again.
 
 
@@ -697,7 +697,7 @@ updated play online link footnote in love press readme.qmd
 
 
 
-**Sat, 19 Apr 2025 15:02:03 - csongorb**  
+**Sat, 19 Apr 2025 15:02:03 - Csongor**  
 Fast in-between commit...
 
 
@@ -707,22 +707,22 @@ added meta filestructure .qmd file
 
 
 
-**Sat, 19 Apr 2025 15:59:12 - csongorb**  
+**Sat, 19 Apr 2025 15:59:12 - Csongor**  
 Last touches on Love (todos are still a todo, haha).
 
 
 
-**Sat, 19 Apr 2025 15:59:30 - csongorb**  
+**Sat, 19 Apr 2025 15:59:30 - Csongor**  
 New rendered versions of Love (for Jesse).
 
 
 
-**Sat, 19 Apr 2025 16:11:28 - csongorb**  
+**Sat, 19 Apr 2025 16:11:28 - Csongor**  
 As always: one more change (Love - Imprint).
 
 
 
-**Sat, 19 Apr 2025 16:12:42 - csongorb**  
+**Sat, 19 Apr 2025 16:12:42 - Csongor**  
 Restructuring Growing Stuff (far from finished).
 
 
@@ -737,7 +737,7 @@ corrected some formatting and links in work commits
 
 
 
-**Sat, 19 Apr 2025 23:09:48 - csongorb**  
+**Sat, 19 Apr 2025 23:09:48 - Csongor**  
 Eastern, I guess.
 
 
@@ -757,7 +757,7 @@ removed license section and added footnote on text adventure info.qmd
 
 
 
-**Sat, 19 Apr 2025 23:44:20 - csongorb**  
+**Sat, 19 Apr 2025 23:44:20 - Csongor**  
 Message to Jesse.
 
 
@@ -807,7 +807,7 @@ Update readme.md
 
 hope this one looks good
 
-**Mon, 21 Apr 2025 14:14:39 - csongorb**  
+**Mon, 21 Apr 2025 14:14:39 - Csongor**  
 Love: shortened todos even more.
 
 
@@ -817,7 +817,7 @@ Update readme.md
 
 
 
-**Mon, 21 Apr 2025 14:17:53 - csongorb**  
+**Mon, 21 Apr 2025 14:17:53 - Csongor**  
 Formatting.
 
 
@@ -827,12 +827,12 @@ Update readme.md
 
 
 
-**Mon, 21 Apr 2025 14:45:58 - csongorb**  
+**Mon, 21 Apr 2025 14:45:58 - Csongor**  
 Some restructuring of quotes.
 
 
 
-**Mon, 21 Apr 2025 15:07:27 - csongorb**  
+**Mon, 21 Apr 2025 15:07:27 - Csongor**  
 Adding some new sections.
 
 
@@ -842,7 +842,7 @@ modified qmd titles for work, love and text adventure files
 
 
 
-**Mon, 21 Apr 2025 15:09:55 - csongorb**  
+**Mon, 21 Apr 2025 15:09:55 - Csongor**  
 Added sections to Chess.
 
 
@@ -862,7 +862,7 @@ Added Chess Quotes
 
 
 
-**Mon, 21 Apr 2025 15:20:33 - csongorb**  
+**Mon, 21 Apr 2025 15:20:33 - Csongor**  
 Small restructuring of Love.
 
 
@@ -877,8 +877,8 @@ edited work to-do.qmd file
 
 
 
-**Mon, 21 Apr 2025 15:45:59 - csongorb**  
-Selected some quotes (together with Levent, Agus, Rodri).
+**Mon, 21 Apr 2025 15:45:59 - Csongor**  
+Selected some quotes (together with Levent, Agustina, Rodri).
 
 
 
@@ -887,17 +887,17 @@ shortened the phone to-do.qmd file even more
 
 
 
-**Mon, 21 Apr 2025 17:21:50 - csongorb**  
+**Mon, 21 Apr 2025 17:21:50 - Csongor**  
 Edited file-structure and to-dos (Phone, Work, Chess).
 
 
 
-**Mon, 21 Apr 2025 17:23:21 - csongorb**  
+**Mon, 21 Apr 2025 17:23:21 - Csongor**  
 Added imprint to Work.
 
 
 
-**Mon, 21 Apr 2025 17:28:33 - csongorb**  
+**Mon, 21 Apr 2025 17:28:33 - Csongor**  
 TOC update for Work, now...
 
 
@@ -912,59 +912,59 @@ added imprint file for phone booklet
 
 
 
-**Tue, 22 Apr 2025 00:01:45 - csongorb**  
+**Tue, 22 Apr 2025 00:01:45 - Csongor**  
 Steamlining all (besides Growing Stuff) booklets.
 
 I suppose I have forgotten some things, typos, etc.
 
 
-**Tue, 22 Apr 2025 00:11:29 - csongorb**  
+**Tue, 22 Apr 2025 00:11:29 - Csongor**  
 Rendered all booklets (besides Growing Stuff).
 
 
 
-**Tue, 22 Apr 2025 00:36:15 - csongorb**  
+**Tue, 22 Apr 2025 00:36:15 - Csongor**  
 Reversed journal entries in Work.
 
 
 
-**Tue, 22 Apr 2025 00:44:59 - csongorb**  
+**Tue, 22 Apr 2025 00:44:59 - Csongor**  
 Added Social Media images.
 
 
 
-**Tue, 22 Apr 2025 00:45:41 - csongorb**  
+**Tue, 22 Apr 2025 00:45:41 - Csongor**  
 Content-freeze & production team.
 
 
 
-**Tue, 22 Apr 2025 00:47:07 - csongorb**  
+**Tue, 22 Apr 2025 00:47:07 - Csongor**  
 Updated booklet to-dos...
 
 Learning from Pippin, doing this in a file makes a lot of sense as an in-between thing between a task-board and agile and sticky-notes and chaos.
 
 
-**Tue, 22 Apr 2025 00:58:02 - csongorb**  
+**Tue, 22 Apr 2025 00:58:02 - Csongor**  
 Updated conversation with Jesse.
 
 
 
-**Tue, 22 Apr 2025 01:03:57 - csongorb**  
+**Tue, 22 Apr 2025 01:03:57 - Csongor**  
 Tiny update of the message to Jesse.
 
 
 
-**Tue, 22 Apr 2025 01:04:23 - csongorb**  
+**Tue, 22 Apr 2025 01:04:23 - Csongor**  
 Update on the blank booklet... still work in progress.
 
 
 
-**Tue, 22 Apr 2025 11:13:17 - csongorb**  
+**Tue, 22 Apr 2025 11:13:17 - Csongor**  
 Testing deployment...
 
 
 
-**Tue, 22 Apr 2025 12:46:01 - csongorb**  
+**Tue, 22 Apr 2025 12:46:01 - Csongor**  
 Added structure for Credits.
 
 
@@ -994,38 +994,38 @@ Testing new format for credits.
 
 
 
-**Tue, 22 Apr 2025 14:10:54 - csongorb**  
+**Tue, 22 Apr 2025 14:10:54 - Csongor**  
 Restructuring versions.
 
 
 
-**Tue, 22 Apr 2025 12:01:27 - pippinbarr**  
+**Tue, 22 Apr 2025 12:01:27 - Pippin Barr**  
 Dialog: Pippin: Deer in the headlights
 
 
 
-**Wed, 23 Apr 2025 11:33:46 - pippinbarr**  
+**Wed, 23 Apr 2025 11:33:46 - Pippin Barr**  
 Pippin added bios and headshot
 
 
 
-**Wed, 23 Apr 2025 11:50:12 - pippinbarr**  
+**Wed, 23 Apr 2025 11:50:12 - Pippin Barr**  
 Pippin lit his headshot better
 
 
 
-**Wed, 23 Apr 2025 18:41:52 - csongorb**  
+**Wed, 23 Apr 2025 18:41:52 - Csongor**  
 Tiny re-formatting on Work (just the start).
 
 
 
-**Wed, 23 Apr 2025 18:53:28 - csongorb**  
+**Wed, 23 Apr 2025 18:53:28 - Csongor**  
 Added new content for Text Adventure.
 
 This feels particularly funny, chasing Pippin, who is faster?
 
 
-**Wed, 23 Apr 2025 18:57:39 - csongorb**  
+**Wed, 23 Apr 2025 18:57:39 - Csongor**  
 Tiny change to indicate that Pippin is still working on Text Adventure.
 
 
@@ -1055,64 +1055,64 @@ Put the link to insta right after my name in credits
 
 
 
-**Thu, 24 Apr 2025 11:34:11 - csongorb**  
+**Thu, 24 Apr 2025 11:34:11 - Csongor**  
 Linking to visual elements.
 
 
 
-**Thu, 24 Apr 2025 11:49:59 - csongorb**  
+**Thu, 24 Apr 2025 11:49:59 - Csongor**  
 Acknowledging that Text Adventure is ongoing...
 
 
 
-**Thu, 24 Apr 2025 11:50:31 - csongorb**  
+**Thu, 24 Apr 2025 11:50:31 - Csongor**  
 New renderings for Work & Text Adventure.
 
 
 
-**Thu, 24 Apr 2025 11:51:02 - csongorb**  
+**Thu, 24 Apr 2025 11:51:02 - Csongor**  
 Added more structured folder for Dessauer Press / Jesse.
 
 
 
-**Thu, 24 Apr 2025 12:03:44 - csongorb**  
+**Thu, 24 Apr 2025 12:03:44 - Csongor**  
 Messing around with the structure of the versions...
 
 Unfortunately still not satisfied, but at least its slightly better?
 
 
-**Thu, 24 Apr 2025 12:26:12 - csongorb**  
+**Thu, 24 Apr 2025 12:26:12 - Csongor**  
 Commenting Phone draft for Jesse.
 
 
 
-**Thu, 24 Apr 2025 12:45:39 - csongorb**  
+**Thu, 24 Apr 2025 12:45:39 - Csongor**  
 Moved Rodri-s timeline visualisations to an extra folder.
 
 
 
-**Thu, 24 Apr 2025 12:46:12 - csongorb**  
+**Thu, 24 Apr 2025 12:46:12 - Csongor**  
 Added more timeline ideas.
 
 
 
-**Thu, 24 Apr 2025 12:48:35 - csongorb**  
+**Thu, 24 Apr 2025 12:48:35 - Csongor**  
 Added more screenshots/images to show the process...
 
 This feels strange, again. Doing things because I know I want to have them in Growing Stuff. How much is this "faking it"?
 
 
-**Thu, 24 Apr 2025 16:23:41 - csongorb**  
+**Thu, 24 Apr 2025 16:23:41 - Csongor**  
 First rough version of the short descriptions for the Amaze schedule.
 
 
 
-**Thu, 24 Apr 2025 16:28:22 - csongorb**  
+**Thu, 24 Apr 2025 16:28:22 - Csongor**  
 Typos; mentioning Marina Abramović, should we?
 
 
 
-**Thu, 24 Apr 2025 16:31:16 - csongorb**  
+**Thu, 24 Apr 2025 16:31:16 - Csongor**  
 Deleted links, as they are not working in code-blocks in md-files (makes sense).
 
 
