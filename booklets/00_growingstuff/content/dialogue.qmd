@@ -3,8 +3,8 @@
 ## 2025-01-08 Csongor
 
 Hey Pippin,  
-I guess we need to [start it somewhere,  
-so le's start it](https://www.youtube.com/watch?v=lkpLbEM06qE) here.
+I guess we need to *start it somewhere,  
+so le's start it*^[Pulp. (1995) 'Common People', Different Class. Island Records. [youtube.com/watch?v=lkpLbEM06qE](https://www.youtube.com/watch?v=lkpLbEM06qE)] here.
 
 Voice would also have been an option, [GAMETHING](https://gamething.life/)-like, but sorry, this somehow feels more natural to me. Also maybe I'm not confident enough with my spoken English, maybe even my voice. Whatever, we can aim for either/or/both in the long run, let's see where this all gets us. 
 
@@ -76,9 +76,7 @@ Is it too much for a small exhibition?
 
 And we can also just postpone the final decision to a few weeks later... but in that case we need a backup plan. [*Let's Snake: Ancient Greek Punishment*](https://github.com/pippinbarr/lets-snake-ancient-greek-punishment) sounds great. I feel [*v r 5*](https://github.com/pippinbarr/v-r-5) or [*v r $4.99*](https://github.com/pippinbarr/v-r-4-99) could also work well, especially in an exhibition. That would add another meta layer, but less allow for the idea of live work.
 
-> For the player... well I continue to like the idea that the game itself (and this series and many of my things) are a kind of vehicle for research by the player at a more controlled level. You play this game and you are, yourself, investigating the nature of shadows in Unity, encouraged to think about and focus on them.
-
-[Process Journal v r 5, 21 March 2024](https://github.com/pippinbarr/v-r-5/blob/main/process/journal.md)
+> For the player... well I continue to like the idea that the game itself (and this series and many of my things) are a kind of vehicle for research by the player at a more controlled level. You play this game and you are, yourself, investigating the nature of shadows in Unity, encouraged to think about and focus on them.^[[github.com/pippinbarr/v-r-5/blob/main/process/journal.md](https://github.com/pippinbarr/v-r-5/blob/main/process/journal.md)]
 
 ## 2025-01-10 Pippin
 
@@ -101,7 +99,7 @@ Best case it'll be even more complicated!?
 
 (I have to stop talking about this all the time, but) how does time pass so fast, hasn't 2025 just started a few days ago? Anyway, we finished [devolution.online/lmd](https://devolution.online/lmd/), really proud of it. Can / should we aim for online elements in your games? I would love to, although it would again be a first, as your processes are already living online, how can we add to them?
 
-It is inspiring to see you [working](https://github.com/pippinbarr/it-is-as-if-you-were-on-your-phone/commits/main/) and [reflecting](https://github.com/pippinbarr/it-is-as-if-you-were-on-your-phone/blob/main/process/journal.md) next to us... don't feel watched! What does this do to us? I for sure feel strange observing you from a distance.
+It is inspiring to see you *working*^[[github.com/pippinbarr/it-is-as-if-you-were-on-your-phone/commits/main](https://github.com/pippinbarr/it-is-as-if-you-were-on-your-phone/commits/main/)] and *reflecting*^[[github.com/pippinbarr/it-is-as-if-you-were-on-your-phone/blob/main/process/journal.md](https://github.com/pippinbarr/it-is-as-if-you-were-on-your-phone/blob/main/process/journal.md)] next to us... don't feel watched! What does this do to us? I for sure feel strange observing you from a distance.
 
 Give us some time to get an overview of *It is as if...* before we move on to some follow-up questions and possible ideas for working with the processes in the exhibition. How much do you want to be involved in all this? Not only in the development of the game, but also in the exhibition/exploration of the process? Oh, but you already do that... I mean the additional layers? This meta-ness is causing me some troubles. I realise that this time our task is to make things, decisions, reflections *more* visible.
 
@@ -142,7 +140,7 @@ Talking like this feels like *using* your games. I hope you are really ok with a
 ## 2025-01-31 Csongor: Games made of OOP
 
 Oooh, I can't not jump on this:  
-[I OOPed in the code pool; I wanna be an FSM (2025-01-28)](https://github.com/pippinbarr/it-is-as-if-you-were-on-your-phone/blob/main/process/journal.md#i-ooped-in-the-code-pool-i-wanna-be-an-fsm-2025-01-28)
+[I OOPed in the code pool; I wanna be an FSM (2025-01-28)](https://github.com/pippinbarr/it-is-as-if-you-were-on-your-phone/blob/main/process/journal.md#i-ooped-in-the-code-pool-i-wanna-be-an-fsm-2025-01-28)^[[github.com/pippinbarr/it-is-as-if-you-were-on-your-phone/blob/main/process/journal.md#i-ooped-in-the-code-pool-i-wanna-be-an-fsm-2025-01-28](https://github.com/pippinbarr/it-is-as-if-you-were-on-your-phone/blob/main/process/journal.md#i-ooped-in-the-code-pool-i-wanna-be-an-fsm-2025-01-28)]
 
 I have always felt that the stuff that games are made of is OOP (ok, and as such also data-driven-ness). That it is the structure of the objects that leads the way (how games grow). Objects finding their right place over time, connecting with others, with their environment, eating/ encapsulating each other, morphing. I always wanted to follow up on this, almost in a [Platform Studies](http://platformstudies.com/) kind of way. Or in a *The Stuff Games Are Made Of* kind of way? Is OOP some kind of a natural habitat for (digital) games? Can you go against it?
 
@@ -365,7 +363,7 @@ Isn't this also just insecurity? A kind of lack of trust in the work itself, tha
 
 Devolution has always been, at its core, a *design research* project, with the idea of letting people explore the beauty / characteristics of the design process for themselves, to make their own connections. But of course: if that is the case, why am I writing texts about it?
 
-In this sense, are your [v r](https://pippinbarr.com/ideas/v-r/) series also works like this, or are they not (see my quote from one of your journals [above](../booklets/#2025-01-10-csongor-sorting-thoughts))? Do they need less explanation, less accompanying text? 
+In this sense, are your [v r](https://pippinbarr.com/ideas/v-r/) series also works like this, or are they not (see my quote from one of your journals above)? Do they need less explanation, less accompanying text? 
 
 But I feel I got distracted...
 
@@ -382,7 +380,7 @@ How did you make the first sketches for *Phone*? Tablet?
 
 Looking more closely at your visualisations, I noticed that they are mostly pre-visualisations/variations of screens, never something that *thinks* about the inner workings. Do you never have the urge to visualise how something *works*?
 
-I don't think it's about design documentation. Do you know the idea of the [One](https://www.stonetronix.com/gdc-2010/) [Page](https://gdcvault.com/play/1012356/One-Page) Designs by Stone Librande? I like a lot that at its core (it's not so visible in the *original* presentation, but the idea has evolved a lot since its origin, see how Tracy Fullerton writes about it in - later issues of - Game Design Workshop) it's about accompanying the process, thinking about the next steps, not describing the whole.
+I don't think it's about design documentation. Do you know the idea of the [One](https://www.stonetronix.com/gdc-2010/)^[[stonetronix.com/gdc-2010](https://www.stonetronix.com/gdc-2010/)] [Page](https://gdcvault.com/play/1012356/One-Page)^[[gdcvault.com/play/1012356/One-Page](https://gdcvault.com/play/1012356/One-Page)] Designs by Stone Librande? I like a lot that at its core (it's not so visible in the *original* presentation, but the idea has evolved a lot since its origin, see how Tracy Fullerton writes about it in - later issues of - Game Design Workshop) it's about accompanying the process, thinking about the next steps, not describing the whole.
 
 > is it one metaphor fits all or are there different metaphors that are more appropriate for different designers?
 
@@ -419,8 +417,49 @@ What do we really need to nail? I guess I'll go into some other documents to see
 Hey, just a quick one, a task!  
 Could you make a drawing, a visualisation of the whole *It is as if...* series? Somehow (branching?) visualising the evolution of the whole series, incl. *Chess* and *Work* and *Love* and *Paperwork* and *Text Adventure* and *Phone* and possible new games and iterations. You know, visualising ideas!
 
-Aaaand yesss, let's integrate your drawings...! But we need them in good quality. [You Insta](https://www.instagram.com/pippinbarr/) has a good amount, but it does not really allow us to download them and the quality is always restricted. Also, do you have more (maybe even design-related)?  
+Aaaand yesss, let's integrate your drawings...! But we need them in good quality. [Your Insta](https://www.instagram.com/pippinbarr/)^[[instagram.com/pippinbarr](https://www.instagram.com/pippinbarr/)] has a good amount, but it does not really allow us to download them and the quality is always restricted. Also, do you have more (maybe even design-related)?  
 Would you mind uploading them here? But remember: what is in the repository stays in the repository. Who do I tell?!
 
 See you!
 
+## 2025-04-08 Csongor: Jump, jump!
+
+Haha, I have just edited the `/booklets/00_growingstuff/content/dialogue.qmd` file first, a perfect glitch for this message!
+
+Hey Pippin, something else, a big jump: 
+
+It looks more and more like it would make sense to put the versions we want to exhibit somewhere online (and not just locally). We are brainstorming ideas to let people play versions with scanning QR codes, etc. Not all of them, but some.
+
+Aaand *this* repository would be a logical place for that. We would use the Player of the [Devolutionizer](https://github.com/csongorb/devolutionizer)^[[github.com/csongorb/devolutionizer](https://github.com/csongorb/devolutionizer)] for this, it's already in a nice shape, we'll try to improve it even more. This all means that there would be some sort of hub / sidebar where people could select the versions they want to play. 
+
+We would give this repository a [BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license. I mean, hey, we already have your process documentations here (we use them in the booklets, we never really talked about it), and you have a BY-NC 3.0 license (why not 4.0?) on your repositories... but still, I wanted to ask, the games kind of feel different. Are you okay with that? Are we missing something?
+
+Or is this the kind of question that is not good to ask in public? Hm... how do I get out of this?
+
+## 2025-04-08 Pippin: np
+
+Well... I think it's fine? Yeah we seem all good to me! I've been making my source code public for eons, long may it continue!
+
+Happy to work on getting specific builds that feel pertinent too, yeah, and then they can be individually QR coded or fit into the Devolutionizer as you/we see fit?
+
+## 2025-04-19 Csongor: The speed of rabbits & how to catch fluids
+
+I did not realized, but suddenly, we are in the stage where *stop and think* gets harder and harder. We just *do*. But it seems that Eastern helps to give my mind some time to rest / reflect.
+
+Printing booklets is sooo... final, I guess? The need to finalize the content of the booklets clashes with fluidity. Especially visible in *Growing Stuff*, obviously, but also for *Text Adventure*. I mean hey, maybe that's what you will develop during *The Designer Is Present* and you have just added a new journal entry.  
+
+Is this:  
+Catch me if you can?  
+Hmm, no it is not. Because it is Eastern and I have just arrived in the garden:  
+Perhaps it is not *freezing a moment*, or *visualizing the process*, but: 
+Showing in every moment that it *has grown* and that it *will continue to grow*.
+
+But thinking helps, I already have some [ideas](../booklets/todo.md). 
+
+## 2025-04-22 Pippin: deer in the headlights
+
+Well, yes things are moving ain't they. I think it's likely I'll be doing Text Adventure at AMAZE so it's probably not a priority to capture booklet-wise etc.?
+
+Think we're getting somewhere healthy with onstage?
+
+Looking forward to seeing a booklet!

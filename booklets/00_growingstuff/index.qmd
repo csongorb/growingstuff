@@ -1,52 +1,32 @@
 # readme.md {.unnumbered}
 
-* Read the **Commit History**  for detailed, moment-to-moment insights into the development process
-* Read the **Design Journal** for high-level reflections on the design and development process, **Booklets** / **On Stage**
-* Check the **Miro boards**
-* **Timeline Iterations**
-* Look at the **File Structure**  for the evolution of the source code
-
-
-
-* **Credits**
-
+* Read the **Dialogue** (@sec-dialogue) between Pippin and Csongor for high-level reflections on the design process and the general concept of the exhibition,
+* **Booklets** (@sec-booklets) for their ideas on this booklet series, and
+* **On-Stage** (@sec-onstage) for their struggle to come up with the 
+* accompanying **Program?** (@sec-program) for the event.
+* Read **The Dessauer Press** (@sec-dessauer) for discussions and reflections on the editing process of these booklets.
+* Take a look at the evolution of the **Miro boards** (@sec-miroboards) to see how the team structured their work,
+* **Timelines** (@sec-timeline) for the ideation process of the timeline of the series, and
+* **Titles** (@sec-titles) for the difficult ideation how the exhibition should be called.
+* Check **Exhibitions** (@sec-exhibition) for some early mockups of the exhibition.
+* Read **Versions** (@sec-versions) for design reflections and ideas on how to exhibit several versions on one screen.
+* Read the **Commit History** (@sec-commits) for detailed, moment-to-moment insights into the whole development process.
+* Look at the **File Structure** (@sec-filestructure) for the evolution of the project structure.
 
 ## A note on the text
 
 This is the *catalogue / curators statement / meta-booklet / process documentation* of the exhibition *Pippin Barr x Devolution: It is as if you were...* at *A MAZE. / Berlin 2025*.
 
+The booklet is based on the repository of the project. As a physical artefact it preserves the state of the project in a certain moment in time, when still far away from being finished. Please visit the repository^[[github.com/csongorb/growingstuff](https://github.com/csongorb/growingstuff)] to see the full (?) design journey and reflections.
 
 The text has been edited for print, but remains as close to the original as possible. Its main purpose is to provide the original material for exploration, the data is preserved *as is* and not updated.
 
-As a physical booklet it preserves the state of the project *as is* in a certain moment in time, when still far away from being finished. 
+The repository is only a small part of a larger project and does not adequately or equally represent everyone on the team.  Please check the full credits for their amazing contributions^[[github.com/csongorb/growingstuff/blob/main/credits.md](https://github.com/csongorb/growingstuff/blob/main/credits.md)].  
+Without you, this would be nothing! ❤️
 
-> And it never ends. [V]ideo games, and games in general, are never truly “finished.” The conversations with their rules can always continue a little longer [...]."^[@barr_stuff_2023[p. 23]]
+## It is as if you were...
 
-
-
-
-
-The text has been edited for print, but remains as close to the original as possible. Its main purpose is to provide the original material for exploration.
-
-The game is not finished at the time of printing. As a physical booklet it preserves the state of the project *as is* at a given moment in time, please visit the repository^[[github.com/pippinbarr/it-is-as-if-you-were-playing-a-text-adventure](https://github.com/pippinbarr/it-is-as-if-you-were-playing-a-text-adventure)] to see the full (?) design journey of the game.
-
-
-
-
-
-
-
-
-
-
-As printed a few days / weeks prior the exhibition 
-
-Link to repo!
-
-
-## It is as if you were... - Timeline!
-
-*It is as if you were...* is an ongoing series of games by Pippin Barr started 2016.
+*It is as if you were...* is an ongoing series of experimental games by Pippin Barr:
 
 ```
 🌱 It is as if you were/
@@ -59,22 +39,24 @@ Link to repo!
 └── 🌸
 ```
 
-To understand the development process of the whole series, it is important to observe them in parallel to other events mostly happening:
+In order to understand the development process of the series, it is important it in the context of a few other events in Pippin Barr's life/career:
 
-- joining *Speculative Play* (2017)
-- publishing Games as Research website
-- publishing a paper with ... (2018)
+- joining the project *Speculative Play*^[[speculativeplay.com](http://www.speculativeplay.com/)] in 2017
+- co-publishing the *Games as Research*^[[gamesasresearch.com](https://www.gamesasresearch.com)] website in 2018
+- co-publishing a paper about the development process of *It is as if you were doing work* and the idea of MDM^[Khaled, R., Lessard, J., and Barr, P. (2018) ‘Documenting trajectories in design space: A methodology for applied game design research‘, in Proceedings of Foundations of Digital Games (FDG) 2018.] in 2018
 
-> 100% a series yes! There are some bits in there where I feel like they end up being a bit about distinct things. I think of *Love* and *Work* as both existing in specific fictional universes where they're "needed" as a kind of therapeutic intervention into a problem. *Chess* didn't really come from that place, was more of a "wouldn't it be funny if...". And then *Phone* is unclear to me right now... I think probably giving it some Speculative Play scaffolding does make a bit of sense, but it feels reactive to exactly *now* rather than the future? So I'm not even sure it works out as speculative at all...^[See...]
+> 100% a series yes! There are some bits in there where I feel like they end up being a bit about distinct things. I think of *Love* and *Work* as both existing in specific fictional universes where they're "needed" as a kind of therapeutic intervention into a problem. *Chess* didn't really come from that place, was more of a "wouldn't it be funny if...". And then *Phone* is unclear to me right now... I think probably giving it some Speculative Play scaffolding does make a bit of sense, but it feels reactive to exactly *now* rather than the future? So I'm not even sure it works out as speculative at all...^[See @sec-dialogue]
 
-> I first tried documenting this history in anxious blog entries: “Visions of clipping errors and a million unforeseen bugs crowd my peripheral vision along with the faceless horrors of maybe having forgetting [sic] to uncomment some bit of code” (Barr 2011a). Later, I turned to writing lengthy design reflections in private Evernote journals. These days, the process has become much more sophisticated, and it even has a name. I work with what my colleagues and I call MDM, or the Method for Design Materialization (Khaled, Lessard, and Barr 2018; Khaled and Barr 2023).^[@barr_stuff_2023[p. 6-7]]
+> I first tried documenting this history in anxious blog entries [...]. Later, I turned to writing lengthy design reflections in private Evernote journals. These days, the process has become much more sophisticated, and it even has a name. I work with what my colleagues and I call MDM, or the Method for Design Materialization^[Khaled, R., Lessard, J., and Barr, P. (2018) ‘Documenting trajectories in design space: A methodology for applied game design research‘, in Proceedings of Foundations of Digital Games (FDG) 2018. & Khaled, R. and Barr, P. (2023) ‘A method for design materialization: Accountable game design research‘. Digital Games Research Association (DiGRA) Conference 2023. Seville, Spain. 19-23 June 2023.] .^[Barr, P. (2023) The stuff games are made of. The MIT Press (p. 6-7).]
 
 ## The Stuff Devolutions Are Made Of
 
-> *Devolution* is an ongoing artistic and/or design research project aimed at understanding and dissecting the process of game development, encountering new characteristics and features with each new iteration. Historically, *Devolution* began as an exhibition of the development process of selected games. The core of each exhibition is a visual timeline of around 6 to 8 playable versions of a game, often including prototypes, in-between or afterrelease states, and dead branches, accompanied by contextual information, developer tours, talks, and discussions. Visitors can explore the timeline and development histories of the games by comparing versions to each other and find interesting aspects on their own.^[@baranyai_save_2023]
+*Devolution*^[[devolution.online](https://devolution.online/)] is an ongoing artistic and/or design research project aimed at understanding and dissecting the process of game development, encountering new characteristics and features with each new iteration. Historically, *Devolution* began as an exhibition of the development process of selected games. 
 
-> For the player... well I continue to like the idea that the game itself (and this series and many of my things) are a kind of vehicle for research by the player at a more controlled level. You play this game and you are, yourself, investigating the nature of shadows in Unity, encouraged to think about and focus on them.^[[Process Journal v r 5, 21 March 2024](https://github.com/pippinbarr/v-r-5/blob/main/process/journal.md)]
+The core of each exhibition is a visual timeline of around 6 to 8 playable versions of a game, often including prototypes, in-between or afterrelease states, and dead branches, accompanied by contextual information, developer tours, talks, and discussions. Visitors can explore the timeline and development histories of the games by comparing versions to each other and find interesting aspects on their own.
 
-> Rather, most of the design work takes place in conversation with stuff. [...] When you’re listening, the stuff games are made of is not quiet, not transparent, and not just there to be used. It’s a close companion, offering up its own ideas about game design all along the way.^[@barr_stuff_2023[p. 5]]
+> For the player... well I continue to like the idea that the game itself (and this series and many of my things) are a kind of vehicle for research by the player at a more controlled level. You play this game and you are, yourself, investigating the nature of shadows in Unity, encouraged to think about and focus on them.^[[github.com/pippinbarr/v-r-5/blob/main/process/journal.md](https://github.com/pippinbarr/v-r-5/blob/main/process/journal.md)]
 
-> If the stuff isn’t going to shout, we’ll have to lean in. To make the results accessible, we’ll need ways to explicitly document such design work. It has long been a goal of mine to present a completed video game together with the design history of how it came to be.^[@barr_stuff_2023[p. 6]]
+> Rather, most of the design work takes place in conversation with stuff. [...] When you’re listening, the stuff games are made of is not quiet, not transparent, and not just there to be used. It’s a close companion, offering up its own ideas about game design all along the way.^[Barr, P. (2023) The stuff games are made of. The MIT Press (p. 5).]
+
+> If the stuff isn’t going to shout, we’ll have to lean in. To make the results accessible, we’ll need ways to explicitly document such design work. It has long been a goal of mine to present a completed video game together with the design history of how it came to be.^[Barr, P. (2023) The stuff games are made of. The MIT Press (p. 6).]

@@ -8,7 +8,7 @@ Maybe I'm too fast with me spreading out the conversations into different files,
 
 One of the things that makes me so excited about this issue of Devolution - besides the fact that it's you! - is the opportunity to do more than the routine of the last few issues, more than a post mortem. To be able to reflect not just indirectly but more directly on how games *grow* out of the *stuff they are made of*. Any chance you could include that?
 
-If you have a short description of your talk at the ARTSLab, feel free to add it to [../onstage/readme.md](../onstage/readme.md). We can expand it from there.
+If you have a short description of your talk at the ARTSLab, feel free to add it to `../onstage/readme.md`. We can expand it from there.
 
 We have about 45-60 minutes of stage time in total, so what do we do with the rest?   
 I have two suggestions, would be curious to hear what you think:
@@ -34,7 +34,7 @@ So what do you think?
 
 Do we need to sound exciting? Could we be humiliated and nobody comes? :)
 
-## 2025-04-1 Pippin: Post-meeting
+## 2025-04-01 Pippin: Post-meeting
 
 Just want to plant a tiny flag here after our meeting this morning and including Zoewi's (in this exact moment I'm like... is that how I should write her name??) ideas.
 
@@ -50,3 +50,46 @@ And my immediate thought for a structure (please edit, riff) is something like:
 - And then after we've done that stuff we have a conversation about design process? Maybe Csongor and unspecified guest are involve in this thing at every step? (Mostly wrote myself in to not assign work, but I think it could be more fun if it's an everybody thing?)
 
 There's something slightly unsatisfactory about this for me right now but I can't quite name it. Maybe a bit too chaotic. Not sure. Not sure.
+
+## 2024-04-11 Csongor: The Flag!
+
+Yes, I had the same feeling after the meeting. Lots of good ideas, but no sense of a resolution, no satisfying unity of thought.  
+
+But why is this happening? How do you overcome flags, how do you get to the other side?  
+But these are the big questions again, interesting, but we have a puzzle to solve.
+
+Just a few more ideas, thinking out loud:
+
+We could connect on-stage more with *The Designer Is Present*.  
+Either by having on-stage at the beginning (of A MAZE.) where you could integrate the audience's input into the design of the game you are working on, by starting to draw ideas! Like an *intro*, the *start*.  
+Or the other way around: having on-stage as a looking-back at *The Designer Is Present*, a post mortem, a reflection. In its purest form: you could just sit there and write the journal.
+
+Or we could go in the opposite direction and just make things simpler: three stages (you, us, drawing) is too much for such a short session. Maybe two would be enough / clearer / more focused?
+
+Still no resolution... is this a case where writing is not enough? Let's meet again!
+
+## 2025-04-14 Pippin
+
+Glad to see that you are also sometimes writing 2024 still this deep into the year. I feel like I do it at least once a day?
+
+HMMMMMMM okay. Yeah agreed on the time. I've never been able to get over my sense of panic about not filling time so I always overdo it with the "content".
+
+Simple is good. I like the idea of a kind of codesign thing actually, bring the audience into the process. It feels like a massive leap of faith to me - what if nobody wants to be my friend :( :( :(
+    
+However, what about...
+
+- Pippin is on stage working on the game (currently it would be It is as if you were playing a text adventure -- I'm chatting to Michael Berto about this because it involves a work of his as the world of the story) -- his screen is being broadcast while he does stuff
+    - (In the terrible situation that Pippin has either finished this game or is too far in or something by the time AMAZE rolls up, I pivot to another game in the series and do all of these same things for that one instead - I do have what I think will be a good backup)
+- Once it's time to start Pippin "notices" the audience and introduces himself
+- Pippin explains the game that he's working on, showing elements of the existing process documentation to illustrate what's going on; he especially outlines the current live problems/design stuff he needs to think about and asks the audience for help/conversation about it
+- Pippin and audience work on the game together - probably more in a design mode (writing things down, drawing if needed [maybe we can have an easel and a big piece of paper, maybe I can just draw on my screen poorly]), Pippin makes changes and commits and so on and the game moves along with the audience input
+- This might drag for 45 minutes, or it might not? Hard to say?
+- Plausible extra - at some point Csongor wanders in (for whatever reason I'm wanting a sitcom style laughtrack+applause when you enter?) and checks in with Pippin, asks how it's going; Pippin explains what's been happening (as if Csongor hasn't been there I guess) and then they have a conversation about this in perhaps a broader context of exhibitions of videogames... dot dot dot...
+
+I kind of like this in a more solid way, though I do fear it because it's very solo performance for a lot of it. Though that said it's something I for sure know how to do.
+
+## 2025-04-26: 👀
+
+![](./screenshots/Bildschirmfoto%202025-04-26%20um%2013.58.08.png)
+
+![](./screenshots/Bildschirmfoto%202025-04-26%20um%2016.35.03.png)

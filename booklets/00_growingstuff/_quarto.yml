@@ -10,18 +10,19 @@ book:
   abstract: "@ A MAZE. / Berlin 2025"
   chapters:
     - index.qmd
-    - ./content/dialogue.qmd
-    - ./content/booklets.qmd
-    - ./content/onstage.qmd
-    - ./content/commits.qmd
-
-    - ./content/miroboards.qmd
-    - ./content/timelines.qmd  
-    - ./content/credits.qmd
-    - ./content/imprint.qmd
-
-bibliography: ../sharedContent/references.bib
-csl: ../sharedContent/chicago-mod.csl
+    - content/dialogue.qmd
+    - content/booklets.qmd
+    - content/onstage.qmd
+    - content/program.qmd
+    - content/dessauerpress.qmd
+    - content/miroboard.qmd
+    - content/timelines.qmd
+    - content/titles.qmd
+    - content/exhibition.qmd
+    - content/versions.qmd
+    - content/commits.qmd
+    - content/filestructure.qmd
+    - content/imprint.qmd
 
 format:
   html:
