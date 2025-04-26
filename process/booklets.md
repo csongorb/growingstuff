@@ -56,3 +56,15 @@ The *Meta* booklet is crucial. I guess our dialogue has branched now because thi
 Also *drawings*. If I am right in sensing a mild anxiety in you about the rigidly textual nature of my approach to things... I have a lot of random drawings, I do them all the time, and we could throw them in for absolutely no reason other than to break things up. Might be "wrong" in terms of not being from the repositories? Maybe we don't care? Maybe we do? Not sure.
 
 ## 2025-04-03 Csongor: ❤️
+
+## 2025-04-25 Csongor: Zen mode
+
+Or: the fear of missing out?  
+
+This seems like an awesome exercise in calming down. Breathe in, breathe out. Everything will be fine. But if this is the last journal entry in the booklet, what will happen tomorrow? Will there be a tomorrow? Or will it be more of a release, finally free?
+
+Maybe its time again for a [song](https://www.youtube.com/watch?v=C0qls7b5oAY)?
+
+Wow, they have a cool website, it reminds me on something:
+
+![](./screenshots/Bildschirmfoto%202025-04-25%20um%2022.01.32.png)

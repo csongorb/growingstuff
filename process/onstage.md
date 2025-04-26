@@ -34,7 +34,7 @@ So what do you think?
 
 Do we need to sound exciting? Could we be humiliated and nobody comes? :)
 
-## 2025-04-1 Pippin: Post-meeting
+## 2025-04-01 Pippin: Post-meeting
 
 Just want to plant a tiny flag here after our meeting this morning and including Zoewi's (in this exact moment I'm like... is that how I should write her name??) ideas.
 
