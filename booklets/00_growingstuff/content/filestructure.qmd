@@ -223,12 +223,65 @@
 ├── 📁 exhibition/
 ├── 📁 onstage/
 ├── 📁 process/
-    ├── 📁 images/
-    ├── 📁 screenshots/
-    ├── booklets.md
-    ├── dialogue.md
-    └── onstage.md
 ├── 📁 versions/
 ├── .gitignore
+└── readme.md
+```
+
+## 2025-04-25
+
+```
+🌱 It is as if you were growing stuff/
+├── 📁 .github/
+├── 📁 booklets/
+    ├── 📁 00_blank/
+    ├── 📁 00_growingstuff/
+    ├── 📁 2016_chess/
+    ├── 📁 2017_work/
+        ├── 📁 .quarto/
+        ├── 📁 _book/
+        ├── 📁 content/
+        ├── 📁 filestructure_files/
+        ├── .gitignore
+        ├── _quarto.yml
+        ├── index.qmd
+        └── readme.md
+    ├── 📁 2018_love/
+        ├── 📁 .quarto/
+        ├── 📁 _book/
+        ├── 📁 content/
+        ├── .gitignore
+        ├── _quarto.yml
+        ├── index.qmd
+        └── readme.md
+    ├── 📁 2022_paperwork/
+        ├── 📁 .quarto/
+        ├── 📁 _book/
+        ├── 📁 content/
+        ├── 📁 filestructure_files/
+        ├── .gitignore
+        ├── _quarto.yml
+        ├── index.qmd
+        └── readme.md
+    ├── 📁 2024_textadventure/
+    ├── 📁 2025_phone/
+        ├── 📁 .quarto/
+        ├── 📁 _book/
+        ├── 📁 content/
+        ├── .gitignore
+        ├── _quarto.yml
+        ├── index.qmd
+        └── readme.md
+    ├── 📁 dessauerPress/
+    ├── 📁 sharedContent/
+    ├── readme.md
+    └── todo.md
+├── 📁 exhibition/
+├── 📁 onstage/
+├── 📁 process/
+├── 📁 timeline/
+├── 📁 versions/
+├── .gitignore
+├── credits.md
 └── readme.md
 ```

@@ -10,10 +10,11 @@ book:
   abstract: "@ A MAZE. / Berlin 2025"
   chapters:
     - index.qmd
-    - ./content/commits.qmd
     - ./content/dialogue.qmd
     - ./content/booklets.qmd
     - ./content/onstage.qmd
+    - ./content/commits.qmd
+
     - ./content/miroboards.qmd
     - ./content/timelines.qmd  
     - ./content/credits.qmd

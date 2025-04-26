@@ -23,9 +23,9 @@ Type / Tag:
 - Devolution
 ```
 
-In The ~~Artist~~Designer is Present, I perform every day for ~~three months~~two days. The performance is really about presence *and speculative play and game development*. You have to be in the here and now, 100 percent.
+In The ~~Artist~~Designer is Present, I perform every day for ~~three months~~two days. The performance is really about presence *and speculative play and developing some new iterations for an **It is as if you were...** games*. You have to be in the here and now, 100 percent.
 
-~~I have the empty chair, so~~ everybody from the audience can come on his free time and ~~sit in the front of me, and~~ engage in this kind ~~of silence, experience of the~~ here and now, the present moment.
+~~I have the empty chair, so~~ everybody from the audience can come on his free time and ~~sit in the front of me, and~~ engage in this kind of ~~silence, experience of the~~ here and now, the present moment.
 
 So you can observe this as a kind of stage for experience. Or you can really enter that space and take active participation, which actually bring you much closer to the artist, and this presence, and to your own experience.
 
@@ -37,7 +37,7 @@ Because the energy coming from the audience I have to be transmitter and receive
 
 The tour is a part of [*Pippin Barr x Devolution: It is as if you were...*](https://github.com/csongorb/growingstuff), a cooperation between [Pippin Barr](https://pippinbarr.com/), [Devolution](https://devolution.online/), A MAZE. / Berlin 2025 and [UE University of Europe for Applied Sciences](https://www.ue-germany.com).
 
-## Exhibition Tours
+## Exhibition Tour: It is as if you were...
 
 ```
 When?
@@ -53,13 +53,13 @@ Type / Tag:
 
 **Capacity for this session is limited, spots will be assigned on a first-come first-served basis: we recommend meeting in the Devolution exhibition area at least 20 minutes before the starting time.**
 
-For the ultimate insight into the development of the *It is as if you were...* series and its design decisions. Guided tour through the exhibition by Pippin Barr and the curator of the exhibition. Complementing the exhibited versions with background information, secrets and anecdotes.
+For the ultimate insight into the development of the *It is as if you were...* series and its design decisions. Guided tour through the exhibition by Pippin Barr and Csongor Baranyai, the curator of the exhibition. Complementing the exhibited games and versions with background information, secrets and anecdotes.
 
-*It is as if you were...* is an ongoing game series of short, experimental games by Pippin Barr started in 2016.
+*It is as if you were...* is an ongoing game series of short and experimental games by Pippin Barr, started in 2016.
 
 The tour is a part of [*Pippin Barr x Devolution: It is as if you were...*](https://github.com/csongorb/growingstuff), a cooperation between [Pippin Barr](https://pippinbarr.com/), [Devolution](https://devolution.online/), A MAZE. / Berlin 2025 and [UE University of Europe for Applied Sciences](https://www.ue-germany.com).
 
-## Title for Stage Time
+## It is as if you were attending an experiment
 
 ```
 When?
@@ -74,6 +74,6 @@ Type / Tag:
 - Devolution
 ```
 
-Short Description: TBD
+An experimental session: half performance, half a talk, half a discussion, half live development, half workshop. It will somehow contain glimpses of Pippin Barrs ideas flowing into his games, might contain parts of developing ideas together with the audience, for sure including some reflections on the stuff games are made of and how they influence the development process. Three voices merging into an experience (at least for them). Or also for you?
 
 The talk / panel / session is a part of [*Pippin Barr x Devolution: It is as if you were...*](https://github.com/csongorb/growingstuff), a cooperation between [Pippin Barr](https://pippinbarr.com/), [Devolution](https://devolution.online/), A MAZE. / Berlin 2025 and [UE University of Europe for Applied Sciences](https://www.ue-germany.com).

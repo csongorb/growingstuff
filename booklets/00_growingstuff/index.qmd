@@ -1,21 +1,42 @@
 # readme.md {.unnumbered}
 
-This is the *catalogue / curators statement / meta-booklet / process documentation* of the exhibition *Pippin Barr x Devolution: It is as if you were...* at *A MAZE. / Berlin 2025*.
-
 * Read the **Commit History**  for detailed, moment-to-moment insights into the development process
 * Read the **Design Journal** for high-level reflections on the design and development process, **Booklets** / **On Stage**
 * Check the **Miro boards**
 * **Timeline Iterations**
 * Look at the **File Structure**  for the evolution of the source code
+
+
+
 * **Credits**
 
-## Description
+
+## A note on the text
+
+This is the *catalogue / curators statement / meta-booklet / process documentation* of the exhibition *Pippin Barr x Devolution: It is as if you were...* at *A MAZE. / Berlin 2025*.
+
 
 The text has been edited for print, but remains as close to the original as possible. Its main purpose is to provide the original material for exploration, the data is preserved *as is* and not updated.
 
 As a physical booklet it preserves the state of the project *as is* in a certain moment in time, when still far away from being finished. 
 
-> And it never ends. [...] [V]ideo games, and games in general, are never truly “finished.” The conversations with their rules can always continue a little longer [...]."^[@barr_stuff_2023[p. 23]]
+> And it never ends. [V]ideo games, and games in general, are never truly “finished.” The conversations with their rules can always continue a little longer [...]."^[@barr_stuff_2023[p. 23]]
+
+
+
+
+
+The text has been edited for print, but remains as close to the original as possible. Its main purpose is to provide the original material for exploration.
+
+The game is not finished at the time of printing. As a physical booklet it preserves the state of the project *as is* at a given moment in time, please visit the repository^[[github.com/pippinbarr/it-is-as-if-you-were-playing-a-text-adventure](https://github.com/pippinbarr/it-is-as-if-you-were-playing-a-text-adventure)] to see the full (?) design journey of the game.
+
+
+
+
+
+
+
+
 
 
 As printed a few days / weeks prior the exhibition 
@@ -25,8 +46,7 @@ Link to repo!
 
 ## It is as if you were... - Timeline!
 
-*It is as if you were...* is a series of games by Pippin Barr developed from 2016 and still ongoing.
-
+*It is as if you were...* is an ongoing series of games by Pippin Barr started 2016.
 
 ```
 🌱 It is as if you were/
