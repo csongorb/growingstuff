@@ -37,7 +37,7 @@ Because the energy coming from the audience I have to be transmitter and receive
 
 The tour is a part of [*Pippin Barr x Devolution: It is as if you were...*](https://github.com/csongorb/growingstuff), a cooperation between [Pippin Barr](https://pippinbarr.com/), [Devolution](https://devolution.online/), A MAZE. / Berlin 2025 and [UE University of Europe for Applied Sciences](https://www.ue-germany.com).
 
-## Exhibition Tour: It is as if you were...
+## Exhibition Tour with Pippin Barr: It is as if you were...
 
 ```
 When?
@@ -77,3 +77,11 @@ Type / Tag:
 An experimental session: half performance, half a talk, half a discussion, half live development, half workshop. It will somehow contain glimpses of Pippin Barrs ideas flowing into his games, might contain parts of developing ideas together with the audience, for sure including some reflections on the stuff games are made of and how they influence the development process. Three voices merging into an experience (at least for them). Or also for you?
 
 The talk / panel / session is a part of [*Pippin Barr x Devolution: It is as if you were...*](https://github.com/csongorb/growingstuff), a cooperation between [Pippin Barr](https://pippinbarr.com/), [Devolution](https://devolution.online/), A MAZE. / Berlin 2025 and [UE University of Europe for Applied Sciences](https://www.ue-germany.com).
+
+## Devolution Exhibition - Pippin Barr: It is as if you were...
+
+The exhibition focuses on the development process of the *It is as if you were...* games of Pippin Barr by displaying several games of the series, incl. in-between versions, from early prototypes to later iterations. Visitors can explore the creative process behind the development, encountering new insights with each version they play and each comparison they make. 
+
+Looking at games and game development from the perspective of Devolution lets the visitors discover new and inspiring aspects of how games are growing into shape and what this means for game design and development and digital media in general. In contrast to the usual reception of the finished end result, Devolution reveals the whole road up to them, providing valuable insights to the visitors.
+
+The exhibition is the core of [*Pippin Barr x Devolution: It is as if you were...*](https://github.com/csongorb/growingstuff), a cooperation between [Pippin Barr](https://pippinbarr.com/), [Devolution](https://devolution.online/), A MAZE. / Berlin 2025 and [UE University of Europe for Applied Sciences](https://www.ue-germany.com).
