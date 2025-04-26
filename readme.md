@@ -1,7 +1,7 @@
 # Pippin Barr x Devolution
 
-A repository to structure the work on... I suppose for now just look at this [conversation](/process/dialogue.md).
- 
+A repository to reflect and structure the work on the exhibition *Pippin Barr x Devolution: It is as if you were...* during [A MAZE. / Berlin 2025](https://2025.amaze-berlin.de/)(May 14 - 17 2025).
+
 ```
 🌱 It is as if you were/
 ├── ♟️ playing chess            (2016)/
@@ -12,6 +12,8 @@ A repository to structure the work on... I suppose for now just look at this [co
 ├── 📱 on your phone            (2025)/
 └── 🌸
 ```
+
+I suppose for now just look at this [conversation](/process/readme.md).
 
 ## Structure
 
