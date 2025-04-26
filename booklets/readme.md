@@ -150,7 +150,7 @@ I think that's it for now. Hope you're having a relaxing Easter weekend – it l
 See you soon,  
 J
 
-## Jesse > Csongor 2025-04-21
+### Jesse > Csongor 2025-04-21
 
 Hello again.
  
@@ -167,7 +167,7 @@ There are still lots of minor design errors that will be ironed out in the final
 See you soon,  
 J
 
-## Csongor > Jesse
+### Csongor > Jesse
 
 Dear Jesse,  
 this is just... just so awesome!  
@@ -179,6 +179,12 @@ Don't really know what to say, that besides a few last more typo-like things thi
 Also: most booklets are done now, feel free to start / continue with *Love* (fully finished!) and *Chess* and *Work*. Give me one more day to finish the others.
 
 Aaaah, and also a few words about your awesome [Cover Tests](./tests/CoverTests_250419.pdf):
+
+![](./dessauerPress/CoverTests_250419%203.pdf)
+
+![](./dessauerPress/CoverTests_250419%201.png)
+
+![](./dessauerPress/CoverTests_250419%202.png)
 
 - my initial impulse was that the colors are one step too pale, but the more I look at it the more I like it
 	- have the feeling I would like to see another one, just for options, but its just my ego
