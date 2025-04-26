@@ -48,3 +48,25 @@ Just a small additional ideas / brainstorming:
 
 Such things!  
 But amazing, let's discuss and brainstorm later together!
+
+## 2025-04-26: Csongor
+
+![](./screenshots/Bildschirmfoto%202025-04-26%20um%2017.21.33.png)
+
+![](./screenshots/Bildschirmfoto%202025-04-26%20um%2017.22.22.png)
+
+![](./screenshots/Bildschirmfoto%202025-04-26%20um%2017.22.52.png)
+
+Dear Haniyeh,  
+this is just so cool! Just so happy to see them, it works so well, makes fun to check, to compare.  
+Not sure what the others will say, but here some faaast impressions from my side:
+
+- retro is... yeah! but I also feel: 
+    - either the design needs to go together with each of the names (Work & Love are great with Win, but Text Adventure? maybe...)
+    - or we need something more neutral, fitting the the general style
+- for the additional stuff / links: I think if we focus on the exhibition... we don't really need them, as the visitors should look at the booklets, NOT at the original repositories
+    - maybe we can make an update after the exhibition?
+
+See you!
+
+Feature request: can you always show the first version after start?
