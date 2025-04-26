@@ -87,3 +87,9 @@ However, what about...
 - Plausible extra - at some point Csongor wanders in (for whatever reason I'm wanting a sitcom style laughtrack+applause when you enter?) and checks in with Pippin, asks how it's going; Pippin explains what's been happening (as if Csongor hasn't been there I guess) and then they have a conversation about this in perhaps a broader context of exhibitions of videogames... dot dot dot...
 
 I kind of like this in a more solid way, though I do fear it because it's very solo performance for a lot of it. Though that said it's something I for sure know how to do.
+
+## 2025-04-26: 👀
+
+![](./screenshots/Bildschirmfoto%202025-04-26%20um%2013.58.08.png)
+
+![](./screenshots/Bildschirmfoto%202025-04-26%20um%2016.35.03.png)
