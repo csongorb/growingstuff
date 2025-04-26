@@ -1,10 +1,9 @@
 <h1 align="center">Credits</h1>
 
 <h2 align="center">Pippin Barr x Devolution</h2>
-
-<h3 align="center">It is as if you were…<br>
-<h3 align="center">A MAZE. / Berlin 2025<br>
-<h3 align="center">A cooperation between Pippin Barr, A MAZE. / Berlin, Devolution, and Game Design // UE.</h3>
+<h3 align="center">It is as if you were…</h3><br>
+<h3 align="center">A MAZE. / Berlin 2025</h3><br>
+<p align="center">A cooperation between Pippin Barr, A MAZE. / Berlin, Devolution, and Game Design // UE.</p>
 
 <p align="center">Pippin Barr 🤡<br>
 Csongor Baranyai 🌱</p>
@@ -60,7 +59,7 @@ Marianna Koszutska</p>
 
 <h3 align="center">PR & Social Media</h3>
 
-<p align="center">Taisia Malakhova: https://www.instagram.com/fufaaykaa/ 👑<br>
+<p align="center"><a href="https://www.instagram.com/fufaaykaa/" target="_blank">Taisia Malakhova 👑</a><br>
 Agustina Böthig Gargiulo<br>
 Marianna Koszutska<br>
 Marta Vedral<br>
