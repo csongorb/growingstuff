@@ -8,7 +8,7 @@ Which versions to exhibit for which game? How (PC, phone, tablet?)?
 
 Which versions to exhibit? We have the games, but we also need to find the particular versions...
 
-All / most versions will be exhibited through the [Devolutionizer](https://github.com/csongorb/devolutionizer), at least thats the idea. 
+All / most versions will be exhibited through the [Devolutionizer](https://github.com/csongorb/devolutionizer)^[[github.com/csongorb/devolutionizer](https://github.com/csongorb/devolutionizer)], at least thats the idea. 
 
 Still, lot of open questions:
 

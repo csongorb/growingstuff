@@ -7,7 +7,7 @@ https://2023.amaze-berlin.de/schedule/
 Supposedly this year they will show up here:  
 https://2025.amaze-berlin.de/schedule/
 
-For all bios, see [bios.md](./bios.md).
+For all bios, see `bios.md`.
 
 ## The Designer is Present
 

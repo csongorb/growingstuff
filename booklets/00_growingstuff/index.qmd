@@ -1,32 +1,32 @@
 # readme.md {.unnumbered}
 
-* Read the **Dialogue** (@sec-dialogue) between Pippin and Csongor for high-level reflections on the design process and the general concept of the exhibition,
-* **Booklets** (@sec-booklets) for their ideas on this booklet series, and
-* **On-Stage** (@sec-onstage) for their struggle to come up with the 
+* Read the **Dialogue** (@sec-dialogue) between Pippin and Csongor for high-level reflections on the design process and the general concept of the exhibition.
+* Read **Booklets** (@sec-booklets) for their ideas on this booklet series, and
+* **On-Stage** (@sec-onstage) for their struggle to create the 
 * accompanying **Program?** (@sec-program) for the event.
 * Read **The Dessauer Press** (@sec-dessauer) for discussions and reflections on the editing process of these booklets.
-* Take a look at the evolution of the **Miro boards** (@sec-miroboards) to see how the team structured their work,
-* **Timelines** (@sec-timeline) for the ideation process of the timeline of the series, and
-* **Titles** (@sec-titles) for the difficult ideation how the exhibition should be called.
-* Check **Exhibitions** (@sec-exhibition) for some early mockups of the exhibition.
-* Read **Versions** (@sec-versions) for design reflections and ideas on how to exhibit several versions on one screen.
-* Read the **Commit History** (@sec-commits) for detailed, moment-to-moment insights into the whole development process.
+* Take a look at the evolution of the **Miro boards** (@sec-miroboards) to see how the team structured their work.
+* Look at **Timelines** (@sec-timeline) for the ideation process behind the timeline, and at
+* **Titles** (@sec-titles) to see the difficult process of naming.
+* Check **Exhibitions** (@sec-exhibition) for early mockups of the space and the stations.
+* Read **Versions** (@sec-versions) for design reflections and ideas on exhibiting multiple versions on one screen.
+* Read the **Commit History** (@sec-commits) for (very) detailed, moment-to-moment insights into the whole development process.
 * Look at the **File Structure** (@sec-filestructure) for the evolution of the project structure.
 
 ## A note on the text
 
-This is the *catalogue / curators statement / meta-booklet / process documentation* of the exhibition *Pippin Barr x Devolution: It is as if you were...* at *A MAZE. / Berlin 2025*.
+This is the *catalogue / curator's statement / meta-booklet / process documentation* of the exhibition *Pippin Barr x Devolution: It is as if you were...* at *A MAZE. / Berlin 2025*.
 
-The booklet is based on the repository of the project. As a physical artefact it preserves the state of the project in a certain moment in time, when still far away from being finished. Please visit the repository^[[github.com/csongorb/growingstuff](https://github.com/csongorb/growingstuff)] to see the full (?) design journey and reflections.
+The booklet is based on the repository of the project. As a physical artefact it preserves its state in a certain moment in time, when still far away from being finished. Please visit the repository^[[github.com/csongorb/growingstuff](https://github.com/csongorb/growingstuff)] for the full (?) design journey and reflections.
 
-The text has been edited for print, but remains as close to the original as possible. Its main purpose is to provide the original material for exploration, the data is preserved *as is* and not updated.
+The text has been edited for print, but remains as close to the original as possible. Its main purpose is to provide the material for exploration, the data is preserved *as is* and not updated.
 
-The repository is only a small part of a larger project and does not adequately or equally represent everyone on the team.  Please check the full credits for their amazing contributions^[[github.com/csongorb/growingstuff/blob/main/credits.md](https://github.com/csongorb/growingstuff/blob/main/credits.md)].  
+This booklet and the repository are only a small part of a larger project, and they do not adequately or equally represent everyone on the team. Please read the full credits to see and acknowledge everyone's amazing contribution to the project^[[github.com/csongorb/growingstuff/blob/main/credits.md](https://github.com/csongorb/growingstuff/blob/main/credits.md)].  
 Without you, this would be nothing! ❤️
 
 ## It is as if you were...
 
-*It is as if you were...* is an ongoing series of experimental games by Pippin Barr:
+*It is as if you were...* is an ongoing series of experimental games by Pippin Barr.
 
 ```
 🌱 It is as if you were/
@@ -39,11 +39,11 @@ Without you, this would be nothing! ❤️
 └── 🌸
 ```
 
-In order to understand the development process of the series, it is important it in the context of a few other events in Pippin Barr's life/career:
+In order to understand the development process of the series, it is important to see it in the context of a few other events in Pippin Barr's life and career:
 
-- joining the project *Speculative Play*^[[speculativeplay.com](http://www.speculativeplay.com/)] in 2017
-- co-publishing the *Games as Research*^[[gamesasresearch.com](https://www.gamesasresearch.com)] website in 2018
-- co-publishing a paper about the development process of *It is as if you were doing work* and the idea of MDM^[Khaled, R., Lessard, J., and Barr, P. (2018) ‘Documenting trajectories in design space: A methodology for applied game design research‘, in Proceedings of Foundations of Digital Games (FDG) 2018.] in 2018
+- joined the *Speculative Play*^[[speculativeplay.com](http://www.speculativeplay.com/)] project  in 2017
+- co-created the *Games as Research*^[[gamesasresearch.com](https://www.gamesasresearch.com)] project in 2018
+- collaborated on the development of the MDM framework since 2018 (see below)
 
 > 100% a series yes! There are some bits in there where I feel like they end up being a bit about distinct things. I think of *Love* and *Work* as both existing in specific fictional universes where they're "needed" as a kind of therapeutic intervention into a problem. *Chess* didn't really come from that place, was more of a "wouldn't it be funny if...". And then *Phone* is unclear to me right now... I think probably giving it some Speculative Play scaffolding does make a bit of sense, but it feels reactive to exactly *now* rather than the future? So I'm not even sure it works out as speculative at all...^[See @sec-dialogue]
 
