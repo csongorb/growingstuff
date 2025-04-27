@@ -31,7 +31,7 @@ So you can observe this as a kind of stage for experience. Or you can really ent
 
 ~~If you sit on this chair opposite of me, it's extremely important to actually find a very comfortable position and you don't move. Just sit motionless, and~~ see what happen if we connect with our eyes. And I really think that it’s going to be something quite special to go into this unknown territory.
 
-Because the energy coming from the audience I have to be transmitter and receiver in the same time; that energy just goes through me. ~~And to be ready for the next visitor and the next one and the next one.~~
+Because the energy coming from the audience I have to be transmitter and receiver in the same time; that energy just goes through me. ~~And to be ready for the next visitor and the next one and the next one.~~ *But maybe I will just be there and design a game.*
 
 (Title & description -obviously- based on / inspired by [Marina Abramović](https://www.moma.org/audio/playlist/243/3133).)
 
@@ -67,7 +67,7 @@ When?
 
 Who?
 - Pippin Barr
-- ?
+- Claudia Molinari
 - Csongor Baranyai
 
 Type / Tag:
