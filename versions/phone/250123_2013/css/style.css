@@ -1,0 +1,21 @@
+/*********************************************
+
+We're trying to just fill the window so that's
+it buddy.
+
+**********************************************/
+
+main {
+  overflow: hidden;
+  user-select: none;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}

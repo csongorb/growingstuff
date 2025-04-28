@@ -185,6 +185,12 @@
     function fakeAction(name) {
       alert(`${name} clicked! (Feature coming soon!)`);
     }
+    window.addEventListener('DOMContentLoaded', () => {
+      const firstLink = document.querySelector('.link');
+      if (firstLink) {
+        loadContent(firstLink, './180412_1946/index.html');
+      }
+    });
   </script>
 
 </body>

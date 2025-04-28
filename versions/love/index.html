@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Devolutionizer</title>
   <style>
+
     :root {
       --bg: hsl(0, 0%, 8%);
       --text: #ffffff;
@@ -175,6 +176,7 @@
     }
   </style>
 </head>
+
 <body>
 
   <nav>
@@ -241,6 +243,14 @@
     function toggleDarkMode() {
       document.body.classList.toggle('light-mode');
     }
+
+
+    window.addEventListener('DOMContentLoaded', () => {
+      const firstLink = document.querySelector('.link');
+      if (firstLink) {
+        loadContent(firstLink, './180412_1946/index.html');
+      }
+    });
   </script>
 
 </body>
