@@ -1,0 +1,22 @@
+/*********************************************
+
+We're trying to just fill the window so that's
+it buddy.
+
+**********************************************/
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  user-select: none;
+  touch-action: manipulation;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+canvas {
+  position: fixed;
+}

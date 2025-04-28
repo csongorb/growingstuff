@@ -1,0 +1,137 @@
+{
+    "description": "Language file for It is as if you were on your phone",
+    "menu": {
+        "title": {
+            "en": "It is as if you were on your phone."
+        },
+        "play": {
+            "en": "📱"
+        },
+        "info": {
+            "en": "🤔"
+        }
+    },
+    "info": {
+        "explanation": {
+            "en": "Being on your phone all the time and while also not being on your phone all the time has never been more important.\n\n\"It is as if you were on your phone\" is a phone-based experience for pretending to be on your phone without needing to be on your phone. All from the comfort of your phone.\n\nRelax and blend in with familiar gestures and realistic human behaviour."
+        },
+        "return": {
+            "en": "Tap anywhere to return."
+        }
+    },
+    "instructions": {
+        "tap": {
+            "en": "Tap this."
+        },
+        "doubleTap": {
+            "en": "Double tap this."
+        },
+        "type": {
+            "en": "Tap these."
+        },
+        "drag": {
+            "source": {
+                "en": "Drag this"
+            },
+            "target": {
+                "en": "to here."
+            }
+        },
+        "swipe": {
+            "left": {
+                "en": "Swipe left."
+            },
+            "right": {
+                "en": "Swipe right."
+            },
+            "up": {
+                "en": "Swipe up."
+            },
+            "down": {
+                "en": "Swipe down."
+            }
+        },
+        "watch": {
+            "en": "Watch this box."
+        }
+    },
+    "actings": {
+        "deadfaces": {
+            "en": [
+                "Look at the screen",
+                "Stare at the screen",
+                "Watch the screen",
+                "Be on your phone",
+                "Just look at your phone"
+            ]
+        },
+        "actions": {
+            "en": [
+                "Smile to yourself",
+                "Narrow your eyes",
+                "Nod",
+                "Shake your head",
+                "Breathe in",
+                "Breathe out",
+                "Sigh",
+                "Flare your nostrils",
+                "Close your eyes",
+                "Grimace",
+                "Wince",
+                "Glance away",
+                "Shrug",
+                "Look down at the ground",
+                "Bite your bottom lip",
+                "Furrow your brow",
+                "Look to the right",
+                "Look to the left",
+                "Squeeze the phone",
+                "Stretch your neck",
+                "Laugh quietly",
+                "Mutter under your breath",
+                "Jiggle one leg",
+                "Look disappointed",
+                "Chew some real or imagined gum",
+                "Clench your jaw",
+                "Lean backwards",
+                "Lean forward",
+                "Hunch your shoulders",
+                "Study the screen",
+                "Look up at an imagined noise",
+                "Bring the phone closer to your face",
+                "Squint",
+                "Tap the side of the phone",
+                "Move your head to an imagined rhythm",
+                "Tip your head back",
+                "Press two fingers to your lips",
+                "Hold the back of your neck",
+                "Scratch your forehead",
+                "Stroke your chin",
+                "Itch your nose",
+                "Scratch your ear",
+                "Blink",
+                "Widen your eyes",
+                "Raise your eyebrows",
+                "Frown",
+                "Put the phone away",
+                "Press your toes down",
+                "Clean the screen"
+            ]
+        },
+        "durations": {
+            "en": [
+                "briefly",
+                "quickly",
+                "momentarily",
+                "for a second",
+                "for two seconds",
+                "for five seconds",
+                "for a moment",
+                "for a count of two",
+                "for a count of three",
+                "for a count of five",
+                "for a while"
+            ]
+        }
+    }
+}
