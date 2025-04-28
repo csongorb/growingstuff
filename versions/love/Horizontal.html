@@ -238,6 +238,12 @@
     function toggleDarkMode() {
       document.body.classList.toggle('light-mode');
     }
+    window.addEventListener('DOMContentLoaded', () => {
+      const firstLink = document.querySelector('.link');
+      if (firstLink) {
+        loadContent(firstLink, './180412_1946/index.html');
+      }
+    });
   </script>
 
 </body>

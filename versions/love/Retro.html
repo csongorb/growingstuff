@@ -6,6 +6,7 @@
   <title>Devolutionizer 98</title>
   <link rel="stylesheet" href="https://unpkg.com/98.css" />
   <style>
+
     :root {
       --bg-color: #008080;
       --text-color: black;
@@ -100,6 +101,7 @@
     }
   </style>
 </head>
+
 <body>
 
   <nav>
@@ -219,6 +221,14 @@
         document.documentElement.style.setProperty('--highlight-color', 'navy');
       }
     }
+
+
+    window.addEventListener('DOMContentLoaded', () => {
+      const firstLink = document.querySelector('.link');
+      if (firstLink) {
+        loadContent(firstLink, './180412_1946/index.html');
+      }
+    });
   </script>
 
 </body>
