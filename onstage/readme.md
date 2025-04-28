@@ -80,16 +80,7 @@ The talk / panel / session is a part of [*Pippin Barr x Devolution: It is as if 
 
 ## Devolution Exhibition - Pippin Barr: It is as if you were...
 
-The exhibition focuses on the development process of the *It is as if you were...* games of Pippin Barr by displaying several games of the series, incl. in-between versions, from early prototypes to later iterations. Visitors can explore the creative process behind the development, encountering new insights with each version they play and each comparison they make. 
-
-Looking at games and game development from the perspective of Devolution lets the visitors discover new and inspiring aspects of how games are growing into shape and what this means for game design and development and digital media in general. In contrast to the usual reception of the finished end result, Devolution reveals the whole road up to them, providing valuable insights to the visitors.
-
-The exhibition is the core of [*Pippin Barr x Devolution: It is as if you were...*](https://github.com/csongorb/growingstuff), a cooperation between [Pippin Barr](https://pippinbarr.com/), [Devolution](https://devolution.online/), A MAZE. / Berlin 2025 and [UE University of Europe for Applied Sciences](https://www.ue-germany.com).
-
-
-## Pippin takes a cut at the Devolution Exhibition text
-
-Step inside the development process of the games in the *It is as if...* series by Pippin Barr. The exhibition pulls together prototypes, sketches, design journals, and more to reveal the in-between moments of game design. Find out why Pippin switched to a Windows 95 look and feel for *It is as if you were doing work* or how he decided to cut zen gongs from *It is if you were on your phone*. Draw your own conclusions and even branch of and think up your own versions of the games.
+Step inside the development process of the games in the *It is as if...* series by Pippin Barr. The exhibition pulls together prototypes, sketches, design journals, and more to reveal the in-between moments of game design. Find out why Pippin switched to a Windows 95 look and feel for *It is as if you were doing work* or how he decided to cut zen gongs from *It is if you were on your phone*. Draw your own conclusions and even branch off and think up your own versions of the games.
 
 Looking at games and game development from the perspective of Devolution lets the visitors discover new and inspiring aspects of how games are growing into shape and what this means for game design and development and digital media in general. In contrast to the usual reception of the finished end result, Devolution lets you travel the whole long road of design and development, providing valuable insights to the visitors.
 
