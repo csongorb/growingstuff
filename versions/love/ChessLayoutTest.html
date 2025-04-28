@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Devolutionizer - Brutalist</title>
+  <style>
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Times New Roman", serif;
+      background: white;
+      color: black;
+      display: flex;
+      height: 100vh;
+    }
+
+    nav {
+      width: 240px;
+      background: white;
+      border-right: 2px solid black;
+      padding: 20px 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      align-items: center;
+    }
+
+    .logo-text {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style: none;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .link {
+      text-decoration: underline;
+      color: black;
+      font-size: 18px;
+      text-align: center;
+      padding: 8px 0;
+      display: block;
+      width: 100%;
+    }
+
+    .link:visited {
+      color: black;
+    }
+
+    .link:hover {
+      color: black;
+      background: #f5f5f5;
+    }
+
+    .link.active {
+      font-weight: bold;
+      background: #ddd;
+    }
+
+    .tooltip {
+      display: none;
+    }
+
+    #contentWrapper {
+      flex-grow: 1;
+      padding: 20px;
+      overflow: auto;
+    }
+
+    #contentFrame {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    .toggle-btn {
+      padding: 0.5rem;
+      font-size: 14px;
+      border: 1px solid black;
+      background: white;
+      color: black;
+      cursor: pointer;
+    }
+
+    .toggle-btn:hover {
+      background: black;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <div class="logo-text">Versions</div>
+    <ul>
+      <li><a href="#" class="link" onclick="loadContent(this, './180412_1946/index.html')" data-story="First commit">2018-04-12</a></li>
+      <li><a href="#" class="link" onclick="loadContent(this, './180606_1554/index.html')" data-story="Second commit">2018-06-06</a></li>
+      <li><a href="#" class="link" onclick="loadContent(this, './180608_2226/index.html')" data-story="Third commit">2018-06-08</a></li>
+      <li><a href="#" class="link" onclick="loadContent(this, './180622_0357/index.html')" data-story="Fourth commit">2018-06-22</a></li>
+      <li><a href="#" class="link" onclick="loadContent(this, './250107_1812/index.html')" data-story="Fifth commit">2025-01-07</a></li>
+    </ul>
+
+    <button class="toggle-btn" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+  </nav>
+
+  <div id="contentWrapper">
+    <iframe id="contentFrame" src="about:blank"></iframe>
+  </div>
+
+  <script>
+    function loadContent(element, url) {
+      const links = document.querySelectorAll('.link');
+      links.forEach(link => link.classList.remove('active'));
+      element.classList.add('active');
+
+      const iframe = document.getElementById('contentFrame');
+      iframe.src = url;
+    }
+
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      const firstLink = document.querySelector('.link');
+      if (firstLink) {
+        loadContent(firstLink, './180412_1946/index.html');
+      }
+    });
+  </script>
+
+</body>
+</html>
