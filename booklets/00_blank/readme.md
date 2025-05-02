@@ -16,25 +16,25 @@ See other booklets.
 
 ## Quotes (the ones we want to take!)
 
-- you don’t have to actually make decisions, you just appear to be making decisions
-- be careful with aesthetics, my friends
+- You don’t have to actually make decisions, you just appear to be making decisions.
+- Be careful with aesthetics, my friends.
 - Yesterday's thoughts were perhaps a little underwhelming.
-- So basically I need to work out how to make correct decisions
+- So basically I need to work out how to make correct decisions.
 - So those are some thoughts.
 - Again I can't totally tell where I am on the funny versus honest spectrum with this one.
-- Continuing with pretty meta stuff
+- Continuing with pretty meta stuff.
 - Pippin lies down on a sofa and holds his head in his hands.
 - I think I need to take another pass at it with this in mind and see if it helps.
 - One of those release processes that surprise you by not just being "well... it's out there now, the end".
 - So that is the current state of consideration. More news as the situation develops.
-- It’s not valuable to be precious about it
-- I’m interested in maintaining the awkwardness/strangeness
-- Perhaps I will read this entry in two months and think, ha! Yeah right
-- I’ve maaaaaybe been overcomplicating how that should work
+- It’s not valuable to be precious about it.
+- I’m interested in maintaining the awkwardness/strangeness.
+- Perhaps I will read this entry in two months and think, ha! Yeah right.
+- I’ve maaaaaybe been overcomplicating how that should work.
 - I think if you do all that you’ll be doing well.
-- The implication of underlying complexity really got me
-- It’s probably a little bit depressing, but at present I find it stressful to just detune and not work on a game/thing
-- I like the idea that my “design process” might just be “looking like I’m asleep”
+- The implication of underlying complexity really got me.
+- It’s probably a little bit depressing, but at present I find it stressful to just detune and not work on a game/thing.
+- I like the idea that my “design process” might just be “looking like I’m asleep”.
 - Hope you’re well, say hi to the kids for me.
 - Excuse me while I push through the pain and write a quick post about something or other.
 - Jesper Juul says it’s not a game, my world is in ruins around me.
