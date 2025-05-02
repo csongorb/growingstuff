@@ -1,0 +1,126 @@
+
+body {
+  background-color: #aaa;
+  user-select: none;
+  word-wrap: break-word;
+  margin: 0;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+:focus {
+  outline: none;
+}
+
+#wrapper {
+  margin: 0;
+}
+
+.icon {
+  text-align: center;
+}
+
+.icon-label {
+  margin-top: 10px;
+  background-color: white;
+}
+
+
+/* DIALOGS
+----------------------------------*/
+
+/* Removing divider between message and buttons */
+.ui-dialog .ui-dialog-buttonpane {
+	border-width: 0px 0 0 0;
+}
+
+/* RADIOS
+----------------------------------*/
+
+.ui-checkboxradio-label .ui-icon-background {
+	box-shadow: none;
+}
+
+.ui-button.ui-checkboxradio-label {
+  border: 0px;
+}
+
+.ui-checkboxradio-label .ui-checkboxradio-icon {
+  background-color: white;
+}
+.ui-checkboxradio-label.ui-checkboxradio-checked .ui-checkboxradio-icon {
+  background-color: white;
+}
+
+
+
+/* BUTTONS
+----------------------------------*/
+
+/* Adjusting borders to make it more 3D old school */
+
+button.ui-button,
+html button.ui-button.ui-state-disabled:hover,
+html button.ui-button.ui-state-disabled:active {
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+
+	background: #ccc;
+	font-weight: normal;
+	color: #222;
+}
+
+a.ui-button,
+a:link.ui-button,
+a:visited.ui-button,
+button.ui-button {
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+
+	text-decoration: none;
+}
+
+button.ui-button:hover,
+button.ui-button:focus {
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+
+	background: #ccc;
+	font-weight: normal;
+	color: #222;
+}
+
+a.ui-button:hover,
+a.ui-button:focus {
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+
+	color: #222;
+	text-decoration: none;
+}
+
+a.ui-button:active,
+button.ui-button:active,
+button.ui-button.ui-state-active:hover {
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+
+	background: #eee;
+	font-weight: normal;
+	color: #000;
+}
+
+
+
+/* ICONS
+----------------------------------*/
