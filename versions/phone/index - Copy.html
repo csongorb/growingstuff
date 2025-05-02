@@ -3,22 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Devolutionizer – Hybrid Panels</title>
+  <title>Devolutionizer – Versions + Changelogs</title>
   <style>
     :root {
       --bg: hsl(0, 0%, 8%);
       --text: #ffffff;
       --sidebar: hsl(0, 0%, 10%);
       --link-bg-active: #444488;
-      --hover-line: #ffffff;
-    }
-
-    body.light-mode {
-      --bg: #f0f0f0;
-      --text: #111111;
-      --sidebar: #ffffff;
-      --link-bg-active: #ccccff;
-      --hover-line: #222222;
     }
 
     * {
@@ -33,7 +24,7 @@
       color: var(--text);
       height: 100vh;
       overflow: hidden;
-      position: relative;
+      display: flex;
     }
 
     #contentFrame {
@@ -50,104 +41,71 @@
       position: fixed;
       top: 0;
       bottom: 0;
-      width: 260px;
+      left: 0;
+      width: 600px;
       background: var(--sidebar);
+      display: flex;
+      z-index: 10;
+      box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .left-col {
+      width: 200px;
       padding: 20px;
       overflow-y: auto;
-      transition: transform 0.3s ease;
-      z-index: 10;
-      box-shadow: 2px 0 10px rgba(0,0,0,0.3);
+      border-right: 1px solid #333;
     }
 
-    .panel.left {
-      left: 0;
-      transform: translateX(-100%);
+    .right-col {
+      flex-grow: 1;
+      padding: 20px;
+      overflow-y: auto;
     }
 
-    .panel.right {
-      right: 0;
-      transform: translateX(100%);
-    }
-
-    .panel.show {
-      transform: translateX(0);
-    }
-
-    .hover-zone {
-      position: fixed;
-      top: 0;
-      bottom: 0;
-      width: 10px;
-      z-index: 5;
-    }
-
-    #hoverZoneLeft {
-      left: 0;
-    }
-
-    #hoverZoneRight {
-      right: 0;
-    }
-
-    .toggle-btn {
-      position: fixed;
-      z-index: 20;
-      top: 10px;
-      padding: 8px 12px;
-      font-size: 14px;
-      border: none;
-      cursor: pointer;
-      background: var(--link-bg-active);
-      color: var(--text);
-      border-radius: 6px;
-      transition: background 0.3s;
-    }
-
-    .toggle-btn.left { left: 10px; }
-    .toggle-btn.right { right: 10px; }
-
-    .toggle-btn:hover {
-      background: var(--hover-line);
-      color: var(--bg);
-    }
-
-    .logo-text {
-      font-size: 22px;
-      font-weight: bold;
-      margin-bottom: 1rem;
-    }
-
-    .link {
-      text-decoration: none;
-      color: var(--text);
-      font-size: 16px;
+    .version-link {
       display: block;
       padding: 8px 10px;
-      border-radius: 6px;
-      margin-bottom: 8px;
+      font-size: 16px;
       background: rgba(255,255,255,0.05);
+      border-radius: 6px;
+      color: var(--text);
+      cursor: pointer;
+      text-decoration: none;
+      margin-bottom: 10px;
     }
 
-    .link:hover {
+    .version-link:hover {
       background: rgba(255,255,255,0.1);
     }
 
-    .link.active {
+    .version-link.active {
       background: var(--link-bg-active);
       font-weight: bold;
     }
 
     .changelog-item {
-      margin-bottom: 10px;
+      margin-bottom: 14px;
     }
 
     .changelog-header {
       font-size: 16px;
       font-weight: bold;
       cursor: pointer;
-      padding: 8px;
+      padding: 8px 10px;
       background: rgba(255, 255, 255, 0.08);
       border-radius: 6px;
+      display: flex;
+      align-items: center;
+      transition: background 0.3s;
+    }
+
+    .changelog-header:hover {
+      background: rgba(255, 255, 255, 0.15);
+    }
+
+    .changelog-arrow {
+      margin-right: 8px;
+      transition: transform 0.2s ease;
     }
 
     .changelog-body {
@@ -155,79 +113,128 @@
       background: rgba(255, 255, 255, 0.05);
       padding: 10px;
       border-radius: 6px;
-      margin-top: 6px;
       white-space: pre-wrap;
-      display: none;
+      overflow: hidden;
+      max-height: 0;
+      opacity: 0;
+      transition: max-height 0.4s ease, opacity 0.4s ease;
     }
 
     .changelog-body.show {
-      display: block;
+      opacity: 1;
+      margin-top: 6px;
+      max-height: 500px;
     }
 
-    @media (hover: hover) {
-      .toggle-btn { display: none; }
+    .changelog-header.open .changelog-arrow {
+      transform: rotate(90deg);
     }
   </style>
 </head>
 <body>
 
-  <div id="hoverZoneLeft" class="hover-zone"></div>
-  <div id="hoverZoneRight" class="hover-zone"></div>
+  <div class="panel">
+    <div class="left-col">
+      <div class="logo-text"><strong>Versions</strong></div>
+      <a class="version-link" onclick="loadVersion(this, './250109_2148/index.html')">2025-01-09</a>
+      <a class="version-link" onclick="loadVersion(this, './250116_2039/index.html')">2025-01-16</a>
+      <a class="version-link" onclick="loadVersion(this, './250123_2013/index.html')">2025-01-23</a>
+      <a class="version-link" onclick="loadVersion(this, './250214_xxxx/index.html')">2025-02-14</a>
+      <a class="version-link" onclick="loadVersion(this, './250225_xxxx/index.html')">2025-02-25</a>
+      <a class="version-link" onclick="loadVersion(this, './250226_2114/index.html')">2025-02-26</a>
+      <a class="version-link" onclick="loadVersion(this, './250227_2034/index.html')">2025-02-27</a>
+      <a class="version-link" onclick="loadVersion(this, './250303_2041/index.html')">2025-03-03</a>
+    </div>
 
-  <button class="toggle-btn left" onclick="togglePanel('left')">☰ Versions</button>
-  <button class="toggle-btn right" onclick="togglePanel('right')">📜 Changelogs</button>
+    <div class="right-col">
+      <div class="logo-text"><strong>Changelogs</strong></div>
 
-  <div id="leftPanel" class="panel left" onmouseleave="hidePanel('left')">
-    <div class="logo-text">Versions</div>
-    <a href="#" class="link" onclick="loadContent(this, './250109_2148/index.html')">2025-01-09</a>
-    <a href="#" class="link" onclick="loadContent(this, './250116_2039/index.html')">2025-01-16</a>
-    <a href="#" class="link" onclick="loadContent(this, './250123_2013/index.html')">2025-01-23</a>
-    <a href="#" class="link" onclick="loadContent(this, './250215_0006/index.html')">2025-02-15</a>
-    <a href="#" class="link" onclick="loadContent(this, './250220_2051/index.html')">2025-02-20</a>
-    <br><br>
-    <button class="toggle-btn" onclick="toggleDarkMode()">Toggle Dark Mode</button>
-  </div>
-
-  <div id="rightPanel" class="panel right" onmouseleave="hidePanel('right')">
-    <div class="logo-text">Changelogs</div>
-    <div class="changelog-item">
-      <div class="changelog-header" onclick="toggleChangelog(this)">Changelog 09.01.25</div>
-      <div class="changelog-body">- Basic interaction added
+      <div class="changelog-item">
+        <div class="changelog-header" onclick="toggleChangelog(this)">
+          <span class="changelog-arrow">▸</span> 2025-01-09
+        </div>
+        <div class="changelog-body">- Basic interaction added
 - Press the white dot
 - Dot spawns randomly</div>
-    </div>
-    <div class="changelog-item">
-      <div class="changelog-header" onclick="toggleChangelog(this)">Changelog 16.01.25</div>
-      <div class="changelog-body">- Added hover box and tooltip
-- Sidebar tweaks</div>
-    </div>
-    <div class="changelog-item">
-      <div class="changelog-header" onclick="toggleChangelog(this)">Changelog 23.01.25</div>
-      <div class="changelog-body">- iframe transitions
-- UI spacing polish</div>
-    </div>
-    <div class="changelog-item">
-      <div class="changelog-header" onclick="toggleChangelog(this)">Changelog 15.02.25</div>
-      <div class="changelog-body">- Better embed compatibility
-- Style improvements</div>
-    </div>
-    <div class="changelog-item">
-      <div class="changelog-header" onclick="toggleChangelog(this)">Changelog 20.02.25</div>
-      <div class="changelog-body">- Tooltip refinements
-- Updated color themes</div>
+      </div>
+
+      <div class="changelog-item">
+        <div class="changelog-header" onclick="toggleChangelog(this)">
+          <span class="changelog-arrow">▸</span> 2025-01-16
+        </div>
+        <div class="changelog-body">- Removed pressing dot for now
+- Added slide from left to right</div>
+      </div>
+
+      <div class="changelog-item">
+        <div class="changelog-header" onclick="toggleChangelog(this)">
+          <span class="changelog-arrow">▸</span> 2025-01-23
+        </div>
+        <div class="changelog-body">- Removed slide feature
+- Added back doto which spawn on random positions
+- Need to multiple dots to reach new phase
+- Added sound to pressing dot
+- Added text instructions</div>
+      </div>
+
+      <div class="changelog-item">
+        <div class="changelog-header" onclick="toggleChangelog(this)">
+          <span class="changelog-arrow">▸</span> 2025-02-14
+        </div>
+        <div class="changelog-body">- Simplifying UI
+- Dealing with Abstraction</div>
+      </div>
+
+      <div class="changelog-item">
+        <div class="changelog-header" onclick="toggleChangelog(this)">
+          <span class="changelog-arrow">▸</span> 2025-02-25
+        </div>
+        <div class="changelog-body">- Main Menu UI
+- Removed sound for Standard
+- Field Research on Info page</div>
+      </div>
+
+      <div class="changelog-item">
+        <div class="changelog-header" onclick="toggleChangelog(this)">
+          <span class="changelog-arrow">▸</span> 2025-02-26
+        </div>
+        <div class="changelog-body">- Removed Zen
+- UI change</div>
+      </div>
+
+      <div class="changelog-item">
+        <div class="changelog-header" onclick="toggleChangelog(this)">
+          <span class="changelog-arrow">▸</span> 2025-02-27
+        </div>
+        <div class="changelog-body">- Removed Sounds.
+- Switched to JSON
+- Added and removed Back button</div>
+      </div>
+
+      <div class="changelog-item">
+        <div class="changelog-header" onclick="toggleChangelog(this)">
+          <span class="changelog-arrow">▸</span> 2025-03-03
+        </div>
+        <div class="changelog-body">- Forced Portrait mode.
+- Prevented Repetition of actions.
+- Increased watch time.
+- Increased frequency of vanilla acts.
+- Neutral descriptions.
+- "Couple more actions, toes, phone stuff"
+- spinning line in the box.</div>
+      </div>
     </div>
   </div>
 
   <iframe id="contentFrame" src="about:blank" sandbox="allow-same-origin allow-scripts"></iframe>
 
   <script>
-    function loadContent(element, url) {
-      document.querySelectorAll('.link').forEach(link => link.classList.remove('active'));
+    function loadVersion(element, url) {
+      document.querySelectorAll('.version-link').forEach(link => link.classList.remove('active'));
       element.classList.add('active');
 
       const iframe = document.getElementById('contentFrame');
       iframe.style.opacity = 0;
-
       setTimeout(() => {
         iframe.src = url;
         iframe.onload = () => {
@@ -238,34 +245,15 @@
 
     function toggleChangelog(header) {
       const body = header.nextElementSibling;
-      body.classList.toggle('show');
+      const arrow = header.querySelector('.changelog-arrow');
+      const open = body.classList.toggle('show');
+      header.classList.toggle('open', open);
+      arrow.textContent = open ? '▾' : '▸';
     }
-
-    function toggleDarkMode() {
-      document.body.classList.toggle('light-mode');
-    }
-
-    function togglePanel(side) {
-      document.getElementById(`${side}Panel`).classList.toggle('show');
-    }
-
-    function hidePanel(side) {
-      if (window.matchMedia('(hover: hover)').matches) {
-        document.getElementById(`${side}Panel`).classList.remove('show');
-      }
-    }
-
-    document.getElementById('hoverZoneLeft').addEventListener('mouseenter', () => {
-      document.getElementById('leftPanel').classList.add('show');
-    });
-
-    document.getElementById('hoverZoneRight').addEventListener('mouseenter', () => {
-      document.getElementById('rightPanel').classList.add('show');
-    });
 
     window.addEventListener('DOMContentLoaded', () => {
-      const firstLink = document.querySelector('.link');
-      if (firstLink) loadContent(firstLink, './250109_2148/index.html');
+      const first = document.querySelector('.version-link');
+      if (first) first.click();
     });
   </script>
 
