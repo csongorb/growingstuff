@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Devolutionizer – Integrated Panel</title>
+  <title>Devolutionizer – Clean Version</title>
   <style>
     :root {
       --bg: hsl(0, 0%, 8%);
@@ -11,14 +11,6 @@
       --sidebar: hsl(0, 0%, 10%);
       --link-bg-active: #444488;
       --hover-line: #ffffff;
-    }
-
-    body.light-mode {
-      --bg: #f0f0f0;
-      --text: #111111;
-      --sidebar: #ffffff;
-      --link-bg-active: #ccccff;
-      --hover-line: #222222;
     }
 
     * {
@@ -122,10 +114,6 @@
     .changelog-body.show {
       display: block;
     }
-
-    .darkmode-toggle {
-      margin-top: 20px;
-    }
   </style>
 </head>
 <body>
@@ -209,8 +197,6 @@
 - spinning line in the box.
       </div>
     </div>
-
-    <button class="toggle-btn darkmode-toggle" onclick="toggleDarkMode()">Toggle Dark Mode</button>
   </div>
 
   <iframe id="contentFrame" src="about:blank" sandbox="allow-same-origin allow-scripts"></iframe>
@@ -220,23 +206,16 @@
       document.getElementById("leftPanel").classList.toggle("show");
     }
 
-    function toggleDarkMode() {
-      document.body.classList.toggle("light-mode");
-    }
-
     function loadContent(element, url) {
-      // Highlight active version
       document.querySelectorAll('.version-link').forEach(link => link.classList.remove('active'));
       element.classList.add('active');
 
-      // Toggle changelog for that version
       const changelog = element.nextElementSibling;
       document.querySelectorAll('.changelog-body').forEach(el => {
         if (el !== changelog) el.classList.remove('show');
       });
       changelog.classList.toggle('show');
 
-      // Load iframe
       const iframe = document.getElementById('contentFrame');
       iframe.style.opacity = 0;
       setTimeout(() => {
