@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Devolutionizer – Versions + Changelogs</title>
+  <title>Devolutionizer – Toggleable Panel</title>
   <style>
     :root {
       --bg: hsl(0, 0%, 8%);
@@ -24,7 +24,7 @@
       color: var(--text);
       height: 100vh;
       overflow: hidden;
-      display: flex;
+      position: relative;
     }
 
     #contentFrame {
@@ -46,7 +46,13 @@
       background: var(--sidebar);
       display: flex;
       z-index: 10;
+      transform: translateX(-100%);
+      transition: transform 0.3s ease;
       box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .panel.show {
+      transform: translateX(0);
     }
 
     .left-col {
@@ -129,11 +135,31 @@
     .changelog-header.open .changelog-arrow {
       transform: rotate(90deg);
     }
+
+    .toggle-panel-btn {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      z-index: 30;
+      padding: 8px 12px;
+      font-size: 14px;
+      border: none;
+      cursor: pointer;
+      background: var(--link-bg-active);
+      color: var(--text);
+      border-radius: 6px;
+    }
+
+    .toggle-panel-btn:hover {
+      background: #6666aa;
+    }
   </style>
 </head>
 <body>
 
-  <div class="panel">
+  <button class="toggle-panel-btn" onclick="togglePanel()">☰ Versions</button>
+
+  <div id="sidePanel" class="panel">
     <div class="left-col">
       <div class="logo-text"><strong>Versions</strong></div>
       <a class="version-link" onclick="loadVersion(this, './250109_2148/index.html')">2025-01-09</a>
@@ -251,9 +277,14 @@
       arrow.textContent = open ? '▾' : '▸';
     }
 
+    function togglePanel() {
+      document.getElementById("sidePanel").classList.toggle("show");
+    }
+
     window.addEventListener('DOMContentLoaded', () => {
       const first = document.querySelector('.version-link');
       if (first) first.click();
+      document.getElementById("sidePanel").classList.add("show");
     });
   </script>
 
