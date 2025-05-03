@@ -143,3 +143,39 @@ Aaaah, and also a few words about your awesome [Cover Tests](./dessauerPress/cov
 	- something like this?
 
 So happy, see you tomorrow!
+
+## Jesse 2025-05-02
+
+Hello again.  
+Ignore the previous attachments. Attached below is a more-or-less complete set of booklets (minus Growing and Designing). I say more-or-less because Love is still not in a pre-Final state (see below). Everything else, I believe, is looking good.
+ 
+Some things I have done:
+
+— Since the last versions I added the Devolution bio to the last page of each booklet. I have also edited it a bit, for which I hope you will forgive me; not only was it a bit too long, but there were also a few sentences that needed reworking.
+— For the shorter booklets, I have added "content" from the web-page of the game itself. I also added a full sheet of paperwork to the that booklet. I think everything is looking good now.
+— I added small versions of the main icons to the File Structure section (in addition to the files).
+ 
+Some things I have not done:
+
+— I realise I still haven't added the most current Pippin bio to the later booklets. We will need to go through and make sure that the correct bio appears in the correct booklet.
+— I also haven't gone back and double checked the Notes on the Text. However I think everything is correct except for Phone and Love.
+ 
+Why is Love not pre-Final?
+
+— I need to re-import the file structure.
+— I think the current booklet is not based on the most recent version of the word file … if I recall correctly, however, the changes were limited to very specific parts of the text (they did not, for example concern the journal, which is the main part of the text). Csongor: do you remember which parts of the the Love text you changed after my initial draft?
+ 
+If you could have a look through the booklets over the weekend that would be amazing. A few things to look for specifically:
+
+— Do the chapters correspond to the page numbers provided in the ToC?
+— Are the running headers consistent? (They should not appear on any of the first six pages or the last page, nor should they appear on any page with a chapter header)
+— Are there any widows and orphans?
+— Is there anything that looks odd, design-wise (text in the wrong size, wrong font, etc.) There shouldn't be, but one never knows.
+— Are there typos? Yes, there are … so if you spot any, do please mark them down.
+ 
+I think that's it for now. I'll get the materials for the exhibition over to you as soon as possible, then I'll concentrate on finishing the last two booklets.
+ 
+At the moment, however, I believe it is martini o'clock.
+ 
+See you soon,  
+J
