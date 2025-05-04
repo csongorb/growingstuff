@@ -483,3 +483,11 @@ Do you see these aspects in the series, do you see the games on a range like thi
 
 Oh, and another dimension:  
 *Work* was fun, some of the affordances of the interface have not worked at all. Strange to see that a dropdown is *learned*. They look and work very differently on mobile than on Win95.
+
+## 2025-05-04b Csongor: 10!
+
+The more I read and think about Claudia's [manifesto](https://wearemuesli.itch.io/mgdmanifesto), the more I wonder why I didn't known this already? Just love it, perfect match. Thanks, Zoewi.
+
+> 10. design the conditions to enjoy the process
+
+Just so good... I could have picked any other point randomly! 😉
