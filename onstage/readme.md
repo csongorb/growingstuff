@@ -35,7 +35,7 @@ Because the energy coming from the audience I have to be transmitter and receive
 
 (Title & description -obviously- based on / inspired by [Marina Abramović](https://www.moma.org/audio/playlist/243/3133).)
 
-The tour is a part of [*Pippin Barr x Devolution: It is as if you were...*](https://github.com/csongorb/growingstuff), a cooperation between [Pippin Barr](https://pippinbarr.com/), [Devolution](https://devolution.online/), A MAZE. / Berlin 2025 and [UE University of Europe for Applied Sciences](https://www.ue-germany.com).
+The session is a part of [*Pippin Barr x Devolution: It is as if you were...*](https://github.com/csongorb/growingstuff), a cooperation between [Pippin Barr](https://pippinbarr.com/), [Devolution](https://devolution.online/), A MAZE. / Berlin 2025 and [UE University of Europe for Applied Sciences](https://www.ue-germany.com).
 
 ## Exhibition Tour with Pippin Barr: It is as if you were...
 
