@@ -93,3 +93,17 @@ I kind of like this in a more solid way, though I do fear it because it's very s
 ![](./screenshots/Bildschirmfoto%202025-04-26%20um%2013.58.08.png)
 
 ![](./screenshots/Bildschirmfoto%202025-04-26%20um%2016.35.03.png)
+
+## 2025-05-04: Yesss!
+
+I just want to emphasize here how good it feels that *we have it*!
+
+After our small troubles and with Claudia joining and the [Mindful Game Design Manifesto](https://wearemuesli.itch.io/mgdmanifesto) and your awesome [Spinning Wheel Panel Moderator](https://pippinbarr.com/panel-moderator/)... this just feels so round and complete now.
+
+How did this happen?  
+Knowing this would mean a lot.
+
+I'm still thinking about possible stages / rounds we could have, like the idea of the *show something* round. But maybe I'm overthinking.
+
+For sure:  
+Let's meet on the location once more before we go into this.

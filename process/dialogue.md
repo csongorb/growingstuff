@@ -465,3 +465,21 @@ Well, yes things are moving ain't they. I think it's likely I'll be doing Text A
 Think we're getting somewhere healthy with onstage?
 
 Looking forward to seeing a booklet!
+
+## 2025-05-04 Csongor: Pretending
+
+I was afraid of this:  
+Indirectly being influenced by the fact that I know that this won't be in the bookleets anymore. Did I write all the previous entries for the limelight?
+
+In our call with Claudia, we have talked about how much you can learn about games and game design by *listening* to your children and how awesome and beautiful that is.  
+
+I just showed my daughters (15 and 13) your games and they were so precise in seeing / analysing them. They are big fans of Devolution since... basically since they can think (since *Thumper* in 2017!) and have a good sense of games. But this was a new, more analytical dimension. But I get distracted:  
+
+Maybe it has happened because of the order in which I showed them the games, or because they were together, observing each other play, but:  
+For *Phone* and *Chess*, it was more about that it *looks like* (from the outside), if you would do the things, pretending, playing, as if (I think some reactions on *Phone* were similar). *Work* is more ambivalent, more *actually doing* the thing (from the *inside*?). And *Love*... sure, thats already something special with two teenage girls, but still: thats not pretending at all, that does not look like making love, but its also not like doing the real thing.  
+Again, that was them, not me.
+
+Do you see these aspects in the series, do you see the games on a range like this?
+
+Oh, and another dimension:  
+*Work* was fun, some of the affordances of the interface have not worked at all. Strange to see that a dropdown is *learned*. They look and work very differently on mobile than on Win95.
