@@ -29,3 +29,5 @@ Direct links to the folders containing the PDFs & DOCXs to make life easier for 
 - See [booklets_tech.md](./booklets_tech.md) for the tech that was used to assemble the content of the booklets, before we gave them a proper layout.
 - See [dessauerPress/](./dessauerPress/) for layout and cover designs and ideas.
 - Read [booklets_process.md](./booklets_process.md) for a conversation about the editorial process.
+- See [todo.md](todo.md) for tasks.
+
