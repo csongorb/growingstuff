@@ -1,0 +1,13 @@
+{
+    "commits": [
+        {
+            "version_title": "Testing",
+            "Version_date": "YYYY-MM-DD",
+            "changelog": [
+                "Change one",
+                "Change two",
+                "Change three"
+            ]
+        }
+    ]
+}
