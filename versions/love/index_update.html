@@ -8,6 +8,7 @@
     :root {
       --bg: #f0f0f0;
       --text: #ffffff;
+      --text-alt: #000000;
       --sidebar: #ef2d75;
       --link-bg-active: #ccccff;
       --hover-line: #222222;
@@ -161,6 +162,24 @@
       opacity: 1;
       pointer-events: auto;
     }
+
+    .changelog {
+      margin-top: auto;
+      background-color: var(--bg);
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      color: var(--text-alt);
+      width: 100%;
+      min-height: 40vh;
+      box-sizing: border-box;
+    }
+
+    .version-date{
+      margin-bottom: 1rem;
+      font-weight: bold;
+    }
+
   </style>
 </head>
 
@@ -190,6 +209,14 @@
         <!-- <span class="tooltip">Version Description</span> -->
       </a></li>
     </ul>
+
+    <div class="changelog" id="changelog">
+      <div class="version-date" id="versionDate">Version Date</div>
+      <ul id="changelogList">
+        <li>Change 1</li>
+        <li>Change 2</li>
+      </ul>
+    </div>
   </nav>
 
   <div id="contentWrapper">
@@ -201,6 +228,8 @@
   <div id="commitBox" class="commit-box"></div>
 
   <script>
+    let commitsData = [];
+
     function loadContent(element, url) {
       const links = document.querySelectorAll('.link');
       links.forEach(link => link.classList.remove('active'));
@@ -226,9 +255,50 @@
       } else {
         commitBox.classList.remove('visible');
       }
+
+      // change the changelog on click button
+      const index = Array.from(links).indexOf(element);
+      if(commitsData[index]){
+        populateChangelog(commitsData[index]);
+      }
+    }
+
+    // load at the very beginning
+    function loadChangelog(){
+      fetch('jsons/changelog.json')
+        .then(response => response.json())
+        .then(data => {
+          commitsData = data.commits;
+          populateChangelog(commitsData[0]);
+
+          const links = document.querySelectorAll('.link');
+          links.forEach((link, index) => {
+            if (commitsData[index]) {
+              link.textContent = commitsData[index].version_title;
+            }
+          });
+        })
+        .then(console.log("Loaded"))
+        .catch(error => {
+        console.error("Failed to load changelog.json:", error);
+        });
+    }
+
+    // method to actually change the changelog
+    function populateChangelog(commit) {
+      const versionDateDiv = document.getElementById('versionDate');
+      const changelogList = document.getElementById('changelogList');
+
+      versionDateDiv.textContent = commit.version_date;
+
+      changelogList.innerHTML = commit.changelog
+        .map(item => `<li>${item}</li>`)
+        .join('');
     }
 
     window.addEventListener('DOMContentLoaded', () => {
+      loadChangelog();
+
       const firstLink = document.querySelector('.link');
       if (firstLink) {
         loadContent(firstLink, './180412_1946/index.html');

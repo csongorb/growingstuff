@@ -1,12 +1,51 @@
 {
     "commits": [
         {
-            "version_title": "Testing",
-            "Version_date": "YYYY-MM-DD",
+            "version_title": "First commit",
+            "version_date": "2018-04-12",
             "changelog": [
                 "Change one",
                 "Change two",
-                "Change three"
+                "Change three",
+                "Change two",
+                "Change two",
+                "Change two"
+            ]
+        },
+        {
+            "version_title": "TODO: Add changelog.",
+            "version_date": "2003-07-14",
+            "changelog": [
+                "Was born",
+                "Met parents",
+                "Saw light for the first time"
+            ]
+        },
+        {
+            "version_title": "Third commit",
+            "version_date": "2010-12-24",
+            "changelog": [
+                "Christmas?",
+                "Presents!!!",
+                "Happiness"
+            ]
+        },
+        {
+            "version_title": "Fourth commit",
+            "version_date": "2003-07-14",
+            "changelog": [
+                "Was born",
+                "Met parents",
+                "Saw light for the first time"
+            ]
+        },
+        {
+            "version_title": "Fifth commit",
+            "version_date": "2003-07-14",
+            "changelog": [
+                "Was born",
+                "Met parents",
+                "Saw light for the first time"
             ]
         }
     ]
