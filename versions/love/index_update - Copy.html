@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +11,7 @@
       --text: #ffffff;
       --text-alt: #000000;
       --sidebar: #ef2d75;
-      --link-bg-active: #ccccff;
+      --link-bg-active: #f9cbdf;
       --hover-line: #222222;
       --changelog-bg: #f9cbdf;
     }
@@ -63,14 +64,15 @@
     .link {
       text-decoration: none;
       color: var(--text);
-      font-size: 18px;
-      padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+      font-size: 16px;
+      padding: 0.5rem;
       position: relative;
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       gap: 12px;
       transition: 0.4s;
       border-radius: 8px;
+      flex-direction: row;
     }
 
     .link::before {
@@ -107,82 +109,26 @@
     .vertical-line {
       position: absolute;
       top: 0;
-      left: 24px; /* aligned to center of icon */
+      left: 24px;
       width: 4px;
       height: 100%;
       background: white;
       z-index: 0;
     }
 
-    .tooltip {
-      position: absolute;
-      left: 110%;
-      top: 50%;
-      transform: translateY(-50%);
-      background: rgba(0, 0, 0, 0.05);
-      padding: 6px 10px;
-      border-radius: 6px;
-      color: var(--text);
-      white-space: nowrap;
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity 0.3s ease, transform 0.3s ease;
-      font-size: 14px;
-    }
-
-    .link:hover .tooltip {
-      opacity: 1;
-      transform: translateY(-50%) translateX(5px);
-    }
-
-    #contentWrapper {
-      flex-grow: 1;
+    .link-text {
       display: flex;
-      justify-content: center;
-      align-items: center;
-      background: var(--bg);
-      overflow: auto;
-      padding: 20px;
+      flex-direction: column;
     }
 
-    .iframe-container {
-      width: 100%;
-      max-width: 900px;
-      height: 100%;
-      max-height: 95vh;
-      overflow: auto;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      background: white;
-      border-radius: 8px;
+    .link-title {
+      font-size: 16px;
+      font-weight: bold;
     }
 
-    #contentFrame {
-      width: 100%;
-      height: 100%;
-      border: none;
-      display: block;
-    }
-
-    .commit-box {
-      position: absolute;
-      left: 320px;
-      top: 100px;
-      max-width: 280px;
-      background: rgba(0, 0, 0, 0.5);
-      color: var(--text);
-      padding: 16px 20px;
-      border-radius: 8px;
-      font-size: 14px;
-      line-height: 1.5;
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity 0.3s ease, top 0.3s ease;
-      z-index: 10;
-    }
-
-    .commit-box.visible {
-      opacity: 1;
-      pointer-events: auto;
+    .link-date {
+      font-size: 12px;
+      opacity: 0.8;
     }
 
     .changelog {
@@ -201,6 +147,49 @@
       margin-bottom: 1rem;
       font-weight: bold;
     }
+
+    #contentWrapper {
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: var(--bg);
+      overflow: auto;
+      padding: 20px;
+    }
+
+    .iframe-container {
+      width: 100%;
+      max-width: 900px;
+      height: 100%;
+      max-height: 95vh;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      background: white;
+      border-radius: 8px;
+      position: relative;
+    }
+
+    .iframe-container iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .iframe-container iframe.hidden {
+      opacity: 0;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .iframe-container iframe.visible {
+      opacity: 1;
+      z-index: 1;
+    }
   </style>
 </head>
 
@@ -210,30 +199,45 @@
     <div class="logo-text">Versions</div>
     <div class="vertical-line"></div>
     <ul>
-      <li><a href="#" class="link" onclick="loadContent(this, './180412_1946/index.html')" data-story="First commit">
+      <li><a href="#" class="link" onclick="loadContent(this, './180412_1946/index.html', 0)">
         <img src="branch-icon.svg" class="link-icon" alt="branch icon" />
-        2018-04-12
+        <div class="link-text">
+          <div class="link-title">Title 1</div>
+          <div class="link-date">2018-04-12</div>
+        </div>
       </a></li>
-      <li><a href="#" class="link" onclick="loadContent(this, './180606_1554/index.html')" data-story="TODO: Add changelog.">
+      <li><a href="#" class="link" onclick="loadContent(this, './180606_1554/index.html', 1)">
         <img src="branch-icon.svg" class="link-icon" alt="branch icon" />
-        2018-06-06
+        <div class="link-text">
+          <div class="link-title">Title 2</div>
+          <div class="link-date">2018-06-06</div>
+        </div>
       </a></li>
-      <li><a href="#" class="link" onclick="loadContent(this, './180608_2226/index.html')" data-story="Third commit">
+      <li><a href="#" class="link" onclick="loadContent(this, './180608_2226/index.html', 2)">
         <img src="branch-icon.svg" class="link-icon" alt="branch icon" />
-        2018-06-08
+        <div class="link-text">
+          <div class="link-title">Title 3</div>
+          <div class="link-date">2018-06-08</div>
+        </div>
       </a></li>
-      <li><a href="#" class="link" onclick="loadContent(this, './180622_0357/index.html')" data-story="Fourth commit">
+      <li><a href="#" class="link" onclick="loadContent(this, './180622_0357/index.html', 3)">
         <img src="branch-icon.svg" class="link-icon" alt="branch icon" />
-        2018-06-22
+        <div class="link-text">
+          <div class="link-title">Title 4</div>
+          <div class="link-date">2018-06-22</div>
+        </div>
       </a></li>
-      <li><a href="#" class="link" onclick="loadContent(this, './250107_1812/index.html')" data-story="Fifth commit">
+      <li><a href="#" class="link" onclick="loadContent(this, './250107_1812/index.html', 4)">
         <img src="branch-icon.svg" class="link-icon" alt="branch icon" />
-        2025-01-07
+        <div class="link-text">
+          <div class="link-title">Title 5</div>
+          <div class="link-date">2025-01-07</div>
+        </div>
       </a></li>
     </ul>
 
-    <div class="changelog" id="changelog">
-      <div class="version-date" id="versionDate">Version Date</div>
+    <div class="changelog" style="margin-left: 40px;" id="changelog">
+      <div class="version-date" id="versionDate">Changelog</div>
       <ul id="changelogList">
         <li>Change 1</li>
         <li>Change 2</li>
@@ -243,42 +247,35 @@
 
   <div id="contentWrapper">
     <div class="iframe-container">
-      <iframe id="contentFrame" src="about:blank"></iframe>
+      <iframe id="iframeA" class="visible" src="./180412_1946/index.html"></iframe>
+      <iframe id="iframeB" class="hidden"></iframe>
     </div>
   </div>
-
-  <div id="commitBox" class="commit-box"></div>
 
   <script>
     let commitsData = [];
 
-    function loadContent(element, url) {
+    function loadContent(element, url, index) {
       const links = document.querySelectorAll('.link');
       links.forEach(link => link.classList.remove('active'));
       element.classList.add('active');
 
-      const iframe = document.getElementById('contentFrame');
-      iframe.style.opacity = 0;
+      const a = document.getElementById('iframeA');
+      const b = document.getElementById('iframeB');
+      const active = a.classList.contains('visible') ? a : b;
+      const inactive = a.classList.contains('visible') ? b : a;
 
-      setTimeout(() => {
-        iframe.src = url;
-        iframe.onload = () => {
-          iframe.style.opacity = 1;
-        };
-      }, 300);
+      if (active.src.endsWith(url)) return;
 
-      const commitBox = document.getElementById('commitBox');
-      const story = element.getAttribute('data-story');
-      if (story) {
-        const rect = element.getBoundingClientRect();
-        commitBox.textContent = story;
-        commitBox.style.top = `${rect.top + window.scrollY}px`;
-        commitBox.classList.add('visible');
-      } else {
-        commitBox.classList.remove('visible');
-      }
+      inactive.classList.remove('hidden');
+      inactive.src = url;
+      inactive.onload = () => {
+        active.classList.remove('visible');
+        active.classList.add('hidden');
+        inactive.classList.add('visible');
+        inactive.classList.remove('hidden');
+      };
 
-      const index = Array.from(links).indexOf(element);
       if (commitsData[index]) {
         populateChangelog(commitsData[index]);
       }
@@ -290,13 +287,6 @@
         .then(data => {
           commitsData = data.commits;
           populateChangelog(commitsData[0]);
-
-          const links = document.querySelectorAll('.link');
-          links.forEach((link, index) => {
-            if (commitsData[index]) {
-              link.childNodes[1].textContent = commitsData[index].version_title;
-            }
-          });
         })
         .catch(error => {
           console.error("Failed to load changelog.json:", error);
@@ -306,23 +296,13 @@
     function populateChangelog(commit) {
       const versionDateDiv = document.getElementById('versionDate');
       const changelogList = document.getElementById('changelogList');
-
       versionDateDiv.textContent = commit.version_date;
-
-      changelogList.innerHTML = commit.changelog
-        .map(item => `<li>${item}</li>`)
-        .join('');
+      changelogList.innerHTML = commit.changelog.map(item => `<li>${item}</li>`).join('');
     }
 
     window.addEventListener('DOMContentLoaded', () => {
       loadChangelog();
-
-      const firstLink = document.querySelector('.link');
-      if (firstLink) {
-        loadContent(firstLink, './180412_1946/index.html');
-      }
     });
   </script>
-
 </body>
 </html>
