@@ -4,17 +4,14 @@
             "version_title": "First commit",
             "version_date": "2018-04-12",
             "changelog": [
-                "Change one",
-                "Change two",
-                "Change three",
-                "Change two",
-                "Change two",
-                "Change two"
+                "Init life",
+                "set-url remote parent",
+                "git pull"
             ]
         },
         {
             "version_title": "TODO: Add changelog.",
-            "version_date": "2003-07-14",
+            "version_date": "2018-06-06",
             "changelog": [
                 "Was born",
                 "Met parents",
@@ -23,7 +20,7 @@
         },
         {
             "version_title": "Third commit",
-            "version_date": "2010-12-24",
+            "version_date": "2018-06-08",
             "changelog": [
                 "Christmas?",
                 "Presents!!!",
@@ -32,20 +29,20 @@
         },
         {
             "version_title": "Fourth commit",
-            "version_date": "2003-07-14",
+            "version_date": "2018-06-22",
             "changelog": [
-                "Was born",
-                "Met parents",
-                "Saw light for the first time"
+                "Went to school",
+                "Had nice clothes",
+                "Got bullied :("
             ]
         },
         {
             "version_title": "Fifth commit",
-            "version_date": "2003-07-14",
+            "version_date": "2025-01-07",
             "changelog": [
-                "Was born",
-                "Met parents",
-                "Saw light for the first time"
+                "Started going to collede",
+                "Got a girlfriend",
+                "Being happy with her"
             ]
         }
     ]
