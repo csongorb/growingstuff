@@ -41,7 +41,7 @@ The session is a part of [*Pippin Barr x Devolution: It is as if you were...*](h
 
 ```
 When?
-- Thursday?
+- Friday, 10:30 - 11:30
 
 Who?
 - Pippin Barr
@@ -59,11 +59,11 @@ For the ultimate insight into the development of the *It is as if you were...* s
 
 The tour is a part of [*Pippin Barr x Devolution: It is as if you were...*](https://github.com/csongorb/growingstuff), a cooperation between [Pippin Barr](https://pippinbarr.com/), [Devolution](https://devolution.online/), A MAZE. / Berlin 2025 and [UE University of Europe for Applied Sciences](https://www.ue-germany.com).
 
-## It is as if you were attending an experiment
+## It is as if you were talking about growing stuff
 
 ```
 When?
-- Friday?
+- Thursday, 11:30 - 12:30
 
 Who?
 - Pippin Barr
@@ -74,11 +74,19 @@ Type / Tag:
 - Devolution
 ```
 
-An experimental session: half performance, half a talk, half a discussion, half live development, half workshop. It will somehow contain glimpses of Pippin Barrs ideas flowing into his games, might contain parts of developing ideas together with the audience, for sure including some reflections on the stuff games are made of and how they influence the development process. Three voices merging into an experience (at least for them). Or also for you?
+An experimental session: half discussion, half three talks, half performance — and maybe even a workshop? Expect some thoughts on a [(mindful) game design manifesto](https://wearemuesli.itch.io/mgdmanifesto), definitely some examples and reflections on the stuff games are made of, and how they shape their making. Three voices merging into an experience — at least for them. Maybe for you too?
 
 The talk / panel / session is a part of [*Pippin Barr x Devolution: It is as if you were...*](https://github.com/csongorb/growingstuff), a cooperation between [Pippin Barr](https://pippinbarr.com/), [Devolution](https://devolution.online/), A MAZE. / Berlin 2025 and [UE University of Europe for Applied Sciences](https://www.ue-germany.com).
 
 ## Devolution Exhibition - Pippin Barr: It is as if you were...
+
+```
+When?
+- each day, parallel to the normal exhibition
+
+Type / Tag:
+- Devolution
+```
 
 Step inside the development process of the games in the *It is as if...* series by Pippin Barr. The exhibition pulls together prototypes, sketches, design journals, and more to reveal the in-between moments of game design. Find out why Pippin switched to a Windows 95 look and feel for *It is as if you were doing work* or how he decided to cut zen gongs from *It is if you were on your phone*. Draw your own conclusions and even branch off and think up your own versions of the games.
 
