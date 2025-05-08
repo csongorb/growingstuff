@@ -77,6 +77,26 @@
       color: var(--bg);
     }
 
+    .fullscreen-btn {
+      position: fixed;
+      top: 10px;
+      left: 120px;
+      z-index: 20;
+      padding: 8px 12px;
+      font-size: 14px;
+      border: none;
+      cursor: pointer;
+      background: var(--link-bg-active);
+      color: var(--text);
+      border-radius: 6px;
+      transition: background 0.3s;
+    }
+
+    .fullscreen-btn:hover {
+      background: var(--hover-line);
+      color: var(--bg);
+    }
+
     .version-entry {
       margin-bottom: 16px;
     }
@@ -119,6 +139,7 @@
 <body>
 
   <button class="toggle-btn" onclick="togglePanel()">☰ Versions</button>
+  <button class="fullscreen-btn" onclick="toggleFullscreen()">⛶ Full Screen</button>
 
   <div id="leftPanel" class="panel">
     <div class="logo-text"><strong>Versions</strong></div>
@@ -204,6 +225,17 @@
   <script>
     function togglePanel() {
       document.getElementById("leftPanel").classList.toggle("show");
+    }
+
+    function toggleFullscreen() {
+      const iframe = document.getElementById('contentFrame');
+      if (!document.fullscreenElement) {
+        iframe.requestFullscreen().catch(err => {
+          alert(`Error attempting to enable full-screen mode: ${err.message}`);
+        });
+      } else {
+        document.exitFullscreen();
+      }
     }
 
     function loadContent(element, url) {

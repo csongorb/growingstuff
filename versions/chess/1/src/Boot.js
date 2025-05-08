@@ -17,23 +17,22 @@ BasicGame.Boot = function (game) {
 BasicGame.Boot.prototype = {
 
     init: function () {
-
         this.input.maxPointers = 1;
         this.stage.disableVisibilityChange = true;
+    
         this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
-        // this.scale.scaleMode = Phaser.ScaleManager.EXACT;
-        this.scale.setMinMax(180, 240, 480, 640);
         this.scale.pageAlignHorizontally = true;
         this.scale.pageAlignVertically = true;
-
+    
         if (!this.game.device.desktop) {
             this.scale.forceOrientation(false, true);
             this.scale.setResizeCallback(this.gameResized, this);
             this.scale.enterIncorrectOrientation.add(this.enterIncorrectOrientation, this);
             this.scale.leaveIncorrectOrientation.add(this.leaveIncorrectOrientation, this);
         }
-
-    },
+    }
+    
+    ,
 
     preload: function () {
 
