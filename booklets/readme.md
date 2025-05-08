@@ -1,17 +1,23 @@
 # Booklets
 
-## Shop Description
+## Final
 
-### V1
- Spare some coin and step into the experimental world of Pippin Barr! Through this 7-booklet bundle we document the design process behind his brain scratching It is as if... series and the challenges of bringing Devolution to life. Each booklet offers sneak peak into the ideas, iterations, and philosophies that shaped one of the games in the collection. Whether you're a designer, developer, or simply curious about the art of creating meaning through play, this bundle offers a rare behind the scenes glimpse into the making of digital experiments that challenge what games can be. 
+?
 
-### V2
-### It is as if...: Complete Design Booklet Collection
-A limited-edition bundle of 8 booklets documenting the conceptual and practical development of Pippin Barr’s experimental game series It is as if.... Each volume offers an intimate look into the design process of one game in the series, while the final booklet chronicles Devolution, the exhibition that frames the entire project. A unique insight into reflective game design, theory, and play.
+## Shop
 
-### Pirce €35 for Print and €20 for Digital
+**Pippin Barr x Devolution: It is as if you were... an 8 booklet bundle**
 
-## Overview
+Spare some coin and read yourself through the development process of the games in the *It is as if...* series by Pippin Barr and the corresponding exhibition *Pippin Barr x Devolution: It is as if you were...*. The booklets pull together journals, correspondences, blog posts, to-do lists, and more to reveal the in-between moments of game design. Find out why Pippin switched to a Windows 95 look and feel for *It is as if you were doing work*, how he decided to cut zen gongs from *It is if you were on your phone*, or how Pippin and Csongor struggled to decide what should happen on stage. Draw your own conclusions, and even branch off to reflect on your own development process.
+
+An eight-booklet bundle, printed in a limited edition of 75 copies — a once-in-a-lifetime opportunity. Each booklet features a letter-pressed cover on 270g Colorplan paper, assembled with care by the The Dessauer Press Berlin and Devolution.
+
+- price: 35 euros, incl. MwSt.
+- maximum of booklets that can be bought: 75
+- what kind of information you wish to get from the people who buy online: none?
+- and if you wish to have a „wishlist option“ if booklets will sell out: no
+
+## Overview Working Documents
 
 Direct links to the folders containing the PDFs & DOCXs to make life easier for everyone:
 
@@ -28,6 +34,6 @@ Direct links to the folders containing the PDFs & DOCXs to make life easier for 
 
 - See [booklets_tech.md](./booklets_tech.md) for the tech that was used to assemble the content of the booklets, before we gave them a proper layout.
 - See [dessauerPress/](./dessauerPress/) for layout and cover designs and ideas.
+- See [process/bookleets.md](../process/booklets.md) for...
 - Read [booklets_process.md](./booklets_process.md) for a conversation about the editorial process.
 - See [todo.md](todo.md) for tasks.
-
