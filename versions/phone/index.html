@@ -134,6 +134,14 @@
     .changelog-body.show {
       display: block;
     }
+
+    @supports (-webkit-touch-callout: none) {
+      /* iOS-specific fullscreen adjustments */
+      #contentFrame {
+        height: 100vh !important;
+        width: 100vw !important;
+      }
+    }
   </style>
 </head>
 <body>
@@ -220,7 +228,7 @@
     </div>
   </div>
 
-  <iframe id="contentFrame" src="about:blank" sandbox="allow-same-origin allow-scripts allow-fullscreen"></iframe>
+  <iframe id="contentFrame" src="about:blank" sandbox="allow-same-origin allow-scripts allow-modals allow-fullscreen"></iframe>
 
   <script>
     function togglePanel() {
@@ -228,13 +236,23 @@
     }
 
     function toggleFullscreen() {
-      const iframe = document.documentElement;
-      if (!document.fullscreenElement) {
-        iframe.requestFullscreen().catch(err => {
-          alert(`Error attempting to enable full-screen mode: ${err.message}`);
-        });
-      } else {
-        document.exitFullscreen();
+      const elem = document.documentElement;
+      
+      // Enter fullscreen
+      if (!document.fullscreenElement && !document.webkitFullscreenElement) {
+        if (elem.requestFullscreen) {
+          elem.requestFullscreen();
+        } else if (elem.webkitRequestFullscreen) { // Safari
+          elem.webkitRequestFullscreen();
+        }
+      } 
+      // Exit fullscreen
+      else {
+        if (document.exitFullscreen) {
+          document.exitFullscreen();
+        } else if (document.webkitExitFullscreen) { // Safari
+          document.webkitExitFullscreen();
+        }
       }
     }
 
