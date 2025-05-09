@@ -173,7 +173,7 @@
     </div>
 
     <div class="version-entry">
-      <a class="version-link" onclick="loadContent(this, './250214_xxxx/index.html')">2025-02-14</a>
+      <a class="version-link" onclick="loadContent(this, './250214_0006/index.html')">2025-02-14</a>
       <div class="changelog-body">
 - Simplifying UI
 - Dealing with Abstraction
@@ -181,7 +181,7 @@
     </div>
 
     <div class="version-entry">
-      <a class="version-link" onclick="loadContent(this, './250225_xxxx/index.html')">2025-02-25</a>
+      <a class="version-link" onclick="loadContent(this, './250225_2051/index.html')">2025-02-25</a>
       <div class="changelog-body">
 - Main Menu UI
 - Removed sound for Standard
@@ -220,7 +220,7 @@
     </div>
   </div>
 
-  <iframe id="contentFrame" src="about:blank" sandbox="allow-same-origin allow-scripts allow-fullscreen"></iframe>
+  <iframe id="contentFrame" src="about:blank" sandbox="allow-same-origin allow-scripts"></iframe>
 
   <script>
     function togglePanel() {
@@ -229,12 +229,8 @@
 
     function toggleFullscreen() {
       const iframe = document.getElementById('contentFrame');
-
-      const targetElement = document.fullscreenElement ? null : document.documentElement;
-
-
       if (!document.fullscreenElement) {
-        (targetElement || iframe).requestFullscreen().catch(err => {
+        iframe.requestFullscreen().catch(err => {
           alert(`Error attempting to enable full-screen mode: ${err.message}`);
         });
       } else {
