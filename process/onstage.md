@@ -98,7 +98,7 @@ I kind of like this in a more solid way, though I do fear it because it's very s
 
 I just want to emphasize here how good it feels that *we have it*!
 
-After our small troubles and with Claudia [ed. from [We Are Muesli](https://wearemuesli.it/) joining and the [Mindful Game Design Manifesto](https://wearemuesli.itch.io/mgdmanifesto) and your awesome [Spinning Wheel Panel Moderator](https://pippinbarr.com/panel-moderator/)... this just feels so round and complete now.
+After our small troubles and with Claudia [ed. from [We Are Muesli](https://wearemuesli.it/)] joining and the [Mindful Game Design Manifesto](https://wearemuesli.itch.io/mgdmanifesto) and your awesome [Spinning Wheel Panel Moderator](https://pippinbarr.com/panel-moderator/)... this just feels so round and complete now.
 
 How did this happen?  
 Knowing this would mean a lot.
@@ -107,3 +107,18 @@ I'm still thinking about possible stages / rounds we could have, like the idea o
 
 For sure:  
 Let's meet on the location once more before we go into this.
+
+## 2025-05-09 Pippin: ssssss!
+
+Yeah it does feel like we're in shape now. One more meeting to align a bit more. I spent some time yesterday (maybe the day before?) reading the manifesto again and just pausing to think about what responses/ideas I might have relative to each point on it. I plan to do that again some time before Wednesday and actually pull together a document that might help me getting started on thoughts when the wheel spins.
+
+How did it happen indeed... it's hopefully evident in this and other documents, but there was also just some magical coming together over Discord and voice chatting that got us to this specific formulation. Important beats being
+
+- The idea of any kind of talk at all
+- The clear desire to make sure that Csongor speaks from his expertise about design and design process and materializing that process
+- Zuraida pointing out Claudia would be around and connecting us followed by Claudia's willingness and crucially bringing in the manifesto
+- The auto-panel-moderation idea from my Rotterdam experience
+
+Maybe other things? I feel like the three-sympatico-people along with the manifesto/automoderator alignment were enough really.
+
+Only one projector though. Sad face.
