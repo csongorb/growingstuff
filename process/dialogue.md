@@ -491,3 +491,13 @@ The more I read and think about Claudia's [manifesto](https://wearemuesli.itch.i
 > 10. design the conditions to enjoy the process
 
 Just so good... I could have picked any other point randomly! 😉
+
+## 2025-05-09 Pippin: Teenagers
+
+Whoa - very interested to hear more about your kids' reactions when we meet up next week, and amazing to think about the Work game on mobile! Certainly wasn't designed for it so I'm shocked it did anything at all maybe? But now it kind of does make me want to make a work game for mobile?
+
+I think what you/they say above is very perceptive and spot on from my side of things. Chess and Phone were absolutely about this idea of performing/play-acting (including spectating your own performance from inside your own body). Work is also performative for me, but less so it's true because it's a more captivating and less abstract activity. It has that think of kind of doubling back on itself that I like in a game? It's work; but it's not work it's pretend; but then you want to succeed so it's work; but it's actually imaginary success; but that arbitrary/imaginary success is still motivating because videogames; and so on.
+
+And Love is probably in a category of its own yeah, more of an earnest attempt in the end to actually capture a feeling of eroticism in a far-flung place.
+
+As for that manifesto - couldn't agree more, I think almost every single one immediately triggers a memory/thought for me. A real win!
