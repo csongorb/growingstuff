@@ -5,22 +5,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Devolutionizer – Clean Version</title>
   <style>
-    :root {
-      --bg: #1cbeca;
-      --sidebar: #b0dfdb;
-      --text: #000000;
-      --link-bg-active: #1cbeca;
-      --hover-line: #b0dfdb;
+    /* Dizhitl font faces */
+    @font-face {
+      font-family: 'Dizhitl';
+      src: url('C:/Users/admin/Documents/GitHub/growingstuff/versions/phone/fonts/dizhitl-regular.ttf') format('truetype');
+      font-weight: 400;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'Dizhitl';
+      src: url('C:/Users/admin/Documents/GitHub/growingstuff/versions/phone/fonts/dizhitl-bold.ttf') format('truetype');
+      font-weight: 700;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'Dizhitl';
+      src: url('C:/Users/admin/Documents/GitHub/growingstuff/versions/phone/fonts/dizhitl-black.ttf') format('truetype');
+      font-weight: 900;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'Dizhitl';
+      src: url('C:/Users/admin/Documents/GitHub/growingstuff/versions/phone/fonts/dizhitl-extrabolditalic.ttf') format('truetype');
+      font-weight: 800;
+      font-style: italic;
     }
 
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+    :root {
+      --bg: hsl(0, 0%, 8%);
+      --sidebar: hsl(0, 0%, 10%);
+      --text: #eee;
+      --accent-primary: #1cbeca;
+      --accent-secondary: #b0dfdb;
+      --link-bg-active: var(--accent-primary);
+      --hover-line: var(--accent-secondary);
     }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
 
     body {
-      font-family: "SF Pro Text", sans-serif;
+      font-family: 'Dizhitl', sans-serif;
+      font-weight: 400;
       background: var(--bg);
       color: var(--text);
       height: 100vh;
@@ -30,19 +55,15 @@
 
     #contentFrame {
       position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
       border: none;
       z-index: 0;
     }
 
     .panel {
       position: fixed;
-      top: 0;
-      bottom: 0;
-      left: 0;
+      top: 0; bottom: 0; left: 0;
       width: 280px;
       background: var(--sidebar);
       padding: 20px;
@@ -51,20 +72,16 @@
       transition: transform 0.3s ease;
       z-index: 10;
       box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
-      color: var(--text);
     }
+    .panel.show { transform: translateX(0); }
 
-    .panel.show {
-      transform: translateX(0);
-    }
-
-    .toggle-btn,
-    .fullscreen-btn,
-    .refresh-btn {
+    /* Toggle Versions button */
+    .toggle-btn {
       position: fixed;
-      top: 10px;
+      top: 10px; left: 10px;
       z-index: 20;
       padding: 8px 12px;
+      font-family: 'Dizhitl'; font-weight: 700;
       font-size: 14px;
       border: none;
       cursor: pointer;
@@ -73,139 +90,177 @@
       border-radius: 6px;
       transition: background 0.3s;
     }
+    .toggle-btn:hover { background: var(--hover-line); color: var(--bg); }
 
-    .toggle-btn { left: 10px; }
-    .fullscreen-btn { left: 120px; }
-    .refresh-btn { left: 230px; }
+    /* Buttons under Versions header */
+    .panel-buttons {
+      display: flex;
+      gap: 10px;
+      margin: 10px 0 20px;
+    }
+    .panel-buttons button {
+      flex: 1;
+      padding: 6px 10px;
+      font-family: 'Dizhitl'; font-weight: 700;
+      font-size: 14px;
+      border: none;
+      cursor: pointer;
+      background: var(--link-bg-active);
+      color: var(--text);
+      border-radius: 6px;
+      transition: background 0.3s;
+    }
+    .panel-buttons button:hover { background: var(--hover-line); color: var(--bg); }
 
-    .toggle-btn:hover,
-    .fullscreen-btn:hover,
-    .refresh-btn:hover {
-      background: var(--hover-line);
-      color: var(--bg);
+    /* Sidebar header */
+    .logo-text strong {
+      display: block;
+      margin-bottom: 10px;
+      font-family: 'Dizhitl';
+      font-weight: 800;
+      font-style: italic;
+      font-size: 18px;
+      color: var(--text);
     }
 
-    .version-entry {
-      margin-bottom: 16px;
-    }
+    /* Version entries */
+    .version-entry { margin-bottom: 16px; }
 
     .version-link {
       display: block;
       padding: 8px 10px;
+      font-family: 'Dizhitl'; font-weight: 700;
       font-size: 16px;
       background: rgba(255,255,255,0.05);
       border-radius: 6px;
       color: var(--text);
       cursor: pointer;
       text-decoration: none;
+      transition: background 0.3s;
     }
+    .version-link:hover { background: var(--accent-secondary, rgba(255,255,255,0.1)); }
+    .version-link.active { background: var(--link-bg-active); }
 
-    .version-link:hover {
-      background: rgba(255,255,255,0.1);
-    }
-
-    .version-link.active {
-      background: var(--link-bg-active);
-      font-weight: bold;
-    }
-
+    /* Changelog details */
     .changelog-body {
-      font-size: 14px;
-      background: rgba(255, 255, 255, 0.05);
-      padding: 10px;
-      border-radius: 6px;
-      margin-top: 6px;
-      white-space: pre-wrap;
       display: none;
+      padding: 10px;
+      margin-top: 6px;
+      background: rgba(255,255,255,0.05);
+      border-radius: 6px;
+      white-space: pre-wrap;
+      font-family: 'Dizhitl'; font-weight: 900;
+      font-size: 14px;
+      color: var(--text);
     }
-
-    .changelog-body.show {
-      display: block;
-    }
+    .changelog-body.show { display: block; }
   </style>
 </head>
 <body>
 
   <button class="toggle-btn" onclick="togglePanel()">☰ Versions</button>
-  <button class="fullscreen-btn" onclick="toggleFullscreen()">⛶ Full Screen</button>
-  <button class="refresh-btn" onclick="refreshContent()">⭮ Refresh</button>
 
   <div id="leftPanel" class="panel">
     <div class="logo-text"><strong>Versions</strong></div>
+    <div class="panel-buttons">
+      <button onclick="toggleFullscreen()">⛶ Full Screen</button>
+      <button onclick="refreshContent()">⭮ Refresh</button>
+    </div>
 
-    <!-- Version entries here... -->
+    <!-- Version entries -->
     <div class="version-entry">
-      <a class="version-link" onclick="loadContent(this, './250109_2148/index.html')">The Inception <br> 2025-01-09</a>
+      <a class="version-link" onclick="loadContent(this, './250109_2148/index.html')">2025-01-09</a>
       <div class="changelog-body">
 - Basic interaction added
 - Press the white dot
 - Dot spawns randomly
       </div>
     </div>
-    <!-- (other entries omitted for brevity) -->
+    <div class="version-entry">
+      <a class="version-link" onclick="loadContent(this, './250116_2039/index.html')">2025-01-16</a>
+      <div class="changelog-body">
+- Removed pressing dot for now
+- Added slide from left to right
+      </div>
+    </div>
+    <div class="version-entry">
+      <a class="version-link" onclick="loadContent(this, './250123_2013/index.html')">2025-01-23</a>
+      <div class="changelog-body">
+- Removed slide feature
+- Added back doto which spawn on random positions
+- Need to multiple dots to reach new phase
+- Added sound to pressing dot
+- Added text instructions
+      </div>
+    </div>
+    <div class="version-entry">
+      <a class="version-link" onclick="loadContent(this, './250214_0006/index.html')">2025-02-14</a>
+      <div class="changelog-body">
+- Simplifying UI
+- Dealing with Abstraction
+      </div>
+    </div>
+    <div class="version-entry">
+      <a class="version-link" onclick="loadContent(this, './250225_2051/index.html')">2025-02-25</a>
+      <div class="changelog-body">
+- Main Menu UI
+- Removed sound for Standard
+- Field Research on Info page
+      </div>
+    </div>
+    <div class="version-entry">
+      <a class="version-link" onclick="loadContent(this, './250226_2114/index.html')">2025-02-26</a>
+      <div class="changelog-body">
+- Removed Zen
+- UI change
+      </div>
+    </div>
+    <div class="version-entry">
+      <a class="version-link" onclick="loadContent(this, './250227_2034/index.html')">2025-02-27</a>
+      <div class="changelog-body">
+- Removed Sounds.
+- Switched to JSON
+- Added and removed Back button
+      </div>
+    </div>
+    <div class="version-entry">
+      <a class="version-link" onclick="loadContent(this, './250303_2041/index.html')">2025-03-03</a>
+      <div class="changelog-body">
+- Forced Portrait mode.
+- Prevented Repetition of actions.
+- Increased watch time.
+- Increased frequency of vanilla acts.
+- Neutral descriptions.
+- "Couple more actions, toes, phone stuff"
+- spinning line in the box.
+      </div>
+    </div>
   </div>
 
   <iframe id="contentFrame" src="about:blank" sandbox="allow-same-origin allow-scripts"></iframe>
 
   <script>
     function togglePanel() {
-      document.getElementById("leftPanel").classList.toggle("show");
+      document.getElementById('leftPanel').classList.toggle('show');
     }
-
     function toggleFullscreen() {
-      const elem = document.documentElement;
-      if (!document.fullscreenElement) {
-        if (elem.requestFullscreen) {
-          elem.requestFullscreen();
-        } else if (elem.webkitRequestFullscreen) {
-          elem.webkitRequestFullscreen();
-        } else if (elem.mozRequestFullScreen) {
-          elem.mozRequestFullScreen();
-        } else if (elem.msRequestFullscreen) {
-          elem.msRequestFullscreen();
-        } else {
-          alert('Fullscreen API is not supported in this browser');
-        }
-      } else {
-        if (document.exitFullscreen) {
-          document.exitFullscreen();
-        } else if (document.webkitExitFullscreen) {
-          document.webkitExitFullscreen();
-        } else if (document.mozCancelFullScreen) {
-          document.mozCancelFullScreen();
-        } else if (document.msExitFullscreen) {
-          document.msExitFullscreen();
-        }
-      }
+      const el = document.documentElement;
+      if (!document.fullscreenElement) el.requestFullscreen?.() || alert('Fullscreen not supported');
+      else document.exitFullscreen?.();
     }
-
     function refreshContent() {
-      const iframe = document.getElementById('contentFrame');
-      if (iframe.contentWindow) {
-        iframe.contentWindow.location.reload();
-      }
+      document.getElementById('contentFrame').contentWindow?.location.reload();
     }
-
-    function loadContent(element, url) {
-      document.querySelectorAll('.version-link').forEach(link => link.classList.remove('active'));
-      element.classList.add('active');
-
-      const changelog = element.nextElementSibling;
-      document.querySelectorAll('.changelog-body').forEach(el => {
-        if (el !== changelog) el.classList.remove('show');
-      });
-      changelog.classList.toggle('show');
-
+    function loadContent(el, url) {
+      document.querySelectorAll('.version-link').forEach(l => l.classList.remove('active'));
+      el.classList.add('active');
+      const log = el.nextElementSibling;
+      document.querySelectorAll('.changelog-body').forEach(c => c !== log && c.classList.remove('show'));
+      log.classList.toggle('show');
       const iframe = document.getElementById('contentFrame');
       iframe.style.opacity = 0;
-      setTimeout(() => {
-        iframe.src = url;
-        iframe.onload = () => {
-          iframe.style.opacity = 1;
-        };
-      }, 300);
+      setTimeout(() => { iframe.src = url; iframe.onload = () => iframe.style.opacity = 1; }, 300);
     }
-
     window.addEventListener('DOMContentLoaded', () => {
       const first = document.querySelector('.version-link');
       if (first) loadContent(first, './250109_2148/index.html');
