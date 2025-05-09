@@ -220,7 +220,7 @@
     </div>
   </div>
 
-  <iframe id="contentFrame" src="about:blank" sandbox="allow-same-origin allow-scripts"></iframe>
+  <iframe id="contentFrame" src="about:blank" sandbox="allow-same-origin allow-scripts allow-fullscreen"></iframe>
 
   <script>
     function togglePanel() {
@@ -229,8 +229,12 @@
 
     function toggleFullscreen() {
       const iframe = document.getElementById('contentFrame');
+
+      const targetElement = document.fullscreenElement ? null : document.documentElement;
+
+
       if (!document.fullscreenElement) {
-        iframe.requestFullscreen().catch(err => {
+        (targetElement || iframe).requestFullscreen().catch(err => {
           alert(`Error attempting to enable full-screen mode: ${err.message}`);
         });
       } else {
