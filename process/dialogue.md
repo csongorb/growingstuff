@@ -471,7 +471,7 @@ Looking forward to seeing a booklet!
 I was afraid of this:  
 Indirectly being influenced by the fact that I know that this won't be in the bookleets anymore. Did I write all the previous entries for the limelight?
 
-In our call with Claudia, we have talked about how much you can learn about games and game design by *listening* to your children and how awesome and beautiful that is.  
+In our call with Claudia [ed. from [We Are Museli](https://wearemuesli.it/)], we have talked about how much you can learn about games and game design by *listening* to your children and how awesome and beautiful that is.  
 
 I just showed my daughters (15 and 13) your games and they were so precise in seeing / analysing them. They are big fans of Devolution since... basically since they can think (since *Thumper* in 2017!) and have a good sense of games. But this was a new, more analytical dimension. But I get distracted:  
 
