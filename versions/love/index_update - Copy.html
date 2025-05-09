@@ -55,7 +55,7 @@
       content: "";
       position: absolute;
       top: 0;
-      bottom: -120px;
+      bottom: 0;
       left: 45px;
       width: 6px;
       background: white;
@@ -216,37 +216,57 @@
 
   <script>
     const data = [
-      {
-        title: "Title 1",
-        date: "2018-04-12",
-        changes: ["Initial setup", "Basic layout complete"],
-        url: "./180412_1946/index.html"
-      },
-      {
-        title: "Title 2",
-        date: "2018-06-06",
-        changes: ["Improved UI", "Bug fixes"],
-        url: "./180606_1554/index.html"
-      },
-      {
-        title: "Title 3",
-        date: "2018-06-08",
-        changes: ["Added features", "Refactored layout"],
-        url: "./180608_2226/index.html"
-      },
-      {
-        title: "Title 4",
-        date: "2018-06-22",
-        changes: ["Final polish", "Optimized animations"],
-        url: "./180622_0357/index.html"
-      },
-      {
-        title: "Title 5",
-        date: "2025-01-07",
-        changes: ["Project reboot", "Modernized code"],
-        url: "./250107_1812/index.html"
-      }
-    ];
+  {
+    title: "Bare Beginnings: The Lonely Slider",
+    date: "2018-04-12",
+    changes: [
+      "Initial slider added inside a minimalist container",
+      "No feedback, text, or sound",
+      "Early test of interaction"
+    ],
+    url: "./180412_1946/index.html"
+  },
+  {
+    title: "A Whisper Emerges",
+    date: "2018-06-06",
+    changes: [
+      "Voice input added using Annyang.js",
+      "Feedback box and progress bar introduced",
+      "Game retitled: 'It is as if you were making love'"
+    ],
+    url: "./180606_1554/index.html"
+  },
+  {
+    title: "Mood, Music, and Metaphor",
+    date: "2018-06-08",
+    changes: [
+      "Title screen with heart and author credit",
+      "Mood music toggle and app icon added",
+      "Instruction and output boxes implemented"
+    ],
+    url: "./180608_2226/index.html"
+  },
+  {
+    title: "The Game Speaks Back",
+    date: "2018-06-22",
+    changes: [
+      "Dynamic messages handled via external data.js",
+      "Message box replaces output box",
+      "ReadMe icon and UI polish applied"
+    ],
+    url: "./180622_0357/index.html"
+  },
+  {
+    title: "Final Release: Version ❤️",
+    date: "2025-01-07",
+    changes: [
+      "Analytics added for public release",
+      "UI and code final polish",
+      "Fully playable version with all features complete"
+    ],
+    url: "./250107_1812/index.html"
+  }
+];
 
     const timeline = document.getElementById("timeline");
     const changelogList = document.getElementById("changelogList");
