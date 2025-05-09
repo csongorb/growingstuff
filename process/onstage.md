@@ -98,7 +98,7 @@ I kind of like this in a more solid way, though I do fear it because it's very s
 
 I just want to emphasize here how good it feels that *we have it*!
 
-After our small troubles and with Claudia joining and the [Mindful Game Design Manifesto](https://wearemuesli.itch.io/mgdmanifesto) and your awesome [Spinning Wheel Panel Moderator](https://pippinbarr.com/panel-moderator/)... this just feels so round and complete now.
+After our small troubles and with Claudia [ed. from [We Are Muesli](https://wearemuesli.it/) joining and the [Mindful Game Design Manifesto](https://wearemuesli.itch.io/mgdmanifesto) and your awesome [Spinning Wheel Panel Moderator](https://pippinbarr.com/panel-moderator/)... this just feels so round and complete now.
 
 How did this happen?  
 Knowing this would mean a lot.
