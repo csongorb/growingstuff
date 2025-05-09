@@ -228,15 +228,42 @@
     }
 
     function toggleFullscreen() {
-      const iframe = document.getElementById('contentFrame');
-      if (!document.fullscreenElement) {
-        iframe.requestFullscreen().catch(err => {
-          alert(`Error attempting to enable full-screen mode: ${err.message}`);
-        });
-      } else {
-        document.exitFullscreen();
-      }
+    const iframe = document.getElementById('contentFrame');
+    
+    // Get the correct fullscreen element property
+    const fullscreenElement = 
+        document.fullscreenElement ||
+        document.webkitFullscreenElement ||
+        document.mozFullScreenElement ||
+        document.msFullscreenElement;
+    
+    // If not in fullscreen mode
+    if (!fullscreenElement) {
+        // Try different methods to request fullscreen
+        if (iframe.requestFullscreen) {
+            iframe.requestFullscreen();
+        } else if (iframe.webkitRequestFullscreen) { // Safari
+            iframe.webkitRequestFullscreen();
+        } else if (iframe.mozRequestFullScreen) { // Firefox
+            iframe.mozRequestFullScreen();
+        } else if (iframe.msRequestFullscreen) { // IE/Edge
+            iframe.msRequestFullscreen();
+        } else {
+            alert('Fullscreen API is not supported in this browser');
+        }
+    } else {
+        // Exit fullscreen with the appropriate method
+        if (document.exitFullscreen) {
+            document.exitFullscreen();
+        } else if (document.webkitExitFullscreen) { // Safari
+            document.webkitExitFullscreen();
+        } else if (document.mozCancelFullScreen) { // Firefox
+            document.mozCancelFullScreen();
+        } else if (document.msExitFullscreen) { // IE/Edge
+            document.msExitFullscreen();
+        }
     }
+}
 
     function loadContent(element, url) {
       document.querySelectorAll('.version-link').forEach(link => link.classList.remove('active'));
