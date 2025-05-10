@@ -163,7 +163,15 @@
       overscroll-behavior-x: none;
       touch-action: pan-y;
     }
-  </style>
+    .panel:not(.show) ~ iframe {
+      left: 0 !important;
+      width: 100% !important;
+    }
+  .panel:not(.show) ~ #contentFrame {
+  left: 0 !important;
+  width: 100% !important;
+}
+</style>
 </head>
 <body>
   <div class="checkbox-wrapper-5">
@@ -173,13 +181,12 @@
     </div>
   </div>
 
-  <div class="panel" id="leftPanel">
+  <div class="panel show" id="leftPanel">
     <div class="logo-text">Versions</div>
     <div class="panel-buttons">
       <button id="fullscreenBtn">⛶ Full Screen</button>
     </div>
-
-    <!-- Version entries -->
+    <!-- Versions inserted here -->
     <div class="version-entry">
       <a href="#" class="version-link active" data-url="./250109_2148/index.html">Dot’s Big Debut</a>
       <div class="changelog-body show">
@@ -211,61 +218,72 @@
       </div>
     </div>
     <div class="version-entry">
-      <a href="#" class="version-link" data-url="./250224_2104/index.html">Zen? Nah!</a>
+      <a href="#" class="version-link" data-url="./250226_2114/index.html">Zen? Nah!</a>
       <div class="changelog-body">
         <ul><li>Removed Zen</li><li>UI change</li></ul>
       </div>
     </div>
     <div class="version-entry">
-      <a href="#" class="version-link" data-url="./250226_2114/index.html">JSON Reboot</a>
+      <a href="#" class="version-link" data-url="./250227_2034/index.html">JSON Reboot</a>
       <div class="changelog-body">
         <ul><li>Removed Sounds</li><li>Switched to JSON</li><li>Added and removed Back button</li></ul>
       </div>
     </div>
     <div class="version-entry">
-      <a href="#" class="version-link" data-url="./250227_2034/index.html">Vertical Vibes</a>
+      <a href="#" class="version-link" data-url="./250303_2041/index.html">Vertical Vibes</a>
       <div class="changelog-body">
         <ul><li>Forced Portrait mode</li><li>Prevented Repetition of actions</li><li>Increased watch time</li><li>Increased frequency of vanilla acts</li><li>Neutral descriptions</li><li>Couple more actions, toes, phone stuff</li><li>Spinning line in the box</li></ul>
       </div>
     </div>
     <div class="version-entry">
-      <a href="#" class="version-link" data-url="./250303_2041/index.html">Grand Dot Finale</a>
+      <a href="#" class="version-link" data-url="./radiant_resonance/index.html">Grand Dot Finale</a>
       <div class="changelog-body">
         <ul><li>Placeholder for your next big splash!</li></ul>
       </div>
     </div>
   </div>
 
-  <iframe id="contentFrame" src="./250109_2148/index.html" allowfullscreen style="position:absolute;top:0;left:280px;width:calc(100% - 280px);height:100%;border:none;"></iframe>
+  <iframe id="contentFrame" style="position:absolute;top:0;left:280px;width:calc(100% - 280px);height:100%;border:none;transition: all .3s ease;"></iframe>
+
   <script>
     const cb = document.getElementById('check-5'),
           panel = document.getElementById('leftPanel');
+
     cb.addEventListener('change', () => {
-      panel.classList.toggle('show', cb.checked);
-    });
+  panel.classList.toggle('show', cb.checked);
+  const iframe = document.getElementById('contentFrame');
+  if (cb.checked) {
+    iframe.style.left = '280px';
+    iframe.style.width = 'calc(100% - 280px)';
+  } else {
+    iframe.style.left = '0';
+    iframe.style.width = '100%';
+  }
+});
+    ;
+
     document.addEventListener('DOMContentLoaded', () => {
-      cb.checked = true;
-      panel.classList.add('show');
+  cb.checked = true;
+  panel.classList.add('show');
+  const iframe = document.getElementById('contentFrame');
+  iframe.style.left = '280px';
+  iframe.style.width = 'calc(100% - 280px)';
+
+  document.querySelectorAll('.version-link').forEach(link => {
+    link.addEventListener('click', e => {
+      e.preventDefault();
+      document.querySelectorAll('.version-link').forEach(l => l.classList.remove('active'));
+      document.querySelectorAll('.changelog-body').forEach(c => c.classList.remove('show'));
+      link.classList.add('active');
+      link.nextElementSibling.classList.add('show');
+      iframe.style.opacity = 0;
+      setTimeout(() => {
+        iframe.src = link.dataset.url;
+        iframe.onload = () => iframe.style.opacity = 1;
+      }, 300);
     });
-    document.getElementById('fullscreenBtn').addEventListener('click', () => {
-      if (!document.fullscreenElement) document.documentElement.requestFullscreen();
-      else document.exitFullscreen();
-    });
-    document.querySelectorAll('.version-link').forEach(link => {
-      link.addEventListener('click', e => {
-        e.preventDefault();
-        document.querySelectorAll('.version-link').forEach(l => l.classList.remove('active'));
-        document.querySelectorAll('.changelog-body').forEach(c => c.classList.remove('show'));
-        link.classList.add('active');
-        link.nextElementSibling.classList.add('show');
-        const iframe = document.getElementById('contentFrame');
-        iframe.style.opacity = 0;
-        setTimeout(() => {
-          iframe.src = link.dataset.url;
-          iframe.onload = () => iframe.style.opacity = 1;
-        }, 300);
-      });
-    });
+  });
+});
   </script>
 </body>
 </html>
