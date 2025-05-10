@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
   <title>Devolutionizer – Versions</title>
@@ -243,7 +245,7 @@
     </div>
   </div>
 
-  <iframe id="contentFrame" style="position:absolute;top:0;left:280px;width:calc(100% - 280px);height:100%;border:none;transition: all .3s ease;"></iframe>
+  <iframe id="contentFrame" style="position:absolute;top:0;left:280px;right:0;height:100%;border:none;transition:.3s ease all;"></iframe>
 
   <script>
     const cb = document.getElementById('check-5'),
@@ -254,20 +256,20 @@
   const iframe = document.getElementById('contentFrame');
   if (cb.checked) {
     iframe.style.left = '280px';
-    iframe.style.width = 'calc(100% - 280px)';
+    iframe.style.right = '0';
   } else {
     iframe.style.left = '0';
-    iframe.style.width = '100%';
+    iframe.style.right = '0';
   }
 });
-    ;
+
 
     document.addEventListener('DOMContentLoaded', () => {
   cb.checked = true;
   panel.classList.add('show');
   const iframe = document.getElementById('contentFrame');
   iframe.style.left = '280px';
-  iframe.style.width = 'calc(100% - 280px)';
+  iframe.style.right = '0';
 
   document.querySelectorAll('.version-link').forEach(link => {
     link.addEventListener('click', e => {
@@ -284,6 +286,7 @@
     });
   });
 });
+
   </script>
 </body>
 </html>
