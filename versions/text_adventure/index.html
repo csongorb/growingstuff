@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Devolutionizer UI</title>
+  <style>
+    /* ─── Load selected Dizhitl fonts ───────────────────────────────────── */
+    @font-face { font-family: 'Dizhitl Regular'; src: url('./fonts/dizhitl-regular.ttf') format('truetype'); font-weight: 400; font-style: normal; font-display: swap; }
+    @font-face { font-family: 'Dizhitl SemiBold'; src: url('./fonts/dizhitl-semibold.ttf') format('truetype'); font-weight: 600; font-style: normal; font-display: swap; }
+    @font-face { font-family: 'Dizhitl Black'; src: url('./fonts/dizhitl-black.ttf') format('truetype'); font-weight: 900; font-style: normal; font-display: swap; }
+    @font-face { font-family: 'Dizhitl Light'; src: url('./fonts/dizhitl-light.ttf') format('truetype'); font-weight: 300; font-style: normal; font-display: swap; }
+
+    :root {
+      --bg: #f0f0f0;
+      --sidebar: #519495;
+      --selected: #9cd0c1;
+      --text-light: #ffffff;
+      --text-dark:  #000000;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Dizhitl Regular', sans-serif;
+      display: flex;
+      height: 100vh;
+      overflow: hidden;
+      background: var(--bg);
+    }
+
+    nav {
+      position: relative;
+      width: 350px;
+      background: var(--sidebar);
+      color: var(--text-light);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 0;
+    }
+
+    /* Full-height vertical line */
+    nav::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 230px;
+      left: 45px;
+      width: 6px;
+      background: var(--text-light);
+      z-index: 2;
+    }
+
+    /* Ensure elements stack above line */
+    .title, .timeline, .entry, .changelog, .branch-divider {
+      position: relative;
+      z-index: 1;
+    }
+
+    .title {
+      font-family: 'Dizhitl Black', sans-serif;
+      font-size: 24px;
+      margin-bottom: 30px;
+      color: var(--text-light);
+    }
+
+    .timeline {
+      width: 100%;
+      padding: 0 20px;
+      flex-grow: 1;
+    }
+
+    .entry {
+      display: flex;
+      align-items: center;
+      margin-bottom: 25px;
+      padding-left: 70px;
+      cursor: pointer;
+      border-radius: 10px;
+      color: var(--text-light);
+      background: transparent;
+      transform: translateX(0);
+      transition: background 0.3s, color 0.3s, transform 0.3s;
+    }
+    .entry:hover,
+    .entry.active {
+      background: var(--selected);
+      color: var(--text-dark);
+    }
+    .entry:hover {
+      transform: translateX(10px);
+    }
+
+    .entry .meta {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.3;
+    }
+    .entry .meta .label {
+      font-family: 'Dizhitl SemiBold', sans-serif;
+      font-size: 16px;
+    }
+    .entry .meta .date {
+      font-family: 'Dizhitl Light', sans-serif;
+      font-size: 13px;
+      opacity: 0.9;
+    }
+
+    .branch-icon {
+      position: absolute;
+      left: 25px;
+      width: 40px;
+      height: 40px;
+      z-index: 1;
+      transition: transform 0.3s ease;
+    }
+    .entry:hover .branch-icon {
+      transform: scale(1.1) rotate(10deg);
+    }
+
+    /* Changelog section with slide-in animation */
+    .changelog {
+      width: 90%;
+      background: var(--selected);
+      color: var(--text-dark);
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 0 4px var(--text-light);
+      margin: 10px 0;
+      animation: slideInLeft 0.5s ease-out;
+    }
+    .changelog h3 {
+      font-family: 'Dizhitl SemiBold', sans-serif;
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+    .changelog .date {
+      font-family: 'Dizhitl Light', sans-serif;
+      font-size: 13px;
+      margin-bottom: 10px;
+      opacity: 0.7;
+    }
+    .changelog ul {
+      font-family: 'Dizhitl Regular', sans-serif;
+      padding-left: 20px;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    @keyframes slideInLeft {
+      from { opacity: 0; transform: translateX(-20px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+
+    .branch-divider {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+    .branch-divider img {
+      width: 50px;
+      animation: growIn 0.5s ease-out;
+    }
+    @keyframes growIn {
+      from { opacity: 0; transform: scale(0.8); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    /* Content area */
+    #contentWrapper {
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    .iframe-container {
+      width: 100%;
+      max-width: 1000px;
+      height: 95vh;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      overflow: hidden;
+    }
+    #contentFrame {
+      width: 100%; height: 100%; border: none; transition: opacity 0.3s ease;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="title">Versions</div>
+    <div class="timeline" id="timeline"></div>
+
+    <div class="changelog" id="changelog">
+      <h3>Changelog</h3>
+      <div class="date">2018-04-12</div>
+      <ul id="changelogList">
+        <li>Initial setup</li>
+        <li>Basic layout complete</li>
+      </ul>
+    </div>
+
+    
+  </nav>
+
+  <div id="contentWrapper">
+    <div class="iframe-container">
+      <iframe id="contentFrame" src=""></iframe>
+    </div>
+  </div>
+
+  <script>
+    const data = [
+      { title: "Day 1: The Doors Open", date: "2025-05-14", changes: ["pippin sat somewhere","pippin did something","pippin probably ate food"], url: "./180412_1946/index.html" }
+    ];
+
+    const timeline = document.getElementById("timeline");
+    const changelogList = document.getElementById("changelogList");
+    const changelogBox  = document.getElementById("changelog");
+    const contentFrame  = document.getElementById("contentFrame");
+
+    function loadVersion(idx) {
+      document.querySelectorAll(".entry").forEach(e=>e.classList.remove("active"));
+      const ent = document.getElementById(`entry-${idx}`);
+      ent.classList.add("active");
+      const newSrc = data[idx].url;
+      if (!contentFrame.src.endsWith(newSrc)) contentFrame.src = newSrc;
+      changelogBox.querySelector(".date").textContent = data[idx].date;
+      changelogList.innerHTML = data[idx].changes.map(c=>`<li>${c}</li>`).join("");
+    }
+
+    data.forEach((item,i)=>{
+      const div = document.createElement("div");
+      div.className = "entry";
+      div.id = `entry-${i}`;
+      div.onclick = ()=> loadVersion(i);
+      div.innerHTML = `
+        <img src=\"branch-icon.svg\" class=\"branch-icon\" alt=\"branch icon\" />
+        <div class=\"meta\">
+          <div class=\"label\">${item.title}</div>
+          <div class=\"date\">${item.date}</div>
+        </div>`;
+      timeline.appendChild(div);
+    });
+
+    window.addEventListener("DOMContentLoaded", ()=> loadVersion(0));
+  </script>
+</body>
+</html>
