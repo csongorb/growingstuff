@@ -5,45 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Devolutionizer – Clean Version</title>
   <style>
-    /* Dizhitl font faces */
-    @font-face {
-      font-family: 'Dizhitl';
-      src: url('C:/Users/admin/Documents/GitHub/growingstuff/versions/phone/fonts/dizhitl-regular.ttf') format('truetype');
-      font-weight: 400;
-      font-style: normal;
-    }
-    @font-face {
-      font-family: 'Dizhitl';
-      src: url('C:/Users/admin/Documents/GitHub/growingstuff/versions/phone/fonts/dizhitl-bold.ttf') format('truetype');
-      font-weight: 700;
-      font-style: normal;
-    }
-    @font-face {
-      font-family: 'Dizhitl';
-      src: url('C:/Users/admin/Documents/GitHub/growingstuff/versions/phone/fonts/dizhitl-black.ttf') format('truetype');
-      font-weight: 900;
-      font-style: normal;
-    }
-    @font-face {
-      font-family: 'Dizhitl';
-      src: url('C:/Users/admin/Documents/GitHub/growingstuff/versions/phone/fonts/dizhitl-extrabolditalic.ttf') format('truetype');
-      font-weight: 800;
-      font-style: italic;
-    }
-
     :root {
       --bg: hsl(0, 0%, 8%);
+      --text: #ffffff;
       --sidebar: hsl(0, 0%, 10%);
-      --text: #eee;
       --link-bg-active: #444488;
       --hover-line: #ffffff;
     }
 
-    * { margin: 0; padding: 0; box-sizing: border-box; }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
     body {
-      font-family: 'Dizhitl', sans-serif;
-      font-weight: 400;
+      font-family: "SF Pro Text", sans-serif;
       background: var(--bg);
       color: var(--text);
       height: 100vh;
@@ -53,15 +30,19 @@
 
     #contentFrame {
       position: absolute;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
       border: none;
       z-index: 0;
     }
 
     .panel {
       position: fixed;
-      top: 0; bottom: 0; left: 0;
+      top: 0;
+      bottom: 0;
+      left: 0;
       width: 280px;
       background: var(--sidebar);
       padding: 20px;
@@ -71,14 +52,17 @@
       z-index: 10;
       box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
     }
-    .panel.show { transform: translateX(0); }
+
+    .panel.show {
+      transform: translateX(0);
+    }
 
     .toggle-btn {
       position: fixed;
-      top: 10px; left: 10px;
+      top: 10px;
+      left: 10px;
       z-index: 20;
       padding: 8px 12px;
-      font-family: 'Dizhitl'; font-weight: 700;
       font-size: 14px;
       border: none;
       cursor: pointer;
@@ -87,17 +71,18 @@
       border-radius: 6px;
       transition: background 0.3s;
     }
-    .toggle-btn:hover { background: var(--hover-line); color: var(--bg); }
 
-    .panel-buttons {
-      display: flex;
-      gap: 10px;
-      margin: 10px 0 20px;
+    .toggle-btn:hover {
+      background: var(--hover-line);
+      color: var(--bg);
     }
-    .panel-buttons button {
-      flex: 1;
-      padding: 6px 10px;
-      font-family: 'Dizhitl'; font-weight: 700;
+
+    .fullscreen-btn {
+      position: fixed;
+      top: 10px;
+      left: 120px;
+      z-index: 20;
+      padding: 8px 12px;
       font-size: 14px;
       border: none;
       cursor: pointer;
@@ -106,61 +91,59 @@
       border-radius: 6px;
       transition: background 0.3s;
     }
-    .panel-buttons button:hover { background: var(--hover-line); color: var(--bg); }
 
-    .logo-text strong {
-      display: block;
-      margin-bottom: 10px;
-      font-family: 'Dizhitl';
-      font-weight: 800;
-      font-style: italic;
-      font-size: 18px;
-      color: var(--text);
+    .fullscreen-btn:hover {
+      background: var(--hover-line);
+      color: var(--bg);
     }
 
-    .version-entry { margin-bottom: 16px; }
+    .version-entry {
+      margin-bottom: 16px;
+    }
 
     .version-link {
       display: block;
       padding: 8px 10px;
-      font-family: 'Dizhitl'; font-weight: 700;
       font-size: 16px;
       background: rgba(255,255,255,0.05);
       border-radius: 6px;
       color: var(--text);
       cursor: pointer;
       text-decoration: none;
-      transition: background 0.3s;
     }
-    .version-link:hover { background: rgba(255,255,255,0.1); }
-    .version-link.active { background: var(--link-bg-active); }
+
+    .version-link:hover {
+      background: rgba(255,255,255,0.1);
+    }
+
+    .version-link.active {
+      background: var(--link-bg-active);
+      font-weight: bold;
+    }
 
     .changelog-body {
-      display: none;
-      padding: 10px;
-      margin-top: 6px;
-      background: rgba(255,255,255,0.05);
-      border-radius: 6px;
-      white-space: pre-wrap;
-      font-family: 'Dizhitl'; font-weight: 900;
       font-size: 14px;
-      color: var(--text);
+      background: rgba(255, 255, 255, 0.05);
+      padding: 10px;
+      border-radius: 6px;
+      margin-top: 6px;
+      white-space: pre-wrap;
+      display: none;
     }
-    .changelog-body.show { display: block; }
+
+    .changelog-body.show {
+      display: block;
+    }
   </style>
 </head>
 <body>
 
   <button class="toggle-btn" onclick="togglePanel()">☰ Versions</button>
+  <button class="fullscreen-btn" onclick="toggleFullscreen()">⛶ Full Screen</button>
 
   <div id="leftPanel" class="panel">
     <div class="logo-text"><strong>Versions</strong></div>
-    <div class="panel-buttons">
-      <button onclick="toggleFullscreen()">⛶ Full Screen</button>
-      <button onclick="refreshContent()">⭮ Refresh</button>
-    </div>
 
-    <!-- Version entries -->
     <div class="version-entry">
       <a class="version-link" onclick="loadContent(this, './250109_2148/index.html')">2025-01-09</a>
       <div class="changelog-body">
@@ -169,6 +152,7 @@
 - Dot spawns randomly
       </div>
     </div>
+
     <div class="version-entry">
       <a class="version-link" onclick="loadContent(this, './250116_2039/index.html')">2025-01-16</a>
       <div class="changelog-body">
@@ -176,6 +160,7 @@
 - Added slide from left to right
       </div>
     </div>
+
     <div class="version-entry">
       <a class="version-link" onclick="loadContent(this, './250123_2013/index.html')">2025-01-23</a>
       <div class="changelog-body">
@@ -186,6 +171,7 @@
 - Added text instructions
       </div>
     </div>
+
     <div class="version-entry">
       <a class="version-link" onclick="loadContent(this, './250214_0006/index.html')">2025-02-14</a>
       <div class="changelog-body">
@@ -193,6 +179,7 @@
 - Dealing with Abstraction
       </div>
     </div>
+
     <div class="version-entry">
       <a class="version-link" onclick="loadContent(this, './250225_2051/index.html')">2025-02-25</a>
       <div class="changelog-body">
@@ -201,6 +188,7 @@
 - Field Research on Info page
       </div>
     </div>
+
     <div class="version-entry">
       <a class="version-link" onclick="loadContent(this, './250226_2114/index.html')">2025-02-26</a>
       <div class="changelog-body">
@@ -208,6 +196,7 @@
 - UI change
       </div>
     </div>
+
     <div class="version-entry">
       <a class="version-link" onclick="loadContent(this, './250227_2034/index.html')">2025-02-27</a>
       <div class="changelog-body">
@@ -216,6 +205,7 @@
 - Added and removed Back button
       </div>
     </div>
+
     <div class="version-entry">
       <a class="version-link" onclick="loadContent(this, './250303_2041/index.html')">2025-03-03</a>
       <div class="changelog-body">
@@ -234,26 +224,40 @@
 
   <script>
     function togglePanel() {
-      document.getElementById('leftPanel').classList.toggle('show');
+      document.getElementById("leftPanel").classList.toggle("show");
     }
+
     function toggleFullscreen() {
-      const el = document.documentElement;
-      if (!document.fullscreenElement) el.requestFullscreen?.() || alert('Fullscreen not supported');
-      else document.exitFullscreen?.();
+      const iframe = document.getElementById('contentFrame');
+      if (!document.fullscreenElement) {
+        iframe.requestFullscreen().catch(err => {
+          alert(`Error attempting to enable full-screen mode: ${err.message}`);
+        });
+      } else {
+        document.exitFullscreen();
+      }
     }
-    function refreshContent() {
-      document.getElementById('contentFrame').contentWindow?.location.reload();
-    }
-    function loadContent(el, url) {
-      document.querySelectorAll('.version-link').forEach(l => l.classList.remove('active'));
-      el.classList.add('active');
-      const log = el.nextElementSibling;
-      document.querySelectorAll('.changelog-body').forEach(c => c !== log && c.classList.remove('show'));
-      log.classList.toggle('show');
+
+    function loadContent(element, url) {
+      document.querySelectorAll('.version-link').forEach(link => link.classList.remove('active'));
+      element.classList.add('active');
+
+      const changelog = element.nextElementSibling;
+      document.querySelectorAll('.changelog-body').forEach(el => {
+        if (el !== changelog) el.classList.remove('show');
+      });
+      changelog.classList.toggle('show');
+
       const iframe = document.getElementById('contentFrame');
       iframe.style.opacity = 0;
-      setTimeout(() => { iframe.src = url; iframe.onload = () => iframe.style.opacity = 1; }, 300);
+      setTimeout(() => {
+        iframe.src = url;
+        iframe.onload = () => {
+          iframe.style.opacity = 1;
+        };
+      }, 300);
     }
+
     window.addEventListener('DOMContentLoaded', () => {
       const first = document.querySelector('.version-link');
       if (first) loadContent(first, './250109_2148/index.html');
