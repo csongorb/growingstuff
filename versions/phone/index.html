@@ -38,6 +38,11 @@
       transform: translateX(0);
       z-index: 10;
     }
+    /* ← ADDED: hide when `.show` is missing */
+    .panel:not(.show) {
+      transform: translateX(-100%);
+    }
+
     /* Uiverse toggle */
     .checkbox-wrapper-5 {
       position: absolute;
