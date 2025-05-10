@@ -26,7 +26,6 @@
       overflow: hidden;
       position: relative;
     }
-    /* Sidebar */
     .panel {
       position: fixed;
       left: 0; top: 0; bottom: 0;
@@ -38,12 +37,9 @@
       transform: translateX(0);
       z-index: 10;
     }
-    /* ← ADDED: hide when `.show` is missing */
     .panel:not(.show) {
       transform: translateX(-100%);
     }
-
-    /* Uiverse toggle */
     .checkbox-wrapper-5 {
       position: absolute;
       top: 10px; left: 20px; z-index: 20;
@@ -118,17 +114,13 @@
       transform: rotateY(360deg);
       left: calc(1.55 * var(--size));
     }
-    /* Header */
     .logo-text {
       font-size: 3rem;
       font-weight: 900;
       margin-bottom: 1rem;
       color: var(--text-primary);
     }
-    /* Buttons */
-    .panel-buttons {
-      margin-bottom: 1rem;
-    }
+    .panel-buttons { margin-bottom: 1rem; }
     .panel-buttons button {
       width: 100%;
       padding: 8px;
@@ -140,10 +132,7 @@
       font-size: 1rem;
       cursor: pointer;
     }
-    /* Versions */
-    .version-entry {
-      margin-bottom: 1rem;
-    }
+    .version-entry { margin-bottom: 1rem; }
     .version-link {
       display: block;
       padding: 10px;
@@ -157,7 +146,6 @@
       background: var(--accent);
       color: #fff;
     }
-    /* Changelog */
     .changelog-body {
       display: none;
       margin-top: 0.5rem;
@@ -178,121 +166,77 @@
   </style>
 </head>
 <body>
-  <div class="panel" id="leftPanel">
-    <div class="checkbox-wrapper-5">
-      <div class="check">
-        <input checked id="check-5" type="checkbox">
-        <label for="check-5"></label>
-      </div>
+  <div class="checkbox-wrapper-5">
+    <div class="check">
+      <input checked id="check-5" type="checkbox">
+      <label for="check-5"></label>
     </div>
+  </div>
+
+  <div class="panel" id="leftPanel">
     <div class="logo-text">Versions</div>
     <div class="panel-buttons">
       <button id="fullscreenBtn">⛶ Full Screen</button>
     </div>
 
-    <!-- 1 -->
+    <!-- Version entries -->
     <div class="version-entry">
       <a href="#" class="version-link active" data-url="./250109_2148/index.html">Dot’s Big Debut</a>
       <div class="changelog-body show">
-        <ul style="margin:0; padding-left:1.2em; list-style:disc;">
-          <li>Basic interaction added</li>
-          <li>Press the white dot</li>
-          <li>Dot spawns randomly</li>
-        </ul>
+        <ul><li>Basic interaction added</li><li>Press the white dot</li><li>Dot spawns randomly</li></ul>
       </div>
     </div>
-    <!-- 2 -->
     <div class="version-entry">
       <a href="#" class="version-link" data-url="./250116_2039/index.html">Slide into the Spotlight</a>
       <div class="changelog-body">
-        <ul style="margin:0; padding-left:1.2em; list-style:disc;">
-          <li>Removed pressing dot for now</li>
-          <li>Added slide from left to right</li>
-        </ul>
+        <ul><li>Removed pressing dot for now</li><li>Added slide from left to right</li></ul>
       </div>
     </div>
-    <!-- 3 -->
     <div class="version-entry">
       <a href="#" class="version-link" data-url="./250123_2013/index.html">Chaos Carnival</a>
       <div class="changelog-body">
-        <ul style="margin:0; padding-left:1.2em; list-style:disc;">
-          <li>Removed slide feature</li>
-          <li>Added back dot spawns randomly</li>
-          <li>Need multiple dots to reach new phase</li>
-          <li>Added sound to pressing dot</li>
-          <li>Added text instructions</li>
-        </ul>
+        <ul><li>Removed slide feature</li><li>Added back dot spawns randomly</li><li>Need multiple dots to reach new phase</li><li>Added sound to pressing dot</li><li>Added text instructions</li></ul>
       </div>
     </div>
-    <!-- 4 -->
     <div class="version-entry">
       <a href="#" class="version-link" data-url="./250214_0006/index.html">Let's Get More Abstract</a>
       <div class="changelog-body">
-        <ul style="margin:0; padding-left:1.2em; list-style:disc;">
-          <li>Simplifying UI</li>
-          <li>Dealing with Abstraction</li>
-        </ul>
+        <ul><li>Simplifying UI</li><li>Dealing with Abstraction</li></ul>
       </div>
     </div>
-    <!-- 5 -->
     <div class="version-entry">
       <a href="#" class="version-link" data-url="./250225_2051/index.html">Menu Momentum</a>
       <div class="changelog-body">
-        <ul style="margin:0; padding-left:1.2em; list-style:disc;">
-          <li>Main Menu UI</li>
-          <li>Removed sound for Standard</li>
-          <li>Field Research on Info page</li>
-        </ul>
+        <ul><li>Main Menu UI</li><li>Removed sound for Standard</li><li>Field Research on Info page</li></ul>
       </div>
     </div>
-    <!-- 6 -->
     <div class="version-entry">
-      <a href="#" class="version-link" data-url="./250226_2114/index.html">Zen? Nah!</a>
+      <a href="#" class="version-link" data-url="./250224_2104/index.html">Zen? Nah!</a>
       <div class="changelog-body">
-        <ul style="margin:0; padding-left:1.2em; list-style:disc;">
-          <li>Removed Zen</li>
-          <li>UI change</li>
-        </ul>
+        <ul><li>Removed Zen</li><li>UI change</li></ul>
       </div>
     </div>
-    <!-- 7 -->
     <div class="version-entry">
-      <a href="#" class="version-link" data-url="./250227_2034/index.html">JSON Reboot</a>
+      <a href="#" class="version-link" data-url="./250226_2114/index.html">JSON Reboot</a>
       <div class="changelog-body">
-        <ul style="margin:0; padding-left:1.2em; list-style:disc;">
-          <li>Removed Sounds</li>
-          <li>Switched to JSON</li>
-          <li>Added and removed Back button</li>
-        </ul>
+        <ul><li>Removed Sounds</li><li>Switched to JSON</li><li>Added and removed Back button</li></ul>
       </div>
     </div>
-    <!-- 8 -->
     <div class="version-entry">
-      <a href="#" class="version-link" data-url="./250303_2041/index.html">Vertical Vibes</a>
+      <a href="#" class="version-link" data-url="./250227_2034/index.html">Vertical Vibes</a>
       <div class="changelog-body">
-        <ul style="margin:0; padding-left:1.2em; list-style:disc;">
-          <li>Forced Portrait mode</li>
-          <li>Prevented Repetition of actions</li>
-          <li>Increased watch time</li>
-          <li>Increased frequency of vanilla acts</li>
-          <li>Neutral descriptions</li>
-          <li>Couple more actions, toes, phone stuff</li>
-          <li>Spinning line in the box</li>
-        </ul>
+        <ul><li>Forced Portrait mode</li><li>Prevented Repetition of actions</li><li>Increased watch time</li><li>Increased frequency of vanilla acts</li><li>Neutral descriptions</li><li>Couple more actions, toes, phone stuff</li><li>Spinning line in the box</li></ul>
       </div>
     </div>
-    <!-- 9 -->
     <div class="version-entry">
-      <a href="#" class="version-link" data-url="./radiant_resonance/index.html">Grand Dot Finale</a>
+      <a href="#" class="version-link" data-url="./250303_2041/index.html">Grand Dot Finale</a>
       <div class="changelog-body">
-        <ul style="margin:0; padding-left:1.2em; list-style:disc;">
-          <li>Placeholder for your next big splash!</li>
-        </ul>
+        <ul><li>Placeholder for your next big splash!</li></ul>
       </div>
     </div>
   </div>
-  <iframe id="contentFrame" src="./250109_2148/index.html" allowfullscreen
-    style="position:absolute;top:0;left:280px;width:calc(100% - 280px);height:100%;border:none;"></iframe>
+
+  <iframe id="contentFrame" src="./250109_2148/index.html" allowfullscreen style="position:absolute;top:0;left:280px;width:calc(100% - 280px);height:100%;border:none;"></iframe>
   <script>
     const cb = document.getElementById('check-5'),
           panel = document.getElementById('leftPanel');
@@ -322,9 +266,6 @@
         }, 300);
       });
     });
-    document.addEventListener('touchmove', e => {
-      if (e.scale && e.scale !== 1) e.preventDefault();
-    }, { passive: false });
   </script>
 </body>
 </html>
