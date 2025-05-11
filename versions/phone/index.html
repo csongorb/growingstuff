@@ -1,186 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <title>Devolutionizer – Versions</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>As if you were on your phone</title>
   <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      overflow: hidden;
-      background: #111;
+    @font-face {
+      font-family: 'Dizhitl';
+      src: url('./fonts/dizhitl-regular.ttf') format('truetype');
+      font-weight: normal;
     }
-    .panel {
-      position: fixed;
-      top: 0; bottom: 0; left: 0;
-      width: 280px;
-      background: #222;
-      padding: 80px 20px 20px;
-      overflow-y: auto;
-      transform: translateX(0);
-      transition: transform 0.3s ease;
-      z-index: 10;
-    }
-    .panel:not(.show) {
-      transform: translateX(-100%);
-    }
-    .checkbox-wrapper-5 {
-      position: fixed;
-      top: 10px; left: 10px;
-      z-index: 20;
-    }
-    iframe {
-      position: absolute;
-      top: 0;
-      left: 280px;
-      width: calc(100% - 280px);
-      height: 100%;
-      border: none;
-      transition: all 0.3s ease;
-    }
-    .panel:not(.show) ~ #contentFrame {
-      position: fixed !important;
-      left: 0 !important;
-      top: 0 !important;
-      width: 100vw !important;
-      height: 100vh !important;
-      z-index: 5;
-    }
-    .version-entry { margin-bottom: 1.2rem; }
-    .version-link {
-      display: block;
+    @font-face {
+      font-family: 'Dizhitl';
+      src: url('./fonts/dizhitl-bold.ttf') format('truetype');
       font-weight: bold;
-      text-decoration: none;
-      margin-bottom: 0.2rem;
+    }
+
+    body {
+      margin: 0;
+      background: linear-gradient(135deg, #1c2b2e, #2a4649);
+      font-family: 'Dizhitl', sans-serif;
       color: #b0dfdb;
     }
-    .changelog-body {
-      color: white;
+
+    h1 {
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 2rem;
+      color: #1cbeca;
+    }
+
+    .timeline {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      margin-left: 40px;
+      padding-left: 40px;
+      border-left: 6px solid white;
+    }
+
+    .version-block {
+      background: rgba(26, 26, 26, 0.85);
+      margin: 2rem 1rem;
+      border-radius: 12px;
+      padding: 1rem;
+      position: relative;
+      border: 1px solid #1cbeca;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .version-block::before {
+      content: '';
+      background-image: url('circle_icon.svg');
+      background-size: 20px 20px;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 20px;
+      left: -47px;
+      width: 20px;
+      height: 20px;
+    }
+
+    .version-title {
+      font-weight: bold;
+      font-size: 1.3rem;
+      color: #1cbeca;
+    }
+
+    .version-date {
       font-size: 0.9rem;
-      padding-left: 1rem;
+      color: #b0dfdb;
+      margin: 0.2rem 0;
+    }
+
+    .version-desc {
+      font-size: 0.95rem;
+      margin: 0.5rem 0;
+    }
+
+    .version-frame {
+  width: 100%;
+  height: 300px;
+  border: none;
+  border-radius: 10px;
+  margin: 0.5rem 0;
+  background: black;
+}
+
+
+    .version-link {
+      display: inline-block;
+      margin-top: 0.3rem;
+      color: #1cbeca;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .version-link:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      .timeline {
+        margin-left: 20px;
+        padding-left: 20px;
+      }
+      .version-block::before {
+        left: -35px;
+      }
     }
   </style>
 </head>
 <body>
-  <div class="checkbox-wrapper-5">
-    <div class="check">
-      <input checked id="check-5" type="checkbox">
-      <label for="check-5">☰</label>
-    </div>
-  </div>
+  <h1>Devolutionizer Timeline</h1>
+  <div class="timeline" id="timeline"></div>
 
-  <div class="panel show" id="leftPanel">
-    <h2 style="color:white;">Versions</h2>
-
-    <div class="version-entry">
-      <a href="#" class="version-link" data-url="./250109_2148/index.html">Dot’s Big Debut</a>
-      <div class="changelog-body">
-        <ul><li>Basic interaction added</li><li>Press the white dot</li><li>Dot spawns randomly</li></ul>
-      </div>
-    </div>
-
-    <div class="version-entry">
-      <a href="#" class="version-link" data-url="./250116_2039/index.html">Slide into the Spotlight</a>
-      <div class="changelog-body">
-        <ul><li>Removed pressing dot</li><li>Added slide from left to right</li></ul>
-      </div>
-    </div>
-
-    <div class="version-entry">
-      <a href="#" class="version-link" data-url="./250123_2013/index.html">Chaos Carnival</a>
-      <div class="changelog-body">
-        <ul><li>Removed slide feature</li><li>Random dot spawn</li><li>Multiple dots for next phase</li><li>Added sound</li><li>Text instructions</li></ul>
-      </div>
-    </div>
-
-    <div class="version-entry">
-      <a href="#" class="version-link" data-url="./250214_0006/index.html">Let's Get More Abstract</a>
-      <div class="changelog-body">
-        <ul><li>Simplified UI</li><li>Explored abstraction</li></ul>
-      </div>
-    </div>
-
-    <div class="version-entry">
-      <a href="#" class="version-link" data-url="./250225_2051/index.html">Menu Momentum</a>
-      <div class="changelog-body">
-        <ul><li>Main Menu UI added</li><li>Removed standard sound</li><li>Field Research on info page</li></ul>
-      </div>
-    </div>
-
-    <div class="version-entry">
-      <a href="#" class="version-link" data-url="./250226_2114/index.html">Zen? Nah!</a>
-      <div class="changelog-body">
-        <ul><li>Removed Zen mode</li><li>UI updates</li></ul>
-      </div>
-    </div>
-
-    <div class="version-entry">
-      <a href="#" class="version-link" data-url="./250227_2034/index.html">JSON Reboot</a>
-      <div class="changelog-body">
-        <ul><li>Removed sounds</li><li>Switched to JSON-based logic</li><li>Back button added and removed</li></ul>
-      </div>
-    </div>
-
-    <div class="version-entry">
-      <a href="#" class="version-link" data-url="./250303_2041/index.html">Vertical Vibes</a>
-      <div class="changelog-body">
-        <ul><li>Forced portrait mode</li><li>Reduced repetition</li><li>Higher watch time</li><li>Phone interaction updates</li></ul>
-      </div>
-    </div>
-
-    <div class="version-entry">
-      <a href="#" class="version-link" data-url="./radiant_resonance/index.html">Grand Dot Finale</a>
-      <div class="changelog-body">
-        <ul><li>Final polish</li><li>Ready for launch</li></ul>
-      </div>
-    </div>
-  </div>
-
-  <iframe id="contentFrame" src="./250109_2148/index.html" allowfullscreen></iframe>
-
+  <script src="versions_data.js"></script>
   <script>
-    const cb = document.getElementById('check-5');
-    const panel = document.getElementById('leftPanel');
-    const iframe = document.getElementById('contentFrame');
+    const timeline = document.getElementById('timeline');
+    versions.forEach(v => {
+      const block = document.createElement('div');
+      block.className = 'version-block';
+     block.innerHTML = `
+  <div class="version-title">${v.title}</div>
+  <div class="version-date">${v.date}</div>
+  <div class="version-desc">${v.desc}</div>
+  <iframe src="./${v.folder}/index.html" class="version-frame" loading="lazy"></iframe>
+  <a href="./${v.folder}/index.html" target="_blank" class="version-link">▶ Play!</a>
+`;
 
-    cb.addEventListener('change', () => {
-      panel.classList.toggle('show', cb.checked);
-
-      if (cb.checked) {
-        iframe.style.position = 'absolute';
-        iframe.style.left = '280px';
-        iframe.style.width = 'calc(100% - 280px)';
-        iframe.style.height = '100%';
-      } else {
-        iframe.style.position = 'fixed';
-        iframe.style.left = '0';
-        iframe.style.top = '0';
-        iframe.style.width = '100vw';
-        iframe.style.height = '100vh';
-      }
-    });
-
-    document.addEventListener('DOMContentLoaded', () => {
-      cb.checked = true;
-      panel.classList.add('show');
-      iframe.style.position = 'absolute';
-      iframe.style.left = '280px';
-      iframe.style.width = 'calc(100% - 280px)';
-      iframe.style.height = '100%';
-    });
-
-    document.querySelectorAll('.version-link').forEach(link => {
-      link.addEventListener('click', e => {
-        e.preventDefault();
-        iframe.style.opacity = 0;
-        setTimeout(() => {
-          iframe.src = link.dataset.url;
-          iframe.onload = () => iframe.style.opacity = 1;
-        }, 300);
-      });
+      timeline.appendChild(block);
     });
   </script>
 </body>
