@@ -78,30 +78,23 @@
       margin: 0.5rem 0;
     }
 
-    .version-img {
+    .version-img-wrapper {
       width: 100%;
-      max-height: 200px;
-      object-fit: cover;
+      aspect-ratio: 16 / 9;
+      background-color: #132122;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       border-radius: 10px;
+      overflow: hidden;
       margin: 0.5rem 0;
-      border: 1px solid #333;
-      cursor: zoom-in;
-      transition: transform 0.3s ease, z-index 0.3s;
-      position: relative;
-      z-index: 1;
+      border: 1px solid #1cbeca;
     }
 
-    .version-img:hover {
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      width: 90vw;
-      height: auto;
-      max-height: 90vh;
-      transform: translate(-50%, -50%);
-      z-index: 9999;
-      border-radius: 12px;
-      background: black;
+    .version-img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
     }
 
     .version-link {
@@ -141,7 +134,9 @@
         <div class="version-title">${v.title}</div>
         <div class="version-date">${v.date}</div>
         <div class="version-desc">${v.desc}</div>
-        <img src="./previews/${v.img}" class="version-img" alt="${v.title} preview" />
+        <div class="version-img-wrapper">
+          <img src="./previews/${v.img}" class="version-img" alt="${v.title} preview" />
+        </div>
         <a href="./${v.folder}/index.html" target="_blank" class="version-link">▶ Play!</a>
       `;
       timeline.appendChild(block);
