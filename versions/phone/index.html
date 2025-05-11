@@ -16,8 +16,11 @@
       font-weight: bold;
     }
 
-    body {
+    html, body {
       margin: 0;
+      padding: 0;
+      overscroll-behavior: none;
+      touch-action: pan-y;
       background: linear-gradient(135deg, #1c2b2e, #2a4649);
       font-family: 'Dizhitl', sans-serif;
       color: #b0dfdb;
@@ -100,13 +103,27 @@
     .version-link {
       display: inline-block;
       margin-top: 0.3rem;
-      color: #1cbeca;
+      padding: 0.4rem 1rem;
+      background: #1cbeca;
+      color: #0e1b1c;
       text-decoration: none;
       font-weight: bold;
+      border-radius: 6px;
+      transition: background 0.3s;
+      cursor: pointer;
     }
 
     .version-link:hover {
-      text-decoration: underline;
+      background: #28e0d3;
+    }
+
+    .game-frame {
+      width: 100%;
+      height: 70vh;
+      margin-top: 1rem;
+      border: none;
+      border-radius: 12px;
+      background: black;
     }
 
     @media (max-width: 600px) {
@@ -120,16 +137,20 @@
     }
   </style>
 </head>
-<body>
+<body ontouchstart="">
   <h1>As if you were on your phone</h1>
   <div class="timeline" id="timeline"></div>
 
   <script src="versions_data.js"></script>
   <script>
     const timeline = document.getElementById('timeline');
-    versions.forEach(v => {
+    let currentFrame = null;
+
+    versions.forEach((v, index) => {
       const block = document.createElement('div');
       block.className = 'version-block';
+
+      const uniqueId = `game-frame-${index}`;
       block.innerHTML = `
         <div class="version-title">${v.title}</div>
         <div class="version-date">${v.date}</div>
@@ -137,9 +158,29 @@
         <div class="version-img-wrapper">
           <img src="./previews/${v.img}" class="version-img" alt="${v.title} preview" />
         </div>
-        <a href="./${v.folder}/index.html" target="_blank" class="version-link">▶ Play!</a>
+        <a class="version-link" data-folder="${v.folder}" data-frame-id="${uniqueId}">▶ Play!</a>
+        <div id="${uniqueId}"></div>
       `;
+
       timeline.appendChild(block);
+    });
+
+    document.addEventListener('click', function (e) {
+      if (e.target.classList.contains('version-link')) {
+        const folder = e.target.getAttribute('data-folder');
+        const frameId = e.target.getAttribute('data-frame-id');
+        const container = document.getElementById(frameId);
+
+        // remove previous iframe
+        if (currentFrame && currentFrame !== container) {
+          currentFrame.innerHTML = '';
+        }
+
+        container.innerHTML = `
+          <iframe src="./${folder}/index.html" class="game-frame" allowfullscreen></iframe>
+        `;
+        currentFrame = container;
+      }
     });
   </script>
 </body>
