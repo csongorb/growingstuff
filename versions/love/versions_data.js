@@ -4,7 +4,6 @@ window.data = [
     date: "2018-04-12",
     changes: [
       "Initial slider added inside a minimalist container",
-      "No feedback, text, or sound",
       "Early test of interaction"
     ],
     url: "./180412_1946/index.html"
