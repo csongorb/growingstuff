@@ -27,7 +27,7 @@ https://wearemuesli.it/about/
 
 ### Short
 
-Csongor Baranyai is an experienced game and narrative designer with over 20 years of experience in interactive media. He teaches game design at the UE University of Europe for Applied Sciences. His work includes games, transmedia projects, artistic collaborations, and personal projects. He is interested in exploring the development process and how games evolve, as in the exhibition series [Devolution](https://devolution.online/).
+Csongor Baranyai is a game and narrative designer with over 20 years of experience in interactive media. He teaches game design at the UE University of Europe for Applied Sciences. His work includes games, transmedia projects, artistic collaborations, and personal projects. He is interested in exploring the development process and how games evolve, as in the exhibition series [Devolution](https://devolution.online/).
 
 ### Long
 

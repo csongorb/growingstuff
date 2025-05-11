@@ -2,7 +2,7 @@
 
 ## Final
 
-?
+You can find the final PDFs, that went into print in [/dessauerPress/print/](./dessauerPress/print/).
 
 ## Shop
 
@@ -19,7 +19,7 @@ Explore the development process of the *It is as if...* game series by Pippin Ba
 - what kind of information you wish to get from the people who buy online: none (?)
 - and if you wish to have a „wishlist option“ if booklets will sell out: no
 
-## Overview Working Documents
+## Working Documents
 
 Direct links to the folders containing the PDFs & DOCXs to make life easier for everyone:
 

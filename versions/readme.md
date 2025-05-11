@@ -13,4 +13,5 @@ These links were used during the exhibition and were not originally intended to 
 
 # Other
 
-See [process.md](./process.md) for insights into the development process of the Devolutionizer.
+See [process.md](./process.md) for insights into the development process.  
+The versions were almost exhibited with the help of a tool, the ([Devolutionizer](https://github.com/csongorb/devolutionizer/commits/master/). The project was abandoned along the way, but may be reactiveted later.

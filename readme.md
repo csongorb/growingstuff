@@ -1,6 +1,6 @@
 # Pippin Barr x Devolution
 
-A repository to reflect and structure the work on the exhibition *Pippin Barr x Devolution: It is as if you were...* during [A MAZE. / Berlin 2025](https://2025.amaze-berlin.de/)(May 14 - 17 2025).
+A repository to reflect on and structure the work on the exhibition *Pippin Barr x Devolution: It is as if you were...* during [A MAZE. / Berlin 2025](https://2025.amaze-berlin.de/) (May 14 - 17 2025).
 
 ```
 🌱 It is as if you were/
@@ -13,29 +13,31 @@ A repository to reflect and structure the work on the exhibition *Pippin Barr x 
 └── 🌸
 ```
 
-I suppose for now just look at this [conversation](/process/readme.md).
+## Structure / Elements
 
-## Structure
+- a physical [exhibition](./exhibition/) in the core, at [A MAZE./Berlin](https://2025.amaze-berlin.de/) (May 14 - 17 2025), consisting of:
+    - exhibited [in-between versions](./versions/) of the *It is as if you were...* games
+    - an limited edition eight-[booklets](./booklets/) bundle
+    - some accompanying [live events](./onstage/)
+- and a brief intro online at [devolution.online/itisasifyouwere](https://devolution.online/itisasifyouwere/)
 
-- a physical exhibition, at [A MAZE./Berlin](https://2025.amaze-berlin.de/), May 14 - 17 2025
-	- a tool ([Devolutionizer](https://github.com/csongorb/devolutionizer/commits/master/), sorry for the name) to exhibit the games / versions
-- some [booklets](booklets/)
-- some [live events](onstage/)
-- this repository (?)
+### Process Documentation
 
-Very maybe we may will have some elements [online](https://devolution.online).
+Is the process documentation not part of the project? Yes, it is.
 
-We organise ourselves through:
+- so I suppose just look at this [conversation](/process/readme.md) between Pippin and Csongor to start
+- or just look around in the reposutiry to encounter more and more in-depth reflections and documentations
+- read the [commit history](https://github.com/csongorb/growingstuff/commits/main/)
 
-- some Miro boards
+### Orga
+
+Additionally, the the exhibition was organised through:
+
+- a [Miro board](./process/screenshots/)
 - a Discord server
 
-## Documentation
+## Credits & License
 
-- a [process documentation](process/)
-- the [commit history](https://github.com/csongorb/growingstuff/commits/main/) of this repository
-- the reposotory itself
+- the exhibition is... See [credits.md](/credits.md).
 
-## Credits
-
-See [credits.md](/credits.md).
+This event, incl. all related elements (booklets, documentation, etc.) are licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). The source is available from its *repository* ([github.com/csongorb/growingstuff](https://github.com/csongorb/growingstuff)) on GitHub.
