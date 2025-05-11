@@ -3,24 +3,27 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Devolutionizer UI</title>
+  <title>Devolutionizer – Love Edition</title>
+
+  <!-- Fonts -->
   <style>
+    @font-face { font-family: 'Dizhitl Regular'; src: url('./fonts/dizhitl-regular.ttf') format('truetype'); }
+    @font-face { font-family: 'Dizhitl SemiBold'; src: url('./fonts/dizhitl-semibold.ttf') format('truetype'); }
+    @font-face { font-family: 'Dizhitl Black'; src: url('./fonts/dizhitl-black.ttf') format('truetype'); }
+    @font-face { font-family: 'Dizhitl Light'; src: url('./fonts/dizhitl-light.ttf') format('truetype'); }
+
     :root {
       --bg: #f0f0f0;
-      --text: #ffffff;
-      --text-alt: #000000;
       --sidebar: #ef2d75;
       --selected: #f9cbdf;
+      --text-light: #ffffff;
+      --text-dark: #000000;
     }
 
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
 
     body {
-      font-family: "Segoe UI", sans-serif;
+      font-family: 'Dizhitl Regular', sans-serif;
       display: flex;
       height: 100vh;
       overflow: hidden;
@@ -28,58 +31,64 @@
     }
 
     nav {
+      position: relative;
       width: 350px;
       background: var(--sidebar);
-      color: var(--text);
+      color: var(--text-light);
       display: flex;
       flex-direction: column;
       align-items: center;
       padding: 20px 0;
-      position: relative;
     }
 
-    .title {
-      font-size: 24px;
-      font-weight: bold;
-      margin-bottom: 30px;
-    }
-
-    .timeline {
-      position: relative;
-      width: 100%;
-      padding: 0 20px;
-      flex-grow: 1;
-    }
-
-    .timeline::before {
+    nav::before {
       content: "";
       position: absolute;
       top: 0;
-      bottom: 0;
       left: 45px;
       width: 6px;
-      background: white;
-      z-index: 0;
+      height: calc(100% - 320px); /* avoid overlapping changelog */
+      background: var(--text-light);
+      z-index: 2;
+    }
+
+    .title {
+      font-family: 'Dizhitl Black', sans-serif;
+      font-size: 24px;
+      margin-bottom: 30px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .timeline {
+      width: 100%;
+      padding: 0 20px;
+      flex-grow: 1;
+      position: relative;
+      z-index: 1;
     }
 
     .entry {
-      position: relative;
       display: flex;
       align-items: center;
-      margin-bottom: 30px;
+      margin-bottom: 25px;
       padding-left: 70px;
       cursor: pointer;
-      transition: background 0.3s;
       border-radius: 10px;
+      background: transparent;
+      color: var(--text-light);
+      transition: all 0.3s;
+      position: relative;
+    }
+
+    .entry:hover,
+    .entry.active {
+      background: var(--selected);
+      color: var(--text-dark);
     }
 
     .entry:hover {
-      background: rgba(255, 255, 255, 0.1);
-    }
-
-    .entry.active {
-      background: var(--selected);
-      color: var(--text-alt);
+      transform: translateX(10px);
     }
 
     .entry .meta {
@@ -89,11 +98,12 @@
     }
 
     .entry .meta .label {
-      font-weight: bold;
+      font-family: 'Dizhitl SemiBold', sans-serif;
       font-size: 16px;
     }
 
     .entry .meta .date {
+      font-family: 'Dizhitl Light', sans-serif;
       font-size: 13px;
       opacity: 0.9;
     }
@@ -103,64 +113,56 @@
       left: 25px;
       width: 40px;
       height: 40px;
-      transition: transform 0.3s;
+      z-index: 1;
+      transition: transform 0.3s ease;
     }
 
-    .branch-divider {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      padding: 20px 0 10px;
-    }
-
-    .branch-divider svg {
-      width: 50px;
-      height: auto;
-      animation: growIn 0.5s ease-out;
-    }
-
-    @keyframes growIn {
-      from {
-        opacity: 0;
-        transform: scale(0.8);
-      }
-      to {
-        opacity: 1;
-        transform: scale(1);
-      }
+    .entry:hover .branch-icon {
+      transform: scale(1.1) rotate(10deg);
     }
 
     .changelog {
       width: 90%;
       background: var(--selected);
-      color: var(--text-alt);
+      color: var(--text-dark);
       padding: 20px;
       border-radius: 12px;
-      box-shadow: 0 0 0 4px white;
-      margin-bottom: 20px;
-      animation: fadeIn 0.4s ease-in-out;
+      box-shadow: 0 0 0 4px var(--text-light);
+      margin: 10px 0;
+      animation: slideInLeft 0.5s ease-out;
+      position: relative;
+      z-index: 1;
     }
 
     .changelog h3 {
+      font-family: 'Dizhitl SemiBold', sans-serif;
       font-size: 18px;
       margin-bottom: 5px;
     }
 
     .changelog .date {
+      font-family: 'Dizhitl Light', sans-serif;
       font-size: 13px;
       margin-bottom: 10px;
       opacity: 0.7;
     }
 
     .changelog ul {
+      font-family: 'Dizhitl Regular', sans-serif;
       padding-left: 20px;
       font-size: 15px;
       line-height: 1.6;
     }
 
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(10px); }
-      to { opacity: 1; transform: translateY(0); }
+    @keyframes slideInLeft {
+      from { opacity: 0; transform: translateX(-20px); }
+      to   { opacity: 1; transform: translateX(0); }
+    }
+
+
+    @keyframes growIn {
+      from { opacity: 0; transform: scale(0.8); }
+      to   { opacity: 1; transform: scale(1); }
     }
 
     #contentWrapper {
@@ -188,10 +190,13 @@
       transition: opacity 0.3s ease;
     }
   </style>
+
+  <!-- Load version data -->
+  <script src="versions_data.js" defer></script>
 </head>
 <body>
   <nav>
-    <div class="title">Versions</div>
+    <div class="title">Iterations</div>
     <div class="timeline" id="timeline"></div>
 
     <div class="branch-divider">
@@ -215,98 +220,40 @@
   </div>
 
   <script>
-    const data = [
-  {
-    title: "Bare Beginnings: The Lonely Slider",
-    date: "2018-04-12",
-    changes: [
-      "Initial slider added inside a minimalist container",
-      "No feedback, text, or sound",
-      "Early test of interaction"
-    ],
-    url: "./180412_1946/index.html"
-  },
-  {
-    title: "A Whisper Emerges",
-    date: "2018-06-06",
-    changes: [
-      "Voice input added using Annyang.js",
-      "Feedback box and progress bar introduced",
-      "Game retitled: 'It is as if you were making love'"
-    ],
-    url: "./180606_1554/index.html"
-  },
-  {
-    title: "Mood, Music, and Metaphor",
-    date: "2018-06-08",
-    changes: [
-      "Title screen with heart and author credit",
-      "Mood music toggle and app icon added",
-      "Instruction and output boxes implemented"
-    ],
-    url: "./180608_2226/index.html"
-  },
-  {
-    title: "The Game Speaks Back",
-    date: "2018-06-22",
-    changes: [
-      "Dynamic messages handled via external data.js",
-      "Message box replaces output box",
-      "ReadMe icon and UI polish applied"
-    ],
-    url: "./180622_0357/index.html"
-  },
-  {
-    title: "Final Release: Version ❤️",
-    date: "2025-01-07",
-    changes: [
-      "Analytics added for public release",
-      "UI and code final polish",
-      "Fully playable version with all features complete"
-    ],
-    url: "./250107_1812/index.html"
-  }
-];
-
     const timeline = document.getElementById("timeline");
     const changelogList = document.getElementById("changelogList");
-    const changelogBox = document.getElementById("changelog");
-    const contentFrame = document.getElementById("contentFrame");
+    const changelogBox  = document.getElementById("changelog");
+    const contentFrame  = document.getElementById("contentFrame");
 
     function loadVersion(index) {
-      document.querySelectorAll(".entry").forEach((e) => e.classList.remove("active"));
+      document.querySelectorAll(".entry").forEach(e => e.classList.remove("active"));
       const entry = document.getElementById("entry-" + index);
       entry.classList.add("active");
 
-      // Only reload iframe if URL changed
-      const newSrc = data[index].url;
+      const newSrc = window.data[index].url;
       if (!contentFrame.src.endsWith(newSrc)) {
         contentFrame.src = newSrc;
       }
 
-      // Update changelog
-      changelogBox.querySelector(".date").textContent = data[index].date;
-      changelogList.innerHTML = data[index].changes.map(c => `<li>${c}</li>`).join("");
+      changelogBox.querySelector(".date").textContent = window.data[index].date;
+      changelogList.innerHTML = window.data[index].changes.map(c => `<li>${c}</li>`).join("");
     }
 
-    data.forEach((item, i) => {
-      const div = document.createElement("div");
-      div.className = "entry";
-      div.id = "entry-" + i;
-      div.onclick = () => loadVersion(i);
-
-      div.innerHTML = `
-        <img src="branch-icon.svg" class="branch-icon" alt="branch icon" />
-        <div class="meta">
-          <div class="label">${item.title}</div>
-          <div class="date">${item.date}</div>
-        </div>
-      `;
-
-      timeline.appendChild(div);
-    });
-
     window.addEventListener("DOMContentLoaded", () => {
+      window.data.forEach((item, i) => {
+        const div = document.createElement("div");
+        div.className = "entry";
+        div.id = "entry-" + i;
+        div.onclick = () => loadVersion(i);
+        div.innerHTML = `
+          <img src="branch-icon.svg" class="branch-icon" alt="branch icon" />
+          <div class="meta">
+            <div class="label">${item.title}</div>
+            <div class="date">${item.date}</div>
+          </div>
+        `;
+        timeline.appendChild(div);
+      });
       loadVersion(0);
     });
   </script>
