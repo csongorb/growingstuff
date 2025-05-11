@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Devolutionizer – Versions</title>
+  <title>Devolutionizer Timeline</title>
   <style>
     @font-face {
       font-family: 'Dizhitl';
       src: url('./fonts/dizhitl-regular.ttf') format('truetype');
       font-weight: normal;
     }
-
     @font-face {
       font-family: 'Dizhitl';
       src: url('./fonts/dizhitl-bold.ttf') format('truetype');
@@ -18,223 +17,120 @@
     }
 
     body {
-      background: #111;
-      color: #b0dfdb;
-      font-family: 'Dizhitl', sans-serif;
-      padding: 1rem;
       margin: 0;
+      background: linear-gradient(135deg, #1c2b2e, #2a4649);
+      font-family: 'Dizhitl', sans-serif;
+      color: #b0dfdb;
     }
 
     h1 {
       text-align: center;
-      color: #1cbeca;
-      margin-bottom: 2rem;
-      font-weight: bold;
+      padding: 1.5rem;
       font-size: 2rem;
-    }
-
-    .version {
-      background: #1a1a1a;
-      border: 1px solid #1cbeca;
-      border-radius: 14px;
-      margin-bottom: 1.5rem;
-      overflow: hidden;
-      transition: transform 0.2s;
-    }
-
-    .version:hover {
-      transform: scale(1.01);
-    }
-
-    .version-header {
-      padding: 1rem;
-      font-size: 1.1rem;
-      font-weight: bold;
       color: #1cbeca;
-      cursor: pointer;
+    }
+
+    .timeline {
       display: flex;
-      justify-content: space-between;
-      align-items: center;
+      flex-direction: column;
+      position: relative;
+      margin-left: 40px;
+      padding-left: 40px;
+      border-left: 6px solid white;
     }
 
-    .version-body {
-      display: none;
-      animation: fadeIn 0.3s ease;
-      padding: 0 1rem 1rem;
+    .version-block {
+      background: rgba(26, 26, 26, 0.85);
+      margin: 2rem 1rem;
+      border-radius: 12px;
+      padding: 1rem;
+      position: relative;
+      border: 1px solid #1cbeca;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     }
 
-    .version-body img {
-      width: 100%;
-      max-height: 200px;
-      object-fit: cover;
-      border-radius: 10px;
-      margin-bottom: 0.8rem;
-      border: 1px solid #333;
+    .version-block::before {
+      content: '';
+      background-image: url('circle_icon.svg');
+      background-size: 20px 20px;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 20px;
+      left: -47px;
+      width: 20px;
+      height: 20px;
     }
 
-    .version-body ul {
-      padding-left: 1.2rem;
+    .version-title {
+      font-weight: bold;
+      font-size: 1.3rem;
+      color: #1cbeca;
+    }
+
+    .version-date {
+      font-size: 0.9rem;
+      color: #b0dfdb;
+      margin: 0.2rem 0;
+    }
+
+    .version-desc {
+      font-size: 0.95rem;
       margin: 0.5rem 0;
     }
 
+    .version-frame {
+  width: 100%;
+  height: 300px;
+  border: none;
+  border-radius: 10px;
+  margin: 0.5rem 0;
+  background: black;
+}
+
+
     .version-link {
       display: inline-block;
-      margin-top: 0.5rem;
+      margin-top: 0.3rem;
       color: #1cbeca;
-      text-decoration: underline;
+      text-decoration: none;
       font-weight: bold;
     }
 
     .version-link:hover {
-      color: #b0dfdb;
+      text-decoration: underline;
     }
 
-    .arrow {
-      font-size: 1.4rem;
-      transition: transform 0.3s ease;
-    }
-
-    .expanded .arrow {
-      transform: rotate(90deg);
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(-5px); }
-      to { opacity: 1; transform: translateY(0); }
+    @media (max-width: 600px) {
+      .timeline {
+        margin-left: 20px;
+        padding-left: 20px;
+      }
+      .version-block::before {
+        left: -35px;
+      }
     }
   </style>
 </head>
 <body>
-  <h1>Devolutionizer</h1>
+  <h1>Devolutionizer Timeline</h1>
+  <div class="timeline" id="timeline"></div>
 
-  <!-- START VERSION CARDS -->
-  <!-- repeat for each version -->
-  <div class="version">
-    <div class="version-header" onclick="toggle(this)">Dot’s Big Debut <span class="arrow">›</span></div>
-    <div class="version-body">
-      <img src="./previews/250109_2148.png" alt="Preview of Dot’s Big Debut" />
-      <ul>
-        <li>Basic interaction added</li>
-        <li>Press the white dot</li>
-        <li>Dot spawns randomly</li>
-      </ul>
-      <a class="version-link" href="./250109_2148/index.html" target="_blank">Open Version</a>
-    </div>
-  </div>
-
-  <div class="version">
-    <div class="version-header" onclick="toggle(this)">Slide into the Spotlight <span class="arrow">›</span></div>
-    <div class="version-body">
-      <img src="./previews/250116_2039.png" alt="Preview" />
-      <ul>
-        <li>Removed pressing dot</li>
-        <li>Added slide from left to right</li>
-      </ul>
-      <a class="version-link" href="./250116_2039/index.html" target="_blank">Open Version</a>
-    </div>
-  </div>
-
-  <div class="version">
-    <div class="version-header" onclick="toggle(this)">Chaos Carnival <span class="arrow">›</span></div>
-    <div class="version-body">
-      <img src="./previews/250123_2013.png" alt="Preview" />
-      <ul>
-        <li>Removed slide feature</li>
-        <li>Random dot spawn</li>
-        <li>Multiple dots for next phase</li>
-        <li>Added sound</li>
-        <li>Text instructions</li>
-      </ul>
-      <a class="version-link" href="./250123_2013/index.html" target="_blank">Open Version</a>
-    </div>
-  </div>
-
-  <div class="version">
-    <div class="version-header" onclick="toggle(this)">Let's Get More Abstract <span class="arrow">›</span></div>
-    <div class="version-body">
-      <img src="./previews/250215_0006.png" alt="Preview" />
-      <ul>
-        <li>Simplified UI</li>
-        <li>Explored abstraction</li>
-      </ul>
-      <a class="version-link" href="./250215_0006/index.html" target="_blank">Open Version</a>
-    </div>
-  </div>
-
-  <div class="version">
-    <div class="version-header" onclick="toggle(this)">Menu Momentum <span class="arrow">›</span></div>
-    <div class="version-body">
-      <img src="./previews/250220_2051.png" alt="Preview" />
-      <ul>
-        <li>Main Menu UI added</li>
-        <li>Removed standard sound</li>
-        <li>Field Research on info page</li>
-      </ul>
-      <a class="version-link" href="./250220_2051/index.html" target="_blank">Open Version</a>
-    </div>
-  </div>
-
-  <div class="version">
-    <div class="version-header" onclick="toggle(this)">Intermission Overload <span class="arrow">›</span></div>
-    <div class="version-body">
-      <img src="./previews/250224_2104.png" alt="Preview" />
-      <ul>
-        <li>Added intermission mode</li>
-        <li>Updated screen effects</li>
-        <li>Placeholder patch</li>
-      </ul>
-      <a class="version-link" href="./250224_2104/index.html" target="_blank">Open Version</a>
-    </div>
-  </div>
-
-  <div class="version">
-    <div class="version-header" onclick="toggle(this)">Zen? Nah! <span class="arrow">›</span></div>
-    <div class="version-body">
-      <img src="./previews/250226_2114.png" alt="Preview" />
-      <ul>
-        <li>Removed Zen mode</li>
-        <li>UI updates</li>
-      </ul>
-      <a class="version-link" href="./250226_2114/index.html" target="_blank">Open Version</a>
-    </div>
-  </div>
-
-  <div class="version">
-    <div class="version-header" onclick="toggle(this)">JSON Reboot <span class="arrow">›</span></div>
-    <div class="version-body">
-      <img src="./previews/250227_2034.png" alt="Preview" />
-      <ul>
-        <li>Removed sounds</li>
-        <li>Switched to JSON-based logic</li>
-        <li>Back button added and removed</li>
-      </ul>
-      <a class="version-link" href="./250227_2034/index.html" target="_blank">Open Version</a>
-    </div>
-  </div>
-
-  <div class="version">
-    <div class="version-header" onclick="toggle(this)">Vertical Vibes <span class="arrow">›</span></div>
-    <div class="version-body">
-      <img src="./previews/250303_2041.png" alt="Preview" />
-      <ul>
-        <li>Forced portrait mode</li>
-        <li>Reduced repetition</li>
-        <li>Higher watch time</li>
-        <li>Phone interaction updates</li>
-      </ul>
-      <a class="version-link" href="./250303_2041/index.html" target="_blank">Open Version</a>
-    </div>
-  </div>
-  <!-- END VERSION CARDS -->
-
+  <script src="versions_data.js"></script>
   <script>
-    function toggle(header) {
-      const card = header.parentElement;
-      const body = card.querySelector('.version-body');
-      const arrow = header.querySelector('.arrow');
-      const expanded = card.classList.toggle('expanded');
-      body.style.display = expanded ? 'block' : 'none';
-    }
+    const timeline = document.getElementById('timeline');
+    versions.forEach(v => {
+      const block = document.createElement('div');
+      block.className = 'version-block';
+     block.innerHTML = `
+  <div class="version-title">${v.title}</div>
+  <div class="version-date">${v.date}</div>
+  <div class="version-desc">${v.desc}</div>
+  <iframe src="./${v.folder}/index.html" class="version-frame" loading="lazy"></iframe>
+  <a href="./${v.folder}/index.html" target="_blank" class="version-link">▶ Play!</a>
+`;
+
+      timeline.appendChild(block);
+    });
   </script>
 </body>
 </html>
