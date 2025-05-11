@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Devolutionizer – Versions</title>
+  <style>
+    @font-face {
+      font-family: 'Dizhitl';
+      src: url('./fonts/dizhitl-regular.ttf') format('truetype');
+      font-weight: normal;
+    }
+
+    @font-face {
+      font-family: 'Dizhitl';
+      src: url('./fonts/dizhitl-bold.ttf') format('truetype');
+      font-weight: bold;
+    }
+
+    body {
+      background: #111;
+      color: #b0dfdb;
+      font-family: 'Dizhitl', sans-serif;
+      padding: 1rem;
+      margin: 0;
+    }
+
+    h1 {
+      text-align: center;
+      color: #1cbeca;
+      margin-bottom: 2rem;
+      font-weight: bold;
+      font-size: 2rem;
+    }
+
+    .version {
+      background: #1a1a1a;
+      border: 1px solid #1cbeca;
+      border-radius: 14px;
+      margin-bottom: 1.5rem;
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+
+    .version:hover {
+      transform: scale(1.01);
+    }
+
+    .version-header {
+      padding: 1rem;
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: #1cbeca;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .version-body {
+      display: none;
+      animation: fadeIn 0.3s ease;
+      padding: 0 1rem 1rem;
+    }
+
+    .version-body img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 0.8rem;
+      border: 1px solid #333;
+    }
+
+    .version-body ul {
+      padding-left: 1.2rem;
+      margin: 0.5rem 0;
+    }
+
+    .version-link {
+      display: inline-block;
+      margin-top: 0.5rem;
+      color: #1cbeca;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+
+    .version-link:hover {
+      color: #b0dfdb;
+    }
+
+    .arrow {
+      font-size: 1.4rem;
+      transition: transform 0.3s ease;
+    }
+
+    .expanded .arrow {
+      transform: rotate(90deg);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-5px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <h1>Devolutionizer</h1>
+
+  <!-- START VERSION CARDS -->
+  <!-- repeat for each version -->
+  <div class="version">
+    <div class="version-header" onclick="toggle(this)">Dot’s Big Debut <span class="arrow">›</span></div>
+    <div class="version-body">
+      <img src="./previews/250109_2148.png" alt="Preview of Dot’s Big Debut" />
+      <ul>
+        <li>Basic interaction added</li>
+        <li>Press the white dot</li>
+        <li>Dot spawns randomly</li>
+      </ul>
+      <a class="version-link" href="./250109_2148/index.html" target="_blank">Open Version</a>
+    </div>
+  </div>
+
+  <div class="version">
+    <div class="version-header" onclick="toggle(this)">Slide into the Spotlight <span class="arrow">›</span></div>
+    <div class="version-body">
+      <img src="./previews/250116_2039.png" alt="Preview" />
+      <ul>
+        <li>Removed pressing dot</li>
+        <li>Added slide from left to right</li>
+      </ul>
+      <a class="version-link" href="./250116_2039/index.html" target="_blank">Open Version</a>
+    </div>
+  </div>
+
+  <div class="version">
+    <div class="version-header" onclick="toggle(this)">Chaos Carnival <span class="arrow">›</span></div>
+    <div class="version-body">
+      <img src="./previews/250123_2013.png" alt="Preview" />
+      <ul>
+        <li>Removed slide feature</li>
+        <li>Random dot spawn</li>
+        <li>Multiple dots for next phase</li>
+        <li>Added sound</li>
+        <li>Text instructions</li>
+      </ul>
+      <a class="version-link" href="./250123_2013/index.html" target="_blank">Open Version</a>
+    </div>
+  </div>
+
+  <div class="version">
+    <div class="version-header" onclick="toggle(this)">Let's Get More Abstract <span class="arrow">›</span></div>
+    <div class="version-body">
+      <img src="./previews/250215_0006.png" alt="Preview" />
+      <ul>
+        <li>Simplified UI</li>
+        <li>Explored abstraction</li>
+      </ul>
+      <a class="version-link" href="./250215_0006/index.html" target="_blank">Open Version</a>
+    </div>
+  </div>
+
+  <div class="version">
+    <div class="version-header" onclick="toggle(this)">Menu Momentum <span class="arrow">›</span></div>
+    <div class="version-body">
+      <img src="./previews/250220_2051.png" alt="Preview" />
+      <ul>
+        <li>Main Menu UI added</li>
+        <li>Removed standard sound</li>
+        <li>Field Research on info page</li>
+      </ul>
+      <a class="version-link" href="./250220_2051/index.html" target="_blank">Open Version</a>
+    </div>
+  </div>
+
+  <div class="version">
+    <div class="version-header" onclick="toggle(this)">Intermission Overload <span class="arrow">›</span></div>
+    <div class="version-body">
+      <img src="./previews/250224_2104.png" alt="Preview" />
+      <ul>
+        <li>Added intermission mode</li>
+        <li>Updated screen effects</li>
+        <li>Placeholder patch</li>
+      </ul>
+      <a class="version-link" href="./250224_2104/index.html" target="_blank">Open Version</a>
+    </div>
+  </div>
+
+  <div class="version">
+    <div class="version-header" onclick="toggle(this)">Zen? Nah! <span class="arrow">›</span></div>
+    <div class="version-body">
+      <img src="./previews/250226_2114.png" alt="Preview" />
+      <ul>
+        <li>Removed Zen mode</li>
+        <li>UI updates</li>
+      </ul>
+      <a class="version-link" href="./250226_2114/index.html" target="_blank">Open Version</a>
+    </div>
+  </div>
+
+  <div class="version">
+    <div class="version-header" onclick="toggle(this)">JSON Reboot <span class="arrow">›</span></div>
+    <div class="version-body">
+      <img src="./previews/250227_2034.png" alt="Preview" />
+      <ul>
+        <li>Removed sounds</li>
+        <li>Switched to JSON-based logic</li>
+        <li>Back button added and removed</li>
+      </ul>
+      <a class="version-link" href="./250227_2034/index.html" target="_blank">Open Version</a>
+    </div>
+  </div>
+
+  <div class="version">
+    <div class="version-header" onclick="toggle(this)">Vertical Vibes <span class="arrow">›</span></div>
+    <div class="version-body">
+      <img src="./previews/250303_2041.png" alt="Preview" />
+      <ul>
+        <li>Forced portrait mode</li>
+        <li>Reduced repetition</li>
+        <li>Higher watch time</li>
+        <li>Phone interaction updates</li>
+      </ul>
+      <a class="version-link" href="./250303_2041/index.html" target="_blank">Open Version</a>
+    </div>
+  </div>
+  <!-- END VERSION CARDS -->
+
+  <script>
+    function toggle(header) {
+      const card = header.parentElement;
+      const body = card.querySelector('.version-body');
+      const arrow = header.querySelector('.arrow');
+      const expanded = card.classList.toggle('expanded');
+      body.style.display = expanded ? 'block' : 'none';
+    }
+  </script>
+</body>
+</html>
