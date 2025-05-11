@@ -10,39 +10,38 @@ Csongor Baranyai 🌱</p>
 
 <h2 align="center">Exhibition</h2>
 
-<p align="center">Marianna Koszutska 👑<br>
+<p align="center"><a href="https://linktr.ee/Marianna.Koszutska" target="_blank">Marianna Koszutska 👑</a><br>
 Marta Vedral 👑<br>
-Agustina Böthig Gargiulo<br>
-Anna Rastoštšenkova<br>
+<a href="https://www.linkedin.com/in/agustinaboethig?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Agustina Böthig Gargiulo</a><br>Anna Rastoštšenkova<br>
 Diana-Maria Niculescu<br>
-Eyal Peleg Harris<br>
-Fusui Jiang<br>
-Taisia Malakhova<br>
+<a href="https://www.linkedin.com/in/eyal-peleg-harris/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Eyal Peleg Harris</a><br>
+<a href="https://www.fusui.space" target="_blank">Fusui Jiang</a><br>
+<a href="https://linktr.ee/taisia.malakhova?utm_source=linktree_profile_share&ltsid=191a5b81-400c-4c1e-939e-ae9a64f853bb" target="_blank">Taisia Malakhova</a><br>
 Wiktoria Maria Szokalska</p>
 
 <h2 align="center">Tech / Devolutionizer</h2>
 
-<p align="center">Hanyeh Sam 👑</p>
+<p align="center"><a href="https://linktr.ee/HaniyehSam" target="_blank">Hanyeh Sam 👑</a><br></p>
 
 <h2 align="center">Booklets</h2>
 
-<p align="center">Agustina Böthig Gargiulo 👑<br>
-Hanyeh Sam<br>
+<p align="center"><a href="https://www.linkedin.com/in/agustinaboethig?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Agustina Böthig Gargiulo 👑</a><br>
+<a href="https://linktr.ee/HaniyehSam" target="_blank">Hanyeh Sam</a><br>
 Levent Victor Cracea<br>
 Rodrigo Nicolas López Moreira Mazacotte</p>
 
 <h2 align="center">Additional Support</h2>
 
-<p align="center">Christoph Maureder<br>
-Finn Fuchs<br>
+<p align="center"><a href="https://www.linkedin.com/in/christoph-maureder?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Christoph Maureder</a><br>
+<a href="https://www.linkedin.com/in/finn-fuchs-5a354a2bb/" target="_blank">Finn Fuchs</a><br>
 Nayan Bhat<br>
 Pavlo Vasylevych<br>
-Prabhdeep Singh Chhatwal<br>
-Rakan Assaf<br>
-Šimon Škvára<br>
-Sophie Wilken<br>
+<a href="https://www.linkedin.com/in/prabhdeep-singh-chhatwal-?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">Prabhdeep Singh Chhatwal</a><br>
+<a href="https://chemistorium.framer.website" target="_blank">Rakan Assaf</a><br>
+<a href="https://linktr.ee/simonskvara" target="_blank">Šimon Škvára</a><br>
+<a href="https://www.linkedin.com/in/sophie-wilken-ba6b8429a/" target="_blank">Sophie Wilken</a><br>
 Teo Jia Xian<br>
-Timofey Polyashov<br>
+<a href="https://www.linkedin.com/in/tim-polyashov-292b3129a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">Timofey Polyashov</a><br>
 Zeynep Gizem Bülbül</p>
 
 <h2 align="center">Devolution</h2>
@@ -50,18 +49,18 @@ Zeynep Gizem Bülbül</p>
 <h3 align="center">Coordination</h3>
 
 <p align="center">Diana-Maria Niculescu<br>
-Eyal Peleg Harris</p>
+<a href="https://www.linkedin.com/in/eyal-peleg-harris/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Eyal Peleg Harris</a><br></p>
 
 <h3 align="center">Blogs & Website</h3>
 
 <p align="center">Anna Rastoštšenkova 👑<br>
-Marianna Koszutska</p>
+<a href="https://linktr.ee/Marianna.Koszutska" target="_blank">Marianna Koszutska</a></p>
 
 <h3 align="center">PR & Social Media</h3>
 
-<p align="center"><a href="https://www.instagram.com/fufaaykaa/" target="_blank">Taisia Malakhova 👑</a><br>
-Agustina Böthig Gargiulo<br>
-Marianna Koszutska<br>
+<p align="center"><a href="https://linktr.ee/taisia.malakhova?utm_source=linktree_profile_share&ltsid=5b92c54c-c9e4-4512-aad3-ee259e13b027" target="_blank">Taisia Malakhova 👑</a><br>
+<a href="https://www.linkedin.com/in/agustinaboethig?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Agustina Böthig Gargiulo</a><br>
+<a href="https://linktr.ee/Marianna.Koszutska" target="_blank">Marianna Koszutska</a><br>
 Marta Vedral<br>
 Wiktoria Maria Szokalska</p>
 
