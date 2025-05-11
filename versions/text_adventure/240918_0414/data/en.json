@@ -1,0 +1,35 @@
+{
+    "meta": {
+        "title": "It is as if you were playing a text adventure",
+        "author": "An Interactive Fiction by Pippin Barr",
+        "release-nonsense": "Release 3.1 / Serial number 415926535 / Unformed 7 build Y0L0",
+        "start-location": "campfire",
+        "typo": "Shake your head to clear it"
+    },
+    "story": [
+        {
+            "location": "campfire",
+            "preaction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae justo urna. Phasellus ac nibh nec turpis vulputate facilisis id non mi. Sed at diam vel neque condimentum consectetur. In sed nibh nec ipsum vehicula pulvinar vel ut ex. Pellentesque leo libero, mollis sit amet vestibulum eget, semper sed orci. Morbi enim augue, lobortis eu augue id, egestas ultricies nunc. Curabitur ultrices malesuada sem. Praesent sodales consequat justo, eu accumsan lorem congue in. Pellentesque fringilla urna lacus, vel laoreet elit rutrum vel. Nulla vel nisi lacus.",
+            "command": "kick dog",
+            "points": 1
+        },
+        {
+            "location": "campfire",
+            "preaction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae justo urna. Phasellus ac nibh nec turpis vulputate facilisis id non mi. Sed at diam vel neque condimentum consectetur. In sed nibh nec ipsum vehicula pulvinar vel ut ex. Pellentesque leo libero, mollis sit amet vestibulum eget, semper sed orci. Morbi enim augue, lobortis eu augue id, egestas ultricies nunc. Curabitur ultrices malesuada sem. Praesent sodales consequat justo, eu accumsan lorem congue in. Pellentesque fringilla urna lacus, vel laoreet elit rutrum vel. Nulla vel nisi lacus.",
+            "command": "get dog",
+            "points": 1
+        },
+        {
+            "location": "hell",
+            "preaction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae justo urna. Phasellus ac nibh nec turpis vulputate facilisis id non mi. Sed at diam vel neque condimentum consectetur. In sed nibh nec ipsum vehicula pulvinar vel ut ex. Pellentesque leo libero, mollis sit amet vestibulum eget, semper sed orci. Morbi enim augue, lobortis eu augue id, egestas ultricies nunc. Curabitur ultrices malesuada sem. Praesent sodales consequat justo, eu accumsan lorem congue in. Pellentesque fringilla urna lacus, vel laoreet elit rutrum vel. Nulla vel nisi lacus.",
+            "command": "look",
+            "points": 0
+        },
+        {
+            "location": "hell",
+            "preaction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae justo urna. Phasellus ac nibh nec turpis vulputate facilisis id non mi. Sed at diam vel neque condimentum consectetur. In sed nibh nec ipsum vehicula pulvinar vel ut ex. Pellentesque leo libero, mollis sit amet vestibulum eget, semper sed orci. Morbi enim augue, lobortis eu augue id, egestas ultricies nunc. Curabitur ultrices malesuada sem. Praesent sodales consequat justo, eu accumsan lorem congue in. Pellentesque fringilla urna lacus, vel laoreet elit rutrum vel. Nulla vel nisi lacus.",
+            "command": "get trident",
+            "points": 2
+        }
+    ]
+}
