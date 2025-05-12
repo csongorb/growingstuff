@@ -2,151 +2,111 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover" />
-  <title>As if you were on your phone</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>As If You Were On Your Phone</title>
   <style>
     @font-face {
       font-family: 'Dizhitl';
       src: url('./fonts/dizhitl-regular.ttf') format('truetype');
-      font-weight: normal;
     }
-    @font-face {
-      font-family: 'Dizhitl';
-      src: url('./fonts/dizhitl-bold.ttf') format('truetype');
-      font-weight: bold;
+
+    * {
+      box-sizing: border-box;
     }
 
     html, body {
       margin: 0;
       padding: 0;
-      background: linear-gradient(135deg, #1c2b2e, #2a4649);
       font-family: 'Dizhitl', sans-serif;
+      background: linear-gradient(135deg, #1c2b2e, #2a4649);
       color: #b0dfdb;
     }
 
     h1 {
       text-align: center;
-      padding: 1.5rem;
-      font-size: 2rem;
+      padding: 1.5rem 1rem 1rem;
       color: #1cbeca;
+      font-size: 2rem;
     }
 
-    .timeline {
+    .menu {
       display: flex;
       flex-direction: column;
-      position: relative;
-      margin-left: 40px;
-      padding-left: 40px;
-      border-left: 6px solid white;
+      gap: 1.5rem;
+      padding: 1rem;
+      max-width: 600px;
+      margin: auto;
     }
 
-    .version-block {
-      background: rgba(26, 26, 26, 0.85);
-      margin: 2rem 1rem;
+    .game-card {
+      background: rgba(26, 26, 26, 0.9);
+      border: 1px solid #1cbeca;
       border-radius: 12px;
       padding: 1rem;
-      position: relative;
-      border: 1px solid #1cbeca;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     }
 
-    .version-block::before {
-      content: '';
-      background-image: url('circle_icon.svg');
-      background-size: 20px 20px;
-      background-repeat: no-repeat;
-      position: absolute;
-      top: 20px;
-      left: -47px;
-      width: 20px;
-      height: 20px;
-    }
-
-    .version-title {
+    .game-title {
       font-weight: bold;
-      font-size: 1.3rem;
+      font-size: 1.2rem;
       color: #1cbeca;
     }
 
-    .version-date {
+    .game-date {
+      font-size: 0.85rem;
+      color: #bedbe8;
+    }
+
+    .game-desc {
       font-size: 0.9rem;
-      color: #b0dfdb;
-      margin: 0.2rem 0;
     }
 
-    .version-desc {
-      font-size: 0.95rem;
-      margin: 0.5rem 0;
-    }
-
-    .version-img-wrapper {
+    .preview {
       width: 100%;
-      aspect-ratio: 16 / 9;
-      background-color: #132122;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border-radius: 10px;
-      overflow: hidden;
-      margin: 0.5rem 0;
-      border: 1px solid #1cbeca;
+      aspect-ratio: 16/9;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 1px solid #333;
     }
 
-    .version-img {
-      max-width: 100%;
-      max-height: 100%;
-      object-fit: contain;
-    }
-
-    .version-link {
-      display: inline-block;
-      margin-top: 0.3rem;
-      padding: 0.4rem 1rem;
+    .play-button {
+      padding: 0.6rem 1rem;
+      font-size: 1rem;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
       background: #1cbeca;
       color: #0e1b1c;
-      text-decoration: none;
-      font-weight: bold;
-      border-radius: 6px;
-      transition: background 0.3s;
+      cursor: pointer;
+      margin-top: 0.5rem;
     }
 
-    .version-link:hover {
+    .play-button:hover {
       background: #28e0d3;
-    }
-
-    @media (max-width: 600px) {
-      .timeline {
-        margin-left: 20px;
-        padding-left: 20px;
-      }
-      .version-block::before {
-        left: -35px;
-      }
     }
   </style>
 </head>
 <body>
   <h1>As if you were on your phone</h1>
-  <div class="timeline" id="timeline"></div>
+  <div class="menu" id="menu"></div>
 
   <script src="versions_data.js"></script>
   <script>
-    const timeline = document.getElementById('timeline');
-    versions.forEach((v, index) => {
-      const block = document.createElement('div');
-      block.className = 'version-block';
-
-      block.innerHTML = `
-        <div class="version-title">${v.title}</div>
-        <div class="version-date">${v.date}</div>
-        <div class="version-desc">${v.desc}</div>
-        <div class="version-img-wrapper">
-          <img src="./previews/${v.img}" class="version-img" alt="${v.title} preview" />
-        </div>
-        <a class="version-link" href="./${v.folder}/index.html">▶ Play!</a>
+    const menu = document.getElementById('menu');
+    versions.forEach(v => {
+      const card = document.createElement('div');
+      card.className = 'game-card';
+      card.innerHTML = `
+        <div class="game-title">${v.title}</div>
+        <div class="game-date">${v.date}</div>
+        <div class="game-desc">${v.desc}</div>
+        <img src="./previews/${v.img}" alt="${v.title}" class="preview" />
+        <button class="play-button" onclick="location.href='./${v.folder}/index.html'">▶ Play</button>
       `;
-
-      timeline.appendChild(block);
+      menu.appendChild(card);
     });
   </script>
 </body>
