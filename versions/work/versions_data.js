@@ -30,11 +30,12 @@ window.data = [
     url: "./170616_2149/index.html"
   },
   {
-    title: "Interactive experience blueprint",
+    title: "Work experience blueprint",
     date: "2017-06-17 00:14",
     changes: [
       "Added login and starting sound",
-      "Added work to do, pop-up windows (fast)",
+      "Added work to do",
+      "Pop-up windows (fast)",
       "Various interactions"
     ],
     url: "./170617_0014/index.html"
