@@ -13,15 +13,18 @@
     * { box-sizing: border-box; }
     html, body { margin: 0; padding: 0; font-family: 'Dizhitl', sans-serif; background: linear-gradient(135deg, #1c2b2e, #2a4649); color: #b0dfdb; }
 
-    h1 { text-align: center; padding: 1.5rem 1rem 1rem; color: #1cbeca; font-size: 2rem; }
-h1 {
-  text-align: center;
-  padding: 1.5rem 1rem 1rem;
-  color: #1cbeca;
-  font-size: 2rem;
-  /* add this: */
-  margin-left: 60px;
-}
+    h1 {
+      text-align: center;
+      padding: 1.5rem;
+      padding-top: 0;
+      padding-bottom: 0;
+      text-align: left;
+      color: #1cbeca;
+      font-size: 2rem;
+      /* add this: */
+      margin-left: 0;
+    }
+    
     /* Timeline container and line */
     .menu {
       position: relative;
@@ -35,12 +38,11 @@ h1 {
     .menu::before {
       content: "";
       position: absolute;
-      left: 55px;
-      top: -300px;
+      left: 25px;
+      top: 0;
       bottom: 0;
       width: 4px;
       background: rgb(255, 255, 255);
-      opacity: 0.6;
     }
 
     .game-card {
@@ -49,7 +51,7 @@ h1 {
       border: 1px solid #1cbeca;
       border-radius: 12px;
       padding: 1rem;
-      padding-left: 4rem;
+      padding-left: 1rem;
       display: flex;
       flex-direction: column;
       gap: 0.5rem;
@@ -61,7 +63,7 @@ h1 {
 
     .branch-icon {
       position: absolute;
-      left: -25px;
+      left: -55px;
       top: 1rem;
       width: 30px;
       height: 30px;
@@ -81,7 +83,9 @@ h1 {
   </style>
 </head>
 <body>
-  <h1>Pippin Barr x Devolution <br> The evolution of... <br> It is as if you were on your phone</h1>
+  <h1>Pippin Barr x Devolution</h1>
+  <h1>The evolution of...</h1>
+  <h1>It is as if you were on your phone</h1>
   <div class="menu" id="menu"></div>
 
   <script src="versions_data.js"></script>
