@@ -75,9 +75,6 @@
     }
 
     #fullscreenBtn {
-      position: absolute;
-      top: 10px;
-      right: 115px; 
       background: linear-gradient(135deg, #837c26, #dcc014, #837c26);
       color: #ece18c;
     }
@@ -86,9 +83,6 @@
     }
 
     #restartBtn {
-      position: absolute;
-      top: 10px;
-      right: 10px; 
       background: linear-gradient(135deg, #dcc014, #ece18c, #837c26);
       color: #837c26;
       text-shadow: 0 1px 2px rgba(255, 255, 255, 0.6);
@@ -96,13 +90,26 @@
     #restartBtn:hover {
       background: linear-gradient(135deg, #ece18c, #837c26, #dcc014);
     }
+
+    .button-container{
+      display: flex;
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin: 20px;
+      gap: 5px;
+    }
   </style>
 </head>
 
 <body>
   <div id="wrapper">
-    <button id="fullscreenBtn">Fullscreen</button>
-    <button id="restartBtn">Restart</button>
+    <div class="button-container">
+      <button id="fullscreenBtn">Fullscreen</button>
+      <button id="restartBtn">Restart</button>
+    </div>
+
+    
 
     <div class="game-container">
       <iframe src="./index.html" allowfullscreen></iframe>
