@@ -1,50 +1,76 @@
 window.data = [
   {
-    title: "Bare Beginnings: The Lonely Slider",
+    title: "A lonely slider",
+    date: "2018-04-09",
+    changes: [
+      "Added slider to represent numbers",
+      "Highlighting for ranges rather than precision"
+    ],
+    url: "./180410_0001/index.html"
+  },
+  {
+    title: "A sequence",
     date: "2018-04-12",
     changes: [
-      "Initial slider added inside a minimalist container",
-      "Early test of interaction"
+      "Random generation of upper and lover range",
+      "Added annyang with basic ability to listen to sexy words (broken)",
+      "Detection of successful # of strokes",
+      "Added sound for feedback"
     ],
     url: "./180412_1946/index.html"
   },
   {
-    title: "A Whisper Emerges",
+    title: "Moved to Win95",
     date: "2018-06-06",
     changes: [
-      "Voice input added using Annyang.js",
-      "Feedback box and progress bar introduced",
-      "Game retitled: 'It is as if you were making love'"
+      "Added dialogue generation from Work game to test",
+      "Added progress bar",
+      "Game retitled to 'It is as if you were making love'"
     ],
-    url: "./180606_1554/index.html"
+    url: "./180606_1758/index.html"
   },
   {
-    title: "Mood, Music, and Metaphor",
+    title: "Mood, music and metaphor",
     date: "2018-06-08",
     changes: [
-      "Title screen with heart and author credit",
-      "Mood music toggle and app icon added",
+      "Title screen with heart and credit",
+      "Mood music toggle and app icon",
+      "Goal visualisation on the slider",
       "Instruction and output boxes implemented"
     ],
     url: "./180608_2226/index.html"
   },
   {
-    title: "The Game Speaks Back",
+    title: "The orgasm update",
+    date: "2018-06-12",
+    changes: [
+      "Added ican that launces the app",
+      "Added tracking of stroke speed, alert messages",
+      "Added breathing sounds",
+      "Changed to single messages panel",
+      "Feedback messages and dialogues",
+      "Added the orgasm"
+    ],
+    url: "./180612_2331/index.html"
+  },
+  {
+    title: "The horizontal update",
     date: "2018-06-22",
     changes: [
-      "Dynamic messages handled via external data.js",
-      "Message box replaces output box",
-      "ReadMe icon and UI polish applied"
+      "Messages via external data.js",
+      "Relabelled slider to -5 to 0 to 5",
+      "Added readme and UI polish"
     ],
     url: "./180622_0357/index.html"
   },
   {
-    title: "Final Release: Version Love",
-    date: "2025-01-07",
+    title: "Release",
+    date: "2022-07-10",
     changes: [
-      "Analytics added for public release",
+      "Added Google analytics",
+      "Game over dialogue title is 'petite mort'",
       "UI and code final polish",
-      "Fully playable version with all features complete"
+      "Various improvements"
     ],
     url: "./250107_1812/index.html"
   }
