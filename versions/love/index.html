@@ -47,7 +47,7 @@
       top: 0;
       left: 45px;
       width: 6px;
-      height: calc(100% - 320px); /* avoid overlapping changelog */
+      height: var(--line-height, calc(100% - 310px)); /* avoid overlapping changelog */
       background: var(--text-light);
       z-index: 2;
     }
@@ -237,9 +237,25 @@
 
       changelogBox.querySelector(".date").textContent = window.data[index].date;
       changelogList.innerHTML = window.data[index].changes.map(c => `<li>${c}</li>`).join("");
+
+      updateTimelineHeight();
+    }
+
+    // function for the line to be until the changelog
+    function updateTimelineHeight() {
+      const nav = document.querySelector('nav');
+      const changelog = document.getElementById('changelog');
+      const lineHeight = changelog.offsetTop - nav.offsetTop;
+      
+      document.documentElement.style.setProperty(
+        '--line-height',
+        `${lineHeight}px`
+      );
     }
 
     window.addEventListener("DOMContentLoaded", () => {
+      updateTimelineHeight();
+      new ResizeObserver(updateTimelineHeight).observe(document.body);
       window.data.forEach((item, i) => {
         const div = document.createElement("div");
         div.className = "entry";
