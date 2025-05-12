@@ -2,64 +2,57 @@ const versions = [
   {
     title: "The most basic tap simulator",
     date: "2025-01-09 21:48",
-    desc: "Tap the dot to begin.",
+    desc: "Starting point, early sketching.",
     img: "250109_2148.png",
     folder: "250109_2148"
   },
   {
     title: "Swipe prototyping",
     date: "2025-01-16 20:39",
-    desc: "Dot now slides in.",
+    desc: "Random up or down swipes, visualisation.",
     img: "250116_2039.png",
     folder: "250116_2039"
   },
   {
-    title: "Basic keyboard mode",
+    title: "Acts and basic keyboard mode",
     date: "2025-01-23 20:13",
-    desc: "Sound, multi-dots, chaos!",
+    desc: "Added gong, some refactoring, added keyboard.",
     img: "250123_2013.png",
     folder: "250123_2013"
   },
   {
     title: "Basic 'Phoning' interaction in place",
     date: "2025-02-17 19:30",
-    desc: "Minimalist UI journey.",
+    desc: "Upgraded to OOP, refined interactions and animations (drag still broken?), more acts.",
     img: "250215_0006.png",
     folder: "250217_1930"
   },
   {
     title: "Better drag and tutorial",
     date: "2025-02-20 20:51",
-    desc: "Main menu begins.",
+    desc: "Bug fixes, instructions.",
     img: "250220_2051.png",
     folder: "250220_2051"
   },
   {
-    title: "Intermission Overload",
+    title: "Basic menu with standard and zen modes",
     date: "2025-02-24 21:04",
-    desc: "Mid-game breaks added.",
+    desc: "Basic sound, fading instructions.",
     img: "250224_2104.png",
     folder: "250224_2104"
   },
   {
-    title: "Zen? Nah!",
+    title: "Bye zen",
     date: "2025-02-26 21:14",
-    desc: "Zen mode removed.",
+    desc: "No sound for standard, new texts, placeholder info screen.",
     img: "250226_2114.png",
     folder: "250226_2114"
   },
   {
-    title: "JSON Reboot",
-    date: "2025-02-27 20:34",
-    desc: "JSON takes over.",
-    img: "250227_2034.png",
-    folder: "250227_2034"
-  },
-  {
-    title: "Release",
-    date: "2025-03-03 20:41",
-    desc: "Portrait perfected.",
+    title: "Kind of done (release)?",
+    date: "2025-03-05 15:33",
+    desc: "Menu improvements, tweaking UI, worked on acting, portrait perfected.",
     img: "250303_2041.png",
-    folder: "250303_2041"
+    folder: "250305_1533"
   }
 ];
