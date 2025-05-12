@@ -1,0 +1,180 @@
+
+body {
+  background-color: #aaa;
+  user-select: none;
+  word-wrap: break-word;
+  margin: 0;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+:focus {
+  outline: none;
+}
+
+#gameContainer {
+  max-width: 480px;
+  height: 320px;
+  cursor: none;
+}
+
+#wrapper {
+  margin: 0;
+}
+
+.icon {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.icon-label {
+  margin-top: 10px;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.document-input {
+  height: 500px;
+  width: 562px;
+  resize: none;
+}
+
+.email-field-label {
+  min-width: 80px;
+  float: left;
+  clear: left;
+  vertical-align: bottom;
+  /*padding-top: 5px;*/
+  margin-bottom: 10px;
+
+}
+
+.email-field {
+  min-width: 480px;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.email-input {
+  height: 200px;
+  width: 100%;
+  resize: none;
+}
+
+#window-size-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: grey;
+  z-index: 1000;
+}
+
+#window-size-message {
+  font-size: 3em;
+  font-weight: bold;
+  padding: 10%;
+  margin: 0 auto;
+}
+
+/* DIALOGS
+----------------------------------*/
+
+/* Removing divider between message and buttons */
+.ui-dialog .ui-dialog-buttonpane {
+	border-width: 0px 0 0 0;
+}
+
+/* RADIOS
+----------------------------------*/
+
+.ui-checkboxradio-label .ui-icon-background {
+	box-shadow: none;
+}
+
+.ui-button.ui-checkboxradio-label {
+  border: 0px;
+}
+
+.ui-checkboxradio-label .ui-checkboxradio-icon {
+  background-color: white;
+}
+.ui-checkboxradio-label.ui-checkboxradio-checked .ui-checkboxradio-icon {
+  background-color: white;
+}
+
+
+
+/* BUTTONS
+----------------------------------*/
+
+/* Adjusting borders to make it more 3D old school */
+
+button.ui-button,
+html button.ui-button.ui-state-disabled:hover,
+html button.ui-button.ui-state-disabled:active {
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+
+	background: #ccc;
+	font-weight: normal;
+	color: #222;
+}
+
+a.ui-button,
+a:link.ui-button,
+a:visited.ui-button,
+button.ui-button {
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+
+	text-decoration: none;
+}
+
+button.ui-button:hover,
+button.ui-button:focus {
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+
+	background: #ccc;
+	font-weight: normal;
+	color: #222;
+}
+
+a.ui-button:hover,
+a.ui-button:focus {
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+
+	color: #222;
+	text-decoration: none;
+}
+
+a.ui-button:active,
+button.ui-button:active,
+button.ui-button.ui-state-active:hover {
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+
+	background: #eee;
+	font-weight: normal;
+	color: #000;
+}
+
+
+
+/* ICONS
+----------------------------------*/
