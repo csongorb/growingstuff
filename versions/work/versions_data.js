@@ -9,7 +9,7 @@ window.data = [
     url: "./170327_2204/index.html"
   },
   {
-    title: "2nd Iteration",
+    title: "User Interface Rollout",
     date: "2017-06-10 06:12",
     changes: [
       "UI mockup applied",
@@ -18,7 +18,7 @@ window.data = [
     url: "./170610_0612/index.html"
   },
   {
-    title: "3rd iteration",
+    title: "Interactive Experience Blueprint",
     date: "2017-06-17 00:14",
     changes: [
       "Buggy interactivity added (thanks, JavaScript)",
@@ -27,7 +27,7 @@ window.data = [
     url: "./170617_0014/index.html"
   },
   {
-    title: "4th iteration",
+    title: "Operation Overhaul",
     date: "2017-06-20 23:39",
     changes: [
       "Cleaned up broken code spaghetti",
@@ -37,20 +37,19 @@ window.data = [
     url: "./170620_2339/index.html"
   },
   {
-    title: "5th iteration",
+    title: "Employee Incentivization Matrix",
     date: "2017-06-29 17:56",
     changes: [
       "Added more interactivity",
-  
+      "Added promotions and rank progression"
     ],
     url: "./170629_1756/index.html"
   },
   {
-    title: "6th iteration",
+    title: "Enterprise Refinement",
     date: "2017-07-01 18:21",
     changes: [
       "Final polishing",
-  
     ],
     url: "./170701_1821/index.html"
   }
