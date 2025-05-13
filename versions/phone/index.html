@@ -15,7 +15,8 @@
       margin: 0;
       padding: 0;
       font-family: 'Dizhitl', sans-serif;
-      background: linear-gradient(135deg, #1c2b2e, #2a4649);
+      /* updated background gradient */
+      background: linear-gradient(135deg, #1cbeca, #b0dfdb);
       color: #b0dfdb;
     }
 
@@ -25,10 +26,20 @@
       padding: 1.5rem;
       padding-top: 0;
       padding-bottom: 0;
-      color: #1cbeca;
+      color: white;
       font-size: 2rem;
-      /* add this: */
       margin-left: 0;
+    }
+
+    /* specific styles */
+    .white-italic-title {
+      font-style: italic;
+      color: #ffffff !important;
+    }
+
+    .big-bold-title {
+      font-size: 2.5rem;
+      font-weight: bolder;
     }
 
     /* timeline container */
@@ -72,7 +83,7 @@
     /* branch icon flush to the line again */
     .branch-icon {
       position: absolute;
-      left: -55px;               /* 55px (line) minus 80px (menu padding) minus 15px (half icon) */
+      left: -55px;
       top: 1.5rem;
       width: 30px;
       height: 30px;
@@ -111,8 +122,8 @@
   </style>
 </head>
 <body>
-  <h1>Pippin Barr x Devolution</h1>
-  <h1>The evolution of...</h1>
+  <h1 class="white-italic-title">Pippin Barr x Devolution</h1>
+  <h1 class="big-bold-title">The evolution of...</h1>
   <h1>It is as if you were on your phone</h1>
 
   <div class="menu" id="menu"></div>
