@@ -13,6 +13,7 @@ window.data = [
     date: "2018-04-12",
     changes: [
       "Random generation of upper and lover range",
+      "Added sound for feedback",
       "Added annyang with basic ability to listen to sexy words (broken)",
       "Detection of successful # of strokes",
       "Added sound for feedback"
@@ -65,7 +66,7 @@ window.data = [
   },
   {
     title: "Release",
-    date: "2022-07-10",
+    date: "2018-07-25",
     changes: [
       "Added Google analytics",
       "Game over dialogue title is 'petite mort'",
