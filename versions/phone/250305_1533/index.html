@@ -1,149 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-  <title>As If You Were On Your Phone</title>
-  <style>
-    @font-face {
-      font-family: 'Dizhitl';
-      src: url('./fonts/dizhitl-regular.ttf') format('truetype');
-    }
+  <meta charset="utf-8">
+  <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
 
-    * { box-sizing: border-box; }
-    html, body {
-      margin: 0;
-      padding: 0;
-      font-family: 'Dizhitl', sans-serif;
-      /* updated background gradient */
-      background: linear-gradient(135deg, #1cbeca, #b0dfdb);
-      color: #b0dfdb;
-    }
+  <title>It is as if you were on your phone</title>
 
-    /* header aligned with the cards */
-    h1 {
-      text-align: left;
-      padding: 1.5rem;
-      padding-top: 0;
-      padding-bottom: 0;
-      color: white;
-      font-size: 2rem;
-      margin-left: 0;
-    }
+  <!-- CSS stylesheet(s) -->
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
 
-    /* specific styles */
-    .white-italic-title {
-      font-style: italic;
-      color: #ffffff !important;
-    }
+  <!-- Library script(s) -->
 
-    .big-bold-title {
-      font-size: 2.5rem;
-      font-weight: bolder;
-    }
+  <!-- p5.min.js is the main p5 library -->
+  <script src="js/libraries/p5.min.js"></script>
+  <!-- p5.sound.min.js allows us to use sound -->
+  <script src="js/libraries/p5.sound.min.js"></script>
+  <!-- Hammer for handling swipes -->
+  <script src="js/libraries/hammer.min.js"></script>
 
-    /* timeline container */
-    .menu {
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      gap: 1.5rem;
-      padding: 1rem 1rem 1rem 80px;
-      max-width: 600px;
-      margin: auto;
-    }
-    .menu::before {
-      content: "";
-      position: absolute;
-      left: 25px;
-      top: 0;
-      bottom: 0;
-      width: 4px;
-      background: #fff;
-    }
+  <!-- My script(s) -->
 
-    /* cards with centered content */
-    .game-card {
-      position: relative;
-      background: rgba(0,0,0,0.9);
-      border: 1px solid #1cbeca;
-      border-radius: 12px;
-      padding: 1rem;
-      padding-left: 1rem;
-      display: flex;
-      flex-direction: column;
-      gap: 0.5rem;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-      transition: transform 0.3s;
-    }
-    .game-card:hover {
-      transform: translateX(10px);
-    }
+  <script src="js/actions/Action.js"></script>
 
-    /* branch icon flush to the line again */
-    .branch-icon {
-      position: absolute;
-      left: -55px;
-      top: 1.5rem;
-      width: 30px;
-      height: 30px;
-      transform-origin: center center;
-      transition: transform 0.3s ease;
-    }
-    .game-card:hover .branch-icon {
-      transform: scale(1.2) rotate(15deg);
-    }
+  <script src="js/interactions/taps.js"></script>
+  <script src="js/interactions/swipes.js"></script>
+  <!-- <script src="js/interactions/scrolls.js"></script> -->
+  <script src="js/interactions/drags.js"></script>
+  <script src="js/interactions/watches.js"></script>
 
-    .game-title { font-weight: bold; font-size: 1.2rem; color: #1cbeca; }
-    .game-date  { font-size: 0.85rem; color: #bedbe8; }
-    .game-desc  { font-size: 0.9rem; }
+  <script src="js/interactions/Interaction.js"></script>
+  <script src="js/interactions/Tap.js"></script>
+  <script src="js/interactions/DoubleTap.js"></script>
+  <!-- <script src="js/interactions/Scroll.js"></script> -->
+  <script src="js/interactions/Drag.js"></script>
+  <script src="js/interactions/Swipe.js"></script>
+  <script src="js/interactions/Type.js"></script>
+  <script src="js/interactions/Watch.js"></script>
 
-    .preview {
-      width: 100%;
-      aspect-ratio: 16/9;
-      object-fit: cover;
-      border-radius: 8px;
-      border: 1px solid #333;
-    }
-    .play-button {
-      padding: 0.6rem 1.2rem;
-      font-size: 1rem;
-      font-weight: bold;
-      border: none;
-      border-radius: 8px;
-      background: #1cbeca;
-      color: #0e1b1c;
-      cursor: pointer;
-      margin-top: 0.5rem;
-    }
-    .play-button:hover {
-      background: #28e0d3;
-    }
-  </style>
+  <script src="js/acts/Act.js"></script>
+  <script src="js/acts/actings.js"></script>
+
+  <script src="js/State.js"></script>
+  <script src="js/Menu.js"></script>
+  <script src="js/Info.js"></script>
+  <script src="js/activities/Activity.js"></script>
+  <script src="js/activities/Phoning.js"></script>
+  <!-- <script src="js/activities/Browsing.js"></script> -->
+  <!-- <script src="js/activities/Dating.js"></script> -->
+  <!-- <script src="js/activities/Typing.js"></script> -->
+  <!-- <script src="js/activities/Photos.js"></script> -->
+
+  <script src="js/Button.js"></script>
+  <script src="js/helpers.js"></script>
+  <script src="js/main.js"></script>
 </head>
+
 <body>
-  <h1 class="white-italic-title">Pippin Barr x Devolution</h1>
-  <h1 class="big-bold-title">The evolution of...</h1>
-  <h1>It is as if you were on your phone</h1>
+  <!-- HTML would go here if needed. -->
+  <div id="container"></div>
 
-  <div class="menu" id="menu"></div>
+  <!-- FOR PIPPINBARR.COM -->
 
-  <script src="versions_data.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GECKZQ62DH"></script>
   <script>
-    const menu = document.getElementById('menu');
-    versions.forEach(v => {
-      const card = document.createElement('div');
-      card.className = 'game-card';
-      card.innerHTML = `
-        <img src="./branch-icon.svg" alt="branch icon" class="branch-icon" />
-        <div class="game-title">${v.title}</div>
-        <div class="game-date">${v.date}</div>
-        <div class="game-desc">${v.desc}</div>
-        <img src="./previews/${v.img}" alt="${v.title}" class="preview" />
-        <button class="play-button" onclick="location.href='./${v.folder}/index.html'">▶ Play</button>
-      `;
-      menu.appendChild(card);
-    });
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-GECKZQ62DH');
   </script>
 </body>
+
 </html>
