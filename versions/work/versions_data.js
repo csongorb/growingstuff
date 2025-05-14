@@ -4,7 +4,7 @@ window.data = [
     date: "2017-03-27 22:04",
     changes: [
       "Random generation of options",
-      "Instructions"
+      "Added instructions"
     ],
     url: "./170327_2204/index.html"
   },
@@ -13,8 +13,7 @@ window.data = [
     date: "2017-06-10 06:12",
     changes: [
       "Win95 UI mockup applied",
-      "Works only once"
-    
+      "Works only once (restart!)"
     ],
     url: "./170610_0612/index.html"
   },
@@ -33,8 +32,8 @@ window.data = [
     title: "Work experience blueprint",
     date: "2017-06-17 00:14",
     changes: [
-      "Added login and starting sound",
-      "Added work to do",
+      "Added login and start sound",
+      "Added different work to do",
       "Pop-up windows (fast)",
       "Various interactions"
     ],

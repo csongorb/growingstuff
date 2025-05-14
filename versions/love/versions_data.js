@@ -12,9 +12,9 @@ window.data = [
     title: "A sequence",
     date: "2018-04-12",
     changes: [
-      "Random generation of upper and lover range",
+      "Random generation of upper and lower range",
       "Added sound for feedback",
-      "Added annyang with basic ability to listen to sexy words (broken)",
+      "Added annyang.js with basic ability to listen to sexy words (broken)",
       "Detection of successful # of strokes",
       "Added sound for feedback"
     ],
@@ -24,7 +24,7 @@ window.data = [
     title: "Moved to Win95",
     date: "2018-06-06",
     changes: [
-      "Added dialogue generation from Work game to test",
+      "Added dialogue generation from 'Work' to test",
       "Added progress bar",
       "Game retitled to 'It is as if you were making love'"
     ],
@@ -34,7 +34,7 @@ window.data = [
     title: "Mood, music and metaphor",
     date: "2018-06-08",
     changes: [
-      "Title screen with heart and credit",
+      "Title screen with heart and credits",
       "Mood music toggle and app icon",
       "Goal visualisation on the slider",
       "Instruction and output boxes implemented"
@@ -45,7 +45,7 @@ window.data = [
     title: "The orgasm update",
     date: "2018-06-12",
     changes: [
-      "Added ican that launces the app",
+      "Added icon that launces the app",
       "Added tracking of stroke speed, alert messages",
       "Added breathing sounds",
       "Changed to single messages panel",

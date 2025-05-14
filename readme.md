@@ -16,7 +16,7 @@ A repository to reflect on and structure the work on the exhibition *Pippin Barr
 ## Structure / Elements
 
 - a physical [exhibition](./exhibition/) in the core, at [A MAZE./Berlin](https://2025.amaze-berlin.de/) (May 14 - 17 2025), consisting of:
-    - exhibited [in-between versions](./versions/) of the *It is as if you were...* games
+    - exhibited [in-between versions](./versions/readme.md) of the *It is as if you were...* games
     - an limited edition eight-[booklets](./booklets/) bundle
     - some accompanying [live events](./onstage/)
 - and a brief intro online at [devolution.online/itisasifyouwere](https://devolution.online/itisasifyouwere/)
