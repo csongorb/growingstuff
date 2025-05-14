@@ -40,14 +40,14 @@ window.data = [
     url: "./170617_0014/index.html"
   },
   {
-    title: "Operation overhaul",
+    title: "Operation Overhaul",
     date: "2017-06-20 23:39",
     changes: [
       "Cleaned up broken code spaghetti",
       "Improved rhythm",
       "More interactions",
       "Improved transition animations",
-      "Working brekout game!"
+      "Working breakout game!"
     ],
     url: "./170620_2339/index.html"
   },

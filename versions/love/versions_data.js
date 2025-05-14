@@ -45,7 +45,7 @@ window.data = [
     title: "The orgasm update",
     date: "2018-06-12",
     changes: [
-      "Added icon that launces the app",
+      "Added icon that launches the app",
       "Added tracking of stroke speed, alert messages",
       "Added breathing sounds",
       "Changed to single messages panel",
@@ -68,7 +68,7 @@ window.data = [
     title: "Release",
     date: "2018-07-25",
     changes: [
-      "Added Google analytics",
+      "Added Google Analytics",
       "Game over dialogue title is 'petite mort'",
       "UI and code final polish",
       "Various improvements"

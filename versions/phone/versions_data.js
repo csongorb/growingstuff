@@ -9,7 +9,7 @@ const versions = [
   {
     title: "Swipe prototyping",
     date: "2025-01-16 20:39",
-    desc: "Random up or down swipes, visualisation.",
+    desc: "Random left or right swipes, visualisation.",
     img: "250116_2039.png",
     folder: "250116_2039"
   },
