@@ -1,0 +1,41 @@
+{
+    "meta": {
+        "title": "It is as if you were playing a text adventure",
+        "author": "An Interactive Fiction by Pippin Barr",
+        "release-nonsense": "Release 3.1 / Serial number 415926535 / Unformed 7 build Y0L0",
+        "start-location": "campfire",
+        "typo": "Shake your head to clear it"
+    },
+    "story": [
+        {
+            "location": "campfire",
+            "preaction": "Breathe in slowly, then relax.",
+            "command": "look",
+            "points": 0
+        },
+        {
+            "location": "campfire",
+            "preaction": "Raise an eyebrow.",
+            "command": "get dog",
+            "points": 1
+        },
+        {
+            "location": "hell",
+            "preaction": "Chuckle and shake your head.",
+            "command": "look",
+            "points": 0
+        },
+        {
+            "location": "hell",
+            "preaction": "Nod confidently.",
+            "command": "get trident",
+            "points": 2
+        },
+        {
+            "location": "heck",
+            "preaction": "This is the text the scrolls off the screen. This is the text the scrolls off the screen. This is the text the scrolls off the screen. This is the text the scrolls off the screen. This is the text the scrolls off the screen. This is the text the scrolls off the screen. This is the text the scrolls off the screen. This is the text the scrolls off the screen. This is the text the scrolls off the screen. This is the text the scrolls off the screen. This is the text the scrolls off the screen. This is the text the scrolls off the screen. This is the text the scrolls off the screen. This is the text the scrolls off the screen. This is the text the scrolls off the screen.",
+            "command": "ascend",
+            "points": 2
+        }
+    ]
+}
