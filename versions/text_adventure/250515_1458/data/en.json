@@ -1,0 +1,69 @@
+{
+    "meta": {
+        "title": "It is as if you were playing a text adventure",
+        "author": "An Interactive Fiction by Pippin Barr",
+        "release-nonsense": "Release 3.1 / Serial number 415926535 / Unformed 7 build Y0L0",
+        "start-location": "Housekeeper's Bedroom (in bed)",
+        "typo": "Frown."
+    },
+    "story": [
+        {
+            "preaction": "Sigh.",
+            "command": "look"
+        },
+        {
+            "preaction": "Blink and look up briefly.",
+            "command": "open drawer"
+        },
+        {
+            "preaction": "Nod.",
+            "command": "get out of bod"
+        },
+        {
+            "preaction": "Wince.",
+            "command": "get out of bed",
+            "points": 1
+        },
+        {
+            "location": "Housekeeper's Bedroom",
+            "command": "look"
+        },
+        {
+            "command": "look at desk"
+        },
+        {
+            "command": "get keys"
+        },
+        {
+            "command": "get dressed"
+        },
+        {
+            "command": "get keys"
+        },
+        {
+            "command": "get to-do list"
+        },
+        {
+            "command": "read to-do list"
+        },
+        {
+            "preaction": "Breathe slowly and calmly. Your eyes scan the screen",
+            "command": "open drawer"
+        },
+        {
+            "command": "get letter"
+        },
+        {
+            "command": "read letter"
+        },
+        {
+            "command": "look"
+        },
+        {
+            "command": "look at mirror"
+        },
+        {
+            "command": "open door"
+        }
+    ]
+}

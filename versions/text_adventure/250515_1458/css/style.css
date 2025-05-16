@@ -1,0 +1,45 @@
+/**
+Style. File.
+**/
+
+* {
+    font-family: monospace;
+}
+
+body {
+    font-size: 1.25rem;
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 0rem 1rem 1rem 1rem;
+}
+
+#menu-bar {
+    position: fixed;
+    /* top: 0; */
+    /* left: 0; */
+    background-color: black;
+    color: white;
+    width: 100%;
+    max-width: 60rem;
+    padding: 0.25em;
+}
+
+#spacer {
+    /* margin-bottom: 3em; */
+}
+
+#input {
+    outline: none;
+    border: none;
+    font-weight: bold;
+    font-size: 1em;
+    width: 90%;
+}
+
+.preaction {
+    font-style: italic;
+}
+
+.reaction {
+    font-weight: bold;
+}

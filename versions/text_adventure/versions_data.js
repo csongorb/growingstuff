@@ -15,12 +15,19 @@ const data = [
         ], 
         url: "./250514_1326/index.html" 
     },
+    { title: "Get out of bod", 
+        date: "2025-05-15 14:58", 
+        changes: ["First day of A MAZE.",
+            "Some more interactions"
+        ], 
+        url: "./250515_1458/index.html" 
+    },
     { title: "> Journal", 
         date: "now", 
         changes: ["Including the most recent updates"], 
         url: "./journal/index.html" 
     },
-    { title: "> Live", 
+    { title: "> Most recent", 
         date: "now", 
         changes: ["Newest version"], 
         url: "./now/index.html" 
