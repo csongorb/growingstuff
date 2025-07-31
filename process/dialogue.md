@@ -501,3 +501,19 @@ I think what you/they say above is very perceptive and spot on from my side of t
 And Love is probably in a category of its own yeah, more of an earnest attempt in the end to actually capture a feeling of eroticism in a far-flung place.
 
 As for that manifesto - couldn't agree more, I think almost every single one immediately triggers a memory/thought for me. A real win!
+
+## 2025-07-29 Csongor: We'll always have... A MAZE!
+
+More than two months have passed... how could this happen!!?  
+Semester? Life?
+
+Used the time to constantly feel miserable and to reflect on the idea of *in the moment* reflections vs. different extents of how time changes reflection. And/or the ability to do so. What do we lose / gain as time passes? How does emotionality change over time? Do I still *feel* it?  
+Not sure, but would be worth exploring this this further.
+
+I'm also writing this to break the wall. Having waited for so long builds up expectations. The longer the time, the more meaningful it needs to be, have thought about this gap on many levels. The only way to break this is to *just* do something. So here is something, I guess? Something.
+
+Or has the gap happened because I'm reluctant to see this as an end? I refuse to look back because it would mean it is finished? And I want this to be a beginning... or at least only an in-between step?
+
+There is something I still feel *in the moment* and I'm sure about. Maybe I sound too sentimental, [but](https://youtu.be/-4liOY7Yx2o?si=dIsdOGnyDHcet83L&t=595).
+
+Long time no see, I hope you are doing fine.
