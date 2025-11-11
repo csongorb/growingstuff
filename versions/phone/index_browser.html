@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>As If You Were On Your Phone – Teal Edition</title>
+
+  <style>
+    @font-face {
+      font-family: 'Dizhitl Regular';
+      src: url('./fonts/dizhitl-regular.ttf') format('truetype');
+    }
+
+    @font-face {
+      font-family: 'Dizhitl SemiBold';
+      src: url('./fonts/dizhitl-semibold.ttf') format('truetype');
+    }
+
+    @font-face {
+      font-family: 'Dizhitl Black';
+      src: url('./fonts/dizhitl-black.ttf') format('truetype');
+    }
+
+    @font-face {
+      font-family: 'Dizhitl Light';
+      src: url('./fonts/dizhitl-light.ttf') format('truetype');
+    }
+
+    @font-face {
+      font-family: 'Dizhitl Medium';
+      src: url('./fonts/dizhitl-medium.ttf') format('truetype');
+    }
+
+    :root {
+      --bg: #0e1b1c;
+      --sidebar: #1cbeca;
+      --selected: #b0dfdb;
+      --text-light: #ffffff;
+      --text-dark: #0e1b1c;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Dizhitl Regular', sans-serif;
+      display: flex;
+      height: 100vh;
+      overflow: hidden;
+      background: var(--bg);
+      color: var(--text-light);
+    }
+
+    nav {
+      position: relative;
+      width: 350px;
+      background: var(--sidebar);
+      color: var(--text-dark);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 0;
+      box-shadow: 2px 0 8px rgba(0, 0, 0, 0.3);
+    }
+
+    nav::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 45px;
+      width: 6px;
+      height: var(--line-height, calc(100% - 310px));
+      background: var(--text-light);
+      z-index: 2;
+    }
+
+    .title {
+      font-family: 'Dizhitl Medium', sans-serif;
+      font-size: 28px;
+      margin-bottom: 30px;
+      position: relative;
+      z-index: 1;
+      color: var(--text-light);
+    }
+
+    .timeline {
+      width: 100%;
+      padding: 0 20px;
+      flex-grow: 1;
+      position: relative;
+      z-index: 1;
+    }
+
+    .entry {
+      display: flex;
+      align-items: center;
+      margin-bottom: 25px;
+      padding-left: 70px;
+      cursor: pointer;
+      border-radius: 10px;
+      background: transparent;
+      color: var(--text-light);
+      transition: all 0.3s;
+      position: relative;
+    }
+
+    .entry:hover,
+    .entry.active {
+      background: var(--selected);
+      color: var(--text-dark);
+    }
+
+    .entry:hover {
+      transform: translateX(10px);
+    }
+
+    .entry .meta {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.3;
+    }
+
+    .entry .meta .label {
+      font-family: 'Dizhitl SemiBold', sans-serif;
+      font-size: 16px;
+    }
+
+    .entry .meta .date {
+      font-family: 'Dizhitl Light', sans-serif;
+      font-size: 13px;
+      opacity: 0.9;
+    }
+
+    .branch-icon {
+      position: absolute;
+      left: 25px;
+      width: 40px;
+      height: 40px;
+      z-index: 1;
+      transition: transform 0.3s ease;
+    }
+
+    .entry:hover .branch-icon {
+      transform: scale(1.1) rotate(10deg);
+    }
+
+    .changelog {
+      width: 90%;
+      background: var(--selected);
+      color: var(--text-dark);
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 0 4px var(--text-light);
+      margin: 10px 0;
+      animation: slideInLeft 0.5s ease-out;
+      position: relative;
+      z-index: 1;
+    }
+
+    .changelog h3 {
+      font-family: 'Dizhitl SemiBold', sans-serif;
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+
+    .changelog .date {
+      font-family: 'Dizhitl Light', sans-serif;
+      font-size: 13px;
+      margin-bottom: 10px;
+      opacity: 0.7;
+    }
+
+    .changelog ul {
+      font-family: 'Dizhitl Regular', sans-serif;
+      padding-left: 20px;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    @keyframes slideInLeft {
+      from {
+        opacity: 0;
+        transform: translateX(-20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    #contentWrapper {
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .content-wrapper {
+      width: 100%;
+      max-width: 1000px;
+      height: 95vh;
+      background: linear-gradient(135deg, #1cbeca, #b0dfdb);
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #b0dfdb;
+    }
+
+    #contentDisplay {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .preview-large {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 0;
+      border: none;
+      box-shadow: none;
+    }
+
+    /* ENLARGED BUTTON STYLES - Absolutely positioned over the image */
+    .play-button-large {
+      position: absolute;
+      bottom: 40px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 10;
+      padding: 1rem 1.5rem;
+      font-size: 1.5rem;
+      font-weight: bold;
+      border: none;
+      border-radius: 12px;
+      background: #1cbeca;
+      color: #0e1b1c;
+      cursor: pointer;
+      width: 80%;
+      max-width: 400px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .play-button-large:hover {
+      background: #28e0d3;
+    }
+
+    .content-wrapper h1,
+    .white-italic-title,
+    .big-bold-title,
+    .menu,
+    .menu::before,
+    .game-card,
+    .game-title,
+    .game-date,
+    .game-desc,
+    .branch-icon,
+    .game-display {
+      display: none !important;
+    }
+  </style>
+
+</head>
+
+<body>
+  <nav>
+    <div class="title">Iterations</div>
+    <div class="timeline" id="timeline"></div>
+
+    <div class="branch-divider">
+      <img src="branch-icon.svg" alt="branch connector" />
+    </div>
+    <script src="versions_data.js"></script>
+
+    <div class="changelog" id="changelog">
+      <h3>Changelog</h3>
+      <div class="date">2018-04-12</div>
+      <ul id="changelogList">
+        <li>Initial setup</li>
+        <li>Basic layout complete</li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="contentWrapper">
+    <div class="content-wrapper">
+      <div id="contentDisplay"></div>
+    </div>
+  </div>
+
+  <script>
+    const timeline = document.getElementById("timeline");
+    const changelogList = document.getElementById("changelogList");
+    const changelogBox = document.getElementById("changelog");
+    const contentDisplay = document.getElementById("contentDisplay");
+
+    function loadVersion(index) {
+      document.querySelectorAll(".entry").forEach(e => e.classList.remove("active"));
+      const entry = document.getElementById("entry-" + index);
+      entry.classList.add("active");
+
+      const v = versions[index];
+
+      if (v) {
+        const contentHTML = `
+            <img src="./previews/${v.img}" alt="${v.title}" class="preview-large" />
+            <button class="play-button-large" onclick="window.open('./${v.folder}/index.html', '_blank')">▶ Play</button>
+          `;
+        contentDisplay.innerHTML = contentHTML;
+      } else {
+        contentDisplay.innerHTML = '<div style="padding: 20px; color: white;">Content not found for this version.</div>';
+      }
+
+      // Update Changelog as before
+      changelogBox.querySelector(".date").textContent = versions[index].date;
+      changelogList.innerHTML = `<li>${versions[index].desc || 'No description.'}</li>`;
+
+      updateTimelineHeight();
+    }
+
+    function updateTimelineHeight() {
+      const nav = document.querySelector('nav');
+      const changelog = document.getElementById('changelog');
+      const lineHeight = changelog.offsetTop - nav.offsetTop;
+      document.documentElement.style.setProperty('--line-height', `${lineHeight}px`);
+    }
+
+
+    window.addEventListener("DOMContentLoaded", () => {
+      updateTimelineHeight();
+      new ResizeObserver(updateTimelineHeight).observe(document.body);
+      versions.forEach((item, i) => {
+        const div = document.createElement("div");
+        div.className = "entry";
+        div.id = "entry-" + i;
+        div.onclick = () => loadVersion(i);
+        div.innerHTML = `
+            <img src="branch-icon.svg" class="branch-icon" alt="branch icon" />
+            <div class="meta">
+              <div class="label">${item.title}</div>
+              <div class="date">${item.date}</div>
+            </div>
+          `;
+        timeline.appendChild(div);
+      });
+      loadVersion(0);
+    });
+  </script>
+</body>
+
+</html>
