@@ -360,6 +360,19 @@
       loadVersion(0);
     });
   </script>
+
+  <script>
+  function openBuild(path) {
+    // add ?viewer=browser  (or &viewer=browser if there's already a query)
+    const url = path + (path.includes('?') ? '&' : '?') + 'viewer=browser';
+    const w = window.open(url, '_blank'); // no "noopener" here
+    if (w) { try { w.name = 'BUILD_FROM_BROWSER'; } catch(e){} }
+  }
+</script>
+
+<!-- Example button -->
+<button onclick="openBuild('250303_1533/index.html')">Play</button>
+
 </body>
 
 </html>
