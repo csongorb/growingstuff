@@ -48,16 +48,16 @@ window.data = [
   {
     title: "Better drag and tutorial",
     date: "2025-02-20 20:51",
-    desc: "Bug fixes, instructions.",
+    desc: "Bug fixes, more instructions.",
     changes: [
       "Bug fixes", 
-      "Instructions"
+      "More instructions"
     ],
     img: "250220_2051.png",
     folder: "250220_2051"
   },
   {
-    title: "Basic menu with standard and zen",
+    title: "Basic menu: standard and zen",
     date: "2025-02-24 21:04",
     desc: "Basic sound, fading instructions.",
     changes: [
