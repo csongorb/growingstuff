@@ -2,7 +2,7 @@
 
 Direct links to the playable in-between versions of each of the *It is as if you were...* games by Pippin Barr.
 
-![devolutionizer - overview](versions/screenshots/devolutionizer_overview.png)
+![devolutionizer - overview](screenshots/devolutionizer_overview.png)
 
 These links were used during the exhibition and were not originally intended to be shown online, though they might be still interesting.
 
