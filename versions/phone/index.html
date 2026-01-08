@@ -140,7 +140,7 @@
         <div class="game-date">${v.date}</div>
         <div class="game-desc">${v.desc}</div>
         <img src="./previews/${v.img}" alt="${v.title}" class="preview" />
-        <button class="play-button" onclick="location.href='./${v.folder}/index.html'">▶ Play</button>
+        <button class="play-button" onclick="window.open('./${v.folder}/index.html', '_blank')">▶ Play</button>
       `;
       menu.appendChild(card);
     });

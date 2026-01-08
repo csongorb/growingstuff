@@ -24,6 +24,20 @@
 </head>
 
 <body>
+  <button <button onclick="(function(){
+  var fromBrowser = location.hash.includes('from=browser') 
+    || (document.referrer && document.referrer.indexOf('index_browser.html')>-1) 
+    || !!window.opener;
+  if (fromBrowser){
+    window.close();
+    setTimeout(function(){
+      if(!document.hidden){ location.href='../index_browser.html'; }
+    },200);
+  } else {
+    location.href='../index.html';
+  }
+})()">← Back</button>
+ style="position: fixed; top: 10px; left: 10px; z-index: 9999; padding: 0.6rem 1rem; background: #bedbe8; color: #1c2b2e; font-weight: bold; border: none; border-radius: 8px;">← Back to Menu</button>
 
   <!-- HTML would go here if needed. -->
 
