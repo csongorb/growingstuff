@@ -11,7 +11,7 @@ These links were used during the exhibition and were not originally intended to 
 - [It is as if you were making love (2018)](https://csongorb.github.io/growingstuff/love/)
 - [It is if you were doing paperwork (2022)](https://github.com/pippinbarr/it-is-as-if-you-were-doing-paperwork)
 - [It is if you were playing a text adventure (2024-)](https://csongorb.github.io/growingstuff/text_adventure/)
-- [It is as if you were on your phone (2025)](https://csongorb.github.io/growingstuff/phone/)
+- It is as if you were on your phone (2025)
     - [...for phones](https://csongorb.github.io/growingstuff/phone/index_phone.html)
     - [...for desktop](https://csongorb.github.io/growingstuff/phone/index_desktop.html)
 
