@@ -131,7 +131,7 @@
   <script src="versions_data.js"></script>
   <script>
     const menu = document.getElementById('menu');
-    versions.forEach(v => {
+    window.data.forEach(v => {
       const card = document.createElement('div');
       card.className = 'game-card';
       card.innerHTML = `
@@ -140,7 +140,7 @@
         <div class="game-date">${v.date}</div>
         <div class="game-desc">${v.desc}</div>
         <img src="./previews/${v.img}" alt="${v.title}" class="preview" />
-        <button class="play-button" onclick="window.open('./${v.folder}/index.html', '_blank')">▶ Play</button>
+        <button class="play-button" onclick="window.open('./${v.folder}/index_phone.html', '_blank')">▶ Play</button>
       `;
       menu.appendChild(card);
     });
